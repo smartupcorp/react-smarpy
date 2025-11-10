@@ -4,7 +4,7 @@ import ColorProps from "./ColorProps";
 
 type BorderDetailProps = {
   color?: ColorProps;
-  style: BorderStyle;
+  style?: BorderStyle;
   width?: BorderWidth;
 };
 

@@ -27,6 +27,8 @@ export default function Progress(props: ProgressProps) {
     border: props.border,
     highlighter: props.highlighter,
     spacing: props.spacing,
+    sizing: props.sizing,
+    positioning: props.positioning,
   });
   if (utilityClassNames) {
     assignedClassNames.push(...utilityClassNames);
