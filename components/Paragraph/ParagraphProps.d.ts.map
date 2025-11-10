@@ -1,0 +1,1 @@
+{"version":3,"file":"ParagraphProps.d.ts","sourceRoot":"","sources":["../../../src/components/Paragraph/ParagraphProps.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,iBAAiB,EAAE,cAAc,EAAE,MAAM,OAAO,CAAC;AAC1D,OAAO,EAAE,kBAAkB,EAAE,MAAM,qBAAqB,CAAC;AAEzD,MAAM,CAAC,OAAO,WAAW,cACvB,SAAQ,iBAAiB,CAAC,cAAc,CAAC,oBAAoB,CAAC,EAAE,oBAAoB,CAAC,EACnF,kBAAkB;CAAG"}

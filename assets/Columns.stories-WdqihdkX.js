@@ -1,0 +1,8661 @@
+import{c as x,a as A,e as L,j as n,b as _,S as b}from"./Smarpy-Co5ZmQ8M.js";import{r as j}from"./iframe-9IIGVobB.js";import"./jsx-runtime-D_zvdyIk.js";import"./preload-helper-Dp1pzeXC.js";const N="_columns_qby0f_1",D="_column_qby0f_1",u={columns:N,"is-direction-row":"_is-direction-row_qby0f_16","is-direction-row-reverse":"_is-direction-row-reverse_qby0f_19","is-direction-column":"_is-direction-column_qby0f_22","is-direction-column-reverse":"_is-direction-column-reverse_qby0f_25","is-mobile-direction-row":"_is-mobile-direction-row_qby0f_29","is-mobile-or-more-direction-row":"_is-mobile-or-more-direction-row_qby0f_29","is-tablet-or-less-direction-row":"_is-tablet-or-less-direction-row_qby0f_29","is-desktop-or-less-direction-row":"_is-desktop-or-less-direction-row_qby0f_29","is-widescreen-or-less-direction-row":"_is-widescreen-or-less-direction-row_qby0f_29","is-fullhd-or-less-direction-row":"_is-fullhd-or-less-direction-row_qby0f_29","is-tablet-direction-row":"_is-tablet-direction-row_qby0f_34","is-tablet-or-more-direction-row":"_is-tablet-or-more-direction-row_qby0f_34","is-desktop-direction-row":"_is-desktop-direction-row_qby0f_39","is-desktop-or-more-direction-row":"_is-desktop-or-more-direction-row_qby0f_39","is-widescreen-direction-row":"_is-widescreen-direction-row_qby0f_44","is-widescreen-or-more-direction-row":"_is-widescreen-or-more-direction-row_qby0f_44","is-fullhd-direction-row":"_is-fullhd-direction-row_qby0f_49","is-mobile-direction-row-reverse":"_is-mobile-direction-row-reverse_qby0f_54","is-mobile-or-more-direction-row-reverse":"_is-mobile-or-more-direction-row-reverse_qby0f_54","is-tablet-or-less-direction-row-reverse":"_is-tablet-or-less-direction-row-reverse_qby0f_54","is-desktop-or-less-direction-row-reverse":"_is-desktop-or-less-direction-row-reverse_qby0f_54","is-widescreen-or-less-direction-row-reverse":"_is-widescreen-or-less-direction-row-reverse_qby0f_54","is-fullhd-or-less-direction-row-reverse":"_is-fullhd-or-less-direction-row-reverse_qby0f_54","is-tablet-direction-row-reverse":"_is-tablet-direction-row-reverse_qby0f_59","is-tablet-or-more-direction-row-reverse":"_is-tablet-or-more-direction-row-reverse_qby0f_59","is-desktop-direction-row-reverse":"_is-desktop-direction-row-reverse_qby0f_64","is-desktop-or-more-direction-row-reverse":"_is-desktop-or-more-direction-row-reverse_qby0f_64","is-widescreen-direction-row-reverse":"_is-widescreen-direction-row-reverse_qby0f_69","is-widescreen-or-more-direction-row-reverse":"_is-widescreen-or-more-direction-row-reverse_qby0f_69","is-fullhd-direction-row-reverse":"_is-fullhd-direction-row-reverse_qby0f_74","is-mobile-direction-column":"_is-mobile-direction-column_qby0f_79","is-mobile-or-more-direction-column":"_is-mobile-or-more-direction-column_qby0f_79","is-tablet-or-less-direction-column":"_is-tablet-or-less-direction-column_qby0f_79","is-desktop-or-less-direction-column":"_is-desktop-or-less-direction-column_qby0f_79","is-widescreen-or-less-direction-column":"_is-widescreen-or-less-direction-column_qby0f_79","is-fullhd-or-less-direction-column":"_is-fullhd-or-less-direction-column_qby0f_79","is-tablet-direction-column":"_is-tablet-direction-column_qby0f_84","is-tablet-or-more-direction-column":"_is-tablet-or-more-direction-column_qby0f_84","is-desktop-direction-column":"_is-desktop-direction-column_qby0f_89","is-desktop-or-more-direction-column":"_is-desktop-or-more-direction-column_qby0f_89","is-widescreen-direction-column":"_is-widescreen-direction-column_qby0f_94","is-widescreen-or-more-direction-column":"_is-widescreen-or-more-direction-column_qby0f_94","is-fullhd-direction-column":"_is-fullhd-direction-column_qby0f_99","is-mobile-direction-column-reverse":"_is-mobile-direction-column-reverse_qby0f_104","is-mobile-or-more-direction-column-reverse":"_is-mobile-or-more-direction-column-reverse_qby0f_104","is-tablet-or-less-direction-column-reverse":"_is-tablet-or-less-direction-column-reverse_qby0f_104","is-desktop-or-less-direction-column-reverse":"_is-desktop-or-less-direction-column-reverse_qby0f_104","is-widescreen-or-less-direction-column-reverse":"_is-widescreen-or-less-direction-column-reverse_qby0f_104","is-fullhd-or-less-direction-column-reverse":"_is-fullhd-or-less-direction-column-reverse_qby0f_104","is-tablet-direction-column-reverse":"_is-tablet-direction-column-reverse_qby0f_109","is-tablet-or-more-direction-column-reverse":"_is-tablet-or-more-direction-column-reverse_qby0f_109","is-desktop-direction-column-reverse":"_is-desktop-direction-column-reverse_qby0f_114","is-desktop-or-more-direction-column-reverse":"_is-desktop-or-more-direction-column-reverse_qby0f_114","is-widescreen-direction-column-reverse":"_is-widescreen-direction-column-reverse_qby0f_119","is-widescreen-or-more-direction-column-reverse":"_is-widescreen-or-more-direction-column-reverse_qby0f_119","is-fullhd-direction-column-reverse":"_is-fullhd-direction-column-reverse_qby0f_124","has-gutter-0rem":"_has-gutter-0rem_qby0f_128","has-gutter-x-0rem":"_has-gutter-x-0rem_qby0f_132","has-gutter-y-0rem":"_has-gutter-y-0rem_qby0f_135","has-gutter-mobile-0rem":"_has-gutter-mobile-0rem_qby0f_139","has-gutter-mobile-or-more-0rem":"_has-gutter-mobile-or-more-0rem_qby0f_139","has-gutter-tablet-or-less-0rem":"_has-gutter-tablet-or-less-0rem_qby0f_139","has-gutter-desktop-or-less-0rem":"_has-gutter-desktop-or-less-0rem_qby0f_139","has-gutter-widescreen-or-less-0rem":"_has-gutter-widescreen-or-less-0rem_qby0f_139","has-gutter-fullhd-or-less-0rem":"_has-gutter-fullhd-or-less-0rem_qby0f_139","has-gutter-tablet-0rem":"_has-gutter-tablet-0rem_qby0f_145","has-gutter-tablet-or-more-0rem":"_has-gutter-tablet-or-more-0rem_qby0f_145","has-gutter-desktop-0rem":"_has-gutter-desktop-0rem_qby0f_151","has-gutter-desktop-or-more-0rem":"_has-gutter-desktop-or-more-0rem_qby0f_151","has-gutter-widescreen-0rem":"_has-gutter-widescreen-0rem_qby0f_157","has-gutter-widescreen-or-more-0rem":"_has-gutter-widescreen-or-more-0rem_qby0f_157","has-gutter-fullhd-0rem":"_has-gutter-fullhd-0rem_qby0f_163","has-gutter-xmobile-0rem":"_has-gutter-xmobile-0rem_qby0f_169","has-gutter-xmobile-or-more-0rem":"_has-gutter-xmobile-or-more-0rem_qby0f_169","has-gutter-xtablet-or-less-0rem":"_has-gutter-xtablet-or-less-0rem_qby0f_169","has-gutter-xdesktop-or-less-0rem":"_has-gutter-xdesktop-or-less-0rem_qby0f_169","has-gutter-xwidescreen-or-less-0rem":"_has-gutter-xwidescreen-or-less-0rem_qby0f_169","has-gutter-xfullhd-or-less-0rem":"_has-gutter-xfullhd-or-less-0rem_qby0f_169","has-gutter-xtablet-0rem":"_has-gutter-xtablet-0rem_qby0f_174","has-gutter-xtablet-or-more-0rem":"_has-gutter-xtablet-or-more-0rem_qby0f_174","has-gutter-xdesktop-0rem":"_has-gutter-xdesktop-0rem_qby0f_179","has-gutter-xdesktop-or-more-0rem":"_has-gutter-xdesktop-or-more-0rem_qby0f_179","has-gutter-xwidescreen-0rem":"_has-gutter-xwidescreen-0rem_qby0f_184","has-gutter-xwidescreen-or-more-0rem":"_has-gutter-xwidescreen-or-more-0rem_qby0f_184","has-gutter-xfullhd-0rem":"_has-gutter-xfullhd-0rem_qby0f_189","has-gutter-ymobile-0rem":"_has-gutter-ymobile-0rem_qby0f_194","has-gutter-ymobile-or-more-0rem":"_has-gutter-ymobile-or-more-0rem_qby0f_194","has-gutter-ytablet-or-less-0rem":"_has-gutter-ytablet-or-less-0rem_qby0f_194","has-gutter-ydesktop-or-less-0rem":"_has-gutter-ydesktop-or-less-0rem_qby0f_194","has-gutter-ywidescreen-or-less-0rem":"_has-gutter-ywidescreen-or-less-0rem_qby0f_194","has-gutter-yfullhd-or-less-0rem":"_has-gutter-yfullhd-or-less-0rem_qby0f_194","has-gutter-ytablet-0rem":"_has-gutter-ytablet-0rem_qby0f_199","has-gutter-ytablet-or-more-0rem":"_has-gutter-ytablet-or-more-0rem_qby0f_199","has-gutter-ydesktop-0rem":"_has-gutter-ydesktop-0rem_qby0f_204","has-gutter-ydesktop-or-more-0rem":"_has-gutter-ydesktop-or-more-0rem_qby0f_204","has-gutter-ywidescreen-0rem":"_has-gutter-ywidescreen-0rem_qby0f_209","has-gutter-ywidescreen-or-more-0rem":"_has-gutter-ywidescreen-or-more-0rem_qby0f_209","has-gutter-yfullhd-0rem":"_has-gutter-yfullhd-0rem_qby0f_214","has-gutter-0.25rem":"_has-gutter-0.25rem_qby0f_218","has-gutter-x-0.25rem":"_has-gutter-x-0.25rem_qby0f_222","has-gutter-y-0.25rem":"_has-gutter-y-0.25rem_qby0f_225","has-gutter-mobile-0.25rem":"_has-gutter-mobile-0.25rem_qby0f_229","has-gutter-mobile-or-more-0.25rem":"_has-gutter-mobile-or-more-0.25rem_qby0f_229","has-gutter-tablet-or-less-0.25rem":"_has-gutter-tablet-or-less-0.25rem_qby0f_229","has-gutter-desktop-or-less-0.25rem":"_has-gutter-desktop-or-less-0.25rem_qby0f_229","has-gutter-widescreen-or-less-0.25rem":"_has-gutter-widescreen-or-less-0.25rem_qby0f_229","has-gutter-fullhd-or-less-0.25rem":"_has-gutter-fullhd-or-less-0.25rem_qby0f_229","has-gutter-tablet-0.25rem":"_has-gutter-tablet-0.25rem_qby0f_235","has-gutter-tablet-or-more-0.25rem":"_has-gutter-tablet-or-more-0.25rem_qby0f_235","has-gutter-desktop-0.25rem":"_has-gutter-desktop-0.25rem_qby0f_241","has-gutter-desktop-or-more-0.25rem":"_has-gutter-desktop-or-more-0.25rem_qby0f_241","has-gutter-widescreen-0.25rem":"_has-gutter-widescreen-0.25rem_qby0f_247","has-gutter-widescreen-or-more-0.25rem":"_has-gutter-widescreen-or-more-0.25rem_qby0f_247","has-gutter-fullhd-0.25rem":"_has-gutter-fullhd-0.25rem_qby0f_253","has-gutter-xmobile-0.25rem":"_has-gutter-xmobile-0.25rem_qby0f_259","has-gutter-xmobile-or-more-0.25rem":"_has-gutter-xmobile-or-more-0.25rem_qby0f_259","has-gutter-xtablet-or-less-0.25rem":"_has-gutter-xtablet-or-less-0.25rem_qby0f_259","has-gutter-xdesktop-or-less-0.25rem":"_has-gutter-xdesktop-or-less-0.25rem_qby0f_259","has-gutter-xwidescreen-or-less-0.25rem":"_has-gutter-xwidescreen-or-less-0.25rem_qby0f_259","has-gutter-xfullhd-or-less-0.25rem":"_has-gutter-xfullhd-or-less-0.25rem_qby0f_259","has-gutter-xtablet-0.25rem":"_has-gutter-xtablet-0.25rem_qby0f_264","has-gutter-xtablet-or-more-0.25rem":"_has-gutter-xtablet-or-more-0.25rem_qby0f_264","has-gutter-xdesktop-0.25rem":"_has-gutter-xdesktop-0.25rem_qby0f_269","has-gutter-xdesktop-or-more-0.25rem":"_has-gutter-xdesktop-or-more-0.25rem_qby0f_269","has-gutter-xwidescreen-0.25rem":"_has-gutter-xwidescreen-0.25rem_qby0f_274","has-gutter-xwidescreen-or-more-0.25rem":"_has-gutter-xwidescreen-or-more-0.25rem_qby0f_274","has-gutter-xfullhd-0.25rem":"_has-gutter-xfullhd-0.25rem_qby0f_279","has-gutter-ymobile-0.25rem":"_has-gutter-ymobile-0.25rem_qby0f_284","has-gutter-ymobile-or-more-0.25rem":"_has-gutter-ymobile-or-more-0.25rem_qby0f_284","has-gutter-ytablet-or-less-0.25rem":"_has-gutter-ytablet-or-less-0.25rem_qby0f_284","has-gutter-ydesktop-or-less-0.25rem":"_has-gutter-ydesktop-or-less-0.25rem_qby0f_284","has-gutter-ywidescreen-or-less-0.25rem":"_has-gutter-ywidescreen-or-less-0.25rem_qby0f_284","has-gutter-yfullhd-or-less-0.25rem":"_has-gutter-yfullhd-or-less-0.25rem_qby0f_284","has-gutter-ytablet-0.25rem":"_has-gutter-ytablet-0.25rem_qby0f_289","has-gutter-ytablet-or-more-0.25rem":"_has-gutter-ytablet-or-more-0.25rem_qby0f_289","has-gutter-ydesktop-0.25rem":"_has-gutter-ydesktop-0.25rem_qby0f_294","has-gutter-ydesktop-or-more-0.25rem":"_has-gutter-ydesktop-or-more-0.25rem_qby0f_294","has-gutter-ywidescreen-0.25rem":"_has-gutter-ywidescreen-0.25rem_qby0f_299","has-gutter-ywidescreen-or-more-0.25rem":"_has-gutter-ywidescreen-or-more-0.25rem_qby0f_299","has-gutter-yfullhd-0.25rem":"_has-gutter-yfullhd-0.25rem_qby0f_304","has-gutter-0.5rem":"_has-gutter-0.5rem_qby0f_308","has-gutter-x-0.5rem":"_has-gutter-x-0.5rem_qby0f_312","has-gutter-y-0.5rem":"_has-gutter-y-0.5rem_qby0f_315","has-gutter-mobile-0.5rem":"_has-gutter-mobile-0.5rem_qby0f_319","has-gutter-mobile-or-more-0.5rem":"_has-gutter-mobile-or-more-0.5rem_qby0f_319","has-gutter-tablet-or-less-0.5rem":"_has-gutter-tablet-or-less-0.5rem_qby0f_319","has-gutter-desktop-or-less-0.5rem":"_has-gutter-desktop-or-less-0.5rem_qby0f_319","has-gutter-widescreen-or-less-0.5rem":"_has-gutter-widescreen-or-less-0.5rem_qby0f_319","has-gutter-fullhd-or-less-0.5rem":"_has-gutter-fullhd-or-less-0.5rem_qby0f_319","has-gutter-tablet-0.5rem":"_has-gutter-tablet-0.5rem_qby0f_325","has-gutter-tablet-or-more-0.5rem":"_has-gutter-tablet-or-more-0.5rem_qby0f_325","has-gutter-desktop-0.5rem":"_has-gutter-desktop-0.5rem_qby0f_331","has-gutter-desktop-or-more-0.5rem":"_has-gutter-desktop-or-more-0.5rem_qby0f_331","has-gutter-widescreen-0.5rem":"_has-gutter-widescreen-0.5rem_qby0f_337","has-gutter-widescreen-or-more-0.5rem":"_has-gutter-widescreen-or-more-0.5rem_qby0f_337","has-gutter-fullhd-0.5rem":"_has-gutter-fullhd-0.5rem_qby0f_343","has-gutter-xmobile-0.5rem":"_has-gutter-xmobile-0.5rem_qby0f_349","has-gutter-xmobile-or-more-0.5rem":"_has-gutter-xmobile-or-more-0.5rem_qby0f_349","has-gutter-xtablet-or-less-0.5rem":"_has-gutter-xtablet-or-less-0.5rem_qby0f_349","has-gutter-xdesktop-or-less-0.5rem":"_has-gutter-xdesktop-or-less-0.5rem_qby0f_349","has-gutter-xwidescreen-or-less-0.5rem":"_has-gutter-xwidescreen-or-less-0.5rem_qby0f_349","has-gutter-xfullhd-or-less-0.5rem":"_has-gutter-xfullhd-or-less-0.5rem_qby0f_349","has-gutter-xtablet-0.5rem":"_has-gutter-xtablet-0.5rem_qby0f_354","has-gutter-xtablet-or-more-0.5rem":"_has-gutter-xtablet-or-more-0.5rem_qby0f_354","has-gutter-xdesktop-0.5rem":"_has-gutter-xdesktop-0.5rem_qby0f_359","has-gutter-xdesktop-or-more-0.5rem":"_has-gutter-xdesktop-or-more-0.5rem_qby0f_359","has-gutter-xwidescreen-0.5rem":"_has-gutter-xwidescreen-0.5rem_qby0f_364","has-gutter-xwidescreen-or-more-0.5rem":"_has-gutter-xwidescreen-or-more-0.5rem_qby0f_364","has-gutter-xfullhd-0.5rem":"_has-gutter-xfullhd-0.5rem_qby0f_369","has-gutter-ymobile-0.5rem":"_has-gutter-ymobile-0.5rem_qby0f_374","has-gutter-ymobile-or-more-0.5rem":"_has-gutter-ymobile-or-more-0.5rem_qby0f_374","has-gutter-ytablet-or-less-0.5rem":"_has-gutter-ytablet-or-less-0.5rem_qby0f_374","has-gutter-ydesktop-or-less-0.5rem":"_has-gutter-ydesktop-or-less-0.5rem_qby0f_374","has-gutter-ywidescreen-or-less-0.5rem":"_has-gutter-ywidescreen-or-less-0.5rem_qby0f_374","has-gutter-yfullhd-or-less-0.5rem":"_has-gutter-yfullhd-or-less-0.5rem_qby0f_374","has-gutter-ytablet-0.5rem":"_has-gutter-ytablet-0.5rem_qby0f_379","has-gutter-ytablet-or-more-0.5rem":"_has-gutter-ytablet-or-more-0.5rem_qby0f_379","has-gutter-ydesktop-0.5rem":"_has-gutter-ydesktop-0.5rem_qby0f_384","has-gutter-ydesktop-or-more-0.5rem":"_has-gutter-ydesktop-or-more-0.5rem_qby0f_384","has-gutter-ywidescreen-0.5rem":"_has-gutter-ywidescreen-0.5rem_qby0f_389","has-gutter-ywidescreen-or-more-0.5rem":"_has-gutter-ywidescreen-or-more-0.5rem_qby0f_389","has-gutter-yfullhd-0.5rem":"_has-gutter-yfullhd-0.5rem_qby0f_394","has-gutter-0.75rem":"_has-gutter-0.75rem_qby0f_398","has-gutter-x-0.75rem":"_has-gutter-x-0.75rem_qby0f_402","has-gutter-y-0.75rem":"_has-gutter-y-0.75rem_qby0f_405","has-gutter-mobile-0.75rem":"_has-gutter-mobile-0.75rem_qby0f_409","has-gutter-mobile-or-more-0.75rem":"_has-gutter-mobile-or-more-0.75rem_qby0f_409","has-gutter-tablet-or-less-0.75rem":"_has-gutter-tablet-or-less-0.75rem_qby0f_409","has-gutter-desktop-or-less-0.75rem":"_has-gutter-desktop-or-less-0.75rem_qby0f_409","has-gutter-widescreen-or-less-0.75rem":"_has-gutter-widescreen-or-less-0.75rem_qby0f_409","has-gutter-fullhd-or-less-0.75rem":"_has-gutter-fullhd-or-less-0.75rem_qby0f_409","has-gutter-tablet-0.75rem":"_has-gutter-tablet-0.75rem_qby0f_415","has-gutter-tablet-or-more-0.75rem":"_has-gutter-tablet-or-more-0.75rem_qby0f_415","has-gutter-desktop-0.75rem":"_has-gutter-desktop-0.75rem_qby0f_421","has-gutter-desktop-or-more-0.75rem":"_has-gutter-desktop-or-more-0.75rem_qby0f_421","has-gutter-widescreen-0.75rem":"_has-gutter-widescreen-0.75rem_qby0f_427","has-gutter-widescreen-or-more-0.75rem":"_has-gutter-widescreen-or-more-0.75rem_qby0f_427","has-gutter-fullhd-0.75rem":"_has-gutter-fullhd-0.75rem_qby0f_433","has-gutter-xmobile-0.75rem":"_has-gutter-xmobile-0.75rem_qby0f_439","has-gutter-xmobile-or-more-0.75rem":"_has-gutter-xmobile-or-more-0.75rem_qby0f_439","has-gutter-xtablet-or-less-0.75rem":"_has-gutter-xtablet-or-less-0.75rem_qby0f_439","has-gutter-xdesktop-or-less-0.75rem":"_has-gutter-xdesktop-or-less-0.75rem_qby0f_439","has-gutter-xwidescreen-or-less-0.75rem":"_has-gutter-xwidescreen-or-less-0.75rem_qby0f_439","has-gutter-xfullhd-or-less-0.75rem":"_has-gutter-xfullhd-or-less-0.75rem_qby0f_439","has-gutter-xtablet-0.75rem":"_has-gutter-xtablet-0.75rem_qby0f_444","has-gutter-xtablet-or-more-0.75rem":"_has-gutter-xtablet-or-more-0.75rem_qby0f_444","has-gutter-xdesktop-0.75rem":"_has-gutter-xdesktop-0.75rem_qby0f_449","has-gutter-xdesktop-or-more-0.75rem":"_has-gutter-xdesktop-or-more-0.75rem_qby0f_449","has-gutter-xwidescreen-0.75rem":"_has-gutter-xwidescreen-0.75rem_qby0f_454","has-gutter-xwidescreen-or-more-0.75rem":"_has-gutter-xwidescreen-or-more-0.75rem_qby0f_454","has-gutter-xfullhd-0.75rem":"_has-gutter-xfullhd-0.75rem_qby0f_459","has-gutter-ymobile-0.75rem":"_has-gutter-ymobile-0.75rem_qby0f_464","has-gutter-ymobile-or-more-0.75rem":"_has-gutter-ymobile-or-more-0.75rem_qby0f_464","has-gutter-ytablet-or-less-0.75rem":"_has-gutter-ytablet-or-less-0.75rem_qby0f_464","has-gutter-ydesktop-or-less-0.75rem":"_has-gutter-ydesktop-or-less-0.75rem_qby0f_464","has-gutter-ywidescreen-or-less-0.75rem":"_has-gutter-ywidescreen-or-less-0.75rem_qby0f_464","has-gutter-yfullhd-or-less-0.75rem":"_has-gutter-yfullhd-or-less-0.75rem_qby0f_464","has-gutter-ytablet-0.75rem":"_has-gutter-ytablet-0.75rem_qby0f_469","has-gutter-ytablet-or-more-0.75rem":"_has-gutter-ytablet-or-more-0.75rem_qby0f_469","has-gutter-ydesktop-0.75rem":"_has-gutter-ydesktop-0.75rem_qby0f_474","has-gutter-ydesktop-or-more-0.75rem":"_has-gutter-ydesktop-or-more-0.75rem_qby0f_474","has-gutter-ywidescreen-0.75rem":"_has-gutter-ywidescreen-0.75rem_qby0f_479","has-gutter-ywidescreen-or-more-0.75rem":"_has-gutter-ywidescreen-or-more-0.75rem_qby0f_479","has-gutter-yfullhd-0.75rem":"_has-gutter-yfullhd-0.75rem_qby0f_484","has-gutter-1rem":"_has-gutter-1rem_qby0f_488","has-gutter-x-1rem":"_has-gutter-x-1rem_qby0f_492","has-gutter-y-1rem":"_has-gutter-y-1rem_qby0f_495","has-gutter-mobile-1rem":"_has-gutter-mobile-1rem_qby0f_499","has-gutter-mobile-or-more-1rem":"_has-gutter-mobile-or-more-1rem_qby0f_499","has-gutter-tablet-or-less-1rem":"_has-gutter-tablet-or-less-1rem_qby0f_499","has-gutter-desktop-or-less-1rem":"_has-gutter-desktop-or-less-1rem_qby0f_499","has-gutter-widescreen-or-less-1rem":"_has-gutter-widescreen-or-less-1rem_qby0f_499","has-gutter-fullhd-or-less-1rem":"_has-gutter-fullhd-or-less-1rem_qby0f_499","has-gutter-tablet-1rem":"_has-gutter-tablet-1rem_qby0f_505","has-gutter-tablet-or-more-1rem":"_has-gutter-tablet-or-more-1rem_qby0f_505","has-gutter-desktop-1rem":"_has-gutter-desktop-1rem_qby0f_511","has-gutter-desktop-or-more-1rem":"_has-gutter-desktop-or-more-1rem_qby0f_511","has-gutter-widescreen-1rem":"_has-gutter-widescreen-1rem_qby0f_517","has-gutter-widescreen-or-more-1rem":"_has-gutter-widescreen-or-more-1rem_qby0f_517","has-gutter-fullhd-1rem":"_has-gutter-fullhd-1rem_qby0f_523","has-gutter-xmobile-1rem":"_has-gutter-xmobile-1rem_qby0f_529","has-gutter-xmobile-or-more-1rem":"_has-gutter-xmobile-or-more-1rem_qby0f_529","has-gutter-xtablet-or-less-1rem":"_has-gutter-xtablet-or-less-1rem_qby0f_529","has-gutter-xdesktop-or-less-1rem":"_has-gutter-xdesktop-or-less-1rem_qby0f_529","has-gutter-xwidescreen-or-less-1rem":"_has-gutter-xwidescreen-or-less-1rem_qby0f_529","has-gutter-xfullhd-or-less-1rem":"_has-gutter-xfullhd-or-less-1rem_qby0f_529","has-gutter-xtablet-1rem":"_has-gutter-xtablet-1rem_qby0f_534","has-gutter-xtablet-or-more-1rem":"_has-gutter-xtablet-or-more-1rem_qby0f_534","has-gutter-xdesktop-1rem":"_has-gutter-xdesktop-1rem_qby0f_539","has-gutter-xdesktop-or-more-1rem":"_has-gutter-xdesktop-or-more-1rem_qby0f_539","has-gutter-xwidescreen-1rem":"_has-gutter-xwidescreen-1rem_qby0f_544","has-gutter-xwidescreen-or-more-1rem":"_has-gutter-xwidescreen-or-more-1rem_qby0f_544","has-gutter-xfullhd-1rem":"_has-gutter-xfullhd-1rem_qby0f_549","has-gutter-ymobile-1rem":"_has-gutter-ymobile-1rem_qby0f_554","has-gutter-ymobile-or-more-1rem":"_has-gutter-ymobile-or-more-1rem_qby0f_554","has-gutter-ytablet-or-less-1rem":"_has-gutter-ytablet-or-less-1rem_qby0f_554","has-gutter-ydesktop-or-less-1rem":"_has-gutter-ydesktop-or-less-1rem_qby0f_554","has-gutter-ywidescreen-or-less-1rem":"_has-gutter-ywidescreen-or-less-1rem_qby0f_554","has-gutter-yfullhd-or-less-1rem":"_has-gutter-yfullhd-or-less-1rem_qby0f_554","has-gutter-ytablet-1rem":"_has-gutter-ytablet-1rem_qby0f_559","has-gutter-ytablet-or-more-1rem":"_has-gutter-ytablet-or-more-1rem_qby0f_559","has-gutter-ydesktop-1rem":"_has-gutter-ydesktop-1rem_qby0f_564","has-gutter-ydesktop-or-more-1rem":"_has-gutter-ydesktop-or-more-1rem_qby0f_564","has-gutter-ywidescreen-1rem":"_has-gutter-ywidescreen-1rem_qby0f_569","has-gutter-ywidescreen-or-more-1rem":"_has-gutter-ywidescreen-or-more-1rem_qby0f_569","has-gutter-yfullhd-1rem":"_has-gutter-yfullhd-1rem_qby0f_574","has-gutter-1.25rem":"_has-gutter-1.25rem_qby0f_578","has-gutter-x-1.25rem":"_has-gutter-x-1.25rem_qby0f_582","has-gutter-y-1.25rem":"_has-gutter-y-1.25rem_qby0f_585","has-gutter-mobile-1.25rem":"_has-gutter-mobile-1.25rem_qby0f_589","has-gutter-mobile-or-more-1.25rem":"_has-gutter-mobile-or-more-1.25rem_qby0f_589","has-gutter-tablet-or-less-1.25rem":"_has-gutter-tablet-or-less-1.25rem_qby0f_589","has-gutter-desktop-or-less-1.25rem":"_has-gutter-desktop-or-less-1.25rem_qby0f_589","has-gutter-widescreen-or-less-1.25rem":"_has-gutter-widescreen-or-less-1.25rem_qby0f_589","has-gutter-fullhd-or-less-1.25rem":"_has-gutter-fullhd-or-less-1.25rem_qby0f_589","has-gutter-tablet-1.25rem":"_has-gutter-tablet-1.25rem_qby0f_595","has-gutter-tablet-or-more-1.25rem":"_has-gutter-tablet-or-more-1.25rem_qby0f_595","has-gutter-desktop-1.25rem":"_has-gutter-desktop-1.25rem_qby0f_601","has-gutter-desktop-or-more-1.25rem":"_has-gutter-desktop-or-more-1.25rem_qby0f_601","has-gutter-widescreen-1.25rem":"_has-gutter-widescreen-1.25rem_qby0f_607","has-gutter-widescreen-or-more-1.25rem":"_has-gutter-widescreen-or-more-1.25rem_qby0f_607","has-gutter-fullhd-1.25rem":"_has-gutter-fullhd-1.25rem_qby0f_613","has-gutter-xmobile-1.25rem":"_has-gutter-xmobile-1.25rem_qby0f_619","has-gutter-xmobile-or-more-1.25rem":"_has-gutter-xmobile-or-more-1.25rem_qby0f_619","has-gutter-xtablet-or-less-1.25rem":"_has-gutter-xtablet-or-less-1.25rem_qby0f_619","has-gutter-xdesktop-or-less-1.25rem":"_has-gutter-xdesktop-or-less-1.25rem_qby0f_619","has-gutter-xwidescreen-or-less-1.25rem":"_has-gutter-xwidescreen-or-less-1.25rem_qby0f_619","has-gutter-xfullhd-or-less-1.25rem":"_has-gutter-xfullhd-or-less-1.25rem_qby0f_619","has-gutter-xtablet-1.25rem":"_has-gutter-xtablet-1.25rem_qby0f_624","has-gutter-xtablet-or-more-1.25rem":"_has-gutter-xtablet-or-more-1.25rem_qby0f_624","has-gutter-xdesktop-1.25rem":"_has-gutter-xdesktop-1.25rem_qby0f_629","has-gutter-xdesktop-or-more-1.25rem":"_has-gutter-xdesktop-or-more-1.25rem_qby0f_629","has-gutter-xwidescreen-1.25rem":"_has-gutter-xwidescreen-1.25rem_qby0f_634","has-gutter-xwidescreen-or-more-1.25rem":"_has-gutter-xwidescreen-or-more-1.25rem_qby0f_634","has-gutter-xfullhd-1.25rem":"_has-gutter-xfullhd-1.25rem_qby0f_639","has-gutter-ymobile-1.25rem":"_has-gutter-ymobile-1.25rem_qby0f_644","has-gutter-ymobile-or-more-1.25rem":"_has-gutter-ymobile-or-more-1.25rem_qby0f_644","has-gutter-ytablet-or-less-1.25rem":"_has-gutter-ytablet-or-less-1.25rem_qby0f_644","has-gutter-ydesktop-or-less-1.25rem":"_has-gutter-ydesktop-or-less-1.25rem_qby0f_644","has-gutter-ywidescreen-or-less-1.25rem":"_has-gutter-ywidescreen-or-less-1.25rem_qby0f_644","has-gutter-yfullhd-or-less-1.25rem":"_has-gutter-yfullhd-or-less-1.25rem_qby0f_644","has-gutter-ytablet-1.25rem":"_has-gutter-ytablet-1.25rem_qby0f_649","has-gutter-ytablet-or-more-1.25rem":"_has-gutter-ytablet-or-more-1.25rem_qby0f_649","has-gutter-ydesktop-1.25rem":"_has-gutter-ydesktop-1.25rem_qby0f_654","has-gutter-ydesktop-or-more-1.25rem":"_has-gutter-ydesktop-or-more-1.25rem_qby0f_654","has-gutter-ywidescreen-1.25rem":"_has-gutter-ywidescreen-1.25rem_qby0f_659","has-gutter-ywidescreen-or-more-1.25rem":"_has-gutter-ywidescreen-or-more-1.25rem_qby0f_659","has-gutter-yfullhd-1.25rem":"_has-gutter-yfullhd-1.25rem_qby0f_664","has-gutter-1.5rem":"_has-gutter-1.5rem_qby0f_668","has-gutter-x-1.5rem":"_has-gutter-x-1.5rem_qby0f_672","has-gutter-y-1.5rem":"_has-gutter-y-1.5rem_qby0f_675","has-gutter-mobile-1.5rem":"_has-gutter-mobile-1.5rem_qby0f_679","has-gutter-mobile-or-more-1.5rem":"_has-gutter-mobile-or-more-1.5rem_qby0f_679","has-gutter-tablet-or-less-1.5rem":"_has-gutter-tablet-or-less-1.5rem_qby0f_679","has-gutter-desktop-or-less-1.5rem":"_has-gutter-desktop-or-less-1.5rem_qby0f_679","has-gutter-widescreen-or-less-1.5rem":"_has-gutter-widescreen-or-less-1.5rem_qby0f_679","has-gutter-fullhd-or-less-1.5rem":"_has-gutter-fullhd-or-less-1.5rem_qby0f_679","has-gutter-tablet-1.5rem":"_has-gutter-tablet-1.5rem_qby0f_685","has-gutter-tablet-or-more-1.5rem":"_has-gutter-tablet-or-more-1.5rem_qby0f_685","has-gutter-desktop-1.5rem":"_has-gutter-desktop-1.5rem_qby0f_691","has-gutter-desktop-or-more-1.5rem":"_has-gutter-desktop-or-more-1.5rem_qby0f_691","has-gutter-widescreen-1.5rem":"_has-gutter-widescreen-1.5rem_qby0f_697","has-gutter-widescreen-or-more-1.5rem":"_has-gutter-widescreen-or-more-1.5rem_qby0f_697","has-gutter-fullhd-1.5rem":"_has-gutter-fullhd-1.5rem_qby0f_703","has-gutter-xmobile-1.5rem":"_has-gutter-xmobile-1.5rem_qby0f_709","has-gutter-xmobile-or-more-1.5rem":"_has-gutter-xmobile-or-more-1.5rem_qby0f_709","has-gutter-xtablet-or-less-1.5rem":"_has-gutter-xtablet-or-less-1.5rem_qby0f_709","has-gutter-xdesktop-or-less-1.5rem":"_has-gutter-xdesktop-or-less-1.5rem_qby0f_709","has-gutter-xwidescreen-or-less-1.5rem":"_has-gutter-xwidescreen-or-less-1.5rem_qby0f_709","has-gutter-xfullhd-or-less-1.5rem":"_has-gutter-xfullhd-or-less-1.5rem_qby0f_709","has-gutter-xtablet-1.5rem":"_has-gutter-xtablet-1.5rem_qby0f_714","has-gutter-xtablet-or-more-1.5rem":"_has-gutter-xtablet-or-more-1.5rem_qby0f_714","has-gutter-xdesktop-1.5rem":"_has-gutter-xdesktop-1.5rem_qby0f_719","has-gutter-xdesktop-or-more-1.5rem":"_has-gutter-xdesktop-or-more-1.5rem_qby0f_719","has-gutter-xwidescreen-1.5rem":"_has-gutter-xwidescreen-1.5rem_qby0f_724","has-gutter-xwidescreen-or-more-1.5rem":"_has-gutter-xwidescreen-or-more-1.5rem_qby0f_724","has-gutter-xfullhd-1.5rem":"_has-gutter-xfullhd-1.5rem_qby0f_729","has-gutter-ymobile-1.5rem":"_has-gutter-ymobile-1.5rem_qby0f_734","has-gutter-ymobile-or-more-1.5rem":"_has-gutter-ymobile-or-more-1.5rem_qby0f_734","has-gutter-ytablet-or-less-1.5rem":"_has-gutter-ytablet-or-less-1.5rem_qby0f_734","has-gutter-ydesktop-or-less-1.5rem":"_has-gutter-ydesktop-or-less-1.5rem_qby0f_734","has-gutter-ywidescreen-or-less-1.5rem":"_has-gutter-ywidescreen-or-less-1.5rem_qby0f_734","has-gutter-yfullhd-or-less-1.5rem":"_has-gutter-yfullhd-or-less-1.5rem_qby0f_734","has-gutter-ytablet-1.5rem":"_has-gutter-ytablet-1.5rem_qby0f_739","has-gutter-ytablet-or-more-1.5rem":"_has-gutter-ytablet-or-more-1.5rem_qby0f_739","has-gutter-ydesktop-1.5rem":"_has-gutter-ydesktop-1.5rem_qby0f_744","has-gutter-ydesktop-or-more-1.5rem":"_has-gutter-ydesktop-or-more-1.5rem_qby0f_744","has-gutter-ywidescreen-1.5rem":"_has-gutter-ywidescreen-1.5rem_qby0f_749","has-gutter-ywidescreen-or-more-1.5rem":"_has-gutter-ywidescreen-or-more-1.5rem_qby0f_749","has-gutter-yfullhd-1.5rem":"_has-gutter-yfullhd-1.5rem_qby0f_754","has-gutter-1.75rem":"_has-gutter-1.75rem_qby0f_758","has-gutter-x-1.75rem":"_has-gutter-x-1.75rem_qby0f_762","has-gutter-y-1.75rem":"_has-gutter-y-1.75rem_qby0f_765","has-gutter-mobile-1.75rem":"_has-gutter-mobile-1.75rem_qby0f_769","has-gutter-mobile-or-more-1.75rem":"_has-gutter-mobile-or-more-1.75rem_qby0f_769","has-gutter-tablet-or-less-1.75rem":"_has-gutter-tablet-or-less-1.75rem_qby0f_769","has-gutter-desktop-or-less-1.75rem":"_has-gutter-desktop-or-less-1.75rem_qby0f_769","has-gutter-widescreen-or-less-1.75rem":"_has-gutter-widescreen-or-less-1.75rem_qby0f_769","has-gutter-fullhd-or-less-1.75rem":"_has-gutter-fullhd-or-less-1.75rem_qby0f_769","has-gutter-tablet-1.75rem":"_has-gutter-tablet-1.75rem_qby0f_775","has-gutter-tablet-or-more-1.75rem":"_has-gutter-tablet-or-more-1.75rem_qby0f_775","has-gutter-desktop-1.75rem":"_has-gutter-desktop-1.75rem_qby0f_781","has-gutter-desktop-or-more-1.75rem":"_has-gutter-desktop-or-more-1.75rem_qby0f_781","has-gutter-widescreen-1.75rem":"_has-gutter-widescreen-1.75rem_qby0f_787","has-gutter-widescreen-or-more-1.75rem":"_has-gutter-widescreen-or-more-1.75rem_qby0f_787","has-gutter-fullhd-1.75rem":"_has-gutter-fullhd-1.75rem_qby0f_793","has-gutter-xmobile-1.75rem":"_has-gutter-xmobile-1.75rem_qby0f_799","has-gutter-xmobile-or-more-1.75rem":"_has-gutter-xmobile-or-more-1.75rem_qby0f_799","has-gutter-xtablet-or-less-1.75rem":"_has-gutter-xtablet-or-less-1.75rem_qby0f_799","has-gutter-xdesktop-or-less-1.75rem":"_has-gutter-xdesktop-or-less-1.75rem_qby0f_799","has-gutter-xwidescreen-or-less-1.75rem":"_has-gutter-xwidescreen-or-less-1.75rem_qby0f_799","has-gutter-xfullhd-or-less-1.75rem":"_has-gutter-xfullhd-or-less-1.75rem_qby0f_799","has-gutter-xtablet-1.75rem":"_has-gutter-xtablet-1.75rem_qby0f_804","has-gutter-xtablet-or-more-1.75rem":"_has-gutter-xtablet-or-more-1.75rem_qby0f_804","has-gutter-xdesktop-1.75rem":"_has-gutter-xdesktop-1.75rem_qby0f_809","has-gutter-xdesktop-or-more-1.75rem":"_has-gutter-xdesktop-or-more-1.75rem_qby0f_809","has-gutter-xwidescreen-1.75rem":"_has-gutter-xwidescreen-1.75rem_qby0f_814","has-gutter-xwidescreen-or-more-1.75rem":"_has-gutter-xwidescreen-or-more-1.75rem_qby0f_814","has-gutter-xfullhd-1.75rem":"_has-gutter-xfullhd-1.75rem_qby0f_819","has-gutter-ymobile-1.75rem":"_has-gutter-ymobile-1.75rem_qby0f_824","has-gutter-ymobile-or-more-1.75rem":"_has-gutter-ymobile-or-more-1.75rem_qby0f_824","has-gutter-ytablet-or-less-1.75rem":"_has-gutter-ytablet-or-less-1.75rem_qby0f_824","has-gutter-ydesktop-or-less-1.75rem":"_has-gutter-ydesktop-or-less-1.75rem_qby0f_824","has-gutter-ywidescreen-or-less-1.75rem":"_has-gutter-ywidescreen-or-less-1.75rem_qby0f_824","has-gutter-yfullhd-or-less-1.75rem":"_has-gutter-yfullhd-or-less-1.75rem_qby0f_824","has-gutter-ytablet-1.75rem":"_has-gutter-ytablet-1.75rem_qby0f_829","has-gutter-ytablet-or-more-1.75rem":"_has-gutter-ytablet-or-more-1.75rem_qby0f_829","has-gutter-ydesktop-1.75rem":"_has-gutter-ydesktop-1.75rem_qby0f_834","has-gutter-ydesktop-or-more-1.75rem":"_has-gutter-ydesktop-or-more-1.75rem_qby0f_834","has-gutter-ywidescreen-1.75rem":"_has-gutter-ywidescreen-1.75rem_qby0f_839","has-gutter-ywidescreen-or-more-1.75rem":"_has-gutter-ywidescreen-or-more-1.75rem_qby0f_839","has-gutter-yfullhd-1.75rem":"_has-gutter-yfullhd-1.75rem_qby0f_844","has-gutter-2rem":"_has-gutter-2rem_qby0f_848","has-gutter-x-2rem":"_has-gutter-x-2rem_qby0f_852","has-gutter-y-2rem":"_has-gutter-y-2rem_qby0f_855","has-gutter-mobile-2rem":"_has-gutter-mobile-2rem_qby0f_859","has-gutter-mobile-or-more-2rem":"_has-gutter-mobile-or-more-2rem_qby0f_859","has-gutter-tablet-or-less-2rem":"_has-gutter-tablet-or-less-2rem_qby0f_859","has-gutter-desktop-or-less-2rem":"_has-gutter-desktop-or-less-2rem_qby0f_859","has-gutter-widescreen-or-less-2rem":"_has-gutter-widescreen-or-less-2rem_qby0f_859","has-gutter-fullhd-or-less-2rem":"_has-gutter-fullhd-or-less-2rem_qby0f_859","has-gutter-tablet-2rem":"_has-gutter-tablet-2rem_qby0f_865","has-gutter-tablet-or-more-2rem":"_has-gutter-tablet-or-more-2rem_qby0f_865","has-gutter-desktop-2rem":"_has-gutter-desktop-2rem_qby0f_871","has-gutter-desktop-or-more-2rem":"_has-gutter-desktop-or-more-2rem_qby0f_871","has-gutter-widescreen-2rem":"_has-gutter-widescreen-2rem_qby0f_877","has-gutter-widescreen-or-more-2rem":"_has-gutter-widescreen-or-more-2rem_qby0f_877","has-gutter-fullhd-2rem":"_has-gutter-fullhd-2rem_qby0f_883","has-gutter-xmobile-2rem":"_has-gutter-xmobile-2rem_qby0f_889","has-gutter-xmobile-or-more-2rem":"_has-gutter-xmobile-or-more-2rem_qby0f_889","has-gutter-xtablet-or-less-2rem":"_has-gutter-xtablet-or-less-2rem_qby0f_889","has-gutter-xdesktop-or-less-2rem":"_has-gutter-xdesktop-or-less-2rem_qby0f_889","has-gutter-xwidescreen-or-less-2rem":"_has-gutter-xwidescreen-or-less-2rem_qby0f_889","has-gutter-xfullhd-or-less-2rem":"_has-gutter-xfullhd-or-less-2rem_qby0f_889","has-gutter-xtablet-2rem":"_has-gutter-xtablet-2rem_qby0f_894","has-gutter-xtablet-or-more-2rem":"_has-gutter-xtablet-or-more-2rem_qby0f_894","has-gutter-xdesktop-2rem":"_has-gutter-xdesktop-2rem_qby0f_899","has-gutter-xdesktop-or-more-2rem":"_has-gutter-xdesktop-or-more-2rem_qby0f_899","has-gutter-xwidescreen-2rem":"_has-gutter-xwidescreen-2rem_qby0f_904","has-gutter-xwidescreen-or-more-2rem":"_has-gutter-xwidescreen-or-more-2rem_qby0f_904","has-gutter-xfullhd-2rem":"_has-gutter-xfullhd-2rem_qby0f_909","has-gutter-ymobile-2rem":"_has-gutter-ymobile-2rem_qby0f_914","has-gutter-ymobile-or-more-2rem":"_has-gutter-ymobile-or-more-2rem_qby0f_914","has-gutter-ytablet-or-less-2rem":"_has-gutter-ytablet-or-less-2rem_qby0f_914","has-gutter-ydesktop-or-less-2rem":"_has-gutter-ydesktop-or-less-2rem_qby0f_914","has-gutter-ywidescreen-or-less-2rem":"_has-gutter-ywidescreen-or-less-2rem_qby0f_914","has-gutter-yfullhd-or-less-2rem":"_has-gutter-yfullhd-or-less-2rem_qby0f_914","has-gutter-ytablet-2rem":"_has-gutter-ytablet-2rem_qby0f_919","has-gutter-ytablet-or-more-2rem":"_has-gutter-ytablet-or-more-2rem_qby0f_919","has-gutter-ydesktop-2rem":"_has-gutter-ydesktop-2rem_qby0f_924","has-gutter-ydesktop-or-more-2rem":"_has-gutter-ydesktop-or-more-2rem_qby0f_924","has-gutter-ywidescreen-2rem":"_has-gutter-ywidescreen-2rem_qby0f_929","has-gutter-ywidescreen-or-more-2rem":"_has-gutter-ywidescreen-or-more-2rem_qby0f_929","has-gutter-yfullhd-2rem":"_has-gutter-yfullhd-2rem_qby0f_934","has-gutter-2.25rem":"_has-gutter-2.25rem_qby0f_938","has-gutter-x-2.25rem":"_has-gutter-x-2.25rem_qby0f_942","has-gutter-y-2.25rem":"_has-gutter-y-2.25rem_qby0f_945","has-gutter-mobile-2.25rem":"_has-gutter-mobile-2.25rem_qby0f_949","has-gutter-mobile-or-more-2.25rem":"_has-gutter-mobile-or-more-2.25rem_qby0f_949","has-gutter-tablet-or-less-2.25rem":"_has-gutter-tablet-or-less-2.25rem_qby0f_949","has-gutter-desktop-or-less-2.25rem":"_has-gutter-desktop-or-less-2.25rem_qby0f_949","has-gutter-widescreen-or-less-2.25rem":"_has-gutter-widescreen-or-less-2.25rem_qby0f_949","has-gutter-fullhd-or-less-2.25rem":"_has-gutter-fullhd-or-less-2.25rem_qby0f_949","has-gutter-tablet-2.25rem":"_has-gutter-tablet-2.25rem_qby0f_955","has-gutter-tablet-or-more-2.25rem":"_has-gutter-tablet-or-more-2.25rem_qby0f_955","has-gutter-desktop-2.25rem":"_has-gutter-desktop-2.25rem_qby0f_961","has-gutter-desktop-or-more-2.25rem":"_has-gutter-desktop-or-more-2.25rem_qby0f_961","has-gutter-widescreen-2.25rem":"_has-gutter-widescreen-2.25rem_qby0f_967","has-gutter-widescreen-or-more-2.25rem":"_has-gutter-widescreen-or-more-2.25rem_qby0f_967","has-gutter-fullhd-2.25rem":"_has-gutter-fullhd-2.25rem_qby0f_973","has-gutter-xmobile-2.25rem":"_has-gutter-xmobile-2.25rem_qby0f_979","has-gutter-xmobile-or-more-2.25rem":"_has-gutter-xmobile-or-more-2.25rem_qby0f_979","has-gutter-xtablet-or-less-2.25rem":"_has-gutter-xtablet-or-less-2.25rem_qby0f_979","has-gutter-xdesktop-or-less-2.25rem":"_has-gutter-xdesktop-or-less-2.25rem_qby0f_979","has-gutter-xwidescreen-or-less-2.25rem":"_has-gutter-xwidescreen-or-less-2.25rem_qby0f_979","has-gutter-xfullhd-or-less-2.25rem":"_has-gutter-xfullhd-or-less-2.25rem_qby0f_979","has-gutter-xtablet-2.25rem":"_has-gutter-xtablet-2.25rem_qby0f_984","has-gutter-xtablet-or-more-2.25rem":"_has-gutter-xtablet-or-more-2.25rem_qby0f_984","has-gutter-xdesktop-2.25rem":"_has-gutter-xdesktop-2.25rem_qby0f_989","has-gutter-xdesktop-or-more-2.25rem":"_has-gutter-xdesktop-or-more-2.25rem_qby0f_989","has-gutter-xwidescreen-2.25rem":"_has-gutter-xwidescreen-2.25rem_qby0f_994","has-gutter-xwidescreen-or-more-2.25rem":"_has-gutter-xwidescreen-or-more-2.25rem_qby0f_994","has-gutter-xfullhd-2.25rem":"_has-gutter-xfullhd-2.25rem_qby0f_999","has-gutter-ymobile-2.25rem":"_has-gutter-ymobile-2.25rem_qby0f_1004","has-gutter-ymobile-or-more-2.25rem":"_has-gutter-ymobile-or-more-2.25rem_qby0f_1004","has-gutter-ytablet-or-less-2.25rem":"_has-gutter-ytablet-or-less-2.25rem_qby0f_1004","has-gutter-ydesktop-or-less-2.25rem":"_has-gutter-ydesktop-or-less-2.25rem_qby0f_1004","has-gutter-ywidescreen-or-less-2.25rem":"_has-gutter-ywidescreen-or-less-2.25rem_qby0f_1004","has-gutter-yfullhd-or-less-2.25rem":"_has-gutter-yfullhd-or-less-2.25rem_qby0f_1004","has-gutter-ytablet-2.25rem":"_has-gutter-ytablet-2.25rem_qby0f_1009","has-gutter-ytablet-or-more-2.25rem":"_has-gutter-ytablet-or-more-2.25rem_qby0f_1009","has-gutter-ydesktop-2.25rem":"_has-gutter-ydesktop-2.25rem_qby0f_1014","has-gutter-ydesktop-or-more-2.25rem":"_has-gutter-ydesktop-or-more-2.25rem_qby0f_1014","has-gutter-ywidescreen-2.25rem":"_has-gutter-ywidescreen-2.25rem_qby0f_1019","has-gutter-ywidescreen-or-more-2.25rem":"_has-gutter-ywidescreen-or-more-2.25rem_qby0f_1019","has-gutter-yfullhd-2.25rem":"_has-gutter-yfullhd-2.25rem_qby0f_1024","has-gutter-2.5rem":"_has-gutter-2.5rem_qby0f_1028","has-gutter-x-2.5rem":"_has-gutter-x-2.5rem_qby0f_1032","has-gutter-y-2.5rem":"_has-gutter-y-2.5rem_qby0f_1035","has-gutter-mobile-2.5rem":"_has-gutter-mobile-2.5rem_qby0f_1039","has-gutter-mobile-or-more-2.5rem":"_has-gutter-mobile-or-more-2.5rem_qby0f_1039","has-gutter-tablet-or-less-2.5rem":"_has-gutter-tablet-or-less-2.5rem_qby0f_1039","has-gutter-desktop-or-less-2.5rem":"_has-gutter-desktop-or-less-2.5rem_qby0f_1039","has-gutter-widescreen-or-less-2.5rem":"_has-gutter-widescreen-or-less-2.5rem_qby0f_1039","has-gutter-fullhd-or-less-2.5rem":"_has-gutter-fullhd-or-less-2.5rem_qby0f_1039","has-gutter-tablet-2.5rem":"_has-gutter-tablet-2.5rem_qby0f_1045","has-gutter-tablet-or-more-2.5rem":"_has-gutter-tablet-or-more-2.5rem_qby0f_1045","has-gutter-desktop-2.5rem":"_has-gutter-desktop-2.5rem_qby0f_1051","has-gutter-desktop-or-more-2.5rem":"_has-gutter-desktop-or-more-2.5rem_qby0f_1051","has-gutter-widescreen-2.5rem":"_has-gutter-widescreen-2.5rem_qby0f_1057","has-gutter-widescreen-or-more-2.5rem":"_has-gutter-widescreen-or-more-2.5rem_qby0f_1057","has-gutter-fullhd-2.5rem":"_has-gutter-fullhd-2.5rem_qby0f_1063","has-gutter-xmobile-2.5rem":"_has-gutter-xmobile-2.5rem_qby0f_1069","has-gutter-xmobile-or-more-2.5rem":"_has-gutter-xmobile-or-more-2.5rem_qby0f_1069","has-gutter-xtablet-or-less-2.5rem":"_has-gutter-xtablet-or-less-2.5rem_qby0f_1069","has-gutter-xdesktop-or-less-2.5rem":"_has-gutter-xdesktop-or-less-2.5rem_qby0f_1069","has-gutter-xwidescreen-or-less-2.5rem":"_has-gutter-xwidescreen-or-less-2.5rem_qby0f_1069","has-gutter-xfullhd-or-less-2.5rem":"_has-gutter-xfullhd-or-less-2.5rem_qby0f_1069","has-gutter-xtablet-2.5rem":"_has-gutter-xtablet-2.5rem_qby0f_1074","has-gutter-xtablet-or-more-2.5rem":"_has-gutter-xtablet-or-more-2.5rem_qby0f_1074","has-gutter-xdesktop-2.5rem":"_has-gutter-xdesktop-2.5rem_qby0f_1079","has-gutter-xdesktop-or-more-2.5rem":"_has-gutter-xdesktop-or-more-2.5rem_qby0f_1079","has-gutter-xwidescreen-2.5rem":"_has-gutter-xwidescreen-2.5rem_qby0f_1084","has-gutter-xwidescreen-or-more-2.5rem":"_has-gutter-xwidescreen-or-more-2.5rem_qby0f_1084","has-gutter-xfullhd-2.5rem":"_has-gutter-xfullhd-2.5rem_qby0f_1089","has-gutter-ymobile-2.5rem":"_has-gutter-ymobile-2.5rem_qby0f_1094","has-gutter-ymobile-or-more-2.5rem":"_has-gutter-ymobile-or-more-2.5rem_qby0f_1094","has-gutter-ytablet-or-less-2.5rem":"_has-gutter-ytablet-or-less-2.5rem_qby0f_1094","has-gutter-ydesktop-or-less-2.5rem":"_has-gutter-ydesktop-or-less-2.5rem_qby0f_1094","has-gutter-ywidescreen-or-less-2.5rem":"_has-gutter-ywidescreen-or-less-2.5rem_qby0f_1094","has-gutter-yfullhd-or-less-2.5rem":"_has-gutter-yfullhd-or-less-2.5rem_qby0f_1094","has-gutter-ytablet-2.5rem":"_has-gutter-ytablet-2.5rem_qby0f_1099","has-gutter-ytablet-or-more-2.5rem":"_has-gutter-ytablet-or-more-2.5rem_qby0f_1099","has-gutter-ydesktop-2.5rem":"_has-gutter-ydesktop-2.5rem_qby0f_1104","has-gutter-ydesktop-or-more-2.5rem":"_has-gutter-ydesktop-or-more-2.5rem_qby0f_1104","has-gutter-ywidescreen-2.5rem":"_has-gutter-ywidescreen-2.5rem_qby0f_1109","has-gutter-ywidescreen-or-more-2.5rem":"_has-gutter-ywidescreen-or-more-2.5rem_qby0f_1109","has-gutter-yfullhd-2.5rem":"_has-gutter-yfullhd-2.5rem_qby0f_1114","has-gutter-2.75rem":"_has-gutter-2.75rem_qby0f_1118","has-gutter-x-2.75rem":"_has-gutter-x-2.75rem_qby0f_1122","has-gutter-y-2.75rem":"_has-gutter-y-2.75rem_qby0f_1125","has-gutter-mobile-2.75rem":"_has-gutter-mobile-2.75rem_qby0f_1129","has-gutter-mobile-or-more-2.75rem":"_has-gutter-mobile-or-more-2.75rem_qby0f_1129","has-gutter-tablet-or-less-2.75rem":"_has-gutter-tablet-or-less-2.75rem_qby0f_1129","has-gutter-desktop-or-less-2.75rem":"_has-gutter-desktop-or-less-2.75rem_qby0f_1129","has-gutter-widescreen-or-less-2.75rem":"_has-gutter-widescreen-or-less-2.75rem_qby0f_1129","has-gutter-fullhd-or-less-2.75rem":"_has-gutter-fullhd-or-less-2.75rem_qby0f_1129","has-gutter-tablet-2.75rem":"_has-gutter-tablet-2.75rem_qby0f_1135","has-gutter-tablet-or-more-2.75rem":"_has-gutter-tablet-or-more-2.75rem_qby0f_1135","has-gutter-desktop-2.75rem":"_has-gutter-desktop-2.75rem_qby0f_1141","has-gutter-desktop-or-more-2.75rem":"_has-gutter-desktop-or-more-2.75rem_qby0f_1141","has-gutter-widescreen-2.75rem":"_has-gutter-widescreen-2.75rem_qby0f_1147","has-gutter-widescreen-or-more-2.75rem":"_has-gutter-widescreen-or-more-2.75rem_qby0f_1147","has-gutter-fullhd-2.75rem":"_has-gutter-fullhd-2.75rem_qby0f_1153","has-gutter-xmobile-2.75rem":"_has-gutter-xmobile-2.75rem_qby0f_1159","has-gutter-xmobile-or-more-2.75rem":"_has-gutter-xmobile-or-more-2.75rem_qby0f_1159","has-gutter-xtablet-or-less-2.75rem":"_has-gutter-xtablet-or-less-2.75rem_qby0f_1159","has-gutter-xdesktop-or-less-2.75rem":"_has-gutter-xdesktop-or-less-2.75rem_qby0f_1159","has-gutter-xwidescreen-or-less-2.75rem":"_has-gutter-xwidescreen-or-less-2.75rem_qby0f_1159","has-gutter-xfullhd-or-less-2.75rem":"_has-gutter-xfullhd-or-less-2.75rem_qby0f_1159","has-gutter-xtablet-2.75rem":"_has-gutter-xtablet-2.75rem_qby0f_1164","has-gutter-xtablet-or-more-2.75rem":"_has-gutter-xtablet-or-more-2.75rem_qby0f_1164","has-gutter-xdesktop-2.75rem":"_has-gutter-xdesktop-2.75rem_qby0f_1169","has-gutter-xdesktop-or-more-2.75rem":"_has-gutter-xdesktop-or-more-2.75rem_qby0f_1169","has-gutter-xwidescreen-2.75rem":"_has-gutter-xwidescreen-2.75rem_qby0f_1174","has-gutter-xwidescreen-or-more-2.75rem":"_has-gutter-xwidescreen-or-more-2.75rem_qby0f_1174","has-gutter-xfullhd-2.75rem":"_has-gutter-xfullhd-2.75rem_qby0f_1179","has-gutter-ymobile-2.75rem":"_has-gutter-ymobile-2.75rem_qby0f_1184","has-gutter-ymobile-or-more-2.75rem":"_has-gutter-ymobile-or-more-2.75rem_qby0f_1184","has-gutter-ytablet-or-less-2.75rem":"_has-gutter-ytablet-or-less-2.75rem_qby0f_1184","has-gutter-ydesktop-or-less-2.75rem":"_has-gutter-ydesktop-or-less-2.75rem_qby0f_1184","has-gutter-ywidescreen-or-less-2.75rem":"_has-gutter-ywidescreen-or-less-2.75rem_qby0f_1184","has-gutter-yfullhd-or-less-2.75rem":"_has-gutter-yfullhd-or-less-2.75rem_qby0f_1184","has-gutter-ytablet-2.75rem":"_has-gutter-ytablet-2.75rem_qby0f_1189","has-gutter-ytablet-or-more-2.75rem":"_has-gutter-ytablet-or-more-2.75rem_qby0f_1189","has-gutter-ydesktop-2.75rem":"_has-gutter-ydesktop-2.75rem_qby0f_1194","has-gutter-ydesktop-or-more-2.75rem":"_has-gutter-ydesktop-or-more-2.75rem_qby0f_1194","has-gutter-ywidescreen-2.75rem":"_has-gutter-ywidescreen-2.75rem_qby0f_1199","has-gutter-ywidescreen-or-more-2.75rem":"_has-gutter-ywidescreen-or-more-2.75rem_qby0f_1199","has-gutter-yfullhd-2.75rem":"_has-gutter-yfullhd-2.75rem_qby0f_1204","has-gutter-3rem":"_has-gutter-3rem_qby0f_1208","has-gutter-x-3rem":"_has-gutter-x-3rem_qby0f_1212","has-gutter-y-3rem":"_has-gutter-y-3rem_qby0f_1215","has-gutter-mobile-3rem":"_has-gutter-mobile-3rem_qby0f_1219","has-gutter-mobile-or-more-3rem":"_has-gutter-mobile-or-more-3rem_qby0f_1219","has-gutter-tablet-or-less-3rem":"_has-gutter-tablet-or-less-3rem_qby0f_1219","has-gutter-desktop-or-less-3rem":"_has-gutter-desktop-or-less-3rem_qby0f_1219","has-gutter-widescreen-or-less-3rem":"_has-gutter-widescreen-or-less-3rem_qby0f_1219","has-gutter-fullhd-or-less-3rem":"_has-gutter-fullhd-or-less-3rem_qby0f_1219","has-gutter-tablet-3rem":"_has-gutter-tablet-3rem_qby0f_1225","has-gutter-tablet-or-more-3rem":"_has-gutter-tablet-or-more-3rem_qby0f_1225","has-gutter-desktop-3rem":"_has-gutter-desktop-3rem_qby0f_1231","has-gutter-desktop-or-more-3rem":"_has-gutter-desktop-or-more-3rem_qby0f_1231","has-gutter-widescreen-3rem":"_has-gutter-widescreen-3rem_qby0f_1237","has-gutter-widescreen-or-more-3rem":"_has-gutter-widescreen-or-more-3rem_qby0f_1237","has-gutter-fullhd-3rem":"_has-gutter-fullhd-3rem_qby0f_1243","has-gutter-xmobile-3rem":"_has-gutter-xmobile-3rem_qby0f_1249","has-gutter-xmobile-or-more-3rem":"_has-gutter-xmobile-or-more-3rem_qby0f_1249","has-gutter-xtablet-or-less-3rem":"_has-gutter-xtablet-or-less-3rem_qby0f_1249","has-gutter-xdesktop-or-less-3rem":"_has-gutter-xdesktop-or-less-3rem_qby0f_1249","has-gutter-xwidescreen-or-less-3rem":"_has-gutter-xwidescreen-or-less-3rem_qby0f_1249","has-gutter-xfullhd-or-less-3rem":"_has-gutter-xfullhd-or-less-3rem_qby0f_1249","has-gutter-xtablet-3rem":"_has-gutter-xtablet-3rem_qby0f_1254","has-gutter-xtablet-or-more-3rem":"_has-gutter-xtablet-or-more-3rem_qby0f_1254","has-gutter-xdesktop-3rem":"_has-gutter-xdesktop-3rem_qby0f_1259","has-gutter-xdesktop-or-more-3rem":"_has-gutter-xdesktop-or-more-3rem_qby0f_1259","has-gutter-xwidescreen-3rem":"_has-gutter-xwidescreen-3rem_qby0f_1264","has-gutter-xwidescreen-or-more-3rem":"_has-gutter-xwidescreen-or-more-3rem_qby0f_1264","has-gutter-xfullhd-3rem":"_has-gutter-xfullhd-3rem_qby0f_1269","has-gutter-ymobile-3rem":"_has-gutter-ymobile-3rem_qby0f_1274","has-gutter-ymobile-or-more-3rem":"_has-gutter-ymobile-or-more-3rem_qby0f_1274","has-gutter-ytablet-or-less-3rem":"_has-gutter-ytablet-or-less-3rem_qby0f_1274","has-gutter-ydesktop-or-less-3rem":"_has-gutter-ydesktop-or-less-3rem_qby0f_1274","has-gutter-ywidescreen-or-less-3rem":"_has-gutter-ywidescreen-or-less-3rem_qby0f_1274","has-gutter-yfullhd-or-less-3rem":"_has-gutter-yfullhd-or-less-3rem_qby0f_1274","has-gutter-ytablet-3rem":"_has-gutter-ytablet-3rem_qby0f_1279","has-gutter-ytablet-or-more-3rem":"_has-gutter-ytablet-or-more-3rem_qby0f_1279","has-gutter-ydesktop-3rem":"_has-gutter-ydesktop-3rem_qby0f_1284","has-gutter-ydesktop-or-more-3rem":"_has-gutter-ydesktop-or-more-3rem_qby0f_1284","has-gutter-ywidescreen-3rem":"_has-gutter-ywidescreen-3rem_qby0f_1289","has-gutter-ywidescreen-or-more-3rem":"_has-gutter-ywidescreen-or-more-3rem_qby0f_1289","has-gutter-yfullhd-3rem":"_has-gutter-yfullhd-3rem_qby0f_1294","has-gutter-3.25rem":"_has-gutter-3.25rem_qby0f_1298","has-gutter-x-3.25rem":"_has-gutter-x-3.25rem_qby0f_1302","has-gutter-y-3.25rem":"_has-gutter-y-3.25rem_qby0f_1305","has-gutter-mobile-3.25rem":"_has-gutter-mobile-3.25rem_qby0f_1309","has-gutter-mobile-or-more-3.25rem":"_has-gutter-mobile-or-more-3.25rem_qby0f_1309","has-gutter-tablet-or-less-3.25rem":"_has-gutter-tablet-or-less-3.25rem_qby0f_1309","has-gutter-desktop-or-less-3.25rem":"_has-gutter-desktop-or-less-3.25rem_qby0f_1309","has-gutter-widescreen-or-less-3.25rem":"_has-gutter-widescreen-or-less-3.25rem_qby0f_1309","has-gutter-fullhd-or-less-3.25rem":"_has-gutter-fullhd-or-less-3.25rem_qby0f_1309","has-gutter-tablet-3.25rem":"_has-gutter-tablet-3.25rem_qby0f_1315","has-gutter-tablet-or-more-3.25rem":"_has-gutter-tablet-or-more-3.25rem_qby0f_1315","has-gutter-desktop-3.25rem":"_has-gutter-desktop-3.25rem_qby0f_1321","has-gutter-desktop-or-more-3.25rem":"_has-gutter-desktop-or-more-3.25rem_qby0f_1321","has-gutter-widescreen-3.25rem":"_has-gutter-widescreen-3.25rem_qby0f_1327","has-gutter-widescreen-or-more-3.25rem":"_has-gutter-widescreen-or-more-3.25rem_qby0f_1327","has-gutter-fullhd-3.25rem":"_has-gutter-fullhd-3.25rem_qby0f_1333","has-gutter-xmobile-3.25rem":"_has-gutter-xmobile-3.25rem_qby0f_1339","has-gutter-xmobile-or-more-3.25rem":"_has-gutter-xmobile-or-more-3.25rem_qby0f_1339","has-gutter-xtablet-or-less-3.25rem":"_has-gutter-xtablet-or-less-3.25rem_qby0f_1339","has-gutter-xdesktop-or-less-3.25rem":"_has-gutter-xdesktop-or-less-3.25rem_qby0f_1339","has-gutter-xwidescreen-or-less-3.25rem":"_has-gutter-xwidescreen-or-less-3.25rem_qby0f_1339","has-gutter-xfullhd-or-less-3.25rem":"_has-gutter-xfullhd-or-less-3.25rem_qby0f_1339","has-gutter-xtablet-3.25rem":"_has-gutter-xtablet-3.25rem_qby0f_1344","has-gutter-xtablet-or-more-3.25rem":"_has-gutter-xtablet-or-more-3.25rem_qby0f_1344","has-gutter-xdesktop-3.25rem":"_has-gutter-xdesktop-3.25rem_qby0f_1349","has-gutter-xdesktop-or-more-3.25rem":"_has-gutter-xdesktop-or-more-3.25rem_qby0f_1349","has-gutter-xwidescreen-3.25rem":"_has-gutter-xwidescreen-3.25rem_qby0f_1354","has-gutter-xwidescreen-or-more-3.25rem":"_has-gutter-xwidescreen-or-more-3.25rem_qby0f_1354","has-gutter-xfullhd-3.25rem":"_has-gutter-xfullhd-3.25rem_qby0f_1359","has-gutter-ymobile-3.25rem":"_has-gutter-ymobile-3.25rem_qby0f_1364","has-gutter-ymobile-or-more-3.25rem":"_has-gutter-ymobile-or-more-3.25rem_qby0f_1364","has-gutter-ytablet-or-less-3.25rem":"_has-gutter-ytablet-or-less-3.25rem_qby0f_1364","has-gutter-ydesktop-or-less-3.25rem":"_has-gutter-ydesktop-or-less-3.25rem_qby0f_1364","has-gutter-ywidescreen-or-less-3.25rem":"_has-gutter-ywidescreen-or-less-3.25rem_qby0f_1364","has-gutter-yfullhd-or-less-3.25rem":"_has-gutter-yfullhd-or-less-3.25rem_qby0f_1364","has-gutter-ytablet-3.25rem":"_has-gutter-ytablet-3.25rem_qby0f_1369","has-gutter-ytablet-or-more-3.25rem":"_has-gutter-ytablet-or-more-3.25rem_qby0f_1369","has-gutter-ydesktop-3.25rem":"_has-gutter-ydesktop-3.25rem_qby0f_1374","has-gutter-ydesktop-or-more-3.25rem":"_has-gutter-ydesktop-or-more-3.25rem_qby0f_1374","has-gutter-ywidescreen-3.25rem":"_has-gutter-ywidescreen-3.25rem_qby0f_1379","has-gutter-ywidescreen-or-more-3.25rem":"_has-gutter-ywidescreen-or-more-3.25rem_qby0f_1379","has-gutter-yfullhd-3.25rem":"_has-gutter-yfullhd-3.25rem_qby0f_1384","has-gutter-3.5rem":"_has-gutter-3.5rem_qby0f_1388","has-gutter-x-3.5rem":"_has-gutter-x-3.5rem_qby0f_1392","has-gutter-y-3.5rem":"_has-gutter-y-3.5rem_qby0f_1395","has-gutter-mobile-3.5rem":"_has-gutter-mobile-3.5rem_qby0f_1399","has-gutter-mobile-or-more-3.5rem":"_has-gutter-mobile-or-more-3.5rem_qby0f_1399","has-gutter-tablet-or-less-3.5rem":"_has-gutter-tablet-or-less-3.5rem_qby0f_1399","has-gutter-desktop-or-less-3.5rem":"_has-gutter-desktop-or-less-3.5rem_qby0f_1399","has-gutter-widescreen-or-less-3.5rem":"_has-gutter-widescreen-or-less-3.5rem_qby0f_1399","has-gutter-fullhd-or-less-3.5rem":"_has-gutter-fullhd-or-less-3.5rem_qby0f_1399","has-gutter-tablet-3.5rem":"_has-gutter-tablet-3.5rem_qby0f_1405","has-gutter-tablet-or-more-3.5rem":"_has-gutter-tablet-or-more-3.5rem_qby0f_1405","has-gutter-desktop-3.5rem":"_has-gutter-desktop-3.5rem_qby0f_1411","has-gutter-desktop-or-more-3.5rem":"_has-gutter-desktop-or-more-3.5rem_qby0f_1411","has-gutter-widescreen-3.5rem":"_has-gutter-widescreen-3.5rem_qby0f_1417","has-gutter-widescreen-or-more-3.5rem":"_has-gutter-widescreen-or-more-3.5rem_qby0f_1417","has-gutter-fullhd-3.5rem":"_has-gutter-fullhd-3.5rem_qby0f_1423","has-gutter-xmobile-3.5rem":"_has-gutter-xmobile-3.5rem_qby0f_1429","has-gutter-xmobile-or-more-3.5rem":"_has-gutter-xmobile-or-more-3.5rem_qby0f_1429","has-gutter-xtablet-or-less-3.5rem":"_has-gutter-xtablet-or-less-3.5rem_qby0f_1429","has-gutter-xdesktop-or-less-3.5rem":"_has-gutter-xdesktop-or-less-3.5rem_qby0f_1429","has-gutter-xwidescreen-or-less-3.5rem":"_has-gutter-xwidescreen-or-less-3.5rem_qby0f_1429","has-gutter-xfullhd-or-less-3.5rem":"_has-gutter-xfullhd-or-less-3.5rem_qby0f_1429","has-gutter-xtablet-3.5rem":"_has-gutter-xtablet-3.5rem_qby0f_1434","has-gutter-xtablet-or-more-3.5rem":"_has-gutter-xtablet-or-more-3.5rem_qby0f_1434","has-gutter-xdesktop-3.5rem":"_has-gutter-xdesktop-3.5rem_qby0f_1439","has-gutter-xdesktop-or-more-3.5rem":"_has-gutter-xdesktop-or-more-3.5rem_qby0f_1439","has-gutter-xwidescreen-3.5rem":"_has-gutter-xwidescreen-3.5rem_qby0f_1444","has-gutter-xwidescreen-or-more-3.5rem":"_has-gutter-xwidescreen-or-more-3.5rem_qby0f_1444","has-gutter-xfullhd-3.5rem":"_has-gutter-xfullhd-3.5rem_qby0f_1449","has-gutter-ymobile-3.5rem":"_has-gutter-ymobile-3.5rem_qby0f_1454","has-gutter-ymobile-or-more-3.5rem":"_has-gutter-ymobile-or-more-3.5rem_qby0f_1454","has-gutter-ytablet-or-less-3.5rem":"_has-gutter-ytablet-or-less-3.5rem_qby0f_1454","has-gutter-ydesktop-or-less-3.5rem":"_has-gutter-ydesktop-or-less-3.5rem_qby0f_1454","has-gutter-ywidescreen-or-less-3.5rem":"_has-gutter-ywidescreen-or-less-3.5rem_qby0f_1454","has-gutter-yfullhd-or-less-3.5rem":"_has-gutter-yfullhd-or-less-3.5rem_qby0f_1454","has-gutter-ytablet-3.5rem":"_has-gutter-ytablet-3.5rem_qby0f_1459","has-gutter-ytablet-or-more-3.5rem":"_has-gutter-ytablet-or-more-3.5rem_qby0f_1459","has-gutter-ydesktop-3.5rem":"_has-gutter-ydesktop-3.5rem_qby0f_1464","has-gutter-ydesktop-or-more-3.5rem":"_has-gutter-ydesktop-or-more-3.5rem_qby0f_1464","has-gutter-ywidescreen-3.5rem":"_has-gutter-ywidescreen-3.5rem_qby0f_1469","has-gutter-ywidescreen-or-more-3.5rem":"_has-gutter-ywidescreen-or-more-3.5rem_qby0f_1469","has-gutter-yfullhd-3.5rem":"_has-gutter-yfullhd-3.5rem_qby0f_1474","has-gutter-3.75rem":"_has-gutter-3.75rem_qby0f_1478","has-gutter-x-3.75rem":"_has-gutter-x-3.75rem_qby0f_1482","has-gutter-y-3.75rem":"_has-gutter-y-3.75rem_qby0f_1485","has-gutter-mobile-3.75rem":"_has-gutter-mobile-3.75rem_qby0f_1489","has-gutter-mobile-or-more-3.75rem":"_has-gutter-mobile-or-more-3.75rem_qby0f_1489","has-gutter-tablet-or-less-3.75rem":"_has-gutter-tablet-or-less-3.75rem_qby0f_1489","has-gutter-desktop-or-less-3.75rem":"_has-gutter-desktop-or-less-3.75rem_qby0f_1489","has-gutter-widescreen-or-less-3.75rem":"_has-gutter-widescreen-or-less-3.75rem_qby0f_1489","has-gutter-fullhd-or-less-3.75rem":"_has-gutter-fullhd-or-less-3.75rem_qby0f_1489","has-gutter-tablet-3.75rem":"_has-gutter-tablet-3.75rem_qby0f_1495","has-gutter-tablet-or-more-3.75rem":"_has-gutter-tablet-or-more-3.75rem_qby0f_1495","has-gutter-desktop-3.75rem":"_has-gutter-desktop-3.75rem_qby0f_1501","has-gutter-desktop-or-more-3.75rem":"_has-gutter-desktop-or-more-3.75rem_qby0f_1501","has-gutter-widescreen-3.75rem":"_has-gutter-widescreen-3.75rem_qby0f_1507","has-gutter-widescreen-or-more-3.75rem":"_has-gutter-widescreen-or-more-3.75rem_qby0f_1507","has-gutter-fullhd-3.75rem":"_has-gutter-fullhd-3.75rem_qby0f_1513","has-gutter-xmobile-3.75rem":"_has-gutter-xmobile-3.75rem_qby0f_1519","has-gutter-xmobile-or-more-3.75rem":"_has-gutter-xmobile-or-more-3.75rem_qby0f_1519","has-gutter-xtablet-or-less-3.75rem":"_has-gutter-xtablet-or-less-3.75rem_qby0f_1519","has-gutter-xdesktop-or-less-3.75rem":"_has-gutter-xdesktop-or-less-3.75rem_qby0f_1519","has-gutter-xwidescreen-or-less-3.75rem":"_has-gutter-xwidescreen-or-less-3.75rem_qby0f_1519","has-gutter-xfullhd-or-less-3.75rem":"_has-gutter-xfullhd-or-less-3.75rem_qby0f_1519","has-gutter-xtablet-3.75rem":"_has-gutter-xtablet-3.75rem_qby0f_1524","has-gutter-xtablet-or-more-3.75rem":"_has-gutter-xtablet-or-more-3.75rem_qby0f_1524","has-gutter-xdesktop-3.75rem":"_has-gutter-xdesktop-3.75rem_qby0f_1529","has-gutter-xdesktop-or-more-3.75rem":"_has-gutter-xdesktop-or-more-3.75rem_qby0f_1529","has-gutter-xwidescreen-3.75rem":"_has-gutter-xwidescreen-3.75rem_qby0f_1534","has-gutter-xwidescreen-or-more-3.75rem":"_has-gutter-xwidescreen-or-more-3.75rem_qby0f_1534","has-gutter-xfullhd-3.75rem":"_has-gutter-xfullhd-3.75rem_qby0f_1539","has-gutter-ymobile-3.75rem":"_has-gutter-ymobile-3.75rem_qby0f_1544","has-gutter-ymobile-or-more-3.75rem":"_has-gutter-ymobile-or-more-3.75rem_qby0f_1544","has-gutter-ytablet-or-less-3.75rem":"_has-gutter-ytablet-or-less-3.75rem_qby0f_1544","has-gutter-ydesktop-or-less-3.75rem":"_has-gutter-ydesktop-or-less-3.75rem_qby0f_1544","has-gutter-ywidescreen-or-less-3.75rem":"_has-gutter-ywidescreen-or-less-3.75rem_qby0f_1544","has-gutter-yfullhd-or-less-3.75rem":"_has-gutter-yfullhd-or-less-3.75rem_qby0f_1544","has-gutter-ytablet-3.75rem":"_has-gutter-ytablet-3.75rem_qby0f_1549","has-gutter-ytablet-or-more-3.75rem":"_has-gutter-ytablet-or-more-3.75rem_qby0f_1549","has-gutter-ydesktop-3.75rem":"_has-gutter-ydesktop-3.75rem_qby0f_1554","has-gutter-ydesktop-or-more-3.75rem":"_has-gutter-ydesktop-or-more-3.75rem_qby0f_1554","has-gutter-ywidescreen-3.75rem":"_has-gutter-ywidescreen-3.75rem_qby0f_1559","has-gutter-ywidescreen-or-more-3.75rem":"_has-gutter-ywidescreen-or-more-3.75rem_qby0f_1559","has-gutter-yfullhd-3.75rem":"_has-gutter-yfullhd-3.75rem_qby0f_1564","has-gutter-4rem":"_has-gutter-4rem_qby0f_1568","has-gutter-x-4rem":"_has-gutter-x-4rem_qby0f_1572","has-gutter-y-4rem":"_has-gutter-y-4rem_qby0f_1575","has-gutter-mobile-4rem":"_has-gutter-mobile-4rem_qby0f_1579","has-gutter-mobile-or-more-4rem":"_has-gutter-mobile-or-more-4rem_qby0f_1579","has-gutter-tablet-or-less-4rem":"_has-gutter-tablet-or-less-4rem_qby0f_1579","has-gutter-desktop-or-less-4rem":"_has-gutter-desktop-or-less-4rem_qby0f_1579","has-gutter-widescreen-or-less-4rem":"_has-gutter-widescreen-or-less-4rem_qby0f_1579","has-gutter-fullhd-or-less-4rem":"_has-gutter-fullhd-or-less-4rem_qby0f_1579","has-gutter-tablet-4rem":"_has-gutter-tablet-4rem_qby0f_1585","has-gutter-tablet-or-more-4rem":"_has-gutter-tablet-or-more-4rem_qby0f_1585","has-gutter-desktop-4rem":"_has-gutter-desktop-4rem_qby0f_1591","has-gutter-desktop-or-more-4rem":"_has-gutter-desktop-or-more-4rem_qby0f_1591","has-gutter-widescreen-4rem":"_has-gutter-widescreen-4rem_qby0f_1597","has-gutter-widescreen-or-more-4rem":"_has-gutter-widescreen-or-more-4rem_qby0f_1597","has-gutter-fullhd-4rem":"_has-gutter-fullhd-4rem_qby0f_1603","has-gutter-xmobile-4rem":"_has-gutter-xmobile-4rem_qby0f_1609","has-gutter-xmobile-or-more-4rem":"_has-gutter-xmobile-or-more-4rem_qby0f_1609","has-gutter-xtablet-or-less-4rem":"_has-gutter-xtablet-or-less-4rem_qby0f_1609","has-gutter-xdesktop-or-less-4rem":"_has-gutter-xdesktop-or-less-4rem_qby0f_1609","has-gutter-xwidescreen-or-less-4rem":"_has-gutter-xwidescreen-or-less-4rem_qby0f_1609","has-gutter-xfullhd-or-less-4rem":"_has-gutter-xfullhd-or-less-4rem_qby0f_1609","has-gutter-xtablet-4rem":"_has-gutter-xtablet-4rem_qby0f_1614","has-gutter-xtablet-or-more-4rem":"_has-gutter-xtablet-or-more-4rem_qby0f_1614","has-gutter-xdesktop-4rem":"_has-gutter-xdesktop-4rem_qby0f_1619","has-gutter-xdesktop-or-more-4rem":"_has-gutter-xdesktop-or-more-4rem_qby0f_1619","has-gutter-xwidescreen-4rem":"_has-gutter-xwidescreen-4rem_qby0f_1624","has-gutter-xwidescreen-or-more-4rem":"_has-gutter-xwidescreen-or-more-4rem_qby0f_1624","has-gutter-xfullhd-4rem":"_has-gutter-xfullhd-4rem_qby0f_1629","has-gutter-ymobile-4rem":"_has-gutter-ymobile-4rem_qby0f_1634","has-gutter-ymobile-or-more-4rem":"_has-gutter-ymobile-or-more-4rem_qby0f_1634","has-gutter-ytablet-or-less-4rem":"_has-gutter-ytablet-or-less-4rem_qby0f_1634","has-gutter-ydesktop-or-less-4rem":"_has-gutter-ydesktop-or-less-4rem_qby0f_1634","has-gutter-ywidescreen-or-less-4rem":"_has-gutter-ywidescreen-or-less-4rem_qby0f_1634","has-gutter-yfullhd-or-less-4rem":"_has-gutter-yfullhd-or-less-4rem_qby0f_1634","has-gutter-ytablet-4rem":"_has-gutter-ytablet-4rem_qby0f_1639","has-gutter-ytablet-or-more-4rem":"_has-gutter-ytablet-or-more-4rem_qby0f_1639","has-gutter-ydesktop-4rem":"_has-gutter-ydesktop-4rem_qby0f_1644","has-gutter-ydesktop-or-more-4rem":"_has-gutter-ydesktop-or-more-4rem_qby0f_1644","has-gutter-ywidescreen-4rem":"_has-gutter-ywidescreen-4rem_qby0f_1649","has-gutter-ywidescreen-or-more-4rem":"_has-gutter-ywidescreen-or-more-4rem_qby0f_1649","has-gutter-yfullhd-4rem":"_has-gutter-yfullhd-4rem_qby0f_1654",column:D,"is-full":"_is-full_qby0f_29","column-1":"_column-1_qby0f_1679","column-2":"_column-2_qby0f_1695","column-3":"_column-3_qby0f_1711","column-4":"_column-4_qby0f_1727","column-5":"_column-5_qby0f_1743","column-6":"_column-6_qby0f_1759","column-7":"_column-7_qby0f_1775","column-8":"_column-8_qby0f_1791","column-9":"_column-9_qby0f_1807","column-10":"_column-10_qby0f_1823","column-11":"_column-11_qby0f_1839","column-12":"_column-12_qby0f_1855","is-mobile-1":"_is-mobile-1_qby0f_1872","is-mobile-or-more-1":"_is-mobile-or-more-1_qby0f_1872","is-tablet-or-less-1":"_is-tablet-or-less-1_qby0f_1872","is-desktop-or-less-1":"_is-desktop-or-less-1_qby0f_1872","is-widescreen-or-less-1":"_is-widescreen-or-less-1_qby0f_1872","is-fullhd-or-less-1":"_is-fullhd-or-less-1_qby0f_1872","is-tablet-1":"_is-tablet-1_qby0f_1885","is-tablet-or-more-1":"_is-tablet-or-more-1_qby0f_1885","is-desktop-1":"_is-desktop-1_qby0f_1899","is-desktop-or-more-1":"_is-desktop-or-more-1_qby0f_1899","is-widescreen-1":"_is-widescreen-1_qby0f_1913","is-widescreen-or-more-1":"_is-widescreen-or-more-1_qby0f_1913","is-fullhd-1":"_is-fullhd-1_qby0f_1927","is-mobile-2":"_is-mobile-2_qby0f_1940","is-mobile-or-more-2":"_is-mobile-or-more-2_qby0f_1940","is-tablet-or-less-2":"_is-tablet-or-less-2_qby0f_1940","is-desktop-or-less-2":"_is-desktop-or-less-2_qby0f_1940","is-widescreen-or-less-2":"_is-widescreen-or-less-2_qby0f_1940","is-fullhd-or-less-2":"_is-fullhd-or-less-2_qby0f_1940","is-tablet-2":"_is-tablet-2_qby0f_1953","is-tablet-or-more-2":"_is-tablet-or-more-2_qby0f_1953","is-desktop-2":"_is-desktop-2_qby0f_1967","is-desktop-or-more-2":"_is-desktop-or-more-2_qby0f_1967","is-widescreen-2":"_is-widescreen-2_qby0f_1981","is-widescreen-or-more-2":"_is-widescreen-or-more-2_qby0f_1981","is-fullhd-2":"_is-fullhd-2_qby0f_1995","is-mobile-3":"_is-mobile-3_qby0f_2008","is-mobile-or-more-3":"_is-mobile-or-more-3_qby0f_2008","is-tablet-or-less-3":"_is-tablet-or-less-3_qby0f_2008","is-desktop-or-less-3":"_is-desktop-or-less-3_qby0f_2008","is-widescreen-or-less-3":"_is-widescreen-or-less-3_qby0f_2008","is-fullhd-or-less-3":"_is-fullhd-or-less-3_qby0f_2008","is-tablet-3":"_is-tablet-3_qby0f_2021","is-tablet-or-more-3":"_is-tablet-or-more-3_qby0f_2021","is-desktop-3":"_is-desktop-3_qby0f_2035","is-desktop-or-more-3":"_is-desktop-or-more-3_qby0f_2035","is-widescreen-3":"_is-widescreen-3_qby0f_2049","is-widescreen-or-more-3":"_is-widescreen-or-more-3_qby0f_2049","is-fullhd-3":"_is-fullhd-3_qby0f_2063","is-mobile-4":"_is-mobile-4_qby0f_2076","is-mobile-or-more-4":"_is-mobile-or-more-4_qby0f_2076","is-tablet-or-less-4":"_is-tablet-or-less-4_qby0f_2076","is-desktop-or-less-4":"_is-desktop-or-less-4_qby0f_2076","is-widescreen-or-less-4":"_is-widescreen-or-less-4_qby0f_2076","is-fullhd-or-less-4":"_is-fullhd-or-less-4_qby0f_2076","is-tablet-4":"_is-tablet-4_qby0f_2089","is-tablet-or-more-4":"_is-tablet-or-more-4_qby0f_2089","is-desktop-4":"_is-desktop-4_qby0f_2103","is-desktop-or-more-4":"_is-desktop-or-more-4_qby0f_2103","is-widescreen-4":"_is-widescreen-4_qby0f_2117","is-widescreen-or-more-4":"_is-widescreen-or-more-4_qby0f_2117","is-fullhd-4":"_is-fullhd-4_qby0f_2131","is-mobile-5":"_is-mobile-5_qby0f_2144","is-mobile-or-more-5":"_is-mobile-or-more-5_qby0f_2144","is-tablet-or-less-5":"_is-tablet-or-less-5_qby0f_2144","is-desktop-or-less-5":"_is-desktop-or-less-5_qby0f_2144","is-widescreen-or-less-5":"_is-widescreen-or-less-5_qby0f_2144","is-fullhd-or-less-5":"_is-fullhd-or-less-5_qby0f_2144","is-tablet-5":"_is-tablet-5_qby0f_2157","is-tablet-or-more-5":"_is-tablet-or-more-5_qby0f_2157","is-desktop-5":"_is-desktop-5_qby0f_2171","is-desktop-or-more-5":"_is-desktop-or-more-5_qby0f_2171","is-widescreen-5":"_is-widescreen-5_qby0f_2185","is-widescreen-or-more-5":"_is-widescreen-or-more-5_qby0f_2185","is-fullhd-5":"_is-fullhd-5_qby0f_2199","is-mobile-6":"_is-mobile-6_qby0f_2212","is-mobile-or-more-6":"_is-mobile-or-more-6_qby0f_2212","is-tablet-or-less-6":"_is-tablet-or-less-6_qby0f_2212","is-desktop-or-less-6":"_is-desktop-or-less-6_qby0f_2212","is-widescreen-or-less-6":"_is-widescreen-or-less-6_qby0f_2212","is-fullhd-or-less-6":"_is-fullhd-or-less-6_qby0f_2212","is-tablet-6":"_is-tablet-6_qby0f_2225","is-tablet-or-more-6":"_is-tablet-or-more-6_qby0f_2225","is-desktop-6":"_is-desktop-6_qby0f_2239","is-desktop-or-more-6":"_is-desktop-or-more-6_qby0f_2239","is-widescreen-6":"_is-widescreen-6_qby0f_2253","is-widescreen-or-more-6":"_is-widescreen-or-more-6_qby0f_2253","is-fullhd-6":"_is-fullhd-6_qby0f_2267","is-mobile-7":"_is-mobile-7_qby0f_2280","is-mobile-or-more-7":"_is-mobile-or-more-7_qby0f_2280","is-tablet-or-less-7":"_is-tablet-or-less-7_qby0f_2280","is-desktop-or-less-7":"_is-desktop-or-less-7_qby0f_2280","is-widescreen-or-less-7":"_is-widescreen-or-less-7_qby0f_2280","is-fullhd-or-less-7":"_is-fullhd-or-less-7_qby0f_2280","is-tablet-7":"_is-tablet-7_qby0f_2293","is-tablet-or-more-7":"_is-tablet-or-more-7_qby0f_2293","is-desktop-7":"_is-desktop-7_qby0f_2307","is-desktop-or-more-7":"_is-desktop-or-more-7_qby0f_2307","is-widescreen-7":"_is-widescreen-7_qby0f_2321","is-widescreen-or-more-7":"_is-widescreen-or-more-7_qby0f_2321","is-fullhd-7":"_is-fullhd-7_qby0f_2335","is-mobile-8":"_is-mobile-8_qby0f_2348","is-mobile-or-more-8":"_is-mobile-or-more-8_qby0f_2348","is-tablet-or-less-8":"_is-tablet-or-less-8_qby0f_2348","is-desktop-or-less-8":"_is-desktop-or-less-8_qby0f_2348","is-widescreen-or-less-8":"_is-widescreen-or-less-8_qby0f_2348","is-fullhd-or-less-8":"_is-fullhd-or-less-8_qby0f_2348","is-tablet-8":"_is-tablet-8_qby0f_2361","is-tablet-or-more-8":"_is-tablet-or-more-8_qby0f_2361","is-desktop-8":"_is-desktop-8_qby0f_2375","is-desktop-or-more-8":"_is-desktop-or-more-8_qby0f_2375","is-widescreen-8":"_is-widescreen-8_qby0f_2389","is-widescreen-or-more-8":"_is-widescreen-or-more-8_qby0f_2389","is-fullhd-8":"_is-fullhd-8_qby0f_2403","is-mobile-9":"_is-mobile-9_qby0f_2416","is-mobile-or-more-9":"_is-mobile-or-more-9_qby0f_2416","is-tablet-or-less-9":"_is-tablet-or-less-9_qby0f_2416","is-desktop-or-less-9":"_is-desktop-or-less-9_qby0f_2416","is-widescreen-or-less-9":"_is-widescreen-or-less-9_qby0f_2416","is-fullhd-or-less-9":"_is-fullhd-or-less-9_qby0f_2416","is-tablet-9":"_is-tablet-9_qby0f_2429","is-tablet-or-more-9":"_is-tablet-or-more-9_qby0f_2429","is-desktop-9":"_is-desktop-9_qby0f_2443","is-desktop-or-more-9":"_is-desktop-or-more-9_qby0f_2443","is-widescreen-9":"_is-widescreen-9_qby0f_2457","is-widescreen-or-more-9":"_is-widescreen-or-more-9_qby0f_2457","is-fullhd-9":"_is-fullhd-9_qby0f_2471","is-mobile-10":"_is-mobile-10_qby0f_2484","is-mobile-or-more-10":"_is-mobile-or-more-10_qby0f_2484","is-tablet-or-less-10":"_is-tablet-or-less-10_qby0f_2484","is-desktop-or-less-10":"_is-desktop-or-less-10_qby0f_2484","is-widescreen-or-less-10":"_is-widescreen-or-less-10_qby0f_2484","is-fullhd-or-less-10":"_is-fullhd-or-less-10_qby0f_2484","is-tablet-10":"_is-tablet-10_qby0f_2497","is-tablet-or-more-10":"_is-tablet-or-more-10_qby0f_2497","is-desktop-10":"_is-desktop-10_qby0f_2511","is-desktop-or-more-10":"_is-desktop-or-more-10_qby0f_2511","is-widescreen-10":"_is-widescreen-10_qby0f_2525","is-widescreen-or-more-10":"_is-widescreen-or-more-10_qby0f_2525","is-fullhd-10":"_is-fullhd-10_qby0f_2539","is-mobile-11":"_is-mobile-11_qby0f_2552","is-mobile-or-more-11":"_is-mobile-or-more-11_qby0f_2552","is-tablet-or-less-11":"_is-tablet-or-less-11_qby0f_2552","is-desktop-or-less-11":"_is-desktop-or-less-11_qby0f_2552","is-widescreen-or-less-11":"_is-widescreen-or-less-11_qby0f_2552","is-fullhd-or-less-11":"_is-fullhd-or-less-11_qby0f_2552","is-tablet-11":"_is-tablet-11_qby0f_2565","is-tablet-or-more-11":"_is-tablet-or-more-11_qby0f_2565","is-desktop-11":"_is-desktop-11_qby0f_2579","is-desktop-or-more-11":"_is-desktop-or-more-11_qby0f_2579","is-widescreen-11":"_is-widescreen-11_qby0f_2593","is-widescreen-or-more-11":"_is-widescreen-or-more-11_qby0f_2593","is-fullhd-11":"_is-fullhd-11_qby0f_2607","is-mobile-12":"_is-mobile-12_qby0f_2620","is-mobile-or-more-12":"_is-mobile-or-more-12_qby0f_2620","is-tablet-or-less-12":"_is-tablet-or-less-12_qby0f_2620","is-desktop-or-less-12":"_is-desktop-or-less-12_qby0f_2620","is-widescreen-or-less-12":"_is-widescreen-or-less-12_qby0f_2620","is-fullhd-or-less-12":"_is-fullhd-or-less-12_qby0f_2620","is-tablet-12":"_is-tablet-12_qby0f_2633","is-tablet-or-more-12":"_is-tablet-or-more-12_qby0f_2633","is-desktop-12":"_is-desktop-12_qby0f_2647","is-desktop-or-more-12":"_is-desktop-or-more-12_qby0f_2647","is-widescreen-12":"_is-widescreen-12_qby0f_2661","is-widescreen-or-more-12":"_is-widescreen-or-more-12_qby0f_2661","is-fullhd-12":"_is-fullhd-12_qby0f_2675"};function t(e){const a={...e};delete a.isFull,delete a.size,delete a.sizeMobile,delete a.sizeMobileOrMore,delete a.sizeTabletOrLess,delete a.sizeTablet,delete a.sizeTabletOrMore,delete a.sizeDesktopOrLess,delete a.sizeDesktop,delete a.sizeDesktopOrMore,delete a.sizeWidescreenOrLess,delete a.sizeWidescreen,delete a.sizeWidescreenOrMore,delete a.sizeFullhdOrLess,delete a.sizeFullhd,delete a.fore,delete a.back,delete a.border,delete a.highlighter,delete a.positioning,delete a.sizing,delete a.spacing,delete a.css;const l=[u.column];e.isFull&&l.push(u["is-full"]),e.size&&l.push(u[`column-${e.size}`]),e.sizeMobile&&l.push(u[`is-mobile-${e.sizeMobile}`]),e.sizeMobileOrMore&&l.push(u[`is-mobile-or-more-${e.sizeMobileOrMore}`]),e.sizeTabletOrLess&&l.push(u[`is-tablet-or-less-${e.sizeTabletOrLess}`]),e.sizeTablet&&l.push(u[`is-tablet-${e.sizeTablet}`]),e.sizeTabletOrMore&&l.push(u[`is-tablet-or-more-${e.sizeTabletOrMore}`]),e.sizeDesktopOrLess&&l.push(u[`is-desktop-or-less-${e.sizeDesktopOrLess}`]),e.sizeDesktop&&l.push(u[`is-desktop-${e.sizeDesktop}`]),e.sizeDesktopOrMore&&l.push(u[`is-desktop-or-more-${e.sizeDesktopOrMore}`]),e.sizeWidescreenOrLess&&l.push(u[`is-widescreen-or-less-${e.sizeWidescreenOrLess}`]),e.sizeWidescreen&&l.push(u[`is-widescreen-${e.sizeWidescreen}`]),e.sizeWidescreenOrMore&&l.push(u[`is-widescreen-or-more-${e.sizeWidescreenOrMore}`]),e.sizeFullhdOrLess&&l.push(u[`is-fullhd-or-less-${e.sizeFullhdOrLess}`]),e.sizeFullhd&&l.push(u[`is-fullhd-${e.sizeFullhd}`]);const i=x.getUtilityClassNames({fore:e.fore,back:e.back,border:e.border,highlighter:e.highlighter,spacing:e.spacing,sizing:e.sizing,positioning:e.positioning});i&&l.push(...i),e.className&&l.push(e.className);const g=j.useContext(A),y=L.getEmotionCss({fore:e.fore,back:e.back,border:e.border,highlighter:e.highlighter,spacing:e.spacing,css:e.css},g);return n("div",{...a,className:l.join(" "),css:y})}t.__docgenInfo={description:"",methods:[],displayName:"Column",props:{fore:{required:!1,tsType:{name:"signature",type:"object",raw:`{
+  color?: ColorProps;
+  fontSize?: FontSize;
+  fontWeight?: FontWeight;
+  isItalic?: boolean;
+}`,signature:{properties:[{key:"color",value:{name:"signature",type:"object",raw:`{
+  default?: ColorAttributes;
+  hover?: ColorAttributes;
+  focus?: ColorAttributes;
+  active?: ColorAttributes;
+  disabled?: ColorAttributes;
+  light?: {
+    default?: ColorAttributes;
+    hover?: ColorAttributes;
+    focus?: ColorAttributes;
+    active?: ColorAttributes;
+    disabled?: ColorAttributes;
+  };
+  dark?: {
+    default?: ColorAttributes;
+    hover?: ColorAttributes;
+    focus?: ColorAttributes;
+    active?: ColorAttributes;
+    disabled?: ColorAttributes;
+  };
+}`,signature:{properties:[{key:"default",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"hover",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"focus",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"active",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"disabled",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"light",value:{name:"signature",type:"object",raw:`{
+  default?: ColorAttributes;
+  hover?: ColorAttributes;
+  focus?: ColorAttributes;
+  active?: ColorAttributes;
+  disabled?: ColorAttributes;
+}`,signature:{properties:[{key:"default",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"hover",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"focus",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"active",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"disabled",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}}]},required:!1}},{key:"dark",value:{name:"signature",type:"object",raw:`{
+  default?: ColorAttributes;
+  hover?: ColorAttributes;
+  focus?: ColorAttributes;
+  active?: ColorAttributes;
+  disabled?: ColorAttributes;
+}`,signature:{properties:[{key:"default",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"hover",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"focus",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"active",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"disabled",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}}]},required:!1}}]},required:!1}},{key:"fontSize",value:{name:"union",raw:`| "small"
+| "normal"
+| "medium"
+| "large"
+| "xlarge"
+| "xxlarge"
+| "xxxlarge"
+| "xxxxlarge"
+| "xxxxxlarge"`,elements:[{name:"literal",value:'"small"'},{name:"literal",value:'"normal"'},{name:"literal",value:'"medium"'},{name:"literal",value:'"large"'},{name:"literal",value:'"xlarge"'},{name:"literal",value:'"xxlarge"'},{name:"literal",value:'"xxxlarge"'},{name:"literal",value:'"xxxxlarge"'},{name:"literal",value:'"xxxxxlarge"'}],required:!1}},{key:"fontWeight",value:{name:"union",raw:'"light" | "normal" | "medium" | "semibold" | "bold"',elements:[{name:"literal",value:'"light"'},{name:"literal",value:'"normal"'},{name:"literal",value:'"medium"'},{name:"literal",value:'"semibold"'},{name:"literal",value:'"bold"'}],required:!1}},{key:"isItalic",value:{name:"boolean",required:!1}}]}},description:""},back:{required:!1,tsType:{name:"signature",type:"object",raw:`{
+  color?: ColorProps;
+}`,signature:{properties:[{key:"color",value:{name:"signature",type:"object",raw:`{
+  default?: ColorAttributes;
+  hover?: ColorAttributes;
+  focus?: ColorAttributes;
+  active?: ColorAttributes;
+  disabled?: ColorAttributes;
+  light?: {
+    default?: ColorAttributes;
+    hover?: ColorAttributes;
+    focus?: ColorAttributes;
+    active?: ColorAttributes;
+    disabled?: ColorAttributes;
+  };
+  dark?: {
+    default?: ColorAttributes;
+    hover?: ColorAttributes;
+    focus?: ColorAttributes;
+    active?: ColorAttributes;
+    disabled?: ColorAttributes;
+  };
+}`,signature:{properties:[{key:"default",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"hover",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"focus",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"active",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"disabled",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"light",value:{name:"signature",type:"object",raw:`{
+  default?: ColorAttributes;
+  hover?: ColorAttributes;
+  focus?: ColorAttributes;
+  active?: ColorAttributes;
+  disabled?: ColorAttributes;
+}`,signature:{properties:[{key:"default",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"hover",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"focus",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"active",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"disabled",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}}]},required:!1}},{key:"dark",value:{name:"signature",type:"object",raw:`{
+  default?: ColorAttributes;
+  hover?: ColorAttributes;
+  focus?: ColorAttributes;
+  active?: ColorAttributes;
+  disabled?: ColorAttributes;
+}`,signature:{properties:[{key:"default",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"hover",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"focus",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"active",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"disabled",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}}]},required:!1}}]},required:!1}}]}},description:""},highlighter:{required:!1,tsType:{name:"signature",type:"object",raw:`{
+  color?: ColorProps;
+}`,signature:{properties:[{key:"color",value:{name:"signature",type:"object",raw:`{
+  default?: ColorAttributes;
+  hover?: ColorAttributes;
+  focus?: ColorAttributes;
+  active?: ColorAttributes;
+  disabled?: ColorAttributes;
+  light?: {
+    default?: ColorAttributes;
+    hover?: ColorAttributes;
+    focus?: ColorAttributes;
+    active?: ColorAttributes;
+    disabled?: ColorAttributes;
+  };
+  dark?: {
+    default?: ColorAttributes;
+    hover?: ColorAttributes;
+    focus?: ColorAttributes;
+    active?: ColorAttributes;
+    disabled?: ColorAttributes;
+  };
+}`,signature:{properties:[{key:"default",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"hover",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"focus",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"active",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"disabled",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"light",value:{name:"signature",type:"object",raw:`{
+  default?: ColorAttributes;
+  hover?: ColorAttributes;
+  focus?: ColorAttributes;
+  active?: ColorAttributes;
+  disabled?: ColorAttributes;
+}`,signature:{properties:[{key:"default",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"hover",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"focus",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"active",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"disabled",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}}]},required:!1}},{key:"dark",value:{name:"signature",type:"object",raw:`{
+  default?: ColorAttributes;
+  hover?: ColorAttributes;
+  focus?: ColorAttributes;
+  active?: ColorAttributes;
+  disabled?: ColorAttributes;
+}`,signature:{properties:[{key:"default",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"hover",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"focus",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"active",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"disabled",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}}]},required:!1}}]},required:!1}}]}},description:""},border:{required:!1,tsType:{name:"signature",type:"object",raw:`{
+  color?: ColorProps;
+  collapse?: BorderCollapse;
+  radius?: BorderRadius;
+  style?: BorderStyle;
+  width?: BorderWidth;
+  top?: BorderDetailProps;
+  bottom?: BorderDetailProps;
+  left?: BorderDetailProps;
+  right?: BorderDetailProps;
+}`,signature:{properties:[{key:"color",value:{name:"signature",type:"object",raw:`{
+  default?: ColorAttributes;
+  hover?: ColorAttributes;
+  focus?: ColorAttributes;
+  active?: ColorAttributes;
+  disabled?: ColorAttributes;
+  light?: {
+    default?: ColorAttributes;
+    hover?: ColorAttributes;
+    focus?: ColorAttributes;
+    active?: ColorAttributes;
+    disabled?: ColorAttributes;
+  };
+  dark?: {
+    default?: ColorAttributes;
+    hover?: ColorAttributes;
+    focus?: ColorAttributes;
+    active?: ColorAttributes;
+    disabled?: ColorAttributes;
+  };
+}`,signature:{properties:[{key:"default",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"hover",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"focus",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"active",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"disabled",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"light",value:{name:"signature",type:"object",raw:`{
+  default?: ColorAttributes;
+  hover?: ColorAttributes;
+  focus?: ColorAttributes;
+  active?: ColorAttributes;
+  disabled?: ColorAttributes;
+}`,signature:{properties:[{key:"default",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"hover",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"focus",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"active",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"disabled",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}}]},required:!1}},{key:"dark",value:{name:"signature",type:"object",raw:`{
+  default?: ColorAttributes;
+  hover?: ColorAttributes;
+  focus?: ColorAttributes;
+  active?: ColorAttributes;
+  disabled?: ColorAttributes;
+}`,signature:{properties:[{key:"default",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"hover",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"focus",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"active",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"disabled",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}}]},required:!1}}]},required:!1}},{key:"collapse",value:{name:"union",raw:'"collapted" | "sepalated"',elements:[{name:"literal",value:'"collapted"'},{name:"literal",value:'"sepalated"'}],required:!1}},{key:"radius",value:{name:"union",raw:'"small" | "circle" | "large" | "medium" | "pill"',elements:[{name:"literal",value:'"small"'},{name:"literal",value:'"circle"'},{name:"literal",value:'"large"'},{name:"literal",value:'"medium"'},{name:"literal",value:'"pill"'}],required:!1}},{key:"style",value:{name:"union",raw:`| "dashed"
+| "dotted"
+| "solid"`,elements:[{name:"literal",value:'"dashed"'},{name:"literal",value:'"dotted"'},{name:"literal",value:'"solid"'}],required:!1}},{key:"width",value:{name:"union",raw:`| "thick"
+| "thin"
+| "medium"
+| "xthick"
+| "xthin"`,elements:[{name:"literal",value:'"thick"'},{name:"literal",value:'"thin"'},{name:"literal",value:'"medium"'},{name:"literal",value:'"xthick"'},{name:"literal",value:'"xthin"'}],required:!1}},{key:"top",value:{name:"signature",type:"object",raw:`{
+  color?: ColorProps;
+  style?: BorderStyle;
+  width?: BorderWidth;
+}`,signature:{properties:[{key:"color",value:{name:"signature",type:"object",raw:`{
+  default?: ColorAttributes;
+  hover?: ColorAttributes;
+  focus?: ColorAttributes;
+  active?: ColorAttributes;
+  disabled?: ColorAttributes;
+  light?: {
+    default?: ColorAttributes;
+    hover?: ColorAttributes;
+    focus?: ColorAttributes;
+    active?: ColorAttributes;
+    disabled?: ColorAttributes;
+  };
+  dark?: {
+    default?: ColorAttributes;
+    hover?: ColorAttributes;
+    focus?: ColorAttributes;
+    active?: ColorAttributes;
+    disabled?: ColorAttributes;
+  };
+}`,signature:{properties:[{key:"default",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"hover",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"focus",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"active",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"disabled",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"light",value:{name:"signature",type:"object",raw:`{
+  default?: ColorAttributes;
+  hover?: ColorAttributes;
+  focus?: ColorAttributes;
+  active?: ColorAttributes;
+  disabled?: ColorAttributes;
+}`,signature:{properties:[{key:"default",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"hover",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"focus",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"active",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"disabled",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}}]},required:!1}},{key:"dark",value:{name:"signature",type:"object",raw:`{
+  default?: ColorAttributes;
+  hover?: ColorAttributes;
+  focus?: ColorAttributes;
+  active?: ColorAttributes;
+  disabled?: ColorAttributes;
+}`,signature:{properties:[{key:"default",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"hover",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"focus",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"active",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"disabled",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}}]},required:!1}}]},required:!1}},{key:"style",value:{name:"union",raw:`| "dashed"
+| "dotted"
+| "solid"`,elements:[{name:"literal",value:'"dashed"'},{name:"literal",value:'"dotted"'},{name:"literal",value:'"solid"'}],required:!1}},{key:"width",value:{name:"union",raw:`| "thick"
+| "thin"
+| "medium"
+| "xthick"
+| "xthin"`,elements:[{name:"literal",value:'"thick"'},{name:"literal",value:'"thin"'},{name:"literal",value:'"medium"'},{name:"literal",value:'"xthick"'},{name:"literal",value:'"xthin"'}],required:!1}}]},required:!1}},{key:"bottom",value:{name:"signature",type:"object",raw:`{
+  color?: ColorProps;
+  style?: BorderStyle;
+  width?: BorderWidth;
+}`,signature:{properties:[{key:"color",value:{name:"signature",type:"object",raw:`{
+  default?: ColorAttributes;
+  hover?: ColorAttributes;
+  focus?: ColorAttributes;
+  active?: ColorAttributes;
+  disabled?: ColorAttributes;
+  light?: {
+    default?: ColorAttributes;
+    hover?: ColorAttributes;
+    focus?: ColorAttributes;
+    active?: ColorAttributes;
+    disabled?: ColorAttributes;
+  };
+  dark?: {
+    default?: ColorAttributes;
+    hover?: ColorAttributes;
+    focus?: ColorAttributes;
+    active?: ColorAttributes;
+    disabled?: ColorAttributes;
+  };
+}`,signature:{properties:[{key:"default",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"hover",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"focus",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"active",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"disabled",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"light",value:{name:"signature",type:"object",raw:`{
+  default?: ColorAttributes;
+  hover?: ColorAttributes;
+  focus?: ColorAttributes;
+  active?: ColorAttributes;
+  disabled?: ColorAttributes;
+}`,signature:{properties:[{key:"default",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"hover",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"focus",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"active",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"disabled",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}}]},required:!1}},{key:"dark",value:{name:"signature",type:"object",raw:`{
+  default?: ColorAttributes;
+  hover?: ColorAttributes;
+  focus?: ColorAttributes;
+  active?: ColorAttributes;
+  disabled?: ColorAttributes;
+}`,signature:{properties:[{key:"default",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"hover",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"focus",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"active",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"disabled",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}}]},required:!1}}]},required:!1}},{key:"style",value:{name:"union",raw:`| "dashed"
+| "dotted"
+| "solid"`,elements:[{name:"literal",value:'"dashed"'},{name:"literal",value:'"dotted"'},{name:"literal",value:'"solid"'}],required:!1}},{key:"width",value:{name:"union",raw:`| "thick"
+| "thin"
+| "medium"
+| "xthick"
+| "xthin"`,elements:[{name:"literal",value:'"thick"'},{name:"literal",value:'"thin"'},{name:"literal",value:'"medium"'},{name:"literal",value:'"xthick"'},{name:"literal",value:'"xthin"'}],required:!1}}]},required:!1}},{key:"left",value:{name:"signature",type:"object",raw:`{
+  color?: ColorProps;
+  style?: BorderStyle;
+  width?: BorderWidth;
+}`,signature:{properties:[{key:"color",value:{name:"signature",type:"object",raw:`{
+  default?: ColorAttributes;
+  hover?: ColorAttributes;
+  focus?: ColorAttributes;
+  active?: ColorAttributes;
+  disabled?: ColorAttributes;
+  light?: {
+    default?: ColorAttributes;
+    hover?: ColorAttributes;
+    focus?: ColorAttributes;
+    active?: ColorAttributes;
+    disabled?: ColorAttributes;
+  };
+  dark?: {
+    default?: ColorAttributes;
+    hover?: ColorAttributes;
+    focus?: ColorAttributes;
+    active?: ColorAttributes;
+    disabled?: ColorAttributes;
+  };
+}`,signature:{properties:[{key:"default",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"hover",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"focus",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"active",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"disabled",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"light",value:{name:"signature",type:"object",raw:`{
+  default?: ColorAttributes;
+  hover?: ColorAttributes;
+  focus?: ColorAttributes;
+  active?: ColorAttributes;
+  disabled?: ColorAttributes;
+}`,signature:{properties:[{key:"default",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"hover",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"focus",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"active",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"disabled",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}}]},required:!1}},{key:"dark",value:{name:"signature",type:"object",raw:`{
+  default?: ColorAttributes;
+  hover?: ColorAttributes;
+  focus?: ColorAttributes;
+  active?: ColorAttributes;
+  disabled?: ColorAttributes;
+}`,signature:{properties:[{key:"default",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"hover",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"focus",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"active",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"disabled",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}}]},required:!1}}]},required:!1}},{key:"style",value:{name:"union",raw:`| "dashed"
+| "dotted"
+| "solid"`,elements:[{name:"literal",value:'"dashed"'},{name:"literal",value:'"dotted"'},{name:"literal",value:'"solid"'}],required:!1}},{key:"width",value:{name:"union",raw:`| "thick"
+| "thin"
+| "medium"
+| "xthick"
+| "xthin"`,elements:[{name:"literal",value:'"thick"'},{name:"literal",value:'"thin"'},{name:"literal",value:'"medium"'},{name:"literal",value:'"xthick"'},{name:"literal",value:'"xthin"'}],required:!1}}]},required:!1}},{key:"right",value:{name:"signature",type:"object",raw:`{
+  color?: ColorProps;
+  style?: BorderStyle;
+  width?: BorderWidth;
+}`,signature:{properties:[{key:"color",value:{name:"signature",type:"object",raw:`{
+  default?: ColorAttributes;
+  hover?: ColorAttributes;
+  focus?: ColorAttributes;
+  active?: ColorAttributes;
+  disabled?: ColorAttributes;
+  light?: {
+    default?: ColorAttributes;
+    hover?: ColorAttributes;
+    focus?: ColorAttributes;
+    active?: ColorAttributes;
+    disabled?: ColorAttributes;
+  };
+  dark?: {
+    default?: ColorAttributes;
+    hover?: ColorAttributes;
+    focus?: ColorAttributes;
+    active?: ColorAttributes;
+    disabled?: ColorAttributes;
+  };
+}`,signature:{properties:[{key:"default",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"hover",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"focus",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"active",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"disabled",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"light",value:{name:"signature",type:"object",raw:`{
+  default?: ColorAttributes;
+  hover?: ColorAttributes;
+  focus?: ColorAttributes;
+  active?: ColorAttributes;
+  disabled?: ColorAttributes;
+}`,signature:{properties:[{key:"default",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"hover",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"focus",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"active",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"disabled",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}}]},required:!1}},{key:"dark",value:{name:"signature",type:"object",raw:`{
+  default?: ColorAttributes;
+  hover?: ColorAttributes;
+  focus?: ColorAttributes;
+  active?: ColorAttributes;
+  disabled?: ColorAttributes;
+}`,signature:{properties:[{key:"default",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"hover",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"focus",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"active",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"disabled",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}}]},required:!1}}]},required:!1}},{key:"style",value:{name:"union",raw:`| "dashed"
+| "dotted"
+| "solid"`,elements:[{name:"literal",value:'"dashed"'},{name:"literal",value:'"dotted"'},{name:"literal",value:'"solid"'}],required:!1}},{key:"width",value:{name:"union",raw:`| "thick"
+| "thin"
+| "medium"
+| "xthick"
+| "xthin"`,elements:[{name:"literal",value:'"thick"'},{name:"literal",value:'"thin"'},{name:"literal",value:'"medium"'},{name:"literal",value:'"xthick"'},{name:"literal",value:'"xthin"'}],required:!1}}]},required:!1}}]}},description:""},positioning:{required:!1,tsType:{name:"signature",type:"object",raw:`{
+  display?: Property.Display;
+  position?: Property.Position;
+  top?: Property.Top;
+  right?: Property.Right;
+  bottom?: Property.Bottom;
+  left?: Property.Left;
+  translateMiddle?: boolean;
+  translateMiddleX?: boolean;
+  translateMiddleY?: boolean;
+}`,signature:{properties:[{key:"display",value:{name:"Property.Display",required:!1}},{key:"position",value:{name:"Property.Position",required:!1}},{key:"top",value:{name:"Property.Top",required:!1}},{key:"right",value:{name:"Property.Right",required:!1}},{key:"bottom",value:{name:"Property.Bottom",required:!1}},{key:"left",value:{name:"Property.Left",required:!1}},{key:"translateMiddle",value:{name:"boolean",required:!1}},{key:"translateMiddleX",value:{name:"boolean",required:!1}},{key:"translateMiddleY",value:{name:"boolean",required:!1}}]}},description:""},sizing:{required:!1,tsType:{name:"signature",type:"object",raw:`{
+  width?: Property.Width;
+  minWidth?: Property.MinHeight;
+  maxWidth?: Property.MaxWidth;
+  height?: Property.Height;
+  minHeight?: Property.MinHeight;
+  maxHeight?: Property.MaxHeight;
+  aspectRatio?:
+    | "square"
+    | "paper-landscape"
+    | "paper-portlait"
+    | "2:3"
+    | "3:2"
+    | "3:4"
+    | "4:3"
+    | "4:5"
+    | "5:4"
+    | "5:8"
+    | "8:5"
+    | "9:16"
+    | "16:9";
+}`,signature:{properties:[{key:"width",value:{name:"Property.Width",required:!1}},{key:"minWidth",value:{name:"Property.MinHeight",required:!1}},{key:"maxWidth",value:{name:"Property.MaxWidth",required:!1}},{key:"height",value:{name:"Property.Height",required:!1}},{key:"minHeight",value:{name:"Property.MinHeight",required:!1}},{key:"maxHeight",value:{name:"Property.MaxHeight",required:!1}},{key:"aspectRatio",value:{name:"union",raw:`| "square"
+| "paper-landscape"
+| "paper-portlait"
+| "2:3"
+| "3:2"
+| "3:4"
+| "4:3"
+| "4:5"
+| "5:4"
+| "5:8"
+| "8:5"
+| "9:16"
+| "16:9"`,elements:[{name:"literal",value:'"square"'},{name:"literal",value:'"paper-landscape"'},{name:"literal",value:'"paper-portlait"'},{name:"literal",value:'"2:3"'},{name:"literal",value:'"3:2"'},{name:"literal",value:'"3:4"'},{name:"literal",value:'"4:3"'},{name:"literal",value:'"4:5"'},{name:"literal",value:'"5:4"'},{name:"literal",value:'"5:8"'},{name:"literal",value:'"8:5"'},{name:"literal",value:'"9:16"'},{name:"literal",value:'"16:9"'}],required:!1}}]}},description:""},spacing:{required:!1,tsType:{name:"signature",type:"object",raw:`{
+  margin?:
+    | {
+        x?: number | string;
+        y?: number | string;
+        top?: number | string;
+        left?: number | string;
+        bottom?: number | string;
+        right?: number | string;
+      }
+    | number
+    | string;
+  padding?:
+    | {
+        x?: number | string;
+        y?: number | string;
+        top?: number | string;
+        left?: number | string;
+        bottom?: number | string;
+        right?: number | string;
+      }
+    | number
+    | string;
+}`,signature:{properties:[{key:"margin",value:{name:"union",raw:`| {
+    x?: number | string;
+    y?: number | string;
+    top?: number | string;
+    left?: number | string;
+    bottom?: number | string;
+    right?: number | string;
+  }
+| number
+| string`,elements:[{name:"signature",type:"object",raw:`{
+  x?: number | string;
+  y?: number | string;
+  top?: number | string;
+  left?: number | string;
+  bottom?: number | string;
+  right?: number | string;
+}`,signature:{properties:[{key:"x",value:{name:"union",raw:"number | string",elements:[{name:"number"},{name:"string"}],required:!1}},{key:"y",value:{name:"union",raw:"number | string",elements:[{name:"number"},{name:"string"}],required:!1}},{key:"top",value:{name:"union",raw:"number | string",elements:[{name:"number"},{name:"string"}],required:!1}},{key:"left",value:{name:"union",raw:"number | string",elements:[{name:"number"},{name:"string"}],required:!1}},{key:"bottom",value:{name:"union",raw:"number | string",elements:[{name:"number"},{name:"string"}],required:!1}},{key:"right",value:{name:"union",raw:"number | string",elements:[{name:"number"},{name:"string"}],required:!1}}]}},{name:"number"},{name:"string"}],required:!1}},{key:"padding",value:{name:"union",raw:`| {
+    x?: number | string;
+    y?: number | string;
+    top?: number | string;
+    left?: number | string;
+    bottom?: number | string;
+    right?: number | string;
+  }
+| number
+| string`,elements:[{name:"signature",type:"object",raw:`{
+  x?: number | string;
+  y?: number | string;
+  top?: number | string;
+  left?: number | string;
+  bottom?: number | string;
+  right?: number | string;
+}`,signature:{properties:[{key:"x",value:{name:"union",raw:"number | string",elements:[{name:"number"},{name:"string"}],required:!1}},{key:"y",value:{name:"union",raw:"number | string",elements:[{name:"number"},{name:"string"}],required:!1}},{key:"top",value:{name:"union",raw:"number | string",elements:[{name:"number"},{name:"string"}],required:!1}},{key:"left",value:{name:"union",raw:"number | string",elements:[{name:"number"},{name:"string"}],required:!1}},{key:"bottom",value:{name:"union",raw:"number | string",elements:[{name:"number"},{name:"string"}],required:!1}},{key:"right",value:{name:"union",raw:"number | string",elements:[{name:"number"},{name:"string"}],required:!1}}]}},{name:"number"},{name:"string"}],required:!1}}]}},description:""},css:{required:!1,tsType:{name:"Interpolation",elements:[{name:"Theme"}],raw:"Interpolation<Theme>"},description:""},isFull:{required:!1,tsType:{name:"boolean"},description:""},size:{required:!1,tsType:{name:"union",raw:"number | undefined",elements:[{name:"number"},{name:"undefined"}]},description:""},sizeMobile:{required:!1,tsType:{name:"union",raw:"number | undefined",elements:[{name:"number"},{name:"undefined"}]},description:""},sizeMobileOrMore:{required:!1,tsType:{name:"union",raw:"number | undefined",elements:[{name:"number"},{name:"undefined"}]},description:""},sizeTabletOrLess:{required:!1,tsType:{name:"union",raw:"number | undefined",elements:[{name:"number"},{name:"undefined"}]},description:""},sizeTablet:{required:!1,tsType:{name:"union",raw:"number | undefined",elements:[{name:"number"},{name:"undefined"}]},description:""},sizeTabletOrMore:{required:!1,tsType:{name:"union",raw:"number | undefined",elements:[{name:"number"},{name:"undefined"}]},description:""},sizeDesktopOrLess:{required:!1,tsType:{name:"union",raw:"number | undefined",elements:[{name:"number"},{name:"undefined"}]},description:""},sizeDesktop:{required:!1,tsType:{name:"union",raw:"number | undefined",elements:[{name:"number"},{name:"undefined"}]},description:""},sizeDesktopOrMore:{required:!1,tsType:{name:"union",raw:"number | undefined",elements:[{name:"number"},{name:"undefined"}]},description:""},sizeWidescreenOrLess:{required:!1,tsType:{name:"union",raw:"number | undefined",elements:[{name:"number"},{name:"undefined"}]},description:""},sizeWidescreen:{required:!1,tsType:{name:"union",raw:"number | undefined",elements:[{name:"number"},{name:"undefined"}]},description:""},sizeWidescreenOrMore:{required:!1,tsType:{name:"union",raw:"number | undefined",elements:[{name:"number"},{name:"undefined"}]},description:""},sizeFullhdOrLess:{required:!1,tsType:{name:"union",raw:"number | undefined",elements:[{name:"number"},{name:"undefined"}]},description:""},sizeFullhd:{required:!1,tsType:{name:"union",raw:"number | undefined",elements:[{name:"number"},{name:"undefined"}]},description:""}}};const T="_columns_qby0f_1",R="_column_qby0f_1",r={columns:T,"is-direction-row":"_is-direction-row_qby0f_16","is-direction-row-reverse":"_is-direction-row-reverse_qby0f_19","is-direction-column":"_is-direction-column_qby0f_22","is-direction-column-reverse":"_is-direction-column-reverse_qby0f_25","is-mobile-direction-row":"_is-mobile-direction-row_qby0f_29","is-mobile-or-more-direction-row":"_is-mobile-or-more-direction-row_qby0f_29","is-tablet-or-less-direction-row":"_is-tablet-or-less-direction-row_qby0f_29","is-desktop-or-less-direction-row":"_is-desktop-or-less-direction-row_qby0f_29","is-widescreen-or-less-direction-row":"_is-widescreen-or-less-direction-row_qby0f_29","is-fullhd-or-less-direction-row":"_is-fullhd-or-less-direction-row_qby0f_29","is-tablet-direction-row":"_is-tablet-direction-row_qby0f_34","is-tablet-or-more-direction-row":"_is-tablet-or-more-direction-row_qby0f_34","is-desktop-direction-row":"_is-desktop-direction-row_qby0f_39","is-desktop-or-more-direction-row":"_is-desktop-or-more-direction-row_qby0f_39","is-widescreen-direction-row":"_is-widescreen-direction-row_qby0f_44","is-widescreen-or-more-direction-row":"_is-widescreen-or-more-direction-row_qby0f_44","is-fullhd-direction-row":"_is-fullhd-direction-row_qby0f_49","is-mobile-direction-row-reverse":"_is-mobile-direction-row-reverse_qby0f_54","is-mobile-or-more-direction-row-reverse":"_is-mobile-or-more-direction-row-reverse_qby0f_54","is-tablet-or-less-direction-row-reverse":"_is-tablet-or-less-direction-row-reverse_qby0f_54","is-desktop-or-less-direction-row-reverse":"_is-desktop-or-less-direction-row-reverse_qby0f_54","is-widescreen-or-less-direction-row-reverse":"_is-widescreen-or-less-direction-row-reverse_qby0f_54","is-fullhd-or-less-direction-row-reverse":"_is-fullhd-or-less-direction-row-reverse_qby0f_54","is-tablet-direction-row-reverse":"_is-tablet-direction-row-reverse_qby0f_59","is-tablet-or-more-direction-row-reverse":"_is-tablet-or-more-direction-row-reverse_qby0f_59","is-desktop-direction-row-reverse":"_is-desktop-direction-row-reverse_qby0f_64","is-desktop-or-more-direction-row-reverse":"_is-desktop-or-more-direction-row-reverse_qby0f_64","is-widescreen-direction-row-reverse":"_is-widescreen-direction-row-reverse_qby0f_69","is-widescreen-or-more-direction-row-reverse":"_is-widescreen-or-more-direction-row-reverse_qby0f_69","is-fullhd-direction-row-reverse":"_is-fullhd-direction-row-reverse_qby0f_74","is-mobile-direction-column":"_is-mobile-direction-column_qby0f_79","is-mobile-or-more-direction-column":"_is-mobile-or-more-direction-column_qby0f_79","is-tablet-or-less-direction-column":"_is-tablet-or-less-direction-column_qby0f_79","is-desktop-or-less-direction-column":"_is-desktop-or-less-direction-column_qby0f_79","is-widescreen-or-less-direction-column":"_is-widescreen-or-less-direction-column_qby0f_79","is-fullhd-or-less-direction-column":"_is-fullhd-or-less-direction-column_qby0f_79","is-tablet-direction-column":"_is-tablet-direction-column_qby0f_84","is-tablet-or-more-direction-column":"_is-tablet-or-more-direction-column_qby0f_84","is-desktop-direction-column":"_is-desktop-direction-column_qby0f_89","is-desktop-or-more-direction-column":"_is-desktop-or-more-direction-column_qby0f_89","is-widescreen-direction-column":"_is-widescreen-direction-column_qby0f_94","is-widescreen-or-more-direction-column":"_is-widescreen-or-more-direction-column_qby0f_94","is-fullhd-direction-column":"_is-fullhd-direction-column_qby0f_99","is-mobile-direction-column-reverse":"_is-mobile-direction-column-reverse_qby0f_104","is-mobile-or-more-direction-column-reverse":"_is-mobile-or-more-direction-column-reverse_qby0f_104","is-tablet-or-less-direction-column-reverse":"_is-tablet-or-less-direction-column-reverse_qby0f_104","is-desktop-or-less-direction-column-reverse":"_is-desktop-or-less-direction-column-reverse_qby0f_104","is-widescreen-or-less-direction-column-reverse":"_is-widescreen-or-less-direction-column-reverse_qby0f_104","is-fullhd-or-less-direction-column-reverse":"_is-fullhd-or-less-direction-column-reverse_qby0f_104","is-tablet-direction-column-reverse":"_is-tablet-direction-column-reverse_qby0f_109","is-tablet-or-more-direction-column-reverse":"_is-tablet-or-more-direction-column-reverse_qby0f_109","is-desktop-direction-column-reverse":"_is-desktop-direction-column-reverse_qby0f_114","is-desktop-or-more-direction-column-reverse":"_is-desktop-or-more-direction-column-reverse_qby0f_114","is-widescreen-direction-column-reverse":"_is-widescreen-direction-column-reverse_qby0f_119","is-widescreen-or-more-direction-column-reverse":"_is-widescreen-or-more-direction-column-reverse_qby0f_119","is-fullhd-direction-column-reverse":"_is-fullhd-direction-column-reverse_qby0f_124","has-gutter-0rem":"_has-gutter-0rem_qby0f_128","has-gutter-x-0rem":"_has-gutter-x-0rem_qby0f_132","has-gutter-y-0rem":"_has-gutter-y-0rem_qby0f_135","has-gutter-mobile-0rem":"_has-gutter-mobile-0rem_qby0f_139","has-gutter-mobile-or-more-0rem":"_has-gutter-mobile-or-more-0rem_qby0f_139","has-gutter-tablet-or-less-0rem":"_has-gutter-tablet-or-less-0rem_qby0f_139","has-gutter-desktop-or-less-0rem":"_has-gutter-desktop-or-less-0rem_qby0f_139","has-gutter-widescreen-or-less-0rem":"_has-gutter-widescreen-or-less-0rem_qby0f_139","has-gutter-fullhd-or-less-0rem":"_has-gutter-fullhd-or-less-0rem_qby0f_139","has-gutter-tablet-0rem":"_has-gutter-tablet-0rem_qby0f_145","has-gutter-tablet-or-more-0rem":"_has-gutter-tablet-or-more-0rem_qby0f_145","has-gutter-desktop-0rem":"_has-gutter-desktop-0rem_qby0f_151","has-gutter-desktop-or-more-0rem":"_has-gutter-desktop-or-more-0rem_qby0f_151","has-gutter-widescreen-0rem":"_has-gutter-widescreen-0rem_qby0f_157","has-gutter-widescreen-or-more-0rem":"_has-gutter-widescreen-or-more-0rem_qby0f_157","has-gutter-fullhd-0rem":"_has-gutter-fullhd-0rem_qby0f_163","has-gutter-xmobile-0rem":"_has-gutter-xmobile-0rem_qby0f_169","has-gutter-xmobile-or-more-0rem":"_has-gutter-xmobile-or-more-0rem_qby0f_169","has-gutter-xtablet-or-less-0rem":"_has-gutter-xtablet-or-less-0rem_qby0f_169","has-gutter-xdesktop-or-less-0rem":"_has-gutter-xdesktop-or-less-0rem_qby0f_169","has-gutter-xwidescreen-or-less-0rem":"_has-gutter-xwidescreen-or-less-0rem_qby0f_169","has-gutter-xfullhd-or-less-0rem":"_has-gutter-xfullhd-or-less-0rem_qby0f_169","has-gutter-xtablet-0rem":"_has-gutter-xtablet-0rem_qby0f_174","has-gutter-xtablet-or-more-0rem":"_has-gutter-xtablet-or-more-0rem_qby0f_174","has-gutter-xdesktop-0rem":"_has-gutter-xdesktop-0rem_qby0f_179","has-gutter-xdesktop-or-more-0rem":"_has-gutter-xdesktop-or-more-0rem_qby0f_179","has-gutter-xwidescreen-0rem":"_has-gutter-xwidescreen-0rem_qby0f_184","has-gutter-xwidescreen-or-more-0rem":"_has-gutter-xwidescreen-or-more-0rem_qby0f_184","has-gutter-xfullhd-0rem":"_has-gutter-xfullhd-0rem_qby0f_189","has-gutter-ymobile-0rem":"_has-gutter-ymobile-0rem_qby0f_194","has-gutter-ymobile-or-more-0rem":"_has-gutter-ymobile-or-more-0rem_qby0f_194","has-gutter-ytablet-or-less-0rem":"_has-gutter-ytablet-or-less-0rem_qby0f_194","has-gutter-ydesktop-or-less-0rem":"_has-gutter-ydesktop-or-less-0rem_qby0f_194","has-gutter-ywidescreen-or-less-0rem":"_has-gutter-ywidescreen-or-less-0rem_qby0f_194","has-gutter-yfullhd-or-less-0rem":"_has-gutter-yfullhd-or-less-0rem_qby0f_194","has-gutter-ytablet-0rem":"_has-gutter-ytablet-0rem_qby0f_199","has-gutter-ytablet-or-more-0rem":"_has-gutter-ytablet-or-more-0rem_qby0f_199","has-gutter-ydesktop-0rem":"_has-gutter-ydesktop-0rem_qby0f_204","has-gutter-ydesktop-or-more-0rem":"_has-gutter-ydesktop-or-more-0rem_qby0f_204","has-gutter-ywidescreen-0rem":"_has-gutter-ywidescreen-0rem_qby0f_209","has-gutter-ywidescreen-or-more-0rem":"_has-gutter-ywidescreen-or-more-0rem_qby0f_209","has-gutter-yfullhd-0rem":"_has-gutter-yfullhd-0rem_qby0f_214","has-gutter-0.25rem":"_has-gutter-0.25rem_qby0f_218","has-gutter-x-0.25rem":"_has-gutter-x-0.25rem_qby0f_222","has-gutter-y-0.25rem":"_has-gutter-y-0.25rem_qby0f_225","has-gutter-mobile-0.25rem":"_has-gutter-mobile-0.25rem_qby0f_229","has-gutter-mobile-or-more-0.25rem":"_has-gutter-mobile-or-more-0.25rem_qby0f_229","has-gutter-tablet-or-less-0.25rem":"_has-gutter-tablet-or-less-0.25rem_qby0f_229","has-gutter-desktop-or-less-0.25rem":"_has-gutter-desktop-or-less-0.25rem_qby0f_229","has-gutter-widescreen-or-less-0.25rem":"_has-gutter-widescreen-or-less-0.25rem_qby0f_229","has-gutter-fullhd-or-less-0.25rem":"_has-gutter-fullhd-or-less-0.25rem_qby0f_229","has-gutter-tablet-0.25rem":"_has-gutter-tablet-0.25rem_qby0f_235","has-gutter-tablet-or-more-0.25rem":"_has-gutter-tablet-or-more-0.25rem_qby0f_235","has-gutter-desktop-0.25rem":"_has-gutter-desktop-0.25rem_qby0f_241","has-gutter-desktop-or-more-0.25rem":"_has-gutter-desktop-or-more-0.25rem_qby0f_241","has-gutter-widescreen-0.25rem":"_has-gutter-widescreen-0.25rem_qby0f_247","has-gutter-widescreen-or-more-0.25rem":"_has-gutter-widescreen-or-more-0.25rem_qby0f_247","has-gutter-fullhd-0.25rem":"_has-gutter-fullhd-0.25rem_qby0f_253","has-gutter-xmobile-0.25rem":"_has-gutter-xmobile-0.25rem_qby0f_259","has-gutter-xmobile-or-more-0.25rem":"_has-gutter-xmobile-or-more-0.25rem_qby0f_259","has-gutter-xtablet-or-less-0.25rem":"_has-gutter-xtablet-or-less-0.25rem_qby0f_259","has-gutter-xdesktop-or-less-0.25rem":"_has-gutter-xdesktop-or-less-0.25rem_qby0f_259","has-gutter-xwidescreen-or-less-0.25rem":"_has-gutter-xwidescreen-or-less-0.25rem_qby0f_259","has-gutter-xfullhd-or-less-0.25rem":"_has-gutter-xfullhd-or-less-0.25rem_qby0f_259","has-gutter-xtablet-0.25rem":"_has-gutter-xtablet-0.25rem_qby0f_264","has-gutter-xtablet-or-more-0.25rem":"_has-gutter-xtablet-or-more-0.25rem_qby0f_264","has-gutter-xdesktop-0.25rem":"_has-gutter-xdesktop-0.25rem_qby0f_269","has-gutter-xdesktop-or-more-0.25rem":"_has-gutter-xdesktop-or-more-0.25rem_qby0f_269","has-gutter-xwidescreen-0.25rem":"_has-gutter-xwidescreen-0.25rem_qby0f_274","has-gutter-xwidescreen-or-more-0.25rem":"_has-gutter-xwidescreen-or-more-0.25rem_qby0f_274","has-gutter-xfullhd-0.25rem":"_has-gutter-xfullhd-0.25rem_qby0f_279","has-gutter-ymobile-0.25rem":"_has-gutter-ymobile-0.25rem_qby0f_284","has-gutter-ymobile-or-more-0.25rem":"_has-gutter-ymobile-or-more-0.25rem_qby0f_284","has-gutter-ytablet-or-less-0.25rem":"_has-gutter-ytablet-or-less-0.25rem_qby0f_284","has-gutter-ydesktop-or-less-0.25rem":"_has-gutter-ydesktop-or-less-0.25rem_qby0f_284","has-gutter-ywidescreen-or-less-0.25rem":"_has-gutter-ywidescreen-or-less-0.25rem_qby0f_284","has-gutter-yfullhd-or-less-0.25rem":"_has-gutter-yfullhd-or-less-0.25rem_qby0f_284","has-gutter-ytablet-0.25rem":"_has-gutter-ytablet-0.25rem_qby0f_289","has-gutter-ytablet-or-more-0.25rem":"_has-gutter-ytablet-or-more-0.25rem_qby0f_289","has-gutter-ydesktop-0.25rem":"_has-gutter-ydesktop-0.25rem_qby0f_294","has-gutter-ydesktop-or-more-0.25rem":"_has-gutter-ydesktop-or-more-0.25rem_qby0f_294","has-gutter-ywidescreen-0.25rem":"_has-gutter-ywidescreen-0.25rem_qby0f_299","has-gutter-ywidescreen-or-more-0.25rem":"_has-gutter-ywidescreen-or-more-0.25rem_qby0f_299","has-gutter-yfullhd-0.25rem":"_has-gutter-yfullhd-0.25rem_qby0f_304","has-gutter-0.5rem":"_has-gutter-0.5rem_qby0f_308","has-gutter-x-0.5rem":"_has-gutter-x-0.5rem_qby0f_312","has-gutter-y-0.5rem":"_has-gutter-y-0.5rem_qby0f_315","has-gutter-mobile-0.5rem":"_has-gutter-mobile-0.5rem_qby0f_319","has-gutter-mobile-or-more-0.5rem":"_has-gutter-mobile-or-more-0.5rem_qby0f_319","has-gutter-tablet-or-less-0.5rem":"_has-gutter-tablet-or-less-0.5rem_qby0f_319","has-gutter-desktop-or-less-0.5rem":"_has-gutter-desktop-or-less-0.5rem_qby0f_319","has-gutter-widescreen-or-less-0.5rem":"_has-gutter-widescreen-or-less-0.5rem_qby0f_319","has-gutter-fullhd-or-less-0.5rem":"_has-gutter-fullhd-or-less-0.5rem_qby0f_319","has-gutter-tablet-0.5rem":"_has-gutter-tablet-0.5rem_qby0f_325","has-gutter-tablet-or-more-0.5rem":"_has-gutter-tablet-or-more-0.5rem_qby0f_325","has-gutter-desktop-0.5rem":"_has-gutter-desktop-0.5rem_qby0f_331","has-gutter-desktop-or-more-0.5rem":"_has-gutter-desktop-or-more-0.5rem_qby0f_331","has-gutter-widescreen-0.5rem":"_has-gutter-widescreen-0.5rem_qby0f_337","has-gutter-widescreen-or-more-0.5rem":"_has-gutter-widescreen-or-more-0.5rem_qby0f_337","has-gutter-fullhd-0.5rem":"_has-gutter-fullhd-0.5rem_qby0f_343","has-gutter-xmobile-0.5rem":"_has-gutter-xmobile-0.5rem_qby0f_349","has-gutter-xmobile-or-more-0.5rem":"_has-gutter-xmobile-or-more-0.5rem_qby0f_349","has-gutter-xtablet-or-less-0.5rem":"_has-gutter-xtablet-or-less-0.5rem_qby0f_349","has-gutter-xdesktop-or-less-0.5rem":"_has-gutter-xdesktop-or-less-0.5rem_qby0f_349","has-gutter-xwidescreen-or-less-0.5rem":"_has-gutter-xwidescreen-or-less-0.5rem_qby0f_349","has-gutter-xfullhd-or-less-0.5rem":"_has-gutter-xfullhd-or-less-0.5rem_qby0f_349","has-gutter-xtablet-0.5rem":"_has-gutter-xtablet-0.5rem_qby0f_354","has-gutter-xtablet-or-more-0.5rem":"_has-gutter-xtablet-or-more-0.5rem_qby0f_354","has-gutter-xdesktop-0.5rem":"_has-gutter-xdesktop-0.5rem_qby0f_359","has-gutter-xdesktop-or-more-0.5rem":"_has-gutter-xdesktop-or-more-0.5rem_qby0f_359","has-gutter-xwidescreen-0.5rem":"_has-gutter-xwidescreen-0.5rem_qby0f_364","has-gutter-xwidescreen-or-more-0.5rem":"_has-gutter-xwidescreen-or-more-0.5rem_qby0f_364","has-gutter-xfullhd-0.5rem":"_has-gutter-xfullhd-0.5rem_qby0f_369","has-gutter-ymobile-0.5rem":"_has-gutter-ymobile-0.5rem_qby0f_374","has-gutter-ymobile-or-more-0.5rem":"_has-gutter-ymobile-or-more-0.5rem_qby0f_374","has-gutter-ytablet-or-less-0.5rem":"_has-gutter-ytablet-or-less-0.5rem_qby0f_374","has-gutter-ydesktop-or-less-0.5rem":"_has-gutter-ydesktop-or-less-0.5rem_qby0f_374","has-gutter-ywidescreen-or-less-0.5rem":"_has-gutter-ywidescreen-or-less-0.5rem_qby0f_374","has-gutter-yfullhd-or-less-0.5rem":"_has-gutter-yfullhd-or-less-0.5rem_qby0f_374","has-gutter-ytablet-0.5rem":"_has-gutter-ytablet-0.5rem_qby0f_379","has-gutter-ytablet-or-more-0.5rem":"_has-gutter-ytablet-or-more-0.5rem_qby0f_379","has-gutter-ydesktop-0.5rem":"_has-gutter-ydesktop-0.5rem_qby0f_384","has-gutter-ydesktop-or-more-0.5rem":"_has-gutter-ydesktop-or-more-0.5rem_qby0f_384","has-gutter-ywidescreen-0.5rem":"_has-gutter-ywidescreen-0.5rem_qby0f_389","has-gutter-ywidescreen-or-more-0.5rem":"_has-gutter-ywidescreen-or-more-0.5rem_qby0f_389","has-gutter-yfullhd-0.5rem":"_has-gutter-yfullhd-0.5rem_qby0f_394","has-gutter-0.75rem":"_has-gutter-0.75rem_qby0f_398","has-gutter-x-0.75rem":"_has-gutter-x-0.75rem_qby0f_402","has-gutter-y-0.75rem":"_has-gutter-y-0.75rem_qby0f_405","has-gutter-mobile-0.75rem":"_has-gutter-mobile-0.75rem_qby0f_409","has-gutter-mobile-or-more-0.75rem":"_has-gutter-mobile-or-more-0.75rem_qby0f_409","has-gutter-tablet-or-less-0.75rem":"_has-gutter-tablet-or-less-0.75rem_qby0f_409","has-gutter-desktop-or-less-0.75rem":"_has-gutter-desktop-or-less-0.75rem_qby0f_409","has-gutter-widescreen-or-less-0.75rem":"_has-gutter-widescreen-or-less-0.75rem_qby0f_409","has-gutter-fullhd-or-less-0.75rem":"_has-gutter-fullhd-or-less-0.75rem_qby0f_409","has-gutter-tablet-0.75rem":"_has-gutter-tablet-0.75rem_qby0f_415","has-gutter-tablet-or-more-0.75rem":"_has-gutter-tablet-or-more-0.75rem_qby0f_415","has-gutter-desktop-0.75rem":"_has-gutter-desktop-0.75rem_qby0f_421","has-gutter-desktop-or-more-0.75rem":"_has-gutter-desktop-or-more-0.75rem_qby0f_421","has-gutter-widescreen-0.75rem":"_has-gutter-widescreen-0.75rem_qby0f_427","has-gutter-widescreen-or-more-0.75rem":"_has-gutter-widescreen-or-more-0.75rem_qby0f_427","has-gutter-fullhd-0.75rem":"_has-gutter-fullhd-0.75rem_qby0f_433","has-gutter-xmobile-0.75rem":"_has-gutter-xmobile-0.75rem_qby0f_439","has-gutter-xmobile-or-more-0.75rem":"_has-gutter-xmobile-or-more-0.75rem_qby0f_439","has-gutter-xtablet-or-less-0.75rem":"_has-gutter-xtablet-or-less-0.75rem_qby0f_439","has-gutter-xdesktop-or-less-0.75rem":"_has-gutter-xdesktop-or-less-0.75rem_qby0f_439","has-gutter-xwidescreen-or-less-0.75rem":"_has-gutter-xwidescreen-or-less-0.75rem_qby0f_439","has-gutter-xfullhd-or-less-0.75rem":"_has-gutter-xfullhd-or-less-0.75rem_qby0f_439","has-gutter-xtablet-0.75rem":"_has-gutter-xtablet-0.75rem_qby0f_444","has-gutter-xtablet-or-more-0.75rem":"_has-gutter-xtablet-or-more-0.75rem_qby0f_444","has-gutter-xdesktop-0.75rem":"_has-gutter-xdesktop-0.75rem_qby0f_449","has-gutter-xdesktop-or-more-0.75rem":"_has-gutter-xdesktop-or-more-0.75rem_qby0f_449","has-gutter-xwidescreen-0.75rem":"_has-gutter-xwidescreen-0.75rem_qby0f_454","has-gutter-xwidescreen-or-more-0.75rem":"_has-gutter-xwidescreen-or-more-0.75rem_qby0f_454","has-gutter-xfullhd-0.75rem":"_has-gutter-xfullhd-0.75rem_qby0f_459","has-gutter-ymobile-0.75rem":"_has-gutter-ymobile-0.75rem_qby0f_464","has-gutter-ymobile-or-more-0.75rem":"_has-gutter-ymobile-or-more-0.75rem_qby0f_464","has-gutter-ytablet-or-less-0.75rem":"_has-gutter-ytablet-or-less-0.75rem_qby0f_464","has-gutter-ydesktop-or-less-0.75rem":"_has-gutter-ydesktop-or-less-0.75rem_qby0f_464","has-gutter-ywidescreen-or-less-0.75rem":"_has-gutter-ywidescreen-or-less-0.75rem_qby0f_464","has-gutter-yfullhd-or-less-0.75rem":"_has-gutter-yfullhd-or-less-0.75rem_qby0f_464","has-gutter-ytablet-0.75rem":"_has-gutter-ytablet-0.75rem_qby0f_469","has-gutter-ytablet-or-more-0.75rem":"_has-gutter-ytablet-or-more-0.75rem_qby0f_469","has-gutter-ydesktop-0.75rem":"_has-gutter-ydesktop-0.75rem_qby0f_474","has-gutter-ydesktop-or-more-0.75rem":"_has-gutter-ydesktop-or-more-0.75rem_qby0f_474","has-gutter-ywidescreen-0.75rem":"_has-gutter-ywidescreen-0.75rem_qby0f_479","has-gutter-ywidescreen-or-more-0.75rem":"_has-gutter-ywidescreen-or-more-0.75rem_qby0f_479","has-gutter-yfullhd-0.75rem":"_has-gutter-yfullhd-0.75rem_qby0f_484","has-gutter-1rem":"_has-gutter-1rem_qby0f_488","has-gutter-x-1rem":"_has-gutter-x-1rem_qby0f_492","has-gutter-y-1rem":"_has-gutter-y-1rem_qby0f_495","has-gutter-mobile-1rem":"_has-gutter-mobile-1rem_qby0f_499","has-gutter-mobile-or-more-1rem":"_has-gutter-mobile-or-more-1rem_qby0f_499","has-gutter-tablet-or-less-1rem":"_has-gutter-tablet-or-less-1rem_qby0f_499","has-gutter-desktop-or-less-1rem":"_has-gutter-desktop-or-less-1rem_qby0f_499","has-gutter-widescreen-or-less-1rem":"_has-gutter-widescreen-or-less-1rem_qby0f_499","has-gutter-fullhd-or-less-1rem":"_has-gutter-fullhd-or-less-1rem_qby0f_499","has-gutter-tablet-1rem":"_has-gutter-tablet-1rem_qby0f_505","has-gutter-tablet-or-more-1rem":"_has-gutter-tablet-or-more-1rem_qby0f_505","has-gutter-desktop-1rem":"_has-gutter-desktop-1rem_qby0f_511","has-gutter-desktop-or-more-1rem":"_has-gutter-desktop-or-more-1rem_qby0f_511","has-gutter-widescreen-1rem":"_has-gutter-widescreen-1rem_qby0f_517","has-gutter-widescreen-or-more-1rem":"_has-gutter-widescreen-or-more-1rem_qby0f_517","has-gutter-fullhd-1rem":"_has-gutter-fullhd-1rem_qby0f_523","has-gutter-xmobile-1rem":"_has-gutter-xmobile-1rem_qby0f_529","has-gutter-xmobile-or-more-1rem":"_has-gutter-xmobile-or-more-1rem_qby0f_529","has-gutter-xtablet-or-less-1rem":"_has-gutter-xtablet-or-less-1rem_qby0f_529","has-gutter-xdesktop-or-less-1rem":"_has-gutter-xdesktop-or-less-1rem_qby0f_529","has-gutter-xwidescreen-or-less-1rem":"_has-gutter-xwidescreen-or-less-1rem_qby0f_529","has-gutter-xfullhd-or-less-1rem":"_has-gutter-xfullhd-or-less-1rem_qby0f_529","has-gutter-xtablet-1rem":"_has-gutter-xtablet-1rem_qby0f_534","has-gutter-xtablet-or-more-1rem":"_has-gutter-xtablet-or-more-1rem_qby0f_534","has-gutter-xdesktop-1rem":"_has-gutter-xdesktop-1rem_qby0f_539","has-gutter-xdesktop-or-more-1rem":"_has-gutter-xdesktop-or-more-1rem_qby0f_539","has-gutter-xwidescreen-1rem":"_has-gutter-xwidescreen-1rem_qby0f_544","has-gutter-xwidescreen-or-more-1rem":"_has-gutter-xwidescreen-or-more-1rem_qby0f_544","has-gutter-xfullhd-1rem":"_has-gutter-xfullhd-1rem_qby0f_549","has-gutter-ymobile-1rem":"_has-gutter-ymobile-1rem_qby0f_554","has-gutter-ymobile-or-more-1rem":"_has-gutter-ymobile-or-more-1rem_qby0f_554","has-gutter-ytablet-or-less-1rem":"_has-gutter-ytablet-or-less-1rem_qby0f_554","has-gutter-ydesktop-or-less-1rem":"_has-gutter-ydesktop-or-less-1rem_qby0f_554","has-gutter-ywidescreen-or-less-1rem":"_has-gutter-ywidescreen-or-less-1rem_qby0f_554","has-gutter-yfullhd-or-less-1rem":"_has-gutter-yfullhd-or-less-1rem_qby0f_554","has-gutter-ytablet-1rem":"_has-gutter-ytablet-1rem_qby0f_559","has-gutter-ytablet-or-more-1rem":"_has-gutter-ytablet-or-more-1rem_qby0f_559","has-gutter-ydesktop-1rem":"_has-gutter-ydesktop-1rem_qby0f_564","has-gutter-ydesktop-or-more-1rem":"_has-gutter-ydesktop-or-more-1rem_qby0f_564","has-gutter-ywidescreen-1rem":"_has-gutter-ywidescreen-1rem_qby0f_569","has-gutter-ywidescreen-or-more-1rem":"_has-gutter-ywidescreen-or-more-1rem_qby0f_569","has-gutter-yfullhd-1rem":"_has-gutter-yfullhd-1rem_qby0f_574","has-gutter-1.25rem":"_has-gutter-1.25rem_qby0f_578","has-gutter-x-1.25rem":"_has-gutter-x-1.25rem_qby0f_582","has-gutter-y-1.25rem":"_has-gutter-y-1.25rem_qby0f_585","has-gutter-mobile-1.25rem":"_has-gutter-mobile-1.25rem_qby0f_589","has-gutter-mobile-or-more-1.25rem":"_has-gutter-mobile-or-more-1.25rem_qby0f_589","has-gutter-tablet-or-less-1.25rem":"_has-gutter-tablet-or-less-1.25rem_qby0f_589","has-gutter-desktop-or-less-1.25rem":"_has-gutter-desktop-or-less-1.25rem_qby0f_589","has-gutter-widescreen-or-less-1.25rem":"_has-gutter-widescreen-or-less-1.25rem_qby0f_589","has-gutter-fullhd-or-less-1.25rem":"_has-gutter-fullhd-or-less-1.25rem_qby0f_589","has-gutter-tablet-1.25rem":"_has-gutter-tablet-1.25rem_qby0f_595","has-gutter-tablet-or-more-1.25rem":"_has-gutter-tablet-or-more-1.25rem_qby0f_595","has-gutter-desktop-1.25rem":"_has-gutter-desktop-1.25rem_qby0f_601","has-gutter-desktop-or-more-1.25rem":"_has-gutter-desktop-or-more-1.25rem_qby0f_601","has-gutter-widescreen-1.25rem":"_has-gutter-widescreen-1.25rem_qby0f_607","has-gutter-widescreen-or-more-1.25rem":"_has-gutter-widescreen-or-more-1.25rem_qby0f_607","has-gutter-fullhd-1.25rem":"_has-gutter-fullhd-1.25rem_qby0f_613","has-gutter-xmobile-1.25rem":"_has-gutter-xmobile-1.25rem_qby0f_619","has-gutter-xmobile-or-more-1.25rem":"_has-gutter-xmobile-or-more-1.25rem_qby0f_619","has-gutter-xtablet-or-less-1.25rem":"_has-gutter-xtablet-or-less-1.25rem_qby0f_619","has-gutter-xdesktop-or-less-1.25rem":"_has-gutter-xdesktop-or-less-1.25rem_qby0f_619","has-gutter-xwidescreen-or-less-1.25rem":"_has-gutter-xwidescreen-or-less-1.25rem_qby0f_619","has-gutter-xfullhd-or-less-1.25rem":"_has-gutter-xfullhd-or-less-1.25rem_qby0f_619","has-gutter-xtablet-1.25rem":"_has-gutter-xtablet-1.25rem_qby0f_624","has-gutter-xtablet-or-more-1.25rem":"_has-gutter-xtablet-or-more-1.25rem_qby0f_624","has-gutter-xdesktop-1.25rem":"_has-gutter-xdesktop-1.25rem_qby0f_629","has-gutter-xdesktop-or-more-1.25rem":"_has-gutter-xdesktop-or-more-1.25rem_qby0f_629","has-gutter-xwidescreen-1.25rem":"_has-gutter-xwidescreen-1.25rem_qby0f_634","has-gutter-xwidescreen-or-more-1.25rem":"_has-gutter-xwidescreen-or-more-1.25rem_qby0f_634","has-gutter-xfullhd-1.25rem":"_has-gutter-xfullhd-1.25rem_qby0f_639","has-gutter-ymobile-1.25rem":"_has-gutter-ymobile-1.25rem_qby0f_644","has-gutter-ymobile-or-more-1.25rem":"_has-gutter-ymobile-or-more-1.25rem_qby0f_644","has-gutter-ytablet-or-less-1.25rem":"_has-gutter-ytablet-or-less-1.25rem_qby0f_644","has-gutter-ydesktop-or-less-1.25rem":"_has-gutter-ydesktop-or-less-1.25rem_qby0f_644","has-gutter-ywidescreen-or-less-1.25rem":"_has-gutter-ywidescreen-or-less-1.25rem_qby0f_644","has-gutter-yfullhd-or-less-1.25rem":"_has-gutter-yfullhd-or-less-1.25rem_qby0f_644","has-gutter-ytablet-1.25rem":"_has-gutter-ytablet-1.25rem_qby0f_649","has-gutter-ytablet-or-more-1.25rem":"_has-gutter-ytablet-or-more-1.25rem_qby0f_649","has-gutter-ydesktop-1.25rem":"_has-gutter-ydesktop-1.25rem_qby0f_654","has-gutter-ydesktop-or-more-1.25rem":"_has-gutter-ydesktop-or-more-1.25rem_qby0f_654","has-gutter-ywidescreen-1.25rem":"_has-gutter-ywidescreen-1.25rem_qby0f_659","has-gutter-ywidescreen-or-more-1.25rem":"_has-gutter-ywidescreen-or-more-1.25rem_qby0f_659","has-gutter-yfullhd-1.25rem":"_has-gutter-yfullhd-1.25rem_qby0f_664","has-gutter-1.5rem":"_has-gutter-1.5rem_qby0f_668","has-gutter-x-1.5rem":"_has-gutter-x-1.5rem_qby0f_672","has-gutter-y-1.5rem":"_has-gutter-y-1.5rem_qby0f_675","has-gutter-mobile-1.5rem":"_has-gutter-mobile-1.5rem_qby0f_679","has-gutter-mobile-or-more-1.5rem":"_has-gutter-mobile-or-more-1.5rem_qby0f_679","has-gutter-tablet-or-less-1.5rem":"_has-gutter-tablet-or-less-1.5rem_qby0f_679","has-gutter-desktop-or-less-1.5rem":"_has-gutter-desktop-or-less-1.5rem_qby0f_679","has-gutter-widescreen-or-less-1.5rem":"_has-gutter-widescreen-or-less-1.5rem_qby0f_679","has-gutter-fullhd-or-less-1.5rem":"_has-gutter-fullhd-or-less-1.5rem_qby0f_679","has-gutter-tablet-1.5rem":"_has-gutter-tablet-1.5rem_qby0f_685","has-gutter-tablet-or-more-1.5rem":"_has-gutter-tablet-or-more-1.5rem_qby0f_685","has-gutter-desktop-1.5rem":"_has-gutter-desktop-1.5rem_qby0f_691","has-gutter-desktop-or-more-1.5rem":"_has-gutter-desktop-or-more-1.5rem_qby0f_691","has-gutter-widescreen-1.5rem":"_has-gutter-widescreen-1.5rem_qby0f_697","has-gutter-widescreen-or-more-1.5rem":"_has-gutter-widescreen-or-more-1.5rem_qby0f_697","has-gutter-fullhd-1.5rem":"_has-gutter-fullhd-1.5rem_qby0f_703","has-gutter-xmobile-1.5rem":"_has-gutter-xmobile-1.5rem_qby0f_709","has-gutter-xmobile-or-more-1.5rem":"_has-gutter-xmobile-or-more-1.5rem_qby0f_709","has-gutter-xtablet-or-less-1.5rem":"_has-gutter-xtablet-or-less-1.5rem_qby0f_709","has-gutter-xdesktop-or-less-1.5rem":"_has-gutter-xdesktop-or-less-1.5rem_qby0f_709","has-gutter-xwidescreen-or-less-1.5rem":"_has-gutter-xwidescreen-or-less-1.5rem_qby0f_709","has-gutter-xfullhd-or-less-1.5rem":"_has-gutter-xfullhd-or-less-1.5rem_qby0f_709","has-gutter-xtablet-1.5rem":"_has-gutter-xtablet-1.5rem_qby0f_714","has-gutter-xtablet-or-more-1.5rem":"_has-gutter-xtablet-or-more-1.5rem_qby0f_714","has-gutter-xdesktop-1.5rem":"_has-gutter-xdesktop-1.5rem_qby0f_719","has-gutter-xdesktop-or-more-1.5rem":"_has-gutter-xdesktop-or-more-1.5rem_qby0f_719","has-gutter-xwidescreen-1.5rem":"_has-gutter-xwidescreen-1.5rem_qby0f_724","has-gutter-xwidescreen-or-more-1.5rem":"_has-gutter-xwidescreen-or-more-1.5rem_qby0f_724","has-gutter-xfullhd-1.5rem":"_has-gutter-xfullhd-1.5rem_qby0f_729","has-gutter-ymobile-1.5rem":"_has-gutter-ymobile-1.5rem_qby0f_734","has-gutter-ymobile-or-more-1.5rem":"_has-gutter-ymobile-or-more-1.5rem_qby0f_734","has-gutter-ytablet-or-less-1.5rem":"_has-gutter-ytablet-or-less-1.5rem_qby0f_734","has-gutter-ydesktop-or-less-1.5rem":"_has-gutter-ydesktop-or-less-1.5rem_qby0f_734","has-gutter-ywidescreen-or-less-1.5rem":"_has-gutter-ywidescreen-or-less-1.5rem_qby0f_734","has-gutter-yfullhd-or-less-1.5rem":"_has-gutter-yfullhd-or-less-1.5rem_qby0f_734","has-gutter-ytablet-1.5rem":"_has-gutter-ytablet-1.5rem_qby0f_739","has-gutter-ytablet-or-more-1.5rem":"_has-gutter-ytablet-or-more-1.5rem_qby0f_739","has-gutter-ydesktop-1.5rem":"_has-gutter-ydesktop-1.5rem_qby0f_744","has-gutter-ydesktop-or-more-1.5rem":"_has-gutter-ydesktop-or-more-1.5rem_qby0f_744","has-gutter-ywidescreen-1.5rem":"_has-gutter-ywidescreen-1.5rem_qby0f_749","has-gutter-ywidescreen-or-more-1.5rem":"_has-gutter-ywidescreen-or-more-1.5rem_qby0f_749","has-gutter-yfullhd-1.5rem":"_has-gutter-yfullhd-1.5rem_qby0f_754","has-gutter-1.75rem":"_has-gutter-1.75rem_qby0f_758","has-gutter-x-1.75rem":"_has-gutter-x-1.75rem_qby0f_762","has-gutter-y-1.75rem":"_has-gutter-y-1.75rem_qby0f_765","has-gutter-mobile-1.75rem":"_has-gutter-mobile-1.75rem_qby0f_769","has-gutter-mobile-or-more-1.75rem":"_has-gutter-mobile-or-more-1.75rem_qby0f_769","has-gutter-tablet-or-less-1.75rem":"_has-gutter-tablet-or-less-1.75rem_qby0f_769","has-gutter-desktop-or-less-1.75rem":"_has-gutter-desktop-or-less-1.75rem_qby0f_769","has-gutter-widescreen-or-less-1.75rem":"_has-gutter-widescreen-or-less-1.75rem_qby0f_769","has-gutter-fullhd-or-less-1.75rem":"_has-gutter-fullhd-or-less-1.75rem_qby0f_769","has-gutter-tablet-1.75rem":"_has-gutter-tablet-1.75rem_qby0f_775","has-gutter-tablet-or-more-1.75rem":"_has-gutter-tablet-or-more-1.75rem_qby0f_775","has-gutter-desktop-1.75rem":"_has-gutter-desktop-1.75rem_qby0f_781","has-gutter-desktop-or-more-1.75rem":"_has-gutter-desktop-or-more-1.75rem_qby0f_781","has-gutter-widescreen-1.75rem":"_has-gutter-widescreen-1.75rem_qby0f_787","has-gutter-widescreen-or-more-1.75rem":"_has-gutter-widescreen-or-more-1.75rem_qby0f_787","has-gutter-fullhd-1.75rem":"_has-gutter-fullhd-1.75rem_qby0f_793","has-gutter-xmobile-1.75rem":"_has-gutter-xmobile-1.75rem_qby0f_799","has-gutter-xmobile-or-more-1.75rem":"_has-gutter-xmobile-or-more-1.75rem_qby0f_799","has-gutter-xtablet-or-less-1.75rem":"_has-gutter-xtablet-or-less-1.75rem_qby0f_799","has-gutter-xdesktop-or-less-1.75rem":"_has-gutter-xdesktop-or-less-1.75rem_qby0f_799","has-gutter-xwidescreen-or-less-1.75rem":"_has-gutter-xwidescreen-or-less-1.75rem_qby0f_799","has-gutter-xfullhd-or-less-1.75rem":"_has-gutter-xfullhd-or-less-1.75rem_qby0f_799","has-gutter-xtablet-1.75rem":"_has-gutter-xtablet-1.75rem_qby0f_804","has-gutter-xtablet-or-more-1.75rem":"_has-gutter-xtablet-or-more-1.75rem_qby0f_804","has-gutter-xdesktop-1.75rem":"_has-gutter-xdesktop-1.75rem_qby0f_809","has-gutter-xdesktop-or-more-1.75rem":"_has-gutter-xdesktop-or-more-1.75rem_qby0f_809","has-gutter-xwidescreen-1.75rem":"_has-gutter-xwidescreen-1.75rem_qby0f_814","has-gutter-xwidescreen-or-more-1.75rem":"_has-gutter-xwidescreen-or-more-1.75rem_qby0f_814","has-gutter-xfullhd-1.75rem":"_has-gutter-xfullhd-1.75rem_qby0f_819","has-gutter-ymobile-1.75rem":"_has-gutter-ymobile-1.75rem_qby0f_824","has-gutter-ymobile-or-more-1.75rem":"_has-gutter-ymobile-or-more-1.75rem_qby0f_824","has-gutter-ytablet-or-less-1.75rem":"_has-gutter-ytablet-or-less-1.75rem_qby0f_824","has-gutter-ydesktop-or-less-1.75rem":"_has-gutter-ydesktop-or-less-1.75rem_qby0f_824","has-gutter-ywidescreen-or-less-1.75rem":"_has-gutter-ywidescreen-or-less-1.75rem_qby0f_824","has-gutter-yfullhd-or-less-1.75rem":"_has-gutter-yfullhd-or-less-1.75rem_qby0f_824","has-gutter-ytablet-1.75rem":"_has-gutter-ytablet-1.75rem_qby0f_829","has-gutter-ytablet-or-more-1.75rem":"_has-gutter-ytablet-or-more-1.75rem_qby0f_829","has-gutter-ydesktop-1.75rem":"_has-gutter-ydesktop-1.75rem_qby0f_834","has-gutter-ydesktop-or-more-1.75rem":"_has-gutter-ydesktop-or-more-1.75rem_qby0f_834","has-gutter-ywidescreen-1.75rem":"_has-gutter-ywidescreen-1.75rem_qby0f_839","has-gutter-ywidescreen-or-more-1.75rem":"_has-gutter-ywidescreen-or-more-1.75rem_qby0f_839","has-gutter-yfullhd-1.75rem":"_has-gutter-yfullhd-1.75rem_qby0f_844","has-gutter-2rem":"_has-gutter-2rem_qby0f_848","has-gutter-x-2rem":"_has-gutter-x-2rem_qby0f_852","has-gutter-y-2rem":"_has-gutter-y-2rem_qby0f_855","has-gutter-mobile-2rem":"_has-gutter-mobile-2rem_qby0f_859","has-gutter-mobile-or-more-2rem":"_has-gutter-mobile-or-more-2rem_qby0f_859","has-gutter-tablet-or-less-2rem":"_has-gutter-tablet-or-less-2rem_qby0f_859","has-gutter-desktop-or-less-2rem":"_has-gutter-desktop-or-less-2rem_qby0f_859","has-gutter-widescreen-or-less-2rem":"_has-gutter-widescreen-or-less-2rem_qby0f_859","has-gutter-fullhd-or-less-2rem":"_has-gutter-fullhd-or-less-2rem_qby0f_859","has-gutter-tablet-2rem":"_has-gutter-tablet-2rem_qby0f_865","has-gutter-tablet-or-more-2rem":"_has-gutter-tablet-or-more-2rem_qby0f_865","has-gutter-desktop-2rem":"_has-gutter-desktop-2rem_qby0f_871","has-gutter-desktop-or-more-2rem":"_has-gutter-desktop-or-more-2rem_qby0f_871","has-gutter-widescreen-2rem":"_has-gutter-widescreen-2rem_qby0f_877","has-gutter-widescreen-or-more-2rem":"_has-gutter-widescreen-or-more-2rem_qby0f_877","has-gutter-fullhd-2rem":"_has-gutter-fullhd-2rem_qby0f_883","has-gutter-xmobile-2rem":"_has-gutter-xmobile-2rem_qby0f_889","has-gutter-xmobile-or-more-2rem":"_has-gutter-xmobile-or-more-2rem_qby0f_889","has-gutter-xtablet-or-less-2rem":"_has-gutter-xtablet-or-less-2rem_qby0f_889","has-gutter-xdesktop-or-less-2rem":"_has-gutter-xdesktop-or-less-2rem_qby0f_889","has-gutter-xwidescreen-or-less-2rem":"_has-gutter-xwidescreen-or-less-2rem_qby0f_889","has-gutter-xfullhd-or-less-2rem":"_has-gutter-xfullhd-or-less-2rem_qby0f_889","has-gutter-xtablet-2rem":"_has-gutter-xtablet-2rem_qby0f_894","has-gutter-xtablet-or-more-2rem":"_has-gutter-xtablet-or-more-2rem_qby0f_894","has-gutter-xdesktop-2rem":"_has-gutter-xdesktop-2rem_qby0f_899","has-gutter-xdesktop-or-more-2rem":"_has-gutter-xdesktop-or-more-2rem_qby0f_899","has-gutter-xwidescreen-2rem":"_has-gutter-xwidescreen-2rem_qby0f_904","has-gutter-xwidescreen-or-more-2rem":"_has-gutter-xwidescreen-or-more-2rem_qby0f_904","has-gutter-xfullhd-2rem":"_has-gutter-xfullhd-2rem_qby0f_909","has-gutter-ymobile-2rem":"_has-gutter-ymobile-2rem_qby0f_914","has-gutter-ymobile-or-more-2rem":"_has-gutter-ymobile-or-more-2rem_qby0f_914","has-gutter-ytablet-or-less-2rem":"_has-gutter-ytablet-or-less-2rem_qby0f_914","has-gutter-ydesktop-or-less-2rem":"_has-gutter-ydesktop-or-less-2rem_qby0f_914","has-gutter-ywidescreen-or-less-2rem":"_has-gutter-ywidescreen-or-less-2rem_qby0f_914","has-gutter-yfullhd-or-less-2rem":"_has-gutter-yfullhd-or-less-2rem_qby0f_914","has-gutter-ytablet-2rem":"_has-gutter-ytablet-2rem_qby0f_919","has-gutter-ytablet-or-more-2rem":"_has-gutter-ytablet-or-more-2rem_qby0f_919","has-gutter-ydesktop-2rem":"_has-gutter-ydesktop-2rem_qby0f_924","has-gutter-ydesktop-or-more-2rem":"_has-gutter-ydesktop-or-more-2rem_qby0f_924","has-gutter-ywidescreen-2rem":"_has-gutter-ywidescreen-2rem_qby0f_929","has-gutter-ywidescreen-or-more-2rem":"_has-gutter-ywidescreen-or-more-2rem_qby0f_929","has-gutter-yfullhd-2rem":"_has-gutter-yfullhd-2rem_qby0f_934","has-gutter-2.25rem":"_has-gutter-2.25rem_qby0f_938","has-gutter-x-2.25rem":"_has-gutter-x-2.25rem_qby0f_942","has-gutter-y-2.25rem":"_has-gutter-y-2.25rem_qby0f_945","has-gutter-mobile-2.25rem":"_has-gutter-mobile-2.25rem_qby0f_949","has-gutter-mobile-or-more-2.25rem":"_has-gutter-mobile-or-more-2.25rem_qby0f_949","has-gutter-tablet-or-less-2.25rem":"_has-gutter-tablet-or-less-2.25rem_qby0f_949","has-gutter-desktop-or-less-2.25rem":"_has-gutter-desktop-or-less-2.25rem_qby0f_949","has-gutter-widescreen-or-less-2.25rem":"_has-gutter-widescreen-or-less-2.25rem_qby0f_949","has-gutter-fullhd-or-less-2.25rem":"_has-gutter-fullhd-or-less-2.25rem_qby0f_949","has-gutter-tablet-2.25rem":"_has-gutter-tablet-2.25rem_qby0f_955","has-gutter-tablet-or-more-2.25rem":"_has-gutter-tablet-or-more-2.25rem_qby0f_955","has-gutter-desktop-2.25rem":"_has-gutter-desktop-2.25rem_qby0f_961","has-gutter-desktop-or-more-2.25rem":"_has-gutter-desktop-or-more-2.25rem_qby0f_961","has-gutter-widescreen-2.25rem":"_has-gutter-widescreen-2.25rem_qby0f_967","has-gutter-widescreen-or-more-2.25rem":"_has-gutter-widescreen-or-more-2.25rem_qby0f_967","has-gutter-fullhd-2.25rem":"_has-gutter-fullhd-2.25rem_qby0f_973","has-gutter-xmobile-2.25rem":"_has-gutter-xmobile-2.25rem_qby0f_979","has-gutter-xmobile-or-more-2.25rem":"_has-gutter-xmobile-or-more-2.25rem_qby0f_979","has-gutter-xtablet-or-less-2.25rem":"_has-gutter-xtablet-or-less-2.25rem_qby0f_979","has-gutter-xdesktop-or-less-2.25rem":"_has-gutter-xdesktop-or-less-2.25rem_qby0f_979","has-gutter-xwidescreen-or-less-2.25rem":"_has-gutter-xwidescreen-or-less-2.25rem_qby0f_979","has-gutter-xfullhd-or-less-2.25rem":"_has-gutter-xfullhd-or-less-2.25rem_qby0f_979","has-gutter-xtablet-2.25rem":"_has-gutter-xtablet-2.25rem_qby0f_984","has-gutter-xtablet-or-more-2.25rem":"_has-gutter-xtablet-or-more-2.25rem_qby0f_984","has-gutter-xdesktop-2.25rem":"_has-gutter-xdesktop-2.25rem_qby0f_989","has-gutter-xdesktop-or-more-2.25rem":"_has-gutter-xdesktop-or-more-2.25rem_qby0f_989","has-gutter-xwidescreen-2.25rem":"_has-gutter-xwidescreen-2.25rem_qby0f_994","has-gutter-xwidescreen-or-more-2.25rem":"_has-gutter-xwidescreen-or-more-2.25rem_qby0f_994","has-gutter-xfullhd-2.25rem":"_has-gutter-xfullhd-2.25rem_qby0f_999","has-gutter-ymobile-2.25rem":"_has-gutter-ymobile-2.25rem_qby0f_1004","has-gutter-ymobile-or-more-2.25rem":"_has-gutter-ymobile-or-more-2.25rem_qby0f_1004","has-gutter-ytablet-or-less-2.25rem":"_has-gutter-ytablet-or-less-2.25rem_qby0f_1004","has-gutter-ydesktop-or-less-2.25rem":"_has-gutter-ydesktop-or-less-2.25rem_qby0f_1004","has-gutter-ywidescreen-or-less-2.25rem":"_has-gutter-ywidescreen-or-less-2.25rem_qby0f_1004","has-gutter-yfullhd-or-less-2.25rem":"_has-gutter-yfullhd-or-less-2.25rem_qby0f_1004","has-gutter-ytablet-2.25rem":"_has-gutter-ytablet-2.25rem_qby0f_1009","has-gutter-ytablet-or-more-2.25rem":"_has-gutter-ytablet-or-more-2.25rem_qby0f_1009","has-gutter-ydesktop-2.25rem":"_has-gutter-ydesktop-2.25rem_qby0f_1014","has-gutter-ydesktop-or-more-2.25rem":"_has-gutter-ydesktop-or-more-2.25rem_qby0f_1014","has-gutter-ywidescreen-2.25rem":"_has-gutter-ywidescreen-2.25rem_qby0f_1019","has-gutter-ywidescreen-or-more-2.25rem":"_has-gutter-ywidescreen-or-more-2.25rem_qby0f_1019","has-gutter-yfullhd-2.25rem":"_has-gutter-yfullhd-2.25rem_qby0f_1024","has-gutter-2.5rem":"_has-gutter-2.5rem_qby0f_1028","has-gutter-x-2.5rem":"_has-gutter-x-2.5rem_qby0f_1032","has-gutter-y-2.5rem":"_has-gutter-y-2.5rem_qby0f_1035","has-gutter-mobile-2.5rem":"_has-gutter-mobile-2.5rem_qby0f_1039","has-gutter-mobile-or-more-2.5rem":"_has-gutter-mobile-or-more-2.5rem_qby0f_1039","has-gutter-tablet-or-less-2.5rem":"_has-gutter-tablet-or-less-2.5rem_qby0f_1039","has-gutter-desktop-or-less-2.5rem":"_has-gutter-desktop-or-less-2.5rem_qby0f_1039","has-gutter-widescreen-or-less-2.5rem":"_has-gutter-widescreen-or-less-2.5rem_qby0f_1039","has-gutter-fullhd-or-less-2.5rem":"_has-gutter-fullhd-or-less-2.5rem_qby0f_1039","has-gutter-tablet-2.5rem":"_has-gutter-tablet-2.5rem_qby0f_1045","has-gutter-tablet-or-more-2.5rem":"_has-gutter-tablet-or-more-2.5rem_qby0f_1045","has-gutter-desktop-2.5rem":"_has-gutter-desktop-2.5rem_qby0f_1051","has-gutter-desktop-or-more-2.5rem":"_has-gutter-desktop-or-more-2.5rem_qby0f_1051","has-gutter-widescreen-2.5rem":"_has-gutter-widescreen-2.5rem_qby0f_1057","has-gutter-widescreen-or-more-2.5rem":"_has-gutter-widescreen-or-more-2.5rem_qby0f_1057","has-gutter-fullhd-2.5rem":"_has-gutter-fullhd-2.5rem_qby0f_1063","has-gutter-xmobile-2.5rem":"_has-gutter-xmobile-2.5rem_qby0f_1069","has-gutter-xmobile-or-more-2.5rem":"_has-gutter-xmobile-or-more-2.5rem_qby0f_1069","has-gutter-xtablet-or-less-2.5rem":"_has-gutter-xtablet-or-less-2.5rem_qby0f_1069","has-gutter-xdesktop-or-less-2.5rem":"_has-gutter-xdesktop-or-less-2.5rem_qby0f_1069","has-gutter-xwidescreen-or-less-2.5rem":"_has-gutter-xwidescreen-or-less-2.5rem_qby0f_1069","has-gutter-xfullhd-or-less-2.5rem":"_has-gutter-xfullhd-or-less-2.5rem_qby0f_1069","has-gutter-xtablet-2.5rem":"_has-gutter-xtablet-2.5rem_qby0f_1074","has-gutter-xtablet-or-more-2.5rem":"_has-gutter-xtablet-or-more-2.5rem_qby0f_1074","has-gutter-xdesktop-2.5rem":"_has-gutter-xdesktop-2.5rem_qby0f_1079","has-gutter-xdesktop-or-more-2.5rem":"_has-gutter-xdesktop-or-more-2.5rem_qby0f_1079","has-gutter-xwidescreen-2.5rem":"_has-gutter-xwidescreen-2.5rem_qby0f_1084","has-gutter-xwidescreen-or-more-2.5rem":"_has-gutter-xwidescreen-or-more-2.5rem_qby0f_1084","has-gutter-xfullhd-2.5rem":"_has-gutter-xfullhd-2.5rem_qby0f_1089","has-gutter-ymobile-2.5rem":"_has-gutter-ymobile-2.5rem_qby0f_1094","has-gutter-ymobile-or-more-2.5rem":"_has-gutter-ymobile-or-more-2.5rem_qby0f_1094","has-gutter-ytablet-or-less-2.5rem":"_has-gutter-ytablet-or-less-2.5rem_qby0f_1094","has-gutter-ydesktop-or-less-2.5rem":"_has-gutter-ydesktop-or-less-2.5rem_qby0f_1094","has-gutter-ywidescreen-or-less-2.5rem":"_has-gutter-ywidescreen-or-less-2.5rem_qby0f_1094","has-gutter-yfullhd-or-less-2.5rem":"_has-gutter-yfullhd-or-less-2.5rem_qby0f_1094","has-gutter-ytablet-2.5rem":"_has-gutter-ytablet-2.5rem_qby0f_1099","has-gutter-ytablet-or-more-2.5rem":"_has-gutter-ytablet-or-more-2.5rem_qby0f_1099","has-gutter-ydesktop-2.5rem":"_has-gutter-ydesktop-2.5rem_qby0f_1104","has-gutter-ydesktop-or-more-2.5rem":"_has-gutter-ydesktop-or-more-2.5rem_qby0f_1104","has-gutter-ywidescreen-2.5rem":"_has-gutter-ywidescreen-2.5rem_qby0f_1109","has-gutter-ywidescreen-or-more-2.5rem":"_has-gutter-ywidescreen-or-more-2.5rem_qby0f_1109","has-gutter-yfullhd-2.5rem":"_has-gutter-yfullhd-2.5rem_qby0f_1114","has-gutter-2.75rem":"_has-gutter-2.75rem_qby0f_1118","has-gutter-x-2.75rem":"_has-gutter-x-2.75rem_qby0f_1122","has-gutter-y-2.75rem":"_has-gutter-y-2.75rem_qby0f_1125","has-gutter-mobile-2.75rem":"_has-gutter-mobile-2.75rem_qby0f_1129","has-gutter-mobile-or-more-2.75rem":"_has-gutter-mobile-or-more-2.75rem_qby0f_1129","has-gutter-tablet-or-less-2.75rem":"_has-gutter-tablet-or-less-2.75rem_qby0f_1129","has-gutter-desktop-or-less-2.75rem":"_has-gutter-desktop-or-less-2.75rem_qby0f_1129","has-gutter-widescreen-or-less-2.75rem":"_has-gutter-widescreen-or-less-2.75rem_qby0f_1129","has-gutter-fullhd-or-less-2.75rem":"_has-gutter-fullhd-or-less-2.75rem_qby0f_1129","has-gutter-tablet-2.75rem":"_has-gutter-tablet-2.75rem_qby0f_1135","has-gutter-tablet-or-more-2.75rem":"_has-gutter-tablet-or-more-2.75rem_qby0f_1135","has-gutter-desktop-2.75rem":"_has-gutter-desktop-2.75rem_qby0f_1141","has-gutter-desktop-or-more-2.75rem":"_has-gutter-desktop-or-more-2.75rem_qby0f_1141","has-gutter-widescreen-2.75rem":"_has-gutter-widescreen-2.75rem_qby0f_1147","has-gutter-widescreen-or-more-2.75rem":"_has-gutter-widescreen-or-more-2.75rem_qby0f_1147","has-gutter-fullhd-2.75rem":"_has-gutter-fullhd-2.75rem_qby0f_1153","has-gutter-xmobile-2.75rem":"_has-gutter-xmobile-2.75rem_qby0f_1159","has-gutter-xmobile-or-more-2.75rem":"_has-gutter-xmobile-or-more-2.75rem_qby0f_1159","has-gutter-xtablet-or-less-2.75rem":"_has-gutter-xtablet-or-less-2.75rem_qby0f_1159","has-gutter-xdesktop-or-less-2.75rem":"_has-gutter-xdesktop-or-less-2.75rem_qby0f_1159","has-gutter-xwidescreen-or-less-2.75rem":"_has-gutter-xwidescreen-or-less-2.75rem_qby0f_1159","has-gutter-xfullhd-or-less-2.75rem":"_has-gutter-xfullhd-or-less-2.75rem_qby0f_1159","has-gutter-xtablet-2.75rem":"_has-gutter-xtablet-2.75rem_qby0f_1164","has-gutter-xtablet-or-more-2.75rem":"_has-gutter-xtablet-or-more-2.75rem_qby0f_1164","has-gutter-xdesktop-2.75rem":"_has-gutter-xdesktop-2.75rem_qby0f_1169","has-gutter-xdesktop-or-more-2.75rem":"_has-gutter-xdesktop-or-more-2.75rem_qby0f_1169","has-gutter-xwidescreen-2.75rem":"_has-gutter-xwidescreen-2.75rem_qby0f_1174","has-gutter-xwidescreen-or-more-2.75rem":"_has-gutter-xwidescreen-or-more-2.75rem_qby0f_1174","has-gutter-xfullhd-2.75rem":"_has-gutter-xfullhd-2.75rem_qby0f_1179","has-gutter-ymobile-2.75rem":"_has-gutter-ymobile-2.75rem_qby0f_1184","has-gutter-ymobile-or-more-2.75rem":"_has-gutter-ymobile-or-more-2.75rem_qby0f_1184","has-gutter-ytablet-or-less-2.75rem":"_has-gutter-ytablet-or-less-2.75rem_qby0f_1184","has-gutter-ydesktop-or-less-2.75rem":"_has-gutter-ydesktop-or-less-2.75rem_qby0f_1184","has-gutter-ywidescreen-or-less-2.75rem":"_has-gutter-ywidescreen-or-less-2.75rem_qby0f_1184","has-gutter-yfullhd-or-less-2.75rem":"_has-gutter-yfullhd-or-less-2.75rem_qby0f_1184","has-gutter-ytablet-2.75rem":"_has-gutter-ytablet-2.75rem_qby0f_1189","has-gutter-ytablet-or-more-2.75rem":"_has-gutter-ytablet-or-more-2.75rem_qby0f_1189","has-gutter-ydesktop-2.75rem":"_has-gutter-ydesktop-2.75rem_qby0f_1194","has-gutter-ydesktop-or-more-2.75rem":"_has-gutter-ydesktop-or-more-2.75rem_qby0f_1194","has-gutter-ywidescreen-2.75rem":"_has-gutter-ywidescreen-2.75rem_qby0f_1199","has-gutter-ywidescreen-or-more-2.75rem":"_has-gutter-ywidescreen-or-more-2.75rem_qby0f_1199","has-gutter-yfullhd-2.75rem":"_has-gutter-yfullhd-2.75rem_qby0f_1204","has-gutter-3rem":"_has-gutter-3rem_qby0f_1208","has-gutter-x-3rem":"_has-gutter-x-3rem_qby0f_1212","has-gutter-y-3rem":"_has-gutter-y-3rem_qby0f_1215","has-gutter-mobile-3rem":"_has-gutter-mobile-3rem_qby0f_1219","has-gutter-mobile-or-more-3rem":"_has-gutter-mobile-or-more-3rem_qby0f_1219","has-gutter-tablet-or-less-3rem":"_has-gutter-tablet-or-less-3rem_qby0f_1219","has-gutter-desktop-or-less-3rem":"_has-gutter-desktop-or-less-3rem_qby0f_1219","has-gutter-widescreen-or-less-3rem":"_has-gutter-widescreen-or-less-3rem_qby0f_1219","has-gutter-fullhd-or-less-3rem":"_has-gutter-fullhd-or-less-3rem_qby0f_1219","has-gutter-tablet-3rem":"_has-gutter-tablet-3rem_qby0f_1225","has-gutter-tablet-or-more-3rem":"_has-gutter-tablet-or-more-3rem_qby0f_1225","has-gutter-desktop-3rem":"_has-gutter-desktop-3rem_qby0f_1231","has-gutter-desktop-or-more-3rem":"_has-gutter-desktop-or-more-3rem_qby0f_1231","has-gutter-widescreen-3rem":"_has-gutter-widescreen-3rem_qby0f_1237","has-gutter-widescreen-or-more-3rem":"_has-gutter-widescreen-or-more-3rem_qby0f_1237","has-gutter-fullhd-3rem":"_has-gutter-fullhd-3rem_qby0f_1243","has-gutter-xmobile-3rem":"_has-gutter-xmobile-3rem_qby0f_1249","has-gutter-xmobile-or-more-3rem":"_has-gutter-xmobile-or-more-3rem_qby0f_1249","has-gutter-xtablet-or-less-3rem":"_has-gutter-xtablet-or-less-3rem_qby0f_1249","has-gutter-xdesktop-or-less-3rem":"_has-gutter-xdesktop-or-less-3rem_qby0f_1249","has-gutter-xwidescreen-or-less-3rem":"_has-gutter-xwidescreen-or-less-3rem_qby0f_1249","has-gutter-xfullhd-or-less-3rem":"_has-gutter-xfullhd-or-less-3rem_qby0f_1249","has-gutter-xtablet-3rem":"_has-gutter-xtablet-3rem_qby0f_1254","has-gutter-xtablet-or-more-3rem":"_has-gutter-xtablet-or-more-3rem_qby0f_1254","has-gutter-xdesktop-3rem":"_has-gutter-xdesktop-3rem_qby0f_1259","has-gutter-xdesktop-or-more-3rem":"_has-gutter-xdesktop-or-more-3rem_qby0f_1259","has-gutter-xwidescreen-3rem":"_has-gutter-xwidescreen-3rem_qby0f_1264","has-gutter-xwidescreen-or-more-3rem":"_has-gutter-xwidescreen-or-more-3rem_qby0f_1264","has-gutter-xfullhd-3rem":"_has-gutter-xfullhd-3rem_qby0f_1269","has-gutter-ymobile-3rem":"_has-gutter-ymobile-3rem_qby0f_1274","has-gutter-ymobile-or-more-3rem":"_has-gutter-ymobile-or-more-3rem_qby0f_1274","has-gutter-ytablet-or-less-3rem":"_has-gutter-ytablet-or-less-3rem_qby0f_1274","has-gutter-ydesktop-or-less-3rem":"_has-gutter-ydesktop-or-less-3rem_qby0f_1274","has-gutter-ywidescreen-or-less-3rem":"_has-gutter-ywidescreen-or-less-3rem_qby0f_1274","has-gutter-yfullhd-or-less-3rem":"_has-gutter-yfullhd-or-less-3rem_qby0f_1274","has-gutter-ytablet-3rem":"_has-gutter-ytablet-3rem_qby0f_1279","has-gutter-ytablet-or-more-3rem":"_has-gutter-ytablet-or-more-3rem_qby0f_1279","has-gutter-ydesktop-3rem":"_has-gutter-ydesktop-3rem_qby0f_1284","has-gutter-ydesktop-or-more-3rem":"_has-gutter-ydesktop-or-more-3rem_qby0f_1284","has-gutter-ywidescreen-3rem":"_has-gutter-ywidescreen-3rem_qby0f_1289","has-gutter-ywidescreen-or-more-3rem":"_has-gutter-ywidescreen-or-more-3rem_qby0f_1289","has-gutter-yfullhd-3rem":"_has-gutter-yfullhd-3rem_qby0f_1294","has-gutter-3.25rem":"_has-gutter-3.25rem_qby0f_1298","has-gutter-x-3.25rem":"_has-gutter-x-3.25rem_qby0f_1302","has-gutter-y-3.25rem":"_has-gutter-y-3.25rem_qby0f_1305","has-gutter-mobile-3.25rem":"_has-gutter-mobile-3.25rem_qby0f_1309","has-gutter-mobile-or-more-3.25rem":"_has-gutter-mobile-or-more-3.25rem_qby0f_1309","has-gutter-tablet-or-less-3.25rem":"_has-gutter-tablet-or-less-3.25rem_qby0f_1309","has-gutter-desktop-or-less-3.25rem":"_has-gutter-desktop-or-less-3.25rem_qby0f_1309","has-gutter-widescreen-or-less-3.25rem":"_has-gutter-widescreen-or-less-3.25rem_qby0f_1309","has-gutter-fullhd-or-less-3.25rem":"_has-gutter-fullhd-or-less-3.25rem_qby0f_1309","has-gutter-tablet-3.25rem":"_has-gutter-tablet-3.25rem_qby0f_1315","has-gutter-tablet-or-more-3.25rem":"_has-gutter-tablet-or-more-3.25rem_qby0f_1315","has-gutter-desktop-3.25rem":"_has-gutter-desktop-3.25rem_qby0f_1321","has-gutter-desktop-or-more-3.25rem":"_has-gutter-desktop-or-more-3.25rem_qby0f_1321","has-gutter-widescreen-3.25rem":"_has-gutter-widescreen-3.25rem_qby0f_1327","has-gutter-widescreen-or-more-3.25rem":"_has-gutter-widescreen-or-more-3.25rem_qby0f_1327","has-gutter-fullhd-3.25rem":"_has-gutter-fullhd-3.25rem_qby0f_1333","has-gutter-xmobile-3.25rem":"_has-gutter-xmobile-3.25rem_qby0f_1339","has-gutter-xmobile-or-more-3.25rem":"_has-gutter-xmobile-or-more-3.25rem_qby0f_1339","has-gutter-xtablet-or-less-3.25rem":"_has-gutter-xtablet-or-less-3.25rem_qby0f_1339","has-gutter-xdesktop-or-less-3.25rem":"_has-gutter-xdesktop-or-less-3.25rem_qby0f_1339","has-gutter-xwidescreen-or-less-3.25rem":"_has-gutter-xwidescreen-or-less-3.25rem_qby0f_1339","has-gutter-xfullhd-or-less-3.25rem":"_has-gutter-xfullhd-or-less-3.25rem_qby0f_1339","has-gutter-xtablet-3.25rem":"_has-gutter-xtablet-3.25rem_qby0f_1344","has-gutter-xtablet-or-more-3.25rem":"_has-gutter-xtablet-or-more-3.25rem_qby0f_1344","has-gutter-xdesktop-3.25rem":"_has-gutter-xdesktop-3.25rem_qby0f_1349","has-gutter-xdesktop-or-more-3.25rem":"_has-gutter-xdesktop-or-more-3.25rem_qby0f_1349","has-gutter-xwidescreen-3.25rem":"_has-gutter-xwidescreen-3.25rem_qby0f_1354","has-gutter-xwidescreen-or-more-3.25rem":"_has-gutter-xwidescreen-or-more-3.25rem_qby0f_1354","has-gutter-xfullhd-3.25rem":"_has-gutter-xfullhd-3.25rem_qby0f_1359","has-gutter-ymobile-3.25rem":"_has-gutter-ymobile-3.25rem_qby0f_1364","has-gutter-ymobile-or-more-3.25rem":"_has-gutter-ymobile-or-more-3.25rem_qby0f_1364","has-gutter-ytablet-or-less-3.25rem":"_has-gutter-ytablet-or-less-3.25rem_qby0f_1364","has-gutter-ydesktop-or-less-3.25rem":"_has-gutter-ydesktop-or-less-3.25rem_qby0f_1364","has-gutter-ywidescreen-or-less-3.25rem":"_has-gutter-ywidescreen-or-less-3.25rem_qby0f_1364","has-gutter-yfullhd-or-less-3.25rem":"_has-gutter-yfullhd-or-less-3.25rem_qby0f_1364","has-gutter-ytablet-3.25rem":"_has-gutter-ytablet-3.25rem_qby0f_1369","has-gutter-ytablet-or-more-3.25rem":"_has-gutter-ytablet-or-more-3.25rem_qby0f_1369","has-gutter-ydesktop-3.25rem":"_has-gutter-ydesktop-3.25rem_qby0f_1374","has-gutter-ydesktop-or-more-3.25rem":"_has-gutter-ydesktop-or-more-3.25rem_qby0f_1374","has-gutter-ywidescreen-3.25rem":"_has-gutter-ywidescreen-3.25rem_qby0f_1379","has-gutter-ywidescreen-or-more-3.25rem":"_has-gutter-ywidescreen-or-more-3.25rem_qby0f_1379","has-gutter-yfullhd-3.25rem":"_has-gutter-yfullhd-3.25rem_qby0f_1384","has-gutter-3.5rem":"_has-gutter-3.5rem_qby0f_1388","has-gutter-x-3.5rem":"_has-gutter-x-3.5rem_qby0f_1392","has-gutter-y-3.5rem":"_has-gutter-y-3.5rem_qby0f_1395","has-gutter-mobile-3.5rem":"_has-gutter-mobile-3.5rem_qby0f_1399","has-gutter-mobile-or-more-3.5rem":"_has-gutter-mobile-or-more-3.5rem_qby0f_1399","has-gutter-tablet-or-less-3.5rem":"_has-gutter-tablet-or-less-3.5rem_qby0f_1399","has-gutter-desktop-or-less-3.5rem":"_has-gutter-desktop-or-less-3.5rem_qby0f_1399","has-gutter-widescreen-or-less-3.5rem":"_has-gutter-widescreen-or-less-3.5rem_qby0f_1399","has-gutter-fullhd-or-less-3.5rem":"_has-gutter-fullhd-or-less-3.5rem_qby0f_1399","has-gutter-tablet-3.5rem":"_has-gutter-tablet-3.5rem_qby0f_1405","has-gutter-tablet-or-more-3.5rem":"_has-gutter-tablet-or-more-3.5rem_qby0f_1405","has-gutter-desktop-3.5rem":"_has-gutter-desktop-3.5rem_qby0f_1411","has-gutter-desktop-or-more-3.5rem":"_has-gutter-desktop-or-more-3.5rem_qby0f_1411","has-gutter-widescreen-3.5rem":"_has-gutter-widescreen-3.5rem_qby0f_1417","has-gutter-widescreen-or-more-3.5rem":"_has-gutter-widescreen-or-more-3.5rem_qby0f_1417","has-gutter-fullhd-3.5rem":"_has-gutter-fullhd-3.5rem_qby0f_1423","has-gutter-xmobile-3.5rem":"_has-gutter-xmobile-3.5rem_qby0f_1429","has-gutter-xmobile-or-more-3.5rem":"_has-gutter-xmobile-or-more-3.5rem_qby0f_1429","has-gutter-xtablet-or-less-3.5rem":"_has-gutter-xtablet-or-less-3.5rem_qby0f_1429","has-gutter-xdesktop-or-less-3.5rem":"_has-gutter-xdesktop-or-less-3.5rem_qby0f_1429","has-gutter-xwidescreen-or-less-3.5rem":"_has-gutter-xwidescreen-or-less-3.5rem_qby0f_1429","has-gutter-xfullhd-or-less-3.5rem":"_has-gutter-xfullhd-or-less-3.5rem_qby0f_1429","has-gutter-xtablet-3.5rem":"_has-gutter-xtablet-3.5rem_qby0f_1434","has-gutter-xtablet-or-more-3.5rem":"_has-gutter-xtablet-or-more-3.5rem_qby0f_1434","has-gutter-xdesktop-3.5rem":"_has-gutter-xdesktop-3.5rem_qby0f_1439","has-gutter-xdesktop-or-more-3.5rem":"_has-gutter-xdesktop-or-more-3.5rem_qby0f_1439","has-gutter-xwidescreen-3.5rem":"_has-gutter-xwidescreen-3.5rem_qby0f_1444","has-gutter-xwidescreen-or-more-3.5rem":"_has-gutter-xwidescreen-or-more-3.5rem_qby0f_1444","has-gutter-xfullhd-3.5rem":"_has-gutter-xfullhd-3.5rem_qby0f_1449","has-gutter-ymobile-3.5rem":"_has-gutter-ymobile-3.5rem_qby0f_1454","has-gutter-ymobile-or-more-3.5rem":"_has-gutter-ymobile-or-more-3.5rem_qby0f_1454","has-gutter-ytablet-or-less-3.5rem":"_has-gutter-ytablet-or-less-3.5rem_qby0f_1454","has-gutter-ydesktop-or-less-3.5rem":"_has-gutter-ydesktop-or-less-3.5rem_qby0f_1454","has-gutter-ywidescreen-or-less-3.5rem":"_has-gutter-ywidescreen-or-less-3.5rem_qby0f_1454","has-gutter-yfullhd-or-less-3.5rem":"_has-gutter-yfullhd-or-less-3.5rem_qby0f_1454","has-gutter-ytablet-3.5rem":"_has-gutter-ytablet-3.5rem_qby0f_1459","has-gutter-ytablet-or-more-3.5rem":"_has-gutter-ytablet-or-more-3.5rem_qby0f_1459","has-gutter-ydesktop-3.5rem":"_has-gutter-ydesktop-3.5rem_qby0f_1464","has-gutter-ydesktop-or-more-3.5rem":"_has-gutter-ydesktop-or-more-3.5rem_qby0f_1464","has-gutter-ywidescreen-3.5rem":"_has-gutter-ywidescreen-3.5rem_qby0f_1469","has-gutter-ywidescreen-or-more-3.5rem":"_has-gutter-ywidescreen-or-more-3.5rem_qby0f_1469","has-gutter-yfullhd-3.5rem":"_has-gutter-yfullhd-3.5rem_qby0f_1474","has-gutter-3.75rem":"_has-gutter-3.75rem_qby0f_1478","has-gutter-x-3.75rem":"_has-gutter-x-3.75rem_qby0f_1482","has-gutter-y-3.75rem":"_has-gutter-y-3.75rem_qby0f_1485","has-gutter-mobile-3.75rem":"_has-gutter-mobile-3.75rem_qby0f_1489","has-gutter-mobile-or-more-3.75rem":"_has-gutter-mobile-or-more-3.75rem_qby0f_1489","has-gutter-tablet-or-less-3.75rem":"_has-gutter-tablet-or-less-3.75rem_qby0f_1489","has-gutter-desktop-or-less-3.75rem":"_has-gutter-desktop-or-less-3.75rem_qby0f_1489","has-gutter-widescreen-or-less-3.75rem":"_has-gutter-widescreen-or-less-3.75rem_qby0f_1489","has-gutter-fullhd-or-less-3.75rem":"_has-gutter-fullhd-or-less-3.75rem_qby0f_1489","has-gutter-tablet-3.75rem":"_has-gutter-tablet-3.75rem_qby0f_1495","has-gutter-tablet-or-more-3.75rem":"_has-gutter-tablet-or-more-3.75rem_qby0f_1495","has-gutter-desktop-3.75rem":"_has-gutter-desktop-3.75rem_qby0f_1501","has-gutter-desktop-or-more-3.75rem":"_has-gutter-desktop-or-more-3.75rem_qby0f_1501","has-gutter-widescreen-3.75rem":"_has-gutter-widescreen-3.75rem_qby0f_1507","has-gutter-widescreen-or-more-3.75rem":"_has-gutter-widescreen-or-more-3.75rem_qby0f_1507","has-gutter-fullhd-3.75rem":"_has-gutter-fullhd-3.75rem_qby0f_1513","has-gutter-xmobile-3.75rem":"_has-gutter-xmobile-3.75rem_qby0f_1519","has-gutter-xmobile-or-more-3.75rem":"_has-gutter-xmobile-or-more-3.75rem_qby0f_1519","has-gutter-xtablet-or-less-3.75rem":"_has-gutter-xtablet-or-less-3.75rem_qby0f_1519","has-gutter-xdesktop-or-less-3.75rem":"_has-gutter-xdesktop-or-less-3.75rem_qby0f_1519","has-gutter-xwidescreen-or-less-3.75rem":"_has-gutter-xwidescreen-or-less-3.75rem_qby0f_1519","has-gutter-xfullhd-or-less-3.75rem":"_has-gutter-xfullhd-or-less-3.75rem_qby0f_1519","has-gutter-xtablet-3.75rem":"_has-gutter-xtablet-3.75rem_qby0f_1524","has-gutter-xtablet-or-more-3.75rem":"_has-gutter-xtablet-or-more-3.75rem_qby0f_1524","has-gutter-xdesktop-3.75rem":"_has-gutter-xdesktop-3.75rem_qby0f_1529","has-gutter-xdesktop-or-more-3.75rem":"_has-gutter-xdesktop-or-more-3.75rem_qby0f_1529","has-gutter-xwidescreen-3.75rem":"_has-gutter-xwidescreen-3.75rem_qby0f_1534","has-gutter-xwidescreen-or-more-3.75rem":"_has-gutter-xwidescreen-or-more-3.75rem_qby0f_1534","has-gutter-xfullhd-3.75rem":"_has-gutter-xfullhd-3.75rem_qby0f_1539","has-gutter-ymobile-3.75rem":"_has-gutter-ymobile-3.75rem_qby0f_1544","has-gutter-ymobile-or-more-3.75rem":"_has-gutter-ymobile-or-more-3.75rem_qby0f_1544","has-gutter-ytablet-or-less-3.75rem":"_has-gutter-ytablet-or-less-3.75rem_qby0f_1544","has-gutter-ydesktop-or-less-3.75rem":"_has-gutter-ydesktop-or-less-3.75rem_qby0f_1544","has-gutter-ywidescreen-or-less-3.75rem":"_has-gutter-ywidescreen-or-less-3.75rem_qby0f_1544","has-gutter-yfullhd-or-less-3.75rem":"_has-gutter-yfullhd-or-less-3.75rem_qby0f_1544","has-gutter-ytablet-3.75rem":"_has-gutter-ytablet-3.75rem_qby0f_1549","has-gutter-ytablet-or-more-3.75rem":"_has-gutter-ytablet-or-more-3.75rem_qby0f_1549","has-gutter-ydesktop-3.75rem":"_has-gutter-ydesktop-3.75rem_qby0f_1554","has-gutter-ydesktop-or-more-3.75rem":"_has-gutter-ydesktop-or-more-3.75rem_qby0f_1554","has-gutter-ywidescreen-3.75rem":"_has-gutter-ywidescreen-3.75rem_qby0f_1559","has-gutter-ywidescreen-or-more-3.75rem":"_has-gutter-ywidescreen-or-more-3.75rem_qby0f_1559","has-gutter-yfullhd-3.75rem":"_has-gutter-yfullhd-3.75rem_qby0f_1564","has-gutter-4rem":"_has-gutter-4rem_qby0f_1568","has-gutter-x-4rem":"_has-gutter-x-4rem_qby0f_1572","has-gutter-y-4rem":"_has-gutter-y-4rem_qby0f_1575","has-gutter-mobile-4rem":"_has-gutter-mobile-4rem_qby0f_1579","has-gutter-mobile-or-more-4rem":"_has-gutter-mobile-or-more-4rem_qby0f_1579","has-gutter-tablet-or-less-4rem":"_has-gutter-tablet-or-less-4rem_qby0f_1579","has-gutter-desktop-or-less-4rem":"_has-gutter-desktop-or-less-4rem_qby0f_1579","has-gutter-widescreen-or-less-4rem":"_has-gutter-widescreen-or-less-4rem_qby0f_1579","has-gutter-fullhd-or-less-4rem":"_has-gutter-fullhd-or-less-4rem_qby0f_1579","has-gutter-tablet-4rem":"_has-gutter-tablet-4rem_qby0f_1585","has-gutter-tablet-or-more-4rem":"_has-gutter-tablet-or-more-4rem_qby0f_1585","has-gutter-desktop-4rem":"_has-gutter-desktop-4rem_qby0f_1591","has-gutter-desktop-or-more-4rem":"_has-gutter-desktop-or-more-4rem_qby0f_1591","has-gutter-widescreen-4rem":"_has-gutter-widescreen-4rem_qby0f_1597","has-gutter-widescreen-or-more-4rem":"_has-gutter-widescreen-or-more-4rem_qby0f_1597","has-gutter-fullhd-4rem":"_has-gutter-fullhd-4rem_qby0f_1603","has-gutter-xmobile-4rem":"_has-gutter-xmobile-4rem_qby0f_1609","has-gutter-xmobile-or-more-4rem":"_has-gutter-xmobile-or-more-4rem_qby0f_1609","has-gutter-xtablet-or-less-4rem":"_has-gutter-xtablet-or-less-4rem_qby0f_1609","has-gutter-xdesktop-or-less-4rem":"_has-gutter-xdesktop-or-less-4rem_qby0f_1609","has-gutter-xwidescreen-or-less-4rem":"_has-gutter-xwidescreen-or-less-4rem_qby0f_1609","has-gutter-xfullhd-or-less-4rem":"_has-gutter-xfullhd-or-less-4rem_qby0f_1609","has-gutter-xtablet-4rem":"_has-gutter-xtablet-4rem_qby0f_1614","has-gutter-xtablet-or-more-4rem":"_has-gutter-xtablet-or-more-4rem_qby0f_1614","has-gutter-xdesktop-4rem":"_has-gutter-xdesktop-4rem_qby0f_1619","has-gutter-xdesktop-or-more-4rem":"_has-gutter-xdesktop-or-more-4rem_qby0f_1619","has-gutter-xwidescreen-4rem":"_has-gutter-xwidescreen-4rem_qby0f_1624","has-gutter-xwidescreen-or-more-4rem":"_has-gutter-xwidescreen-or-more-4rem_qby0f_1624","has-gutter-xfullhd-4rem":"_has-gutter-xfullhd-4rem_qby0f_1629","has-gutter-ymobile-4rem":"_has-gutter-ymobile-4rem_qby0f_1634","has-gutter-ymobile-or-more-4rem":"_has-gutter-ymobile-or-more-4rem_qby0f_1634","has-gutter-ytablet-or-less-4rem":"_has-gutter-ytablet-or-less-4rem_qby0f_1634","has-gutter-ydesktop-or-less-4rem":"_has-gutter-ydesktop-or-less-4rem_qby0f_1634","has-gutter-ywidescreen-or-less-4rem":"_has-gutter-ywidescreen-or-less-4rem_qby0f_1634","has-gutter-yfullhd-or-less-4rem":"_has-gutter-yfullhd-or-less-4rem_qby0f_1634","has-gutter-ytablet-4rem":"_has-gutter-ytablet-4rem_qby0f_1639","has-gutter-ytablet-or-more-4rem":"_has-gutter-ytablet-or-more-4rem_qby0f_1639","has-gutter-ydesktop-4rem":"_has-gutter-ydesktop-4rem_qby0f_1644","has-gutter-ydesktop-or-more-4rem":"_has-gutter-ydesktop-or-more-4rem_qby0f_1644","has-gutter-ywidescreen-4rem":"_has-gutter-ywidescreen-4rem_qby0f_1649","has-gutter-ywidescreen-or-more-4rem":"_has-gutter-ywidescreen-or-more-4rem_qby0f_1649","has-gutter-yfullhd-4rem":"_has-gutter-yfullhd-4rem_qby0f_1654",column:R,"is-full":"_is-full_qby0f_29","column-1":"_column-1_qby0f_1679","column-2":"_column-2_qby0f_1695","column-3":"_column-3_qby0f_1711","column-4":"_column-4_qby0f_1727","column-5":"_column-5_qby0f_1743","column-6":"_column-6_qby0f_1759","column-7":"_column-7_qby0f_1775","column-8":"_column-8_qby0f_1791","column-9":"_column-9_qby0f_1807","column-10":"_column-10_qby0f_1823","column-11":"_column-11_qby0f_1839","column-12":"_column-12_qby0f_1855","is-mobile-1":"_is-mobile-1_qby0f_1872","is-mobile-or-more-1":"_is-mobile-or-more-1_qby0f_1872","is-tablet-or-less-1":"_is-tablet-or-less-1_qby0f_1872","is-desktop-or-less-1":"_is-desktop-or-less-1_qby0f_1872","is-widescreen-or-less-1":"_is-widescreen-or-less-1_qby0f_1872","is-fullhd-or-less-1":"_is-fullhd-or-less-1_qby0f_1872","is-tablet-1":"_is-tablet-1_qby0f_1885","is-tablet-or-more-1":"_is-tablet-or-more-1_qby0f_1885","is-desktop-1":"_is-desktop-1_qby0f_1899","is-desktop-or-more-1":"_is-desktop-or-more-1_qby0f_1899","is-widescreen-1":"_is-widescreen-1_qby0f_1913","is-widescreen-or-more-1":"_is-widescreen-or-more-1_qby0f_1913","is-fullhd-1":"_is-fullhd-1_qby0f_1927","is-mobile-2":"_is-mobile-2_qby0f_1940","is-mobile-or-more-2":"_is-mobile-or-more-2_qby0f_1940","is-tablet-or-less-2":"_is-tablet-or-less-2_qby0f_1940","is-desktop-or-less-2":"_is-desktop-or-less-2_qby0f_1940","is-widescreen-or-less-2":"_is-widescreen-or-less-2_qby0f_1940","is-fullhd-or-less-2":"_is-fullhd-or-less-2_qby0f_1940","is-tablet-2":"_is-tablet-2_qby0f_1953","is-tablet-or-more-2":"_is-tablet-or-more-2_qby0f_1953","is-desktop-2":"_is-desktop-2_qby0f_1967","is-desktop-or-more-2":"_is-desktop-or-more-2_qby0f_1967","is-widescreen-2":"_is-widescreen-2_qby0f_1981","is-widescreen-or-more-2":"_is-widescreen-or-more-2_qby0f_1981","is-fullhd-2":"_is-fullhd-2_qby0f_1995","is-mobile-3":"_is-mobile-3_qby0f_2008","is-mobile-or-more-3":"_is-mobile-or-more-3_qby0f_2008","is-tablet-or-less-3":"_is-tablet-or-less-3_qby0f_2008","is-desktop-or-less-3":"_is-desktop-or-less-3_qby0f_2008","is-widescreen-or-less-3":"_is-widescreen-or-less-3_qby0f_2008","is-fullhd-or-less-3":"_is-fullhd-or-less-3_qby0f_2008","is-tablet-3":"_is-tablet-3_qby0f_2021","is-tablet-or-more-3":"_is-tablet-or-more-3_qby0f_2021","is-desktop-3":"_is-desktop-3_qby0f_2035","is-desktop-or-more-3":"_is-desktop-or-more-3_qby0f_2035","is-widescreen-3":"_is-widescreen-3_qby0f_2049","is-widescreen-or-more-3":"_is-widescreen-or-more-3_qby0f_2049","is-fullhd-3":"_is-fullhd-3_qby0f_2063","is-mobile-4":"_is-mobile-4_qby0f_2076","is-mobile-or-more-4":"_is-mobile-or-more-4_qby0f_2076","is-tablet-or-less-4":"_is-tablet-or-less-4_qby0f_2076","is-desktop-or-less-4":"_is-desktop-or-less-4_qby0f_2076","is-widescreen-or-less-4":"_is-widescreen-or-less-4_qby0f_2076","is-fullhd-or-less-4":"_is-fullhd-or-less-4_qby0f_2076","is-tablet-4":"_is-tablet-4_qby0f_2089","is-tablet-or-more-4":"_is-tablet-or-more-4_qby0f_2089","is-desktop-4":"_is-desktop-4_qby0f_2103","is-desktop-or-more-4":"_is-desktop-or-more-4_qby0f_2103","is-widescreen-4":"_is-widescreen-4_qby0f_2117","is-widescreen-or-more-4":"_is-widescreen-or-more-4_qby0f_2117","is-fullhd-4":"_is-fullhd-4_qby0f_2131","is-mobile-5":"_is-mobile-5_qby0f_2144","is-mobile-or-more-5":"_is-mobile-or-more-5_qby0f_2144","is-tablet-or-less-5":"_is-tablet-or-less-5_qby0f_2144","is-desktop-or-less-5":"_is-desktop-or-less-5_qby0f_2144","is-widescreen-or-less-5":"_is-widescreen-or-less-5_qby0f_2144","is-fullhd-or-less-5":"_is-fullhd-or-less-5_qby0f_2144","is-tablet-5":"_is-tablet-5_qby0f_2157","is-tablet-or-more-5":"_is-tablet-or-more-5_qby0f_2157","is-desktop-5":"_is-desktop-5_qby0f_2171","is-desktop-or-more-5":"_is-desktop-or-more-5_qby0f_2171","is-widescreen-5":"_is-widescreen-5_qby0f_2185","is-widescreen-or-more-5":"_is-widescreen-or-more-5_qby0f_2185","is-fullhd-5":"_is-fullhd-5_qby0f_2199","is-mobile-6":"_is-mobile-6_qby0f_2212","is-mobile-or-more-6":"_is-mobile-or-more-6_qby0f_2212","is-tablet-or-less-6":"_is-tablet-or-less-6_qby0f_2212","is-desktop-or-less-6":"_is-desktop-or-less-6_qby0f_2212","is-widescreen-or-less-6":"_is-widescreen-or-less-6_qby0f_2212","is-fullhd-or-less-6":"_is-fullhd-or-less-6_qby0f_2212","is-tablet-6":"_is-tablet-6_qby0f_2225","is-tablet-or-more-6":"_is-tablet-or-more-6_qby0f_2225","is-desktop-6":"_is-desktop-6_qby0f_2239","is-desktop-or-more-6":"_is-desktop-or-more-6_qby0f_2239","is-widescreen-6":"_is-widescreen-6_qby0f_2253","is-widescreen-or-more-6":"_is-widescreen-or-more-6_qby0f_2253","is-fullhd-6":"_is-fullhd-6_qby0f_2267","is-mobile-7":"_is-mobile-7_qby0f_2280","is-mobile-or-more-7":"_is-mobile-or-more-7_qby0f_2280","is-tablet-or-less-7":"_is-tablet-or-less-7_qby0f_2280","is-desktop-or-less-7":"_is-desktop-or-less-7_qby0f_2280","is-widescreen-or-less-7":"_is-widescreen-or-less-7_qby0f_2280","is-fullhd-or-less-7":"_is-fullhd-or-less-7_qby0f_2280","is-tablet-7":"_is-tablet-7_qby0f_2293","is-tablet-or-more-7":"_is-tablet-or-more-7_qby0f_2293","is-desktop-7":"_is-desktop-7_qby0f_2307","is-desktop-or-more-7":"_is-desktop-or-more-7_qby0f_2307","is-widescreen-7":"_is-widescreen-7_qby0f_2321","is-widescreen-or-more-7":"_is-widescreen-or-more-7_qby0f_2321","is-fullhd-7":"_is-fullhd-7_qby0f_2335","is-mobile-8":"_is-mobile-8_qby0f_2348","is-mobile-or-more-8":"_is-mobile-or-more-8_qby0f_2348","is-tablet-or-less-8":"_is-tablet-or-less-8_qby0f_2348","is-desktop-or-less-8":"_is-desktop-or-less-8_qby0f_2348","is-widescreen-or-less-8":"_is-widescreen-or-less-8_qby0f_2348","is-fullhd-or-less-8":"_is-fullhd-or-less-8_qby0f_2348","is-tablet-8":"_is-tablet-8_qby0f_2361","is-tablet-or-more-8":"_is-tablet-or-more-8_qby0f_2361","is-desktop-8":"_is-desktop-8_qby0f_2375","is-desktop-or-more-8":"_is-desktop-or-more-8_qby0f_2375","is-widescreen-8":"_is-widescreen-8_qby0f_2389","is-widescreen-or-more-8":"_is-widescreen-or-more-8_qby0f_2389","is-fullhd-8":"_is-fullhd-8_qby0f_2403","is-mobile-9":"_is-mobile-9_qby0f_2416","is-mobile-or-more-9":"_is-mobile-or-more-9_qby0f_2416","is-tablet-or-less-9":"_is-tablet-or-less-9_qby0f_2416","is-desktop-or-less-9":"_is-desktop-or-less-9_qby0f_2416","is-widescreen-or-less-9":"_is-widescreen-or-less-9_qby0f_2416","is-fullhd-or-less-9":"_is-fullhd-or-less-9_qby0f_2416","is-tablet-9":"_is-tablet-9_qby0f_2429","is-tablet-or-more-9":"_is-tablet-or-more-9_qby0f_2429","is-desktop-9":"_is-desktop-9_qby0f_2443","is-desktop-or-more-9":"_is-desktop-or-more-9_qby0f_2443","is-widescreen-9":"_is-widescreen-9_qby0f_2457","is-widescreen-or-more-9":"_is-widescreen-or-more-9_qby0f_2457","is-fullhd-9":"_is-fullhd-9_qby0f_2471","is-mobile-10":"_is-mobile-10_qby0f_2484","is-mobile-or-more-10":"_is-mobile-or-more-10_qby0f_2484","is-tablet-or-less-10":"_is-tablet-or-less-10_qby0f_2484","is-desktop-or-less-10":"_is-desktop-or-less-10_qby0f_2484","is-widescreen-or-less-10":"_is-widescreen-or-less-10_qby0f_2484","is-fullhd-or-less-10":"_is-fullhd-or-less-10_qby0f_2484","is-tablet-10":"_is-tablet-10_qby0f_2497","is-tablet-or-more-10":"_is-tablet-or-more-10_qby0f_2497","is-desktop-10":"_is-desktop-10_qby0f_2511","is-desktop-or-more-10":"_is-desktop-or-more-10_qby0f_2511","is-widescreen-10":"_is-widescreen-10_qby0f_2525","is-widescreen-or-more-10":"_is-widescreen-or-more-10_qby0f_2525","is-fullhd-10":"_is-fullhd-10_qby0f_2539","is-mobile-11":"_is-mobile-11_qby0f_2552","is-mobile-or-more-11":"_is-mobile-or-more-11_qby0f_2552","is-tablet-or-less-11":"_is-tablet-or-less-11_qby0f_2552","is-desktop-or-less-11":"_is-desktop-or-less-11_qby0f_2552","is-widescreen-or-less-11":"_is-widescreen-or-less-11_qby0f_2552","is-fullhd-or-less-11":"_is-fullhd-or-less-11_qby0f_2552","is-tablet-11":"_is-tablet-11_qby0f_2565","is-tablet-or-more-11":"_is-tablet-or-more-11_qby0f_2565","is-desktop-11":"_is-desktop-11_qby0f_2579","is-desktop-or-more-11":"_is-desktop-or-more-11_qby0f_2579","is-widescreen-11":"_is-widescreen-11_qby0f_2593","is-widescreen-or-more-11":"_is-widescreen-or-more-11_qby0f_2593","is-fullhd-11":"_is-fullhd-11_qby0f_2607","is-mobile-12":"_is-mobile-12_qby0f_2620","is-mobile-or-more-12":"_is-mobile-or-more-12_qby0f_2620","is-tablet-or-less-12":"_is-tablet-or-less-12_qby0f_2620","is-desktop-or-less-12":"_is-desktop-or-less-12_qby0f_2620","is-widescreen-or-less-12":"_is-widescreen-or-less-12_qby0f_2620","is-fullhd-or-less-12":"_is-fullhd-or-less-12_qby0f_2620","is-tablet-12":"_is-tablet-12_qby0f_2633","is-tablet-or-more-12":"_is-tablet-or-more-12_qby0f_2633","is-desktop-12":"_is-desktop-12_qby0f_2647","is-desktop-or-more-12":"_is-desktop-or-more-12_qby0f_2647","is-widescreen-12":"_is-widescreen-12_qby0f_2661","is-widescreen-or-more-12":"_is-widescreen-or-more-12_qby0f_2661","is-fullhd-12":"_is-fullhd-12_qby0f_2675"};function m(e){const a={...e};delete a.isDirectionRow,delete a.isDirectionRowReverse,delete a.isDirectionColumn,delete a.isDirectionColumnReverse,delete a.isMobileDirectionRow,delete a.isMobileOrMoreDirectionRow,delete a.isTabletOrLessDirectionRow,delete a.isTabletDirectionRow,delete a.isTabletOrMoreDirectionRow,delete a.isDesktopOrLessDirectionRow,delete a.isDesktopDirectionRow,delete a.isDesktopOrMoreDirectionRow,delete a.isWidescreenOrLessDirectionRow,delete a.isWidescreenDirectionRow,delete a.isWidescreenOrMoreDirectionRow,delete a.isFullhdOrLessDirectionRow,delete a.isFullhdDirectionRow,delete a.isMobileDirectionRowReverse,delete a.isMobileOrMoreDirectionRowReverse,delete a.isTabletOrLessDirectionRowReverse,delete a.isTabletDirectionRowReverse,delete a.isTabletOrMoreDirectionRowReverse,delete a.isDesktopOrLessDirectionRowReverse,delete a.isDesktopDirectionRowReverse,delete a.isDesktopOrMoreDirectionRowReverse,delete a.isWidescreenOrLessDirectionRowReverse,delete a.isWidescreenDirectionRowReverse,delete a.isWidescreenOrMoreDirectionRowReverse,delete a.isFullhdOrLessDirectionRowReverse,delete a.isFullhdDirectionRowReverse,delete a.isMobileDirectionColumn,delete a.isMobileOrMoreDirectionColumn,delete a.isTabletOrLessDirectionColumn,delete a.isTabletDirectionColumn,delete a.isTabletOrMoreDirectionColumn,delete a.isDesktopOrLessDirectionColumn,delete a.isDesktopDirectionColumn,delete a.isDesktopOrMoreDirectionColumn,delete a.isWidescreenOrLessDirectionColumn,delete a.isWidescreenDirectionColumn,delete a.isWidescreenOrMoreDirectionColumn,delete a.isFullhdOrLessDirectionColumn,delete a.isFullhdDirectionColumn,delete a.isMobileDirectionColumnReverse,delete a.isMobileOrMoreDirectionColumnReverse,delete a.isTabletOrLessDirectionColumnReverse,delete a.isTabletDirectionColumnReverse,delete a.isTabletOrMoreDirectionColumnReverse,delete a.isDesktopOrLessDirectionColumnReverse,delete a.isDesktopDirectionColumnReverse,delete a.isDesktopOrMoreDirectionColumnReverse,delete a.isWidescreenOrLessDirectionColumnReverse,delete a.isWidescreenDirectionColumnReverse,delete a.isWidescreenOrMoreDirectionColumnReverse,delete a.isFullhdOrLessDirectionColumnReverse,delete a.isFullhdDirectionColumnReverse,delete a.gutter,delete a.fore,delete a.back,delete a.border,delete a.highlighter,delete a.positioning,delete a.sizing,delete a.spacing,delete a.css;const l=[r.columns];e.isDirectionRow&&l.push(r["is-direction-row"]),e.isDirectionRowReverse&&l.push(r["is-direction-row-reverse"]),e.isDirectionColumn&&l.push(r["is-direction-column"]),e.isDirectionColumnReverse&&l.push(r["is-direction-column-reverse"]),e.isMobileDirectionRow&&l.push(r["is-mobile-direction-row"]),e.isMobileOrMoreDirectionRow&&l.push(r["is-mobile-or-more-direction-row"]),e.isTabletOrLessDirectionRow&&l.push(r["is-tablet-or-less-direction-row"]),e.isTabletDirectionRow&&l.push(r["is-tablet-direction-row"]),e.isTabletOrMoreDirectionRow&&l.push(r["is-tablet-or-more-direction-row"]),e.isDesktopOrLessDirectionRow&&l.push(r["is-desktop-or-less-direction-row"]),e.isDesktopDirectionRow&&l.push(r["is-desktop-direction-row"]),e.isDesktopOrMoreDirectionRow&&l.push(r["is-desktop-or-more-direction-row"]),e.isWidescreenOrLessDirectionRow&&l.push(r["is-widescreen-or-less-direction-row"]),e.isWidescreenDirectionRow&&l.push(r["is-widescreen-direction-row"]),e.isWidescreenOrMoreDirectionRow&&l.push(r["is-widescreen-or-more-direction-row"]),e.isFullhdOrLessDirectionRow&&l.push(r["is-fullhd-or-less-direction-row"]),e.isFullhdDirectionRow&&l.push(r["is-fullhd-direction-row"]),e.isMobileDirectionRowReverse&&l.push(r["is-mobile-direction-row-reverse"]),e.isMobileOrMoreDirectionRowReverse&&l.push(r["is-mobile-or-more-direction-row-reverse"]),e.isTabletOrLessDirectionRowReverse&&l.push(r["is-tablet-or-less-direction-row-reverse"]),e.isTabletDirectionRowReverse&&l.push(r["is-tablet-direction-row-reverse"]),e.isTabletOrMoreDirectionRowReverse&&l.push(r["is-tablet-or-more-direction-row-reverse"]),e.isDesktopOrLessDirectionRowReverse&&l.push(r["is-desktop-or-less-direction-row-reverse"]),e.isDesktopDirectionRowReverse&&l.push(r["is-desktop-direction-row-reverse"]),e.isDesktopOrMoreDirectionRowReverse&&l.push(r["is-desktop-or-more-direction-row-reverse"]),e.isWidescreenOrLessDirectionRowReverse&&l.push(r["is-widescreen-or-less-direction-row-reverse"]),e.isWidescreenDirectionRowReverse&&l.push(r["is-widescreen-direction-row-reverse"]),e.isWidescreenOrMoreDirectionRowReverse&&l.push(r["is-widescreen-or-more-direction-row-reverse"]),e.isFullhdOrLessDirectionRowReverse&&l.push(r["is-fullhd-or-less-direction-row-reverse"]),e.isFullhdDirectionRowReverse&&l.push(r["is-fullhd-direction-row-reverse"]),e.isMobileDirectionColumn&&l.push(r["is-mobile-direction-column"]),e.isMobileOrMoreDirectionColumn&&l.push(r["is-mobile-or-more-direction-column"]),e.isTabletOrLessDirectionColumn&&l.push(r["is-tablet-or-less-direction-column"]),e.isTabletDirectionColumn&&l.push(r["is-tablet-direction-column"]),e.isTabletOrMoreDirectionColumn&&l.push(r["is-tablet-or-more-direction-column"]),e.isDesktopOrLessDirectionColumn&&l.push(r["is-desktop-or-less-direction-column"]),e.isDesktopDirectionColumn&&l.push(r["is-desktop-direction-column"]),e.isDesktopOrMoreDirectionColumn&&l.push(r["is-desktop-or-more-direction-column"]),e.isWidescreenOrLessDirectionColumn&&l.push(r["is-widescreen-or-less-direction-column"]),e.isWidescreenDirectionColumn&&l.push(r["is-widescreen-direction-column"]),e.isWidescreenOrMoreDirectionColumn&&l.push(r["is-widescreen-or-more-direction-column"]),e.isFullhdOrLessDirectionColumn&&l.push(r["is-fullhd-or-less-direction-column"]),e.isFullhdDirectionColumn&&l.push(r["is-fullhd-direction-column"]),e.isMobileDirectionColumnReverse&&l.push(r["is-mobile-direction-column-reverse"]),e.isMobileOrMoreDirectionColumnReverse&&l.push(r["is-mobile-or-more-direction-column-reverse"]),e.isTabletOrLessDirectionColumnReverse&&l.push(r["is-tablet-or-less-direction-column-reverse"]),e.isTabletDirectionColumnReverse&&l.push(r["is-tablet-direction-column-reverse"]),e.isTabletOrMoreDirectionColumnReverse&&l.push(r["is-tablet-or-more-direction-column-reverse"]),e.isDesktopOrLessDirectionColumnReverse&&l.push(r["is-desktop-or-less-direction-column-reverse"]),e.isDesktopDirectionColumnReverse&&l.push(r["is-desktop-direction-column-reverse"]),e.isDesktopOrMoreDirectionColumnReverse&&l.push(r["is-desktop-or-more-direction-column-reverse"]),e.isWidescreenOrLessDirectionColumnReverse&&l.push(r["is-widescreen-or-less-direction-column-reverse"]),e.isWidescreenDirectionColumnReverse&&l.push(r["is-widescreen-direction-column-reverse"]),e.isWidescreenOrMoreDirectionColumnReverse&&l.push(r["is-widescreen-or-more-direction-column-reverse"]),e.isFullhdOrLessDirectionColumnReverse&&l.push(r["is-fullhd-or-less-direction-column-reverse"]),e.isFullhdDirectionColumnReverse&&l.push(r["is-fullhd-direction-column-reverse"]),e.gutter&&(typeof e.gutter=="string"?l.push(r[`has-gutter-${e.gutter}`]):typeof e.gutter=="number"?l.push(r[`has-gutter-${e.gutter}rem`]):(e.gutter.x&&(typeof e.gutter.x=="string"?l.push(r[`has-gutter-x-${e.gutter.x}`]):typeof e.gutter.x=="number"&&l.push(r[`has-gutter-x-${e.gutter.x}rem`])),e.gutter.y&&(typeof e.gutter.y=="string"?l.push(r[`has-gutter-y-${e.gutter.y}`]):typeof e.gutter.y=="number"&&l.push(r[`has-gutter-y-${e.gutter.y}rem`]))));const i=x.getUtilityClassNames({fore:e.fore,back:e.back,border:e.border,highlighter:e.highlighter,spacing:e.spacing,sizing:e.sizing,positioning:e.positioning});i&&l.push(...i),e.className&&l.push(e.className);const g=j.useContext(A),y=L.getEmotionCss({fore:e.fore,back:e.back,border:e.border,highlighter:e.highlighter,spacing:e.spacing,css:e.css},g);return n("div",{...a,className:l.join(" "),css:y})}m.__docgenInfo={description:"",methods:[],displayName:"Columns",props:{fore:{required:!1,tsType:{name:"signature",type:"object",raw:`{
+  color?: ColorProps;
+  fontSize?: FontSize;
+  fontWeight?: FontWeight;
+  isItalic?: boolean;
+}`,signature:{properties:[{key:"color",value:{name:"signature",type:"object",raw:`{
+  default?: ColorAttributes;
+  hover?: ColorAttributes;
+  focus?: ColorAttributes;
+  active?: ColorAttributes;
+  disabled?: ColorAttributes;
+  light?: {
+    default?: ColorAttributes;
+    hover?: ColorAttributes;
+    focus?: ColorAttributes;
+    active?: ColorAttributes;
+    disabled?: ColorAttributes;
+  };
+  dark?: {
+    default?: ColorAttributes;
+    hover?: ColorAttributes;
+    focus?: ColorAttributes;
+    active?: ColorAttributes;
+    disabled?: ColorAttributes;
+  };
+}`,signature:{properties:[{key:"default",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"hover",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"focus",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"active",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"disabled",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"light",value:{name:"signature",type:"object",raw:`{
+  default?: ColorAttributes;
+  hover?: ColorAttributes;
+  focus?: ColorAttributes;
+  active?: ColorAttributes;
+  disabled?: ColorAttributes;
+}`,signature:{properties:[{key:"default",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"hover",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"focus",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"active",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"disabled",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}}]},required:!1}},{key:"dark",value:{name:"signature",type:"object",raw:`{
+  default?: ColorAttributes;
+  hover?: ColorAttributes;
+  focus?: ColorAttributes;
+  active?: ColorAttributes;
+  disabled?: ColorAttributes;
+}`,signature:{properties:[{key:"default",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"hover",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"focus",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"active",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"disabled",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}}]},required:!1}}]},required:!1}},{key:"fontSize",value:{name:"union",raw:`| "small"
+| "normal"
+| "medium"
+| "large"
+| "xlarge"
+| "xxlarge"
+| "xxxlarge"
+| "xxxxlarge"
+| "xxxxxlarge"`,elements:[{name:"literal",value:'"small"'},{name:"literal",value:'"normal"'},{name:"literal",value:'"medium"'},{name:"literal",value:'"large"'},{name:"literal",value:'"xlarge"'},{name:"literal",value:'"xxlarge"'},{name:"literal",value:'"xxxlarge"'},{name:"literal",value:'"xxxxlarge"'},{name:"literal",value:'"xxxxxlarge"'}],required:!1}},{key:"fontWeight",value:{name:"union",raw:'"light" | "normal" | "medium" | "semibold" | "bold"',elements:[{name:"literal",value:'"light"'},{name:"literal",value:'"normal"'},{name:"literal",value:'"medium"'},{name:"literal",value:'"semibold"'},{name:"literal",value:'"bold"'}],required:!1}},{key:"isItalic",value:{name:"boolean",required:!1}}]}},description:""},back:{required:!1,tsType:{name:"signature",type:"object",raw:`{
+  color?: ColorProps;
+}`,signature:{properties:[{key:"color",value:{name:"signature",type:"object",raw:`{
+  default?: ColorAttributes;
+  hover?: ColorAttributes;
+  focus?: ColorAttributes;
+  active?: ColorAttributes;
+  disabled?: ColorAttributes;
+  light?: {
+    default?: ColorAttributes;
+    hover?: ColorAttributes;
+    focus?: ColorAttributes;
+    active?: ColorAttributes;
+    disabled?: ColorAttributes;
+  };
+  dark?: {
+    default?: ColorAttributes;
+    hover?: ColorAttributes;
+    focus?: ColorAttributes;
+    active?: ColorAttributes;
+    disabled?: ColorAttributes;
+  };
+}`,signature:{properties:[{key:"default",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"hover",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"focus",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"active",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"disabled",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"light",value:{name:"signature",type:"object",raw:`{
+  default?: ColorAttributes;
+  hover?: ColorAttributes;
+  focus?: ColorAttributes;
+  active?: ColorAttributes;
+  disabled?: ColorAttributes;
+}`,signature:{properties:[{key:"default",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"hover",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"focus",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"active",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"disabled",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}}]},required:!1}},{key:"dark",value:{name:"signature",type:"object",raw:`{
+  default?: ColorAttributes;
+  hover?: ColorAttributes;
+  focus?: ColorAttributes;
+  active?: ColorAttributes;
+  disabled?: ColorAttributes;
+}`,signature:{properties:[{key:"default",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"hover",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"focus",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"active",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"disabled",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}}]},required:!1}}]},required:!1}}]}},description:""},highlighter:{required:!1,tsType:{name:"signature",type:"object",raw:`{
+  color?: ColorProps;
+}`,signature:{properties:[{key:"color",value:{name:"signature",type:"object",raw:`{
+  default?: ColorAttributes;
+  hover?: ColorAttributes;
+  focus?: ColorAttributes;
+  active?: ColorAttributes;
+  disabled?: ColorAttributes;
+  light?: {
+    default?: ColorAttributes;
+    hover?: ColorAttributes;
+    focus?: ColorAttributes;
+    active?: ColorAttributes;
+    disabled?: ColorAttributes;
+  };
+  dark?: {
+    default?: ColorAttributes;
+    hover?: ColorAttributes;
+    focus?: ColorAttributes;
+    active?: ColorAttributes;
+    disabled?: ColorAttributes;
+  };
+}`,signature:{properties:[{key:"default",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"hover",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"focus",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"active",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"disabled",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"light",value:{name:"signature",type:"object",raw:`{
+  default?: ColorAttributes;
+  hover?: ColorAttributes;
+  focus?: ColorAttributes;
+  active?: ColorAttributes;
+  disabled?: ColorAttributes;
+}`,signature:{properties:[{key:"default",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"hover",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"focus",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"active",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"disabled",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}}]},required:!1}},{key:"dark",value:{name:"signature",type:"object",raw:`{
+  default?: ColorAttributes;
+  hover?: ColorAttributes;
+  focus?: ColorAttributes;
+  active?: ColorAttributes;
+  disabled?: ColorAttributes;
+}`,signature:{properties:[{key:"default",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"hover",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"focus",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"active",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"disabled",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}}]},required:!1}}]},required:!1}}]}},description:""},border:{required:!1,tsType:{name:"signature",type:"object",raw:`{
+  color?: ColorProps;
+  collapse?: BorderCollapse;
+  radius?: BorderRadius;
+  style?: BorderStyle;
+  width?: BorderWidth;
+  top?: BorderDetailProps;
+  bottom?: BorderDetailProps;
+  left?: BorderDetailProps;
+  right?: BorderDetailProps;
+}`,signature:{properties:[{key:"color",value:{name:"signature",type:"object",raw:`{
+  default?: ColorAttributes;
+  hover?: ColorAttributes;
+  focus?: ColorAttributes;
+  active?: ColorAttributes;
+  disabled?: ColorAttributes;
+  light?: {
+    default?: ColorAttributes;
+    hover?: ColorAttributes;
+    focus?: ColorAttributes;
+    active?: ColorAttributes;
+    disabled?: ColorAttributes;
+  };
+  dark?: {
+    default?: ColorAttributes;
+    hover?: ColorAttributes;
+    focus?: ColorAttributes;
+    active?: ColorAttributes;
+    disabled?: ColorAttributes;
+  };
+}`,signature:{properties:[{key:"default",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"hover",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"focus",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"active",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"disabled",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"light",value:{name:"signature",type:"object",raw:`{
+  default?: ColorAttributes;
+  hover?: ColorAttributes;
+  focus?: ColorAttributes;
+  active?: ColorAttributes;
+  disabled?: ColorAttributes;
+}`,signature:{properties:[{key:"default",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"hover",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"focus",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"active",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"disabled",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}}]},required:!1}},{key:"dark",value:{name:"signature",type:"object",raw:`{
+  default?: ColorAttributes;
+  hover?: ColorAttributes;
+  focus?: ColorAttributes;
+  active?: ColorAttributes;
+  disabled?: ColorAttributes;
+}`,signature:{properties:[{key:"default",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"hover",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"focus",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"active",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"disabled",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}}]},required:!1}}]},required:!1}},{key:"collapse",value:{name:"union",raw:'"collapted" | "sepalated"',elements:[{name:"literal",value:'"collapted"'},{name:"literal",value:'"sepalated"'}],required:!1}},{key:"radius",value:{name:"union",raw:'"small" | "circle" | "large" | "medium" | "pill"',elements:[{name:"literal",value:'"small"'},{name:"literal",value:'"circle"'},{name:"literal",value:'"large"'},{name:"literal",value:'"medium"'},{name:"literal",value:'"pill"'}],required:!1}},{key:"style",value:{name:"union",raw:`| "dashed"
+| "dotted"
+| "solid"`,elements:[{name:"literal",value:'"dashed"'},{name:"literal",value:'"dotted"'},{name:"literal",value:'"solid"'}],required:!1}},{key:"width",value:{name:"union",raw:`| "thick"
+| "thin"
+| "medium"
+| "xthick"
+| "xthin"`,elements:[{name:"literal",value:'"thick"'},{name:"literal",value:'"thin"'},{name:"literal",value:'"medium"'},{name:"literal",value:'"xthick"'},{name:"literal",value:'"xthin"'}],required:!1}},{key:"top",value:{name:"signature",type:"object",raw:`{
+  color?: ColorProps;
+  style?: BorderStyle;
+  width?: BorderWidth;
+}`,signature:{properties:[{key:"color",value:{name:"signature",type:"object",raw:`{
+  default?: ColorAttributes;
+  hover?: ColorAttributes;
+  focus?: ColorAttributes;
+  active?: ColorAttributes;
+  disabled?: ColorAttributes;
+  light?: {
+    default?: ColorAttributes;
+    hover?: ColorAttributes;
+    focus?: ColorAttributes;
+    active?: ColorAttributes;
+    disabled?: ColorAttributes;
+  };
+  dark?: {
+    default?: ColorAttributes;
+    hover?: ColorAttributes;
+    focus?: ColorAttributes;
+    active?: ColorAttributes;
+    disabled?: ColorAttributes;
+  };
+}`,signature:{properties:[{key:"default",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"hover",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"focus",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"active",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"disabled",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"light",value:{name:"signature",type:"object",raw:`{
+  default?: ColorAttributes;
+  hover?: ColorAttributes;
+  focus?: ColorAttributes;
+  active?: ColorAttributes;
+  disabled?: ColorAttributes;
+}`,signature:{properties:[{key:"default",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"hover",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"focus",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"active",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"disabled",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}}]},required:!1}},{key:"dark",value:{name:"signature",type:"object",raw:`{
+  default?: ColorAttributes;
+  hover?: ColorAttributes;
+  focus?: ColorAttributes;
+  active?: ColorAttributes;
+  disabled?: ColorAttributes;
+}`,signature:{properties:[{key:"default",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"hover",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"focus",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"active",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"disabled",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}}]},required:!1}}]},required:!1}},{key:"style",value:{name:"union",raw:`| "dashed"
+| "dotted"
+| "solid"`,elements:[{name:"literal",value:'"dashed"'},{name:"literal",value:'"dotted"'},{name:"literal",value:'"solid"'}],required:!1}},{key:"width",value:{name:"union",raw:`| "thick"
+| "thin"
+| "medium"
+| "xthick"
+| "xthin"`,elements:[{name:"literal",value:'"thick"'},{name:"literal",value:'"thin"'},{name:"literal",value:'"medium"'},{name:"literal",value:'"xthick"'},{name:"literal",value:'"xthin"'}],required:!1}}]},required:!1}},{key:"bottom",value:{name:"signature",type:"object",raw:`{
+  color?: ColorProps;
+  style?: BorderStyle;
+  width?: BorderWidth;
+}`,signature:{properties:[{key:"color",value:{name:"signature",type:"object",raw:`{
+  default?: ColorAttributes;
+  hover?: ColorAttributes;
+  focus?: ColorAttributes;
+  active?: ColorAttributes;
+  disabled?: ColorAttributes;
+  light?: {
+    default?: ColorAttributes;
+    hover?: ColorAttributes;
+    focus?: ColorAttributes;
+    active?: ColorAttributes;
+    disabled?: ColorAttributes;
+  };
+  dark?: {
+    default?: ColorAttributes;
+    hover?: ColorAttributes;
+    focus?: ColorAttributes;
+    active?: ColorAttributes;
+    disabled?: ColorAttributes;
+  };
+}`,signature:{properties:[{key:"default",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"hover",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"focus",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"active",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"disabled",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"light",value:{name:"signature",type:"object",raw:`{
+  default?: ColorAttributes;
+  hover?: ColorAttributes;
+  focus?: ColorAttributes;
+  active?: ColorAttributes;
+  disabled?: ColorAttributes;
+}`,signature:{properties:[{key:"default",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"hover",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"focus",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"active",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"disabled",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}}]},required:!1}},{key:"dark",value:{name:"signature",type:"object",raw:`{
+  default?: ColorAttributes;
+  hover?: ColorAttributes;
+  focus?: ColorAttributes;
+  active?: ColorAttributes;
+  disabled?: ColorAttributes;
+}`,signature:{properties:[{key:"default",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"hover",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"focus",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"active",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"disabled",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}}]},required:!1}}]},required:!1}},{key:"style",value:{name:"union",raw:`| "dashed"
+| "dotted"
+| "solid"`,elements:[{name:"literal",value:'"dashed"'},{name:"literal",value:'"dotted"'},{name:"literal",value:'"solid"'}],required:!1}},{key:"width",value:{name:"union",raw:`| "thick"
+| "thin"
+| "medium"
+| "xthick"
+| "xthin"`,elements:[{name:"literal",value:'"thick"'},{name:"literal",value:'"thin"'},{name:"literal",value:'"medium"'},{name:"literal",value:'"xthick"'},{name:"literal",value:'"xthin"'}],required:!1}}]},required:!1}},{key:"left",value:{name:"signature",type:"object",raw:`{
+  color?: ColorProps;
+  style?: BorderStyle;
+  width?: BorderWidth;
+}`,signature:{properties:[{key:"color",value:{name:"signature",type:"object",raw:`{
+  default?: ColorAttributes;
+  hover?: ColorAttributes;
+  focus?: ColorAttributes;
+  active?: ColorAttributes;
+  disabled?: ColorAttributes;
+  light?: {
+    default?: ColorAttributes;
+    hover?: ColorAttributes;
+    focus?: ColorAttributes;
+    active?: ColorAttributes;
+    disabled?: ColorAttributes;
+  };
+  dark?: {
+    default?: ColorAttributes;
+    hover?: ColorAttributes;
+    focus?: ColorAttributes;
+    active?: ColorAttributes;
+    disabled?: ColorAttributes;
+  };
+}`,signature:{properties:[{key:"default",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"hover",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"focus",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"active",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"disabled",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"light",value:{name:"signature",type:"object",raw:`{
+  default?: ColorAttributes;
+  hover?: ColorAttributes;
+  focus?: ColorAttributes;
+  active?: ColorAttributes;
+  disabled?: ColorAttributes;
+}`,signature:{properties:[{key:"default",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"hover",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"focus",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"active",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"disabled",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}}]},required:!1}},{key:"dark",value:{name:"signature",type:"object",raw:`{
+  default?: ColorAttributes;
+  hover?: ColorAttributes;
+  focus?: ColorAttributes;
+  active?: ColorAttributes;
+  disabled?: ColorAttributes;
+}`,signature:{properties:[{key:"default",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"hover",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"focus",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"active",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"disabled",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}}]},required:!1}}]},required:!1}},{key:"style",value:{name:"union",raw:`| "dashed"
+| "dotted"
+| "solid"`,elements:[{name:"literal",value:'"dashed"'},{name:"literal",value:'"dotted"'},{name:"literal",value:'"solid"'}],required:!1}},{key:"width",value:{name:"union",raw:`| "thick"
+| "thin"
+| "medium"
+| "xthick"
+| "xthin"`,elements:[{name:"literal",value:'"thick"'},{name:"literal",value:'"thin"'},{name:"literal",value:'"medium"'},{name:"literal",value:'"xthick"'},{name:"literal",value:'"xthin"'}],required:!1}}]},required:!1}},{key:"right",value:{name:"signature",type:"object",raw:`{
+  color?: ColorProps;
+  style?: BorderStyle;
+  width?: BorderWidth;
+}`,signature:{properties:[{key:"color",value:{name:"signature",type:"object",raw:`{
+  default?: ColorAttributes;
+  hover?: ColorAttributes;
+  focus?: ColorAttributes;
+  active?: ColorAttributes;
+  disabled?: ColorAttributes;
+  light?: {
+    default?: ColorAttributes;
+    hover?: ColorAttributes;
+    focus?: ColorAttributes;
+    active?: ColorAttributes;
+    disabled?: ColorAttributes;
+  };
+  dark?: {
+    default?: ColorAttributes;
+    hover?: ColorAttributes;
+    focus?: ColorAttributes;
+    active?: ColorAttributes;
+    disabled?: ColorAttributes;
+  };
+}`,signature:{properties:[{key:"default",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"hover",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"focus",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"active",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"disabled",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"light",value:{name:"signature",type:"object",raw:`{
+  default?: ColorAttributes;
+  hover?: ColorAttributes;
+  focus?: ColorAttributes;
+  active?: ColorAttributes;
+  disabled?: ColorAttributes;
+}`,signature:{properties:[{key:"default",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"hover",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"focus",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"active",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"disabled",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}}]},required:!1}},{key:"dark",value:{name:"signature",type:"object",raw:`{
+  default?: ColorAttributes;
+  hover?: ColorAttributes;
+  focus?: ColorAttributes;
+  active?: ColorAttributes;
+  disabled?: ColorAttributes;
+}`,signature:{properties:[{key:"default",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"hover",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"focus",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"active",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}},{key:"disabled",value:{name:"signature",type:"object",raw:`{
+  name: ColorName;
+  lightness: ColorLightness;
+  alpha?: number;
+}`,signature:{properties:[{key:"name",value:{name:"union",raw:`| "gray"
+| "red"
+| "coral"
+| "orange"
+| "yellow"
+| "lime"
+| "green"
+| "cyan"
+| "blue"
+| "violet"
+| "magenta"`,elements:[{name:"literal",value:'"gray"'},{name:"literal",value:'"red"'},{name:"literal",value:'"coral"'},{name:"literal",value:'"orange"'},{name:"literal",value:'"yellow"'},{name:"literal",value:'"lime"'},{name:"literal",value:'"green"'},{name:"literal",value:'"cyan"'},{name:"literal",value:'"blue"'},{name:"literal",value:'"violet"'},{name:"literal",value:'"magenta"'}],required:!0}},{key:"lightness",value:{name:"union",raw:`| 50
+| 100
+| 150
+| 200
+| 250
+| 300
+| 350
+| 400
+| 450
+| 500
+| 550
+| 600
+| 650
+| 700
+| 750
+| 800
+| 850
+| 900
+| 950`,elements:[{name:"literal",value:"50"},{name:"literal",value:"100"},{name:"literal",value:"150"},{name:"literal",value:"200"},{name:"literal",value:"250"},{name:"literal",value:"300"},{name:"literal",value:"350"},{name:"literal",value:"400"},{name:"literal",value:"450"},{name:"literal",value:"500"},{name:"literal",value:"550"},{name:"literal",value:"600"},{name:"literal",value:"650"},{name:"literal",value:"700"},{name:"literal",value:"750"},{name:"literal",value:"800"},{name:"literal",value:"850"},{name:"literal",value:"900"},{name:"literal",value:"950"}],required:!0}},{key:"alpha",value:{name:"number",required:!1}}]},required:!1}}]},required:!1}}]},required:!1}},{key:"style",value:{name:"union",raw:`| "dashed"
+| "dotted"
+| "solid"`,elements:[{name:"literal",value:'"dashed"'},{name:"literal",value:'"dotted"'},{name:"literal",value:'"solid"'}],required:!1}},{key:"width",value:{name:"union",raw:`| "thick"
+| "thin"
+| "medium"
+| "xthick"
+| "xthin"`,elements:[{name:"literal",value:'"thick"'},{name:"literal",value:'"thin"'},{name:"literal",value:'"medium"'},{name:"literal",value:'"xthick"'},{name:"literal",value:'"xthin"'}],required:!1}}]},required:!1}}]}},description:""},positioning:{required:!1,tsType:{name:"signature",type:"object",raw:`{
+  display?: Property.Display;
+  position?: Property.Position;
+  top?: Property.Top;
+  right?: Property.Right;
+  bottom?: Property.Bottom;
+  left?: Property.Left;
+  translateMiddle?: boolean;
+  translateMiddleX?: boolean;
+  translateMiddleY?: boolean;
+}`,signature:{properties:[{key:"display",value:{name:"Property.Display",required:!1}},{key:"position",value:{name:"Property.Position",required:!1}},{key:"top",value:{name:"Property.Top",required:!1}},{key:"right",value:{name:"Property.Right",required:!1}},{key:"bottom",value:{name:"Property.Bottom",required:!1}},{key:"left",value:{name:"Property.Left",required:!1}},{key:"translateMiddle",value:{name:"boolean",required:!1}},{key:"translateMiddleX",value:{name:"boolean",required:!1}},{key:"translateMiddleY",value:{name:"boolean",required:!1}}]}},description:""},sizing:{required:!1,tsType:{name:"signature",type:"object",raw:`{
+  width?: Property.Width;
+  minWidth?: Property.MinHeight;
+  maxWidth?: Property.MaxWidth;
+  height?: Property.Height;
+  minHeight?: Property.MinHeight;
+  maxHeight?: Property.MaxHeight;
+  aspectRatio?:
+    | "square"
+    | "paper-landscape"
+    | "paper-portlait"
+    | "2:3"
+    | "3:2"
+    | "3:4"
+    | "4:3"
+    | "4:5"
+    | "5:4"
+    | "5:8"
+    | "8:5"
+    | "9:16"
+    | "16:9";
+}`,signature:{properties:[{key:"width",value:{name:"Property.Width",required:!1}},{key:"minWidth",value:{name:"Property.MinHeight",required:!1}},{key:"maxWidth",value:{name:"Property.MaxWidth",required:!1}},{key:"height",value:{name:"Property.Height",required:!1}},{key:"minHeight",value:{name:"Property.MinHeight",required:!1}},{key:"maxHeight",value:{name:"Property.MaxHeight",required:!1}},{key:"aspectRatio",value:{name:"union",raw:`| "square"
+| "paper-landscape"
+| "paper-portlait"
+| "2:3"
+| "3:2"
+| "3:4"
+| "4:3"
+| "4:5"
+| "5:4"
+| "5:8"
+| "8:5"
+| "9:16"
+| "16:9"`,elements:[{name:"literal",value:'"square"'},{name:"literal",value:'"paper-landscape"'},{name:"literal",value:'"paper-portlait"'},{name:"literal",value:'"2:3"'},{name:"literal",value:'"3:2"'},{name:"literal",value:'"3:4"'},{name:"literal",value:'"4:3"'},{name:"literal",value:'"4:5"'},{name:"literal",value:'"5:4"'},{name:"literal",value:'"5:8"'},{name:"literal",value:'"8:5"'},{name:"literal",value:'"9:16"'},{name:"literal",value:'"16:9"'}],required:!1}}]}},description:""},spacing:{required:!1,tsType:{name:"signature",type:"object",raw:`{
+  margin?:
+    | {
+        x?: number | string;
+        y?: number | string;
+        top?: number | string;
+        left?: number | string;
+        bottom?: number | string;
+        right?: number | string;
+      }
+    | number
+    | string;
+  padding?:
+    | {
+        x?: number | string;
+        y?: number | string;
+        top?: number | string;
+        left?: number | string;
+        bottom?: number | string;
+        right?: number | string;
+      }
+    | number
+    | string;
+}`,signature:{properties:[{key:"margin",value:{name:"union",raw:`| {
+    x?: number | string;
+    y?: number | string;
+    top?: number | string;
+    left?: number | string;
+    bottom?: number | string;
+    right?: number | string;
+  }
+| number
+| string`,elements:[{name:"signature",type:"object",raw:`{
+  x?: number | string;
+  y?: number | string;
+  top?: number | string;
+  left?: number | string;
+  bottom?: number | string;
+  right?: number | string;
+}`,signature:{properties:[{key:"x",value:{name:"union",raw:"number | string",elements:[{name:"number"},{name:"string"}],required:!1}},{key:"y",value:{name:"union",raw:"number | string",elements:[{name:"number"},{name:"string"}],required:!1}},{key:"top",value:{name:"union",raw:"number | string",elements:[{name:"number"},{name:"string"}],required:!1}},{key:"left",value:{name:"union",raw:"number | string",elements:[{name:"number"},{name:"string"}],required:!1}},{key:"bottom",value:{name:"union",raw:"number | string",elements:[{name:"number"},{name:"string"}],required:!1}},{key:"right",value:{name:"union",raw:"number | string",elements:[{name:"number"},{name:"string"}],required:!1}}]}},{name:"number"},{name:"string"}],required:!1}},{key:"padding",value:{name:"union",raw:`| {
+    x?: number | string;
+    y?: number | string;
+    top?: number | string;
+    left?: number | string;
+    bottom?: number | string;
+    right?: number | string;
+  }
+| number
+| string`,elements:[{name:"signature",type:"object",raw:`{
+  x?: number | string;
+  y?: number | string;
+  top?: number | string;
+  left?: number | string;
+  bottom?: number | string;
+  right?: number | string;
+}`,signature:{properties:[{key:"x",value:{name:"union",raw:"number | string",elements:[{name:"number"},{name:"string"}],required:!1}},{key:"y",value:{name:"union",raw:"number | string",elements:[{name:"number"},{name:"string"}],required:!1}},{key:"top",value:{name:"union",raw:"number | string",elements:[{name:"number"},{name:"string"}],required:!1}},{key:"left",value:{name:"union",raw:"number | string",elements:[{name:"number"},{name:"string"}],required:!1}},{key:"bottom",value:{name:"union",raw:"number | string",elements:[{name:"number"},{name:"string"}],required:!1}},{key:"right",value:{name:"union",raw:"number | string",elements:[{name:"number"},{name:"string"}],required:!1}}]}},{name:"number"},{name:"string"}],required:!1}}]}},description:""},css:{required:!1,tsType:{name:"Interpolation",elements:[{name:"Theme"}],raw:"Interpolation<Theme>"},description:""},isDirectionRow:{required:!1,tsType:{name:"union",raw:"boolean | undefined",elements:[{name:"boolean"},{name:"undefined"}]},description:""},isDirectionRowReverse:{required:!1,tsType:{name:"union",raw:"boolean | undefined",elements:[{name:"boolean"},{name:"undefined"}]},description:""},isDirectionColumn:{required:!1,tsType:{name:"union",raw:"boolean | undefined",elements:[{name:"boolean"},{name:"undefined"}]},description:""},isDirectionColumnReverse:{required:!1,tsType:{name:"union",raw:"boolean | undefined",elements:[{name:"boolean"},{name:"undefined"}]},description:""},isMobileDirectionRow:{required:!1,tsType:{name:"union",raw:"boolean | undefined",elements:[{name:"boolean"},{name:"undefined"}]},description:""},isMobileOrMoreDirectionRow:{required:!1,tsType:{name:"union",raw:"boolean | undefined",elements:[{name:"boolean"},{name:"undefined"}]},description:""},isTabletOrLessDirectionRow:{required:!1,tsType:{name:"union",raw:"boolean | undefined",elements:[{name:"boolean"},{name:"undefined"}]},description:""},isTabletDirectionRow:{required:!1,tsType:{name:"union",raw:"boolean | undefined",elements:[{name:"boolean"},{name:"undefined"}]},description:""},isTabletOrMoreDirectionRow:{required:!1,tsType:{name:"union",raw:"boolean | undefined",elements:[{name:"boolean"},{name:"undefined"}]},description:""},isDesktopOrLessDirectionRow:{required:!1,tsType:{name:"union",raw:"boolean | undefined",elements:[{name:"boolean"},{name:"undefined"}]},description:""},isDesktopDirectionRow:{required:!1,tsType:{name:"union",raw:"boolean | undefined",elements:[{name:"boolean"},{name:"undefined"}]},description:""},isDesktopOrMoreDirectionRow:{required:!1,tsType:{name:"union",raw:"boolean | undefined",elements:[{name:"boolean"},{name:"undefined"}]},description:""},isWidescreenOrLessDirectionRow:{required:!1,tsType:{name:"union",raw:"boolean | undefined",elements:[{name:"boolean"},{name:"undefined"}]},description:""},isWidescreenDirectionRow:{required:!1,tsType:{name:"union",raw:"boolean | undefined",elements:[{name:"boolean"},{name:"undefined"}]},description:""},isWidescreenOrMoreDirectionRow:{required:!1,tsType:{name:"union",raw:"boolean | undefined",elements:[{name:"boolean"},{name:"undefined"}]},description:""},isFullhdOrLessDirectionRow:{required:!1,tsType:{name:"union",raw:"boolean | undefined",elements:[{name:"boolean"},{name:"undefined"}]},description:""},isFullhdDirectionRow:{required:!1,tsType:{name:"union",raw:"boolean | undefined",elements:[{name:"boolean"},{name:"undefined"}]},description:""},isMobileDirectionRowReverse:{required:!1,tsType:{name:"union",raw:"boolean | undefined",elements:[{name:"boolean"},{name:"undefined"}]},description:""},isMobileOrMoreDirectionRowReverse:{required:!1,tsType:{name:"union",raw:"boolean | undefined",elements:[{name:"boolean"},{name:"undefined"}]},description:""},isTabletOrLessDirectionRowReverse:{required:!1,tsType:{name:"union",raw:"boolean | undefined",elements:[{name:"boolean"},{name:"undefined"}]},description:""},isTabletDirectionRowReverse:{required:!1,tsType:{name:"union",raw:"boolean | undefined",elements:[{name:"boolean"},{name:"undefined"}]},description:""},isTabletOrMoreDirectionRowReverse:{required:!1,tsType:{name:"union",raw:"boolean | undefined",elements:[{name:"boolean"},{name:"undefined"}]},description:""},isDesktopOrLessDirectionRowReverse:{required:!1,tsType:{name:"union",raw:"boolean | undefined",elements:[{name:"boolean"},{name:"undefined"}]},description:""},isDesktopDirectionRowReverse:{required:!1,tsType:{name:"union",raw:"boolean | undefined",elements:[{name:"boolean"},{name:"undefined"}]},description:""},isDesktopOrMoreDirectionRowReverse:{required:!1,tsType:{name:"union",raw:"boolean | undefined",elements:[{name:"boolean"},{name:"undefined"}]},description:""},isWidescreenOrLessDirectionRowReverse:{required:!1,tsType:{name:"union",raw:"boolean | undefined",elements:[{name:"boolean"},{name:"undefined"}]},description:""},isWidescreenDirectionRowReverse:{required:!1,tsType:{name:"union",raw:"boolean | undefined",elements:[{name:"boolean"},{name:"undefined"}]},description:""},isWidescreenOrMoreDirectionRowReverse:{required:!1,tsType:{name:"union",raw:"boolean | undefined",elements:[{name:"boolean"},{name:"undefined"}]},description:""},isFullhdOrLessDirectionRowReverse:{required:!1,tsType:{name:"union",raw:"boolean | undefined",elements:[{name:"boolean"},{name:"undefined"}]},description:""},isFullhdDirectionRowReverse:{required:!1,tsType:{name:"union",raw:"boolean | undefined",elements:[{name:"boolean"},{name:"undefined"}]},description:""},isMobileDirectionColumn:{required:!1,tsType:{name:"union",raw:"boolean | undefined",elements:[{name:"boolean"},{name:"undefined"}]},description:""},isMobileOrMoreDirectionColumn:{required:!1,tsType:{name:"union",raw:"boolean | undefined",elements:[{name:"boolean"},{name:"undefined"}]},description:""},isTabletOrLessDirectionColumn:{required:!1,tsType:{name:"union",raw:"boolean | undefined",elements:[{name:"boolean"},{name:"undefined"}]},description:""},isTabletDirectionColumn:{required:!1,tsType:{name:"union",raw:"boolean | undefined",elements:[{name:"boolean"},{name:"undefined"}]},description:""},isTabletOrMoreDirectionColumn:{required:!1,tsType:{name:"union",raw:"boolean | undefined",elements:[{name:"boolean"},{name:"undefined"}]},description:""},isDesktopOrLessDirectionColumn:{required:!1,tsType:{name:"union",raw:"boolean | undefined",elements:[{name:"boolean"},{name:"undefined"}]},description:""},isDesktopDirectionColumn:{required:!1,tsType:{name:"union",raw:"boolean | undefined",elements:[{name:"boolean"},{name:"undefined"}]},description:""},isDesktopOrMoreDirectionColumn:{required:!1,tsType:{name:"union",raw:"boolean | undefined",elements:[{name:"boolean"},{name:"undefined"}]},description:""},isWidescreenOrLessDirectionColumn:{required:!1,tsType:{name:"union",raw:"boolean | undefined",elements:[{name:"boolean"},{name:"undefined"}]},description:""},isWidescreenDirectionColumn:{required:!1,tsType:{name:"union",raw:"boolean | undefined",elements:[{name:"boolean"},{name:"undefined"}]},description:""},isWidescreenOrMoreDirectionColumn:{required:!1,tsType:{name:"union",raw:"boolean | undefined",elements:[{name:"boolean"},{name:"undefined"}]},description:""},isFullhdOrLessDirectionColumn:{required:!1,tsType:{name:"union",raw:"boolean | undefined",elements:[{name:"boolean"},{name:"undefined"}]},description:""},isFullhdDirectionColumn:{required:!1,tsType:{name:"union",raw:"boolean | undefined",elements:[{name:"boolean"},{name:"undefined"}]},description:""},isMobileDirectionColumnReverse:{required:!1,tsType:{name:"union",raw:"boolean | undefined",elements:[{name:"boolean"},{name:"undefined"}]},description:""},isMobileOrMoreDirectionColumnReverse:{required:!1,tsType:{name:"union",raw:"boolean | undefined",elements:[{name:"boolean"},{name:"undefined"}]},description:""},isTabletOrLessDirectionColumnReverse:{required:!1,tsType:{name:"union",raw:"boolean | undefined",elements:[{name:"boolean"},{name:"undefined"}]},description:""},isTabletDirectionColumnReverse:{required:!1,tsType:{name:"union",raw:"boolean | undefined",elements:[{name:"boolean"},{name:"undefined"}]},description:""},isTabletOrMoreDirectionColumnReverse:{required:!1,tsType:{name:"union",raw:"boolean | undefined",elements:[{name:"boolean"},{name:"undefined"}]},description:""},isDesktopOrLessDirectionColumnReverse:{required:!1,tsType:{name:"union",raw:"boolean | undefined",elements:[{name:"boolean"},{name:"undefined"}]},description:""},isDesktopDirectionColumnReverse:{required:!1,tsType:{name:"union",raw:"boolean | undefined",elements:[{name:"boolean"},{name:"undefined"}]},description:""},isDesktopOrMoreDirectionColumnReverse:{required:!1,tsType:{name:"union",raw:"boolean | undefined",elements:[{name:"boolean"},{name:"undefined"}]},description:""},isWidescreenOrLessDirectionColumnReverse:{required:!1,tsType:{name:"union",raw:"boolean | undefined",elements:[{name:"boolean"},{name:"undefined"}]},description:""},isWidescreenDirectionColumnReverse:{required:!1,tsType:{name:"union",raw:"boolean | undefined",elements:[{name:"boolean"},{name:"undefined"}]},description:""},isWidescreenOrMoreDirectionColumnReverse:{required:!1,tsType:{name:"union",raw:"boolean | undefined",elements:[{name:"boolean"},{name:"undefined"}]},description:""},isFullhdOrLessDirectionColumnReverse:{required:!1,tsType:{name:"union",raw:"boolean | undefined",elements:[{name:"boolean"},{name:"undefined"}]},description:""},isFullhdDirectionColumnReverse:{required:!1,tsType:{name:"union",raw:"boolean | undefined",elements:[{name:"boolean"},{name:"undefined"}]},description:""},gutter:{required:!1,tsType:{name:"union",raw:"| `${number}rem`\n| {\n    x?: `${number}rem` | number;\n    y?: `${number}rem` | number;\n  }",elements:[{name:"literal",value:"`${number}rem`"},{name:"signature",type:"object",raw:"{\n  x?: `${number}rem` | number;\n  y?: `${number}rem` | number;\n}",signature:{properties:[{key:"x",value:{name:"union",raw:"`${number}rem` | number",elements:[{name:"literal",value:"`${number}rem`"},{name:"number"}],required:!1}},{key:"y",value:{name:"union",raw:"`${number}rem` | number",elements:[{name:"literal",value:"`${number}rem`"},{name:"number"}],required:!1}}]}}]},description:""}}};const P={title:"Layouts/Columns",component:m,tags:["autodocs"],argTypes:{}},s={args:{},render:e=>n(b,{children:_(m,{...e,children:[n(t,{children:"Column1"}),n(t,{children:"Column2"}),n(t,{children:"Column3"}),n(t,{children:"Column4"}),n(t,{children:"Column5"}),n(t,{children:"Column6"}),n(t,{children:"Column7"}),n(t,{children:"Column8"}),n(t,{children:"Column9"}),n(t,{children:"Column10"}),n(t,{children:"Column11"}),n(t,{children:"Column12"})]})})},o={args:{},render:e=>n(b,{children:_(m,{...e,children:[n(t,{sizeTabletOrLess:12,children:"Column1"}),n(t,{sizeTabletOrLess:12,children:"Column2"}),n(t,{sizeTabletOrLess:12,children:"Column3"}),n(t,{sizeTabletOrLess:12,children:"Column4"}),n(t,{sizeTabletOrLess:12,children:"Column5"}),n(t,{sizeTabletOrLess:12,children:"Column6"}),n(t,{sizeTabletOrLess:12,children:"Column7"}),n(t,{sizeTabletOrLess:12,children:"Column8"}),n(t,{sizeTabletOrLess:12,children:"Column9"}),n(t,{sizeTabletOrLess:12,children:"Column10"}),n(t,{sizeTabletOrLess:12,children:"Column11"}),n(t,{sizeTabletOrLess:12,children:"Column12"})]})})},v={args:{},render:e=>n(b,{children:_(m,{...e,children:[n(t,{sizeTablet:6,sizeMobile:12,children:"Column1"}),n(t,{sizeTablet:6,sizeMobile:12,children:"Column2"}),n(t,{sizeTablet:6,sizeMobile:12,children:"Column3"}),n(t,{sizeTablet:6,sizeMobile:12,children:"Column4"}),n(t,{sizeTablet:6,sizeMobile:12,children:"Column5"}),n(t,{sizeTablet:6,sizeMobile:12,children:"Column6"}),n(t,{sizeTablet:6,sizeMobile:12,children:"Column7"}),n(t,{sizeTablet:6,sizeMobile:12,children:"Column8"}),n(t,{sizeTablet:6,sizeMobile:12,children:"Column9"}),n(t,{sizeTablet:6,sizeMobile:12,children:"Column10"}),n(t,{sizeTablet:6,sizeMobile:12,children:"Column11"}),n(t,{sizeTablet:6,sizeMobile:12,children:"Column12"})]})})};var d,h,f;s.parameters={...s.parameters,docs:{...(d=s.parameters)==null?void 0:d.docs,source:{originalSource:`{
+  args: {},
+  render: props => <Smarpy>
+      <Columns {...props}>
+        <Column>
+          {"Column1"}
+        </Column>
+        <Column>
+          {"Column2"}
+        </Column>
+        <Column>
+          {"Column3"}
+        </Column>
+        <Column>
+          {"Column4"}
+        </Column>
+        <Column>
+          {"Column5"}
+        </Column>
+        <Column>
+          {"Column6"}
+        </Column>
+        <Column>
+          {"Column7"}
+        </Column>
+        <Column>
+          {"Column8"}
+        </Column>
+        <Column>
+          {"Column9"}
+        </Column>
+        <Column>
+          {"Column10"}
+        </Column>
+        <Column>
+          {"Column11"}
+        </Column>
+        <Column>
+          {"Column12"}
+        </Column>
+      </Columns>
+    </Smarpy>
+}`,...(f=(h=s.parameters)==null?void 0:h.docs)==null?void 0:f.source}}};var c,q,p;o.parameters={...o.parameters,docs:{...(c=o.parameters)==null?void 0:c.docs,source:{originalSource:`{
+  args: {},
+  render: props => <Smarpy>
+      <Columns {...props}>
+        <Column sizeTabletOrLess={12}>
+          {"Column1"}
+        </Column>
+        <Column sizeTabletOrLess={12}>
+          {"Column2"}
+        </Column>
+        <Column sizeTabletOrLess={12}>
+          {"Column3"}
+        </Column>
+        <Column sizeTabletOrLess={12}>
+          {"Column4"}
+        </Column>
+        <Column sizeTabletOrLess={12}>
+          {"Column5"}
+        </Column>
+        <Column sizeTabletOrLess={12}>
+          {"Column6"}
+        </Column>
+        <Column sizeTabletOrLess={12}>
+          {"Column7"}
+        </Column>
+        <Column sizeTabletOrLess={12}>
+          {"Column8"}
+        </Column>
+        <Column sizeTabletOrLess={12}>
+          {"Column9"}
+        </Column>
+        <Column sizeTabletOrLess={12}>
+          {"Column10"}
+        </Column>
+        <Column sizeTabletOrLess={12}>
+          {"Column11"}
+        </Column>
+        <Column sizeTabletOrLess={12}>
+          {"Column12"}
+        </Column>
+      </Columns>
+    </Smarpy>
+}`,...(p=(q=o.parameters)==null?void 0:q.docs)==null?void 0:p.source}}};var w,k,C;v.parameters={...v.parameters,docs:{...(w=v.parameters)==null?void 0:w.docs,source:{originalSource:`{
+  args: {},
+  render: props => <Smarpy>
+      <Columns {...props}>
+        <Column sizeTablet={6} sizeMobile={12}>
+          {"Column1"}
+        </Column>
+        <Column sizeTablet={6} sizeMobile={12}>
+          {"Column2"}
+        </Column>
+        <Column sizeTablet={6} sizeMobile={12}>
+          {"Column3"}
+        </Column>
+        <Column sizeTablet={6} sizeMobile={12}>
+          {"Column4"}
+        </Column>
+        <Column sizeTablet={6} sizeMobile={12}>
+          {"Column5"}
+        </Column>
+        <Column sizeTablet={6} sizeMobile={12}>
+          {"Column6"}
+        </Column>
+        <Column sizeTablet={6} sizeMobile={12}>
+          {"Column7"}
+        </Column>
+        <Column sizeTablet={6} sizeMobile={12}>
+          {"Column8"}
+        </Column>
+        <Column sizeTablet={6} sizeMobile={12}>
+          {"Column9"}
+        </Column>
+        <Column sizeTablet={6} sizeMobile={12}>
+          {"Column10"}
+        </Column>
+        <Column sizeTablet={6} sizeMobile={12}>
+          {"Column11"}
+        </Column>
+        <Column sizeTablet={6} sizeMobile={12}>
+          {"Column12"}
+        </Column>
+      </Columns>
+    </Smarpy>
+}`,...(C=(k=v.parameters)==null?void 0:k.docs)==null?void 0:C.source}}};const F=["AllAuto","TabletOrLess","Tablet6Mobile12"];export{s as AllAuto,v as Tablet6Mobile12,o as TabletOrLess,F as __namedExportsOrder,P as default};

@@ -1,0 +1,1 @@
+{"version":3,"file":"BreadcrumbItemProps.d.ts","sourceRoot":"","sources":["../../../src/components/BreadcrumbItem/BreadcrumbItemProps.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,iBAAiB,EAAE,gBAAgB,EAAE,MAAM,OAAO,CAAC;AAC5D,OAAO,EAAE,kBAAkB,EAAE,MAAM,qBAAqB,CAAC;AAEzD,MAAM,CAAC,OAAO,WAAW,mBACvB,SAAQ,iBAAiB,CAAC,gBAAgB,CAAC,aAAa,CAAC,EAAE,aAAa,CAAC,EACvE,kBAAkB;CACrB"}

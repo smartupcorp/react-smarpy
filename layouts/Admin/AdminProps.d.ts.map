@@ -1,0 +1,1 @@
+{"version":3,"file":"AdminProps.d.ts","sourceRoot":"","sources":["../../../src/layouts/Admin/AdminProps.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,QAAQ,EAAE,MAAM,sBAAsB,CAAC;AAEhD,MAAM,CAAC,OAAO,WAAW,UAAW,SAAQ,QAAQ;IAClD,iBAAiB,CAAC,EAAE,OAAO,CAAC;IAC5B,EAAE,CAAC,EAAE,KAAK,CAAC,WAAW,GAAG,SAAS,CAAC;IAEnC,CAAC,GAAG,EAAE,MAAM,GAAG,GAAG,CAAC;CACpB"}
