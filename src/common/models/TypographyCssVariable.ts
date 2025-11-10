@@ -12,6 +12,11 @@ export default interface TypographyCssVariable {
     normal?: string | undefined;
     medium?: string | undefined;
     large?: string | undefined;
+    xlarge?: string | undefined;
+    xxlarge?: string | undefined;
+    xxxlarge?: string | undefined;
+    xxxxlarge?: string | undefined;
+    xxxxxlarge?: string | undefined;
   };
   fontWeight?: {
     light?: number | undefined;

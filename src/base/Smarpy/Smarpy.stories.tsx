@@ -6,10 +6,23 @@ import {
   Button,
   ColorName,
   Div,
+  Dot,
   Gradation,
+  Hamburger,
+  Header,
+  Main,
   Message,
   MessageBody,
   MessageHeader,
+  Nav,
+  NavAccordion,
+  NavBrand,
+  NavBrandCenter,
+  NavBrandLeft,
+  NavBrandRight,
+  NavMenu,
+  NavMenuItem,
+  NavStatic,
   Oklch,
   Percentage,
   SmarpyCssVariable,
@@ -137,49 +150,96 @@ function genSmarpyCssVariable(): SmarpyCssVariable {
 
 const cssVariableSetting = genSmarpyCssVariable();
 
+const navMenuItems = (
+  <>
+    <NavMenuItem as="a" href="/">
+      {"NavMenuItem1"}
+    </NavMenuItem>
+    <NavMenuItem as="a" href="/">
+      {"NavMenuItem2"}
+    </NavMenuItem>
+    <NavMenuItem as="a" href="/">
+      {"NavMenuItem3"}
+    </NavMenuItem>
+  </>
+);
+
 const elem = (
   <>
-    <Div spacing={{ padding: { top: 1, bottom: 1, left: 1, right: 1 } }}>
-      <Message>
-        <MessageHeader>{"Message"}</MessageHeader>
-        <MessageBody>
-          {
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-          }
-        </MessageBody>
-      </Message>
-    </Div>
-    <Div spacing={{ padding: { top: 1, bottom: 1, left: 1, right: 1 } }}>
-      <Button>{"Button"}</Button>
-    </Div>
-    <Div spacing={{ padding: { top: 1, bottom: 1, left: 1, right: 1 } }}>
-      <Div fore={{ color: { default: { name: "cyan", lightness: 600 } } }}>
-        {"color default cyan 600"}
+    <Header>
+      <Nav>
+        <NavAccordion isTabletOrLess>
+          <NavBrand>
+            <NavBrandLeft>
+              <Hamburger />
+            </NavBrandLeft>
+            <NavBrandCenter>{"Center"}</NavBrandCenter>
+            <NavBrandRight></NavBrandRight>
+          </NavBrand>
+          <NavMenu isActive={true}>{navMenuItems}</NavMenu>
+        </NavAccordion>
+        <NavStatic isDesktopOrMore>
+          <NavBrand>
+            <NavBrandLeft>{"NavBrandLeft"}</NavBrandLeft>
+            <NavBrandCenter>{"NavBrandCenter"}</NavBrandCenter>
+            <NavBrandRight>{"NavBrandRight"}</NavBrandRight>
+          </NavBrand>
+          <NavMenu>{navMenuItems}</NavMenu>
+        </NavStatic>
+      </Nav>
+    </Header>
+    <Main>
+      <Div spacing={{ padding: 1 }}>
+        <Message>
+          <MessageHeader>{"Message"}</MessageHeader>
+          <MessageBody>
+            {
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            }
+          </MessageBody>
+        </Message>
       </Div>
-      <Div
-        fore={{
-          color: {
-            light: { default: { name: "blue", lightness: 500 } },
-            dark: { default: { name: "red", lightness: 500 } },
-          },
-        }}
-      >
-        {"color light blue 500, dark red 500"}
+      <Div spacing={{ padding: 1 }}>
+        <Button>{"Button"}</Button>
       </Div>
-      <Div
-        fore={{
-          color: {
-            light: { default: { name: "blue", lightness: 500 } },
-            dark: { default: { name: "red", lightness: 500 } },
-          },
-        }}
-        css={{
-          fontSize: "2rem",
-        }}
-      >
-        {"css props"}
+      <Div spacing={{ padding: 1 }}>
+        <Dot
+          colorName="gray"
+          sizing={{
+            aspectRatio: "16:9",
+            width: "100$"
+          }}
+        />
       </Div>
-    </Div>
+      <Div spacing={{ padding: 1 }}>
+        <Div fore={{ color: { default: { name: "cyan", lightness: 600 } } }}>
+          {"color default cyan 600"}
+        </Div>
+        <Div
+          fore={{
+            color: {
+              light: { default: { name: "blue", lightness: 500 } },
+              dark: { default: { name: "red", lightness: 500 } },
+            },
+          }}
+        >
+          {"color light blue 500, dark red 500"}
+        </Div>
+        <Div
+          fore={{
+            color: {
+              light: { default: { name: "blue", lightness: 500 } },
+              dark: { default: { name: "red", lightness: 500 } },
+            },
+          }}
+          css={{
+            fontSize: "2rem",
+          }}
+        >
+          {"css props"}
+        </Div>
+      </Div>
+    </Main>
   </>
 );
 

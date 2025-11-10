@@ -15,6 +15,8 @@ export default function AdminNavMenuItemBasic(
   delete assignedProps["back"];
   delete assignedProps["border"];
   delete assignedProps["highlighter"];
+  delete assignedProps["positioning"];
+  delete assignedProps["sizing"];
   delete assignedProps["spacing"];
   delete assignedProps["css"];
   //#endregion BaseComponentProps
@@ -27,6 +29,8 @@ export default function AdminNavMenuItemBasic(
     border: props.border,
     highlighter: props.highlighter,
     spacing: props.spacing,
+    sizing: props.sizing,
+    positioning: props.positioning,
   });
   if (utilityClassNames) {
     assignedClassNames.push(...utilityClassNames);

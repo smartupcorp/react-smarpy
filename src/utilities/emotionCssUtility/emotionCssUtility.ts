@@ -210,6 +210,8 @@ function getEmotionCss(
       key === "back" ||
       key === "highlighter" ||
       key === "border" ||
+      key === "positioning" ||
+      key === "sizing" ||
       key === "spacing"
   );
 
@@ -605,6 +607,18 @@ function getEmotionCss(
           ? `${props.spacing.padding.x}rem`
           : props.spacing.padding.x
         : undefined,
+    display: props.positioning ? props.positioning.display : undefined,
+    position: props.positioning ? props.positioning.position : undefined,
+    top: props.positioning ? props.positioning.top : undefined,
+    left: props.positioning ? props.positioning.left : undefined,
+    bottom: props.positioning ? props.positioning.bottom : undefined,
+    right: props.positioning ? props.positioning.right : undefined,
+    width: props.sizing ? props.sizing.width : undefined,
+    minWidth: props.sizing ? props.sizing.minWidth : undefined,
+    maxWidth: props.sizing ? props.sizing.maxWidth : undefined,
+    height: props.sizing ? props.sizing.height : undefined,
+    minHeight: props.sizing ? props.sizing.minHeight : undefined,
+    maxHeight: props.sizing ? props.sizing.maxHeight : undefined,
   };
   cssArray.push(baseCss);
 

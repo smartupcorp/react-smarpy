@@ -517,16 +517,49 @@ function getRootStyles(cssVariableSetting?: SmarpyCssVariable): string[] {
       }
       if (typography.fontSize) {
         if (typography.fontSize.small) {
-          rootStyles.push(`--${prefix}font-size-small: ${typography.fontSize.small};`);
+          rootStyles.push(
+            `--${prefix}font-size-small: ${typography.fontSize.small};`
+          );
         }
         if (typography.fontSize.normal) {
-          rootStyles.push(`--${prefix}font-size-normal: ${typography.fontSize.normal};`);
+          rootStyles.push(
+            `--${prefix}font-size-normal: ${typography.fontSize.normal};`
+          );
         }
         if (typography.fontSize.medium) {
-          rootStyles.push(`--${prefix}font-size-medium: ${typography.fontSize.medium};`);
+          rootStyles.push(
+            `--${prefix}font-size-medium: ${typography.fontSize.medium};`
+          );
         }
         if (typography.fontSize.large) {
-          rootStyles.push(`--${prefix}font-size-large: ${typography.fontSize.large};`);
+          rootStyles.push(
+            `--${prefix}font-size-large: ${typography.fontSize.large};`
+          );
+        }
+        if (typography.fontSize.xlarge) {
+          rootStyles.push(
+            `--${prefix}font-size-xlarge: ${typography.fontSize.xlarge};`
+          );
+        }
+        if (typography.fontSize.xxlarge) {
+          rootStyles.push(
+            `--${prefix}font-size-xxlarge: ${typography.fontSize.xxlarge};`
+          );
+        }
+        if (typography.fontSize.xxxlarge) {
+          rootStyles.push(
+            `--${prefix}font-size-xxxlarge: ${typography.fontSize.xxxlarge};`
+          );
+        }
+        if (typography.fontSize.xxxxlarge) {
+          rootStyles.push(
+            `--${prefix}font-size-xxxxlarge: ${typography.fontSize.xxxxlarge};`
+          );
+        }
+        if (typography.fontSize.xxxxxlarge) {
+          rootStyles.push(
+            `--${prefix}font-size-xxxxxlarge: ${typography.fontSize.xxxxxlarge};`
+          );
         }
       }
       if (typography.fontWeight) {
@@ -551,7 +584,9 @@ function getRootStyles(cssVariableSetting?: SmarpyCssVariable): string[] {
           );
         }
         if (typography.fontWeight.bold) {
-          rootStyles.push(`--${prefix}font-weight-bold: ${typography.fontWeight.bold};`);
+          rootStyles.push(
+            `--${prefix}font-weight-bold: ${typography.fontWeight.bold};`
+          );
         }
       }
     }
@@ -571,14 +606,10 @@ function getRootStyles(cssVariableSetting?: SmarpyCssVariable): string[] {
       if (components.button) {
         const button = components.button;
         if (button.paddingX) {
-          rootStyles.push(
-            `--${prefix}button-padding-x: ${button.paddingX};`
-          );
+          rootStyles.push(`--${prefix}button-padding-x: ${button.paddingX};`);
         }
         if (button.paddingY) {
-          rootStyles.push(
-            `--${prefix}button-padding-y: ${button.paddingY};`
-          );
+          rootStyles.push(`--${prefix}button-padding-y: ${button.paddingY};`);
         }
       }
 
@@ -666,7 +697,10 @@ function getLightSchemeStyles(
 ): string[] {
   const lightSchemeStyles: string[] = [];
 
-  const setComponentSchemeColor = (component: ComponentSchemeColor, elementName?: string) => {
+  const setComponentSchemeColor = (
+    component: ComponentSchemeColor,
+    elementName?: string
+  ) => {
     if (component.default) {
       const styles = getColorVariables(
         `default`,
@@ -678,101 +712,61 @@ function getLightSchemeStyles(
       }
     }
     if (component.gray) {
-      const styles = getColorVariables(
-        `gray`,
-        component.gray,
-        elementName
-      );
+      const styles = getColorVariables(`gray`, component.gray, elementName);
       if (styles.length > 0) {
         lightSchemeStyles.push(...styles);
       }
     }
     if (component.red) {
-      const styles = getColorVariables(
-        `red`,
-        component.red,
-        elementName
-      );
+      const styles = getColorVariables(`red`, component.red, elementName);
       if (styles.length > 0) {
         lightSchemeStyles.push(...styles);
       }
     }
     if (component.coral) {
-      const styles = getColorVariables(
-        `coral`,
-        component.coral,
-        elementName
-      );
+      const styles = getColorVariables(`coral`, component.coral, elementName);
       if (styles.length > 0) {
         lightSchemeStyles.push(...styles);
       }
     }
     if (component.orange) {
-      const styles = getColorVariables(
-        `orange`,
-        component.orange,
-        elementName
-      );
+      const styles = getColorVariables(`orange`, component.orange, elementName);
       if (styles.length > 0) {
         lightSchemeStyles.push(...styles);
       }
     }
     if (component.yellow) {
-      const styles = getColorVariables(
-        `yellow`,
-        component.yellow,
-        elementName
-      );
+      const styles = getColorVariables(`yellow`, component.yellow, elementName);
       if (styles.length > 0) {
         lightSchemeStyles.push(...styles);
       }
     }
     if (component.lime) {
-      const styles = getColorVariables(
-        `lime`,
-        component.lime,
-        elementName
-      );
+      const styles = getColorVariables(`lime`, component.lime, elementName);
       if (styles.length > 0) {
         lightSchemeStyles.push(...styles);
       }
     }
     if (component.green) {
-      const styles = getColorVariables(
-        `green`,
-        component.green,
-        elementName
-      );
+      const styles = getColorVariables(`green`, component.green, elementName);
       if (styles.length > 0) {
         lightSchemeStyles.push(...styles);
       }
     }
     if (component.cyan) {
-      const styles = getColorVariables(
-        `cyan`,
-        component.cyan,
-        elementName
-      );
+      const styles = getColorVariables(`cyan`, component.cyan, elementName);
       if (styles.length > 0) {
         lightSchemeStyles.push(...styles);
       }
     }
     if (component.blue) {
-      const styles = getColorVariables(
-        `blue`,
-        component.blue,
-        elementName
-      );
+      const styles = getColorVariables(`blue`, component.blue, elementName);
       if (styles.length > 0) {
         lightSchemeStyles.push(...styles);
       }
     }
     if (component.violet) {
-      const styles = getColorVariables(
-        `violet`,
-        component.violet,
-        elementName
-      );
+      const styles = getColorVariables(`violet`, component.violet, elementName);
       if (styles.length > 0) {
         lightSchemeStyles.push(...styles);
       }
@@ -963,7 +957,10 @@ function getLightSchemeStyles(
 function getDarkSchemeStyles(cssVariableSetting?: SmarpyCssVariable): string[] {
   const darkSchemeStyles: string[] = [];
 
-  const setComponentSchemeColor = (component: ComponentSchemeColor, elementName?: string) => {
+  const setComponentSchemeColor = (
+    component: ComponentSchemeColor,
+    elementName?: string
+  ) => {
     if (component.default) {
       const styles = getColorVariables(
         `default`,
@@ -975,101 +972,61 @@ function getDarkSchemeStyles(cssVariableSetting?: SmarpyCssVariable): string[] {
       }
     }
     if (component.gray) {
-      const styles = getColorVariables(
-        `gray`,
-        component.gray,
-        elementName
-      );
+      const styles = getColorVariables(`gray`, component.gray, elementName);
       if (styles.length > 0) {
         darkSchemeStyles.push(...styles);
       }
     }
     if (component.red) {
-      const styles = getColorVariables(
-        `red`,
-        component.red,
-        elementName
-      );
+      const styles = getColorVariables(`red`, component.red, elementName);
       if (styles.length > 0) {
         darkSchemeStyles.push(...styles);
       }
     }
     if (component.coral) {
-      const styles = getColorVariables(
-        `coral`,
-        component.coral,
-        elementName
-      );
+      const styles = getColorVariables(`coral`, component.coral, elementName);
       if (styles.length > 0) {
         darkSchemeStyles.push(...styles);
       }
     }
     if (component.orange) {
-      const styles = getColorVariables(
-        `orange`,
-        component.orange,
-        elementName
-      );
+      const styles = getColorVariables(`orange`, component.orange, elementName);
       if (styles.length > 0) {
         darkSchemeStyles.push(...styles);
       }
     }
     if (component.yellow) {
-      const styles = getColorVariables(
-        `yellow`,
-        component.yellow,
-        elementName
-      );
+      const styles = getColorVariables(`yellow`, component.yellow, elementName);
       if (styles.length > 0) {
         darkSchemeStyles.push(...styles);
       }
     }
     if (component.lime) {
-      const styles = getColorVariables(
-        `lime`,
-        component.lime,
-        elementName
-      );
+      const styles = getColorVariables(`lime`, component.lime, elementName);
       if (styles.length > 0) {
         darkSchemeStyles.push(...styles);
       }
     }
     if (component.green) {
-      const styles = getColorVariables(
-        `green`,
-        component.green,
-        elementName
-      );
+      const styles = getColorVariables(`green`, component.green, elementName);
       if (styles.length > 0) {
         darkSchemeStyles.push(...styles);
       }
     }
     if (component.cyan) {
-      const styles = getColorVariables(
-        `cyan`,
-        component.cyan,
-        elementName
-      );
+      const styles = getColorVariables(`cyan`, component.cyan, elementName);
       if (styles.length > 0) {
         darkSchemeStyles.push(...styles);
       }
     }
     if (component.blue) {
-      const styles = getColorVariables(
-        `blue`,
-        component.blue,
-        elementName
-      );
+      const styles = getColorVariables(`blue`, component.blue, elementName);
       if (styles.length > 0) {
         darkSchemeStyles.push(...styles);
       }
     }
     if (component.violet) {
-      const styles = getColorVariables(
-        `violet`,
-        component.violet,
-        elementName
-      );
+      const styles = getColorVariables(`violet`, component.violet, elementName);
       if (styles.length > 0) {
         darkSchemeStyles.push(...styles);
       }
