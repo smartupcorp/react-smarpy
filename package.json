@@ -1,6 +1,6 @@
 {
   "name": "@smartupcorp/react-smarpy",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "an open-source react wrapper for smarpy",
   "main": "index.js",
   "scripts": {
