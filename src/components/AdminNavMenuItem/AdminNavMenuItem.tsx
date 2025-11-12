@@ -47,6 +47,8 @@ export default function AdminNavMenuItem(props: AdminNavMenuItemProps) {
       border: props.border,
       highlighter: props.highlighter,
       spacing: props.spacing,
+      sizing: props.sizing,
+      positioning: props.positioning,
       css: props.css,
     },
     colorScheme

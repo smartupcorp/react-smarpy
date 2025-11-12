@@ -47,6 +47,8 @@ export default function Main(props: MainProps) {
       border: props.border,
       highlighter: props.highlighter,
       spacing: props.spacing,
+      sizing: props.sizing,
+      positioning: props.positioning,
       css: props.css,
     },
     colorScheme
