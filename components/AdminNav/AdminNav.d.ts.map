@@ -1,1 +1,1 @@
-{"version":3,"file":"AdminNav.d.ts","sourceRoot":"","sources":["../../../src/components/AdminNav/AdminNav.tsx"],"names":[],"mappings":"AAMA,OAAO,aAAa,MAAM,iBAAiB,CAAC;AAE5C,MAAM,CAAC,OAAO,UAAU,QAAQ,CAAC,KAAK,EAAE,aAAa,oDAwDpD"}
+{"version":3,"file":"AdminNav.d.ts","sourceRoot":"","sources":["../../../src/components/AdminNav/AdminNav.tsx"],"names":[],"mappings":"AAMA,OAAO,aAAa,MAAM,iBAAiB,CAAC;AAE5C,MAAM,CAAC,OAAO,UAAU,QAAQ,CAAC,KAAK,EAAE,aAAa,oDA0DpD"}

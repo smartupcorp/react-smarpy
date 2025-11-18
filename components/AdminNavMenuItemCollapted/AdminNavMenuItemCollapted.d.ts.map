@@ -1,1 +1,1 @@
-{"version":3,"file":"AdminNavMenuItemCollapted.d.ts","sourceRoot":"","sources":["../../../src/components/AdminNavMenuItemCollapted/AdminNavMenuItemCollapted.tsx"],"names":[],"mappings":"AAMA,OAAO,8BAA8B,MAAM,kCAAkC,CAAC;AAE9E,MAAM,CAAC,OAAO,UAAU,yBAAyB,CAC/C,KAAK,EAAE,8BAA8B,oDAsDtC"}
+{"version":3,"file":"AdminNavMenuItemCollapted.d.ts","sourceRoot":"","sources":["../../../src/components/AdminNavMenuItemCollapted/AdminNavMenuItemCollapted.tsx"],"names":[],"mappings":"AAMA,OAAO,8BAA8B,MAAM,kCAAkC,CAAC;AAE9E,MAAM,CAAC,OAAO,UAAU,yBAAyB,CAC/C,KAAK,EAAE,8BAA8B,oDAwDtC"}

@@ -1,1 +1,1 @@
-{"version":3,"file":"DialogMessage.d.ts","sourceRoot":"","sources":["../../../src/components/DialogMessage/DialogMessage.tsx"],"names":[],"mappings":"AAMA,OAAO,kBAAkB,MAAM,sBAAsB,CAAC;AAEtD,MAAM,CAAC,OAAO,UAAU,aAAa,CACnC,KAAK,EAAE,kBAAkB,GACxB,KAAK,CAAC,YAAY,CA2DpB"}
+{"version":3,"file":"DialogMessage.d.ts","sourceRoot":"","sources":["../../../src/components/DialogMessage/DialogMessage.tsx"],"names":[],"mappings":"AAMA,OAAO,kBAAkB,MAAM,sBAAsB,CAAC;AAEtD,MAAM,CAAC,OAAO,UAAU,aAAa,CACnC,KAAK,EAAE,kBAAkB,GACxB,KAAK,CAAC,YAAY,CA6DpB"}
