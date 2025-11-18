@@ -47,6 +47,8 @@ export default function BreadcrumbItem(props: BreadcrumbItemProps) {
       border: props.border,
       highlighter: props.highlighter,
       spacing: props.spacing,
+      sizing: props.sizing,
+      positioning: props.positioning,
       css: props.css,
     },
     colorScheme

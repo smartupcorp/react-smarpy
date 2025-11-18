@@ -49,6 +49,8 @@ export default function Heading(props: HeadingProps): React.ReactElement {
       border: props.border,
       highlighter: props.highlighter,
       spacing: props.spacing,
+      sizing: props.sizing,
+      positioning: props.positioning,
       css: props.css,
     },
     colorScheme
