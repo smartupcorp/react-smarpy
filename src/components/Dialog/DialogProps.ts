@@ -1,15 +1,22 @@
-import React from "react";
-import { BorderStyle, BorderWidth, ColorName } from "../../common/literalTypes";
-import { DivProps } from "../Div";
+import type { ClassAttributes, HTMLAttributes } from "react";
+import type { BaseNormalComponentProps } from "../../models";
+import type { BorderStyle, BorderWidth, ColorName } from "../../types";
 
-export default interface DialogProps extends DivProps {
+export interface BaseDialogProps<
+  BaseComponentColorNameType extends string,
+> extends BaseNormalComponentProps<BaseComponentColorNameType> {
   colorName?: ColorName;
-  as?: React.ElementType | undefined;
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  [key: string]: any;
   avatarSize?: "large" | "small";
   borderStyle?: BorderStyle;
   borderWidth?: BorderWidth;
   isAvatarCircle?: boolean;
   isRight?: boolean;
 }
+
+type DialogProps<BaseComponentColorNameType extends string> =
+  ClassAttributes<HTMLDivElement> &
+    HTMLAttributes<HTMLDivElement> &
+    BaseDialogProps<BaseComponentColorNameType>;
+
+export type { DialogProps as default };
+

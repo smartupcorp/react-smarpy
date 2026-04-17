@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from "@storybook/react-vite";
 
 import Card from "./Card";
-import CardTitle from "../CardTitle/CardTitle";
+import CardHeader from "../CardHeader/CardHeader";
 import CardBody from "../CardBody/CardBody";
 import Smarpy from "../../base/Smarpy";
 
@@ -11,7 +11,11 @@ const meta = {
   component: Card,
   tags: ["autodocs"],
 
-  argTypes: {},
+  argTypes: {
+    colorName: {
+      control: "text",
+    },
+  },
 } satisfies Meta<typeof Card>;
 
 export default meta;
@@ -25,7 +29,7 @@ export const Plain: Story = {
   render: (props) => (
     <Smarpy>
       <Card {...props}>
-        <CardTitle>{"Title"}</CardTitle>
+        <CardHeader>{"Title"}</CardHeader>
         <CardBody>{"Body"}</CardBody>
       </Card>
     </Smarpy>

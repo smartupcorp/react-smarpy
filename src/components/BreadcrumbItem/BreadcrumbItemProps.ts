@@ -1,7 +1,14 @@
-import { DetailedHTMLProps, LiHTMLAttributes } from "react";
-import { BaseComponentProps } from "../../common/models";
+import type { ClassAttributes, LiHTMLAttributes } from "react";
+import type { BaseNormalComponentProps } from "../../models";
 
-export default interface BreadcrumbItemProps
-  extends DetailedHTMLProps<LiHTMLAttributes<HTMLLIElement>, HTMLLIElement>,
-    BaseComponentProps {
-}
+export interface BaseBreadcrumbItemProps<
+  BaseComponentColorNameType extends string,
+> extends BaseNormalComponentProps<BaseComponentColorNameType> {}
+
+type BreadcrumbItemProps<BaseComponentColorNameType extends string> =
+  ClassAttributes<HTMLLIElement> &
+    LiHTMLAttributes<HTMLLIElement> &
+    BaseBreadcrumbItemProps<BaseComponentColorNameType>;
+
+export type { BreadcrumbItemProps as default };
+

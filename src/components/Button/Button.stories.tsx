@@ -9,6 +9,9 @@ const meta = {
   component: Button,
   tags: ["autodocs"],
   argTypes: {
+    colorName: {
+      control: "text",
+    },
   },
 } satisfies Meta<typeof Button>;
 
@@ -21,7 +24,9 @@ export const Plain: Story = {
   },
   render: (props) => (
     <Smarpy>
-      <Button {...props} />
+      <Button {...props}>
+        {"Button"}
+      </Button>
     </Smarpy>
   ),
 };

@@ -1,16 +1,17 @@
-import { ColorName } from "../../common/literalTypes";
-import { BaseComponentProps } from "../../common/models";
-import React from "react";
+import type { ClassAttributes, HTMLAttributes } from "react";
+import type { BaseNormalComponentProps } from "../../models";
+import type { ColorName } from "../../types";
 
-export default interface BadgeProps
-  extends React.DetailedHTMLProps<
-      React.HTMLAttributes<HTMLElement>,
-      HTMLElement
-    >,
-    BaseComponentProps {
+export interface BaseBadgeProps<
+  BaseComponentColorNameType extends string,
+> extends BaseNormalComponentProps<BaseComponentColorNameType> {
   colorName?: ColorName;
   isSmall?: boolean;
-  as?: React.ElementType | undefined;
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  [key: string]: any;
 }
+
+type BadgeProps<BaseComponentColorNameType extends string> =
+  ClassAttributes<HTMLSpanElement> &
+    HTMLAttributes<HTMLSpanElement> &
+    BaseBadgeProps<BaseComponentColorNameType>;
+
+export type { BadgeProps as default };

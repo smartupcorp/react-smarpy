@@ -1,6 +1,14 @@
-import { SmarpyCssVariable } from "../../common/models";
-import { SmarootProps } from "../Smaroot";
+import type { ClassAttributes, HTMLAttributes } from "react";
+import type { BaseSmarootProps } from "../Smaroot";
 
-export default interface SmarpyProps extends SmarootProps {
-  cssVariableSetting?: SmarpyCssVariable;
-}
+export interface BaseSmarpyProps<
+  BaseComponentColorNameType extends string,
+> extends BaseSmarootProps<BaseComponentColorNameType> {}
+
+type SmarpyProps<BaseComponentColorNameType extends string> =
+  ClassAttributes<HTMLDivElement> &
+    HTMLAttributes<HTMLDivElement> &
+    BaseSmarpyProps<BaseComponentColorNameType>;
+
+export type { SmarpyProps as default };
+

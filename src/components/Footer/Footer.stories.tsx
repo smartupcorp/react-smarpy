@@ -9,6 +9,9 @@ const meta = {
   component: Footer,
   tags: ["autodocs"],
   argTypes: {
+    colorName: {
+      control: "text",
+    },
   },
 } satisfies Meta<typeof Footer>;
 

@@ -1,8 +1,13 @@
 "use client";
-import { css, CSSObject, Interpolation, Theme } from "@emotion/react";
+
+import {
+  css,
+  type CSSObject,
+  type Interpolation,
+  type Theme,
+} from "@emotion/react";
 import type { CSSInterpolation } from "@emotion/serialize";
-import { ColorAttributes, ColorScheme } from "../../common/literalTypes";
-import { BaseComponentProps } from "../../common/models";
+import type { BaseComponentProps, ColorAttributes } from "../../models";
 
 const cssVariablePrefix = "smarpy-";
 
@@ -14,15 +19,15 @@ interface ComponentStateColorCssProperty {
   disabled?: string;
 }
 
-function getColorProps(
+function getColorProps<BaseComponentColorNameType extends string>(
   props?: {
-    default?: ColorAttributes;
-    hover?: ColorAttributes;
-    focus?: ColorAttributes;
-    active?: ColorAttributes;
-    disabled?: ColorAttributes;
+    default?: ColorAttributes<BaseComponentColorNameType> | "transparent";
+    hover?: ColorAttributes<BaseComponentColorNameType> | "transparent";
+    focus?: ColorAttributes<BaseComponentColorNameType> | "transparent";
+    active?: ColorAttributes<BaseComponentColorNameType> | "transparent";
+    disabled?: ColorAttributes<BaseComponentColorNameType> | "transparent";
   },
-  mode?: "highlighter"
+  mode?: "highlighter",
 ): ComponentStateColorCssProperty {
   if (!props) {
     return {
@@ -53,29 +58,152 @@ function getColorProps(
   };
 }
 
-function getColorVariable(
-  colorAttributes?: ColorAttributes
+function getColorSchemeColorProps<BaseComponentColorNameType extends string>(
+  props?: {
+    light: {
+      default?: ColorAttributes<BaseComponentColorNameType> | "transparent";
+      hover?: ColorAttributes<BaseComponentColorNameType> | "transparent";
+      focus?: ColorAttributes<BaseComponentColorNameType> | "transparent";
+      active?: ColorAttributes<BaseComponentColorNameType> | "transparent";
+      disabled?: ColorAttributes<BaseComponentColorNameType> | "transparent";
+    };
+    dark: {
+      default?: ColorAttributes<BaseComponentColorNameType> | "transparent";
+      hover?: ColorAttributes<BaseComponentColorNameType> | "transparent";
+      focus?: ColorAttributes<BaseComponentColorNameType> | "transparent";
+      active?: ColorAttributes<BaseComponentColorNameType> | "transparent";
+      disabled?: ColorAttributes<BaseComponentColorNameType> | "transparent";
+    };
+  },
+  mode?: "highlighter",
+): ComponentStateColorCssProperty {
+  if (!props) {
+    return {
+      default: undefined,
+      hover: undefined,
+      focus: undefined,
+      active: undefined,
+      disabled: undefined,
+    };
+  }
+
+  if (mode === "highlighter") {
+    return {
+      default: getColorSchemeHighlighterBackgroundVariable(
+        props.light.default,
+        props.dark.default,
+      ),
+      hover: getColorSchemeHighlighterBackgroundVariable(
+        props.light.hover,
+        props.dark.hover,
+      ),
+      focus: getColorSchemeHighlighterBackgroundVariable(
+        props.light.focus,
+        props.dark.focus,
+      ),
+      active: getColorSchemeHighlighterBackgroundVariable(
+        props.light.active,
+        props.dark.active,
+      ),
+      disabled: getColorSchemeHighlighterBackgroundVariable(
+        props.light.disabled,
+        props.dark.disabled,
+      ),
+    };
+  }
+
+  return {
+    default: getColorSchemeColorLightDark(
+      props.light.default,
+      props.dark.default,
+    ),
+    hover: getColorSchemeColorLightDark(props.light.hover, props.dark.hover),
+    focus: getColorSchemeColorLightDark(props.light.focus, props.dark.focus),
+    active: getColorSchemeColorLightDark(props.light.active, props.dark.active),
+    disabled: getColorSchemeColorLightDark(
+      props.light.disabled,
+      props.dark.disabled,
+    ),
+  };
+}
+
+function getColorVariable<BaseComponentColorNameType extends string>(
+  colorAttributes?: ColorAttributes<BaseComponentColorNameType> | "transparent",
 ): string | undefined {
   if (!colorAttributes) {
     return undefined;
   }
 
+  if (typeof colorAttributes === "string") {
+    return "transparent";
+  }
+
   if (colorAttributes.alpha) {
-    return `oklch(var(--${cssVariablePrefix}color-${colorAttributes.name}-${
+    return `oklch(from var(--${cssVariablePrefix}color-${colorAttributes.name}-${
       colorAttributes.lightness === 50 ? "050" : colorAttributes.lightness
-    }-oklch) / ${colorAttributes.alpha}) !important`;
+    }) l c h / ${colorAttributes.alpha})`;
   }
 
   return `var(--${cssVariablePrefix}color-${colorAttributes.name}-${
     colorAttributes.lightness === 50 ? "050" : colorAttributes.lightness
-  }) !important`;
+  })`;
 }
 
-function getHighlighterBackgroundVariable(
-  colorAttributes?: ColorAttributes
+function getColorSchemeColorLightDark<
+  BaseComponentColorNameType extends string,
+>(
+  lightColorAttributes?:
+    | ColorAttributes<BaseComponentColorNameType>
+    | "transparent",
+  darkColorAttributes?:
+    | ColorAttributes<BaseComponentColorNameType>
+    | "transparent",
+): string | undefined {
+  if (!lightColorAttributes || !darkColorAttributes) {
+    return undefined;
+  }
+
+  const getColor = (
+    colorAttributes:
+      | ColorAttributes<BaseComponentColorNameType>
+      | "transparent",
+  ) => {
+    if (!colorAttributes) {
+      return undefined;
+    }
+
+    if (typeof colorAttributes === "string") {
+      return "transparent";
+    }
+
+    if (colorAttributes.alpha) {
+      return `oklch(from var(--${cssVariablePrefix}color-${colorAttributes.name}-${
+        colorAttributes.lightness === 50 ? "050" : colorAttributes.lightness
+      }) l c h / ${colorAttributes.alpha})`;
+    }
+
+    return `var(--${cssVariablePrefix}color-${colorAttributes.name}-${
+      colorAttributes.lightness === 50 ? "050" : colorAttributes.lightness
+    })`;
+  };
+
+  const colorSchemeLight = getColor(lightColorAttributes);
+  const colorSchemeDark = getColor(darkColorAttributes);
+
+  return `light-dark(${colorSchemeLight}, ${colorSchemeDark})`;
+}
+
+function getHighlighterBackgroundVariable<
+  BaseComponentColorNameType extends string,
+>(
+  colorAttributes?: ColorAttributes<BaseComponentColorNameType> | "transparent",
 ): string | undefined {
   if (!colorAttributes) {
     return undefined;
+  }
+
+  if (typeof colorAttributes === "string") {
+    return "transparent";
   }
 
   if (colorAttributes.alpha) {
@@ -89,6 +217,46 @@ function getHighlighterBackgroundVariable(
   return `linear-gradient(
     transparent 66.66%,
     var(--${cssVariablePrefix}color-${colorAttributes.name}-${colorAttributes.lightness}) 33.33%)`;
+}
+
+function getColorSchemeHighlighterBackgroundVariable<
+  BaseComponentColorNameType extends string,
+>(
+  lightColorAttributes?:
+    | ColorAttributes<BaseComponentColorNameType>
+    | "transparent",
+  darkColorAttributes?:
+    | ColorAttributes<BaseComponentColorNameType>
+    | "transparent",
+): string | undefined {
+  if (!lightColorAttributes || !darkColorAttributes) {
+    return undefined;
+  }
+
+  const getColor = (
+    colorAttributes:
+      | ColorAttributes<BaseComponentColorNameType>
+      | "transparent",
+  ) => {
+    if (typeof colorAttributes === "string") {
+      return "transparent";
+    }
+
+    if (colorAttributes.alpha) {
+      return `oklch(from var(--${cssVariablePrefix}color-${colorAttributes.name}-${
+        colorAttributes.lightness === 50 ? "050" : colorAttributes.lightness
+      }) l c h / ${colorAttributes.alpha})`;
+    }
+
+    return `var(--${cssVariablePrefix}color-${colorAttributes.name}-${colorAttributes.lightness})`;
+  };
+
+  const colorSchemeLight = getColor(lightColorAttributes);
+  const colorSchemeDark = getColor(darkColorAttributes);
+
+  return `linear-gradient(
+    transparent 66.66%,
+    light-dark(${colorSchemeLight}, ${colorSchemeDark}) 33.33%)`;
 }
 
 function getCssObject(props: {
@@ -198,9 +366,9 @@ function getSchemeCssObject({
   );
 }
 
-function getEmotionCss(
-  props: BaseComponentProps,
-  colorScheme?: ColorScheme
+function getEmotionCss<BaseComponentColorNameType extends string>(
+  props: BaseComponentProps<BaseComponentColorNameType>,
+  optionalCss?: Interpolation<Theme>
 ): Interpolation<Theme> {
   const keys = Object.keys(props);
 
@@ -212,22 +380,28 @@ function getEmotionCss(
       key === "border" ||
       key === "positioning" ||
       key === "sizing" ||
-      key === "spacing"
+      key === "spacing",
   );
 
   if (baseComponentPropsKeys.length === 0) {
-    if (props.css) {
-      return props.css;
+    const cssArray = [];
+    if (optionalCss) {
+      cssArray.push(optionalCss);
     }
-    return undefined;
+
+    if (props.css) {
+      cssArray.push(props.css);
+    }
+    return cssArray;
   }
 
   //#region fore
-  const foreColorBase = props.fore && getColorProps(props.fore.color);
-  const foreColorLight =
-    props.fore && props.fore.color && getColorProps(props.fore.color.light);
-  const foreColorDark =
-    props.fore && props.fore.color && getColorProps(props.fore.color.dark);
+  const foreColorBase =
+    props.fore && getColorProps<BaseComponentColorNameType>(props.fore.color);
+  const foreColorSchemeLightDark =
+    props.fore &&
+    props.fore.color &&
+    getColorSchemeColorProps(props.fore.color.colorScheme);
 
   const fontSize =
     props.fore && props.fore.fontSize
@@ -243,10 +417,10 @@ function getEmotionCss(
 
   //#region back
   const backColorBase = props.back && getColorProps(props.back.color);
-  const backColorLight =
-    props.back && props.back.color && getColorProps(props.back.color.light);
-  const backColorDark =
-    props.back && props.back.color && getColorProps(props.back.color.dark);
+  const backColorSchemeLightDark =
+    props.back &&
+    props.back.color &&
+    getColorSchemeColorProps(props.back.color.colorScheme);
 
   //#endregion back
 
@@ -254,15 +428,13 @@ function getEmotionCss(
   const highlighterColorBase =
     props.highlighter && getColorProps(props.highlighter.color, "highlighter");
 
-  const highlighterColorLight =
+  const highlighterColorSchemeLightDark =
     props.highlighter &&
     props.highlighter.color &&
-    getColorProps(props.highlighter.color.light, "highlighter");
-
-  const highlighterColorDark =
-    props.highlighter &&
-    props.highlighter.color &&
-    getColorProps(props.highlighter.color.dark, "highlighter");
+    getColorSchemeColorProps(
+      props.highlighter.color.colorScheme,
+      "highlighter",
+    );
 
   //#endregion highlighter
 
@@ -284,63 +456,35 @@ function getEmotionCss(
 
   const borderLeftColorBase =
     props.border && props.border.left && getColorProps(props.border.left.color);
-  const borderColorLight =
+
+  const borderColorSchemeLightDark =
     props.border &&
     props.border.color &&
-    getColorProps(props.border.color.light);
+    getColorSchemeColorProps(props.border.color.colorScheme);
 
-  const borderTopColorLight =
+  const borderTopColorSchemeLightDark =
     props.border &&
     props.border.top &&
     props.border.top.color &&
-    getColorProps(props.border.top.color.light);
+    getColorSchemeColorProps(props.border.top.color.colorScheme);
 
-  const borderRightColorLight =
+  const borderRightColorSchemeLightDark =
     props.border &&
     props.border.right &&
     props.border.right.color &&
-    getColorProps(props.border.right.color.light);
+    getColorSchemeColorProps(props.border.right.color.colorScheme);
 
-  const borderBottomColorLight =
+  const borderBottomColorSchemeLightDark =
     props.border &&
     props.border.bottom &&
     props.border.bottom.color &&
-    getColorProps(props.border.bottom.color.light);
+    getColorSchemeColorProps(props.border.bottom.color.colorScheme);
 
-  const borderLeftColorLight =
+  const borderLeftColorSchemeLightDark =
     props.border &&
     props.border.left &&
     props.border.left.color &&
-    getColorProps(props.border.left.color.light);
-
-  const borderColorDark =
-    props.border &&
-    props.border.color &&
-    getColorProps(props.border.color.dark);
-
-  const borderTopColorDark =
-    props.border &&
-    props.border.top &&
-    props.border.top.color &&
-    getColorProps(props.border.top.color.dark);
-
-  const borderRightColorDark =
-    props.border &&
-    props.border.right &&
-    props.border.right.color &&
-    getColorProps(props.border.right.color.dark);
-
-  const borderBottomColorDark =
-    props.border &&
-    props.border.bottom &&
-    props.border.bottom.color &&
-    getColorProps(props.border.bottom.color.dark);
-
-  const borderLeftColorDark =
-    props.border &&
-    props.border.left &&
-    props.border.left.color &&
-    getColorProps(props.border.left.color.dark);
+    getColorSchemeColorProps(props.border.left.color.colorScheme);
 
   //#endregion border
 
@@ -388,26 +532,15 @@ function getEmotionCss(
     borderLeftColor: borderLeftColorBase && borderLeftColorBase.disabled,
   });
 
-  const light = getSchemeCssObject({
-    foreColor: foreColorLight,
-    backColor: backColorLight,
-    highlighter: highlighterColorLight,
-    borderColor: borderColorLight,
-    borderTopColor: borderTopColorLight,
-    borderRightColor: borderRightColorLight,
-    borderBottomColor: borderBottomColorLight,
-    borderLeftColor: borderLeftColorLight,
-  });
-
-  const dark = getSchemeCssObject({
-    foreColor: foreColorDark,
-    backColor: backColorDark,
-    highlighter: highlighterColorDark,
-    borderColor: borderColorDark,
-    borderTopColor: borderTopColorDark,
-    borderRightColor: borderRightColorDark,
-    borderBottomColor: borderBottomColorDark,
-    borderLeftColor: borderLeftColorDark,
+  const lightDark = getSchemeCssObject({
+    foreColor: foreColorSchemeLightDark,
+    backColor: backColorSchemeLightDark,
+    highlighter: highlighterColorSchemeLightDark,
+    borderColor: borderColorSchemeLightDark,
+    borderTopColor: borderTopColorSchemeLightDark,
+    borderRightColor: borderRightColorSchemeLightDark,
+    borderBottomColor: borderBottomColorSchemeLightDark,
+    borderLeftColor: borderLeftColorSchemeLightDark,
   });
 
   const cssArray: CSSInterpolation[] = [];
@@ -417,7 +550,7 @@ function getEmotionCss(
     fontWeight: fontWeight,
     borderCollapse:
       props.border && props.border.collapse
-        ? props.border.collapse === "collapted"
+        ? props.border.collapse === "collapsed"
           ? "collapse"
           : "separate"
         : undefined,
@@ -468,8 +601,8 @@ function getEmotionCss(
         ? typeof props.spacing.margin === "number"
           ? `${props.spacing.margin}rem`
           : typeof props.spacing.margin === "string"
-          ? props.spacing.margin
-          : undefined
+            ? props.spacing.margin
+            : undefined
         : undefined,
     marginTop:
       props.spacing &&
@@ -480,13 +613,13 @@ function getEmotionCss(
           ? `${props.spacing.margin.top}rem`
           : props.spacing.margin.top
         : props.spacing &&
-          props.spacing.margin &&
-          typeof props.spacing.margin === "object" &&
-          props.spacing.margin.y
-        ? typeof props.spacing.margin.y === "number"
-          ? `${props.spacing.margin.y}rem`
-          : props.spacing.margin.y
-        : undefined,
+            props.spacing.margin &&
+            typeof props.spacing.margin === "object" &&
+            props.spacing.margin.y
+          ? typeof props.spacing.margin.y === "number"
+            ? `${props.spacing.margin.y}rem`
+            : props.spacing.margin.y
+          : undefined,
     marginRight:
       props.spacing &&
       props.spacing.margin &&
@@ -496,13 +629,13 @@ function getEmotionCss(
           ? `${props.spacing.margin.right}rem`
           : props.spacing.margin.right
         : props.spacing &&
-          props.spacing.margin &&
-          typeof props.spacing.margin === "object" &&
-          props.spacing.margin.x
-        ? typeof props.spacing.margin.x === "number"
-          ? `${props.spacing.margin.x}rem`
-          : props.spacing.margin.x
-        : undefined,
+            props.spacing.margin &&
+            typeof props.spacing.margin === "object" &&
+            props.spacing.margin.x
+          ? typeof props.spacing.margin.x === "number"
+            ? `${props.spacing.margin.x}rem`
+            : props.spacing.margin.x
+          : undefined,
     marginBottom:
       props.spacing &&
       props.spacing.margin &&
@@ -512,13 +645,13 @@ function getEmotionCss(
           ? `${props.spacing.margin.bottom}rem`
           : props.spacing.margin.bottom
         : props.spacing &&
-          props.spacing.margin &&
-          typeof props.spacing.margin === "object" &&
-          props.spacing.margin.y
-        ? typeof props.spacing.margin.y === "number"
-          ? `${props.spacing.margin.y}rem`
-          : props.spacing.margin.y
-        : undefined,
+            props.spacing.margin &&
+            typeof props.spacing.margin === "object" &&
+            props.spacing.margin.y
+          ? typeof props.spacing.margin.y === "number"
+            ? `${props.spacing.margin.y}rem`
+            : props.spacing.margin.y
+          : undefined,
     marginLeft:
       props.spacing &&
       props.spacing.margin &&
@@ -528,20 +661,20 @@ function getEmotionCss(
           ? `${props.spacing.margin.left}rem`
           : props.spacing.margin.left
         : props.spacing &&
-          props.spacing.margin &&
-          typeof props.spacing.margin === "object" &&
-          props.spacing.margin.x
-        ? typeof props.spacing.margin.x === "number"
-          ? `${props.spacing.margin.x}rem`
-          : props.spacing.margin.x
-        : undefined,
+            props.spacing.margin &&
+            typeof props.spacing.margin === "object" &&
+            props.spacing.margin.x
+          ? typeof props.spacing.margin.x === "number"
+            ? `${props.spacing.margin.x}rem`
+            : props.spacing.margin.x
+          : undefined,
     padding:
       props.spacing && props.spacing.padding
         ? typeof props.spacing.padding === "number"
           ? `${props.spacing.padding}rem`
           : typeof props.spacing.padding === "string"
-          ? props.spacing.padding
-          : undefined
+            ? props.spacing.padding
+            : undefined
         : undefined,
     paddingTop:
       props.spacing &&
@@ -552,13 +685,13 @@ function getEmotionCss(
           ? `${props.spacing.padding.top}rem`
           : props.spacing.padding.top
         : props.spacing &&
-          props.spacing.padding &&
-          typeof props.spacing.padding === "object" &&
-          props.spacing.padding.y
-        ? typeof props.spacing.padding.y === "number"
-          ? `${props.spacing.padding.y}rem`
-          : props.spacing.padding.y
-        : undefined,
+            props.spacing.padding &&
+            typeof props.spacing.padding === "object" &&
+            props.spacing.padding.y
+          ? typeof props.spacing.padding.y === "number"
+            ? `${props.spacing.padding.y}rem`
+            : props.spacing.padding.y
+          : undefined,
     paddingRight:
       props.spacing &&
       props.spacing.padding &&
@@ -568,13 +701,13 @@ function getEmotionCss(
           ? `${props.spacing.padding.right}rem`
           : props.spacing.padding.right
         : props.spacing &&
-          props.spacing.padding &&
-          typeof props.spacing.padding === "object" &&
-          props.spacing.padding.x
-        ? typeof props.spacing.padding.x === "number"
-          ? `${props.spacing.padding.x}rem`
-          : props.spacing.padding.x
-        : undefined,
+            props.spacing.padding &&
+            typeof props.spacing.padding === "object" &&
+            props.spacing.padding.x
+          ? typeof props.spacing.padding.x === "number"
+            ? `${props.spacing.padding.x}rem`
+            : props.spacing.padding.x
+          : undefined,
     paddingBottom:
       props.spacing &&
       props.spacing.padding &&
@@ -584,13 +717,13 @@ function getEmotionCss(
           ? `${props.spacing.padding.bottom}rem`
           : props.spacing.padding.bottom
         : props.spacing &&
-          props.spacing.padding &&
-          typeof props.spacing.padding === "object" &&
-          props.spacing.padding.y
-        ? typeof props.spacing.padding.y === "number"
-          ? `${props.spacing.padding.y}rem`
-          : props.spacing.padding.y
-        : undefined,
+            props.spacing.padding &&
+            typeof props.spacing.padding === "object" &&
+            props.spacing.padding.y
+          ? typeof props.spacing.padding.y === "number"
+            ? `${props.spacing.padding.y}rem`
+            : props.spacing.padding.y
+          : undefined,
     paddingLeft:
       props.spacing &&
       props.spacing.padding &&
@@ -600,13 +733,13 @@ function getEmotionCss(
           ? `${props.spacing.padding.left}rem`
           : props.spacing.padding.left
         : props.spacing &&
-          props.spacing.padding &&
-          typeof props.spacing.padding === "object" &&
-          props.spacing.padding.x
-        ? typeof props.spacing.padding.x === "number"
-          ? `${props.spacing.padding.x}rem`
-          : props.spacing.padding.x
-        : undefined,
+            props.spacing.padding &&
+            typeof props.spacing.padding === "object" &&
+            props.spacing.padding.x
+          ? typeof props.spacing.padding.x === "number"
+            ? `${props.spacing.padding.x}rem`
+            : props.spacing.padding.x
+          : undefined,
     display: props.positioning ? props.positioning.display : undefined,
     position: props.positioning ? props.positioning.position : undefined,
     top: props.positioning ? props.positioning.top : undefined,
@@ -638,21 +771,27 @@ function getEmotionCss(
   };
   cssArray.push(defaultColorCss);
 
-  if (colorScheme === "light" && light) {
-    cssArray.push(light);
+  if (lightDark) {
+    cssArray.push(lightDark);
   }
 
-  if (colorScheme === "dark" && dark) {
-    cssArray.push(dark);
-  }
+  const derivedCssArray = [];
 
   const smarpyUtilityStyles = css(cssArray);
 
-  if (props.css) {
-    return [smarpyUtilityStyles, props.css];
+  if (smarpyUtilityStyles) {
+    derivedCssArray.push(smarpyUtilityStyles);
   }
 
-  return smarpyUtilityStyles;
+  if (optionalCss) {
+    derivedCssArray.push(optionalCss);
+  }
+
+  if (props.css) {
+    derivedCssArray.push(props.css);
+  }
+
+  return derivedCssArray;
 }
 
 const emotionStyleUtility = {

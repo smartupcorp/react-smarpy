@@ -12,6 +12,9 @@ const meta = {
   component: Message,
   tags: ["autodocs"],
   argTypes: {
+    colorName: {
+      control: "text",
+    },
   },
 } satisfies Meta<typeof Message>;
 

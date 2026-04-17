@@ -1,12 +1,13 @@
 "use client";
-import { useContext } from "react";
-import { SmarpyColorSchemeContext } from "../../contexts";
-import classNameUtility from "../../utilities/classNameUtility";
-import emotionCssUtility from "../../utilities/emotionCssUtility";
-import classNames from "./Ruby.module.scss";
-import RubyProps from "./RubyProps";
 
-export default function Ruby(props: RubyProps) {
+import { type ColorName } from "../../types";
+import { classNameUtility, emotionCssUtility } from "../../utilities";
+import classNames from "./Ruby.module.scss";
+import type RubyProps from "./RubyProps";
+
+export default function Ruby<
+  BaseComponentColorNameType extends string = ColorName,
+>(props: RubyProps<BaseComponentColorNameType>) {
   const assignedProps = { ...props };
   delete assignedProps["rubyText"];
   //#region BaseComponentProps
@@ -17,7 +18,9 @@ export default function Ruby(props: RubyProps) {
   delete assignedProps["positioning"];
   delete assignedProps["sizing"];
   delete assignedProps["spacing"];
+  delete assignedProps["className"];
   delete assignedProps["css"];
+  // delete assignedProps["as"];
   //#endregion BaseComponentProps
 
   const assignedClassNames: string[] = [classNames["element"]];
@@ -39,21 +42,16 @@ export default function Ruby(props: RubyProps) {
     assignedClassNames.push(props.className);
   }
 
-  const colorScheme = useContext(SmarpyColorSchemeContext);
-
-  const css = emotionCssUtility.getEmotionCss(
-    {
-      fore: props.fore,
-      back: props.back,
-      border: props.border,
-      highlighter: props.highlighter,
-      spacing: props.spacing,
-      sizing: props.sizing,
-      positioning: props.positioning,
-      css: props.css,
-    },
-    colorScheme
-  );
+  const css = emotionCssUtility.getEmotionCss<BaseComponentColorNameType>({
+    fore: props.fore,
+    back: props.back,
+    border: props.border,
+    highlighter: props.highlighter,
+    spacing: props.spacing,
+    sizing: props.sizing,
+    positioning: props.positioning,
+    css: props.css,
+  });
 
   return (
     <ruby {...assignedProps} className={assignedClassNames.join(" ")} css={css}>

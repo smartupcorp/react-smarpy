@@ -66,13 +66,9 @@
       "types": "./dist/base/Smarpy/index.d.ts",
       "import": "./dist/base/Smarpy/index.js"
     },
-    "./base/Soroot": {
+    "./base/Smaroot": {
       "types": "./dist/base/Smaroot/index.d.ts",
       "import": "./dist/base/Smaroot/index.js"
-    },
-    "./common/*": {
-      "types": "./dist/common/*.d.ts",
-      "import": "./dist/common/*.js"
     },
     "./components": {
       "types": "./dist/components/index.d.ts",
@@ -98,9 +94,9 @@
       "types": "./dist/components/AdminNavBrandBasic/index.d.ts",
       "import": "./dist/components/AdminNavBrandBasic/index.js"
     },
-    "./components/AdminNavBrandCollapted": {
-      "types": "./dist/components/AdminNavBrandCollapted/index.d.ts",
-      "import": "./dist/components/AdminNavBrandCollapted/index.js"
+    "./components/AdminNavBrandCollapsed": {
+      "types": "./dist/components/AdminNavBrandCollapsed/index.d.ts",
+      "import": "./dist/components/AdminNavBrandCollapsed/index.js"
     },
     "./components/AdminNavMenu": {
       "types": "./dist/components/AdminNavMenu/index.d.ts",
@@ -114,9 +110,9 @@
       "types": "./dist/components/AdminNavMenuItemBasic/index.d.ts",
       "import": "./dist/components/AdminNavMenuItemBasic/index.js"
     },
-    "./components/AdminNavMenuItemCollapted": {
-      "types": "./dist/components/AdminNavMenuItemCollapted/index.d.ts",
-      "import": "./dist/components/AdminNavMenuItemCollapted/index.js"
+    "./components/AdminNavMenuItemCollapsed": {
+      "types": "./dist/components/AdminNavMenuItemCollapsed/index.d.ts",
+      "import": "./dist/components/AdminNavMenuItemCollapsed/index.js"
     },
     "./components/Badge": {
       "types": "./dist/components/Badge/index.d.ts",
@@ -146,9 +142,9 @@
       "types": "./dist/components/CardBody/index.d.ts",
       "import": "./dist/components/CardBody/index.js"
     },
-    "./components/CardTitle": {
-      "types": "./dist/components/CardTitle/index.d.ts",
-      "import": "./dist/components/CardTitle/index.js"
+    "./components/CardHeader": {
+      "types": "./dist/components/CardHeader/index.d.ts",
+      "import": "./dist/components/CardHeader/index.js"
     },
     "./components/Checkbox": {
       "types": "./dist/components/Checkbox/index.d.ts",
@@ -310,14 +306,6 @@
       "types": "./dist/contexts/SmarpyColorSchemeContext/index.d.ts",
       "import": "./dist/contexts/SmarpyColorSchemeContext/index.js"
     },
-    "./hooks": {
-      "types": "./dist/hooks/index.d.ts",
-      "import": "./dist/hooks/index.js"
-    },
-    "./hooks/useSmarpyCustomTheme": {
-      "types": "./dist/hooks/useSmarpyCustomTheme/index.d.ts",
-      "import": "./dist/hooks/useSmarpyCustomTheme/index.js"
-    },
     "./layouts": {
       "types": "./dist/layouts/index.d.ts",
       "import": "./dist/layouts/index.js"
@@ -341,6 +329,14 @@
     "./layouts/Container": {
       "types": "./dist/layouts/Container/index.d.ts",
       "import": "./dist/layouts/Container/index.js"
+    },
+    "./models/*": {
+      "types": "./dist/models/*.d.ts",
+      "import": "./dist/models/*.js"
+    },
+    "./types/*": {
+      "types": "./dist/types/*.d.ts",
+      "import": "./dist/types/*.js"
     },
     "./utilities": {
       "types": "./dist/utilities/index.d.ts",
@@ -373,7 +369,7 @@
   "devDependencies": {
     "@emotion/babel-preset-css-prop": "^11.12.0",
     "@emotion/react": "^11.14.0",
-    "@smartupcorp/smarpy": "^0.0.2",
+    "@smartupcorp/smarpy": "^1.0.0",
     "@storybook/addon-docs": "^9.0.3",
     "@storybook/react-vite": "^9.0.3",
     "@types/lodash": "^4.17.17",
@@ -394,6 +390,7 @@
     "rollup-preserve-directives": "^1.1.3",
     "sass": "^1.82.0",
     "storybook": "^9.0.3",
+    "type-fest": "^5.5.0",
     "typescript": "^5.7.3",
     "vite": "^6.0.15",
     "vite-plugin-dts": "^4.3.0",

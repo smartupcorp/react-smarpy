@@ -1,6 +1,6 @@
 import { expect, test } from "vitest";
 import smarpyStyleUtility from "./smarpyStyleUtility";
-import { SmarpyCssVariable } from "../../react-smarpy";
+import type { ColorName, SmarpyCssVariables } from "../../react-smarpy";
 
 const colors: string[] = [
   "gray",
@@ -20,7 +20,7 @@ const colorchromaGray = 0.04;
 const colorchromaColorful = 0.11;
 
 test("change color black.", () => {
-  const cssVariables: SmarpyCssVariable = {
+  const cssVariables: SmarpyCssVariables<ColorName> = {
     color: {
       black: {
         hue: 190,
@@ -36,7 +36,7 @@ test("change color black.", () => {
 });
 
 test("change color white.", () => {
-  const cssVariables: SmarpyCssVariable = {
+  const cssVariables: SmarpyCssVariables<ColorName> = {
     color: {
       white: {
         hue: 190,
@@ -55,7 +55,7 @@ colors.forEach((color) => {
   for (let i = 19; i >= 1; i--) {
     const gradation = i * 50;
     test(`change color ${color}[${gradation}]`, () => {
-      const cssVariables: SmarpyCssVariable = {
+      const cssVariables: SmarpyCssVariables<ColorName> = {
         color: {
           [color]: {
             [gradation]: {

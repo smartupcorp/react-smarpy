@@ -1,4 +1,13 @@
-import { DivProps } from "../Div";
+import type { ClassAttributes, HTMLAttributes } from "react";
+import type { BaseNormalComponentProps } from "../../models";
 
-export default interface AccordionSummaryProps extends DivProps {
-}
+export interface BaseAccordionDetailsProps<
+  BaseComponentColorNameType extends string,
+> extends BaseNormalComponentProps<BaseComponentColorNameType> {}
+
+type AccordionDetailsProps<BaseComponentColorNameType extends string> =
+  ClassAttributes<HTMLDivElement> &
+    HTMLAttributes<HTMLDivElement> &
+    BaseAccordionDetailsProps<BaseComponentColorNameType>;
+
+export type { AccordionDetailsProps as default };

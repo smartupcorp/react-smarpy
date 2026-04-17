@@ -1,12 +1,17 @@
 "use client";
-import { useContext } from "react";
-import { SmarpyColorSchemeContext } from "../../contexts";
-import classNameUtility from "../../utilities/classNameUtility";
-import emotionCssUtility from "../../utilities/emotionCssUtility";
-import classNames from "./Progress.module.scss";
-import ProgressProps from "./ProgressProps";
 
-export default function Progress(props: ProgressProps) {
+import type { Interpolation, Theme } from "@emotion/react";
+import { type ColorName } from "../../types";
+import { classNameUtility, emotionCssUtility } from "../../utilities";
+import classNames from "./Progress.module.scss";
+import type ProgressProps from "./ProgressProps";
+import type { BaseProgressProps } from "./ProgressProps";
+
+export default function Progress<
+  BaseComponentColorNameType extends string = ColorName,
+  ComponentPropsType extends BaseProgressProps<BaseComponentColorNameType> =
+    ProgressProps<BaseComponentColorNameType>,
+>(props: ComponentPropsType) {
   const assignedProps = { ...props };
   delete assignedProps["colorName"];
   // //#region BaseComponentProps
@@ -14,11 +19,15 @@ export default function Progress(props: ProgressProps) {
   delete assignedProps["back"];
   delete assignedProps["border"];
   delete assignedProps["highlighter"];
+  delete assignedProps["positioning"];
+  delete assignedProps["sizing"];
   delete assignedProps["spacing"];
+  delete assignedProps["className"];
+  delete assignedProps["css"];
+  delete assignedProps["as"];
   //#endregion BaseComponentProps
 
   const assignedClassNames = [classNames["progress"]];
-  assignedClassNames.push(classNames[`is-${props.colorName}`]);
   assignedClassNames.push(classNames[`is-${props.percentage}-percent`]);
 
   const utilityClassNames = classNameUtility.getUtilityClassNames({
@@ -38,9 +47,18 @@ export default function Progress(props: ProgressProps) {
     assignedClassNames.push(props.className);
   }
 
-  const colorScheme = useContext(SmarpyColorSchemeContext);
+  const colorNameCss: Interpolation<Theme> = props.colorName
+    ? {
+        ["--smarpy-progress-color-fore"]: `var(--smarpy-color-${props.colorName}-progress-fore, var(--smarpy-color-${props.colorName}-fore))`,
+        ["--smarpy-progress-color-back"]: `var(--smarpy-color-${props.colorName}-progress-back, var(--smarpy-color-${props.colorName}-back))`,
+      }
+    : undefined;
 
-  const css = emotionCssUtility.getEmotionCss(
+  const optionalCss = {
+    ...colorNameCss,
+  };
+
+  const css = emotionCssUtility.getEmotionCss<BaseComponentColorNameType>(
     {
       fore: props.fore,
       back: props.back,
@@ -51,10 +69,16 @@ export default function Progress(props: ProgressProps) {
       positioning: props.positioning,
       css: props.css,
     },
-    colorScheme
+    optionalCss,
   );
 
-  return (
+  return props.as ? (
+    <props.as
+      {...assignedProps}
+      className={assignedClassNames.join(" ")}
+      css={css}
+    />
+  ) : (
     <div
       {...assignedProps}
       className={assignedClassNames.join(" ")}

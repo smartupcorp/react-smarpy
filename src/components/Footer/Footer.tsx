@@ -1,12 +1,17 @@
 "use client";
-import { useContext } from "react";
-import { SmarpyColorSchemeContext } from "../../contexts";
-import classNameUtility from "../../utilities/classNameUtility";
-import emotionCssUtility from "../../utilities/emotionCssUtility";
-import classNames from "./Footer.module.scss";
-import FooterProps from "./FooterProps";
 
-export default function Footer(props: FooterProps) {
+import type { Interpolation, Theme } from "@emotion/react";
+import { type ColorName } from "../../types";
+import { classNameUtility, emotionCssUtility } from "../../utilities";
+import classNames from "./Footer.module.scss";
+import type FooterProps from "./FooterProps";
+import type { BaseFooterProps } from "./FooterProps";
+
+export default function Footer<
+  BaseComponentColorNameType extends string = ColorName,
+  ComponentPropsType extends BaseFooterProps<BaseComponentColorNameType> =
+    FooterProps<BaseComponentColorNameType>,
+>(props: ComponentPropsType) {
   const assignedProps = { ...props };
   delete assignedProps["colorName"];
   delete assignedProps["isSticky"];
@@ -19,14 +24,21 @@ export default function Footer(props: FooterProps) {
   delete assignedProps["positioning"];
   delete assignedProps["sizing"];
   delete assignedProps["spacing"];
+  delete assignedProps["className"];
   delete assignedProps["css"];
+  delete assignedProps["as"];
   //#endregion BaseComponentProps
 
-  const assignedClassNames: string[] = [classNames["Footer"]];
-  props.colorName &&
+  const assignedClassNames: string[] = [classNames["footer"]];
+  if (props.colorName) {
     assignedClassNames.push(classNames[`is-${props.colorName}`]);
-  props.isSticky && assignedClassNames.push(classNames[`is-sticky`]);
-  props.isFixed && assignedClassNames.push(classNames[`is-fixed`]);
+  }
+  if (props.isSticky) {
+    assignedClassNames.push(classNames[`is-sticky`]);
+  }
+  if (props.isFixed) {
+    assignedClassNames.push(classNames[`is-fixed`]);
+  }
 
   const utilityClassNames = classNameUtility.getUtilityClassNames({
     fore: props.fore,
@@ -45,9 +57,20 @@ export default function Footer(props: FooterProps) {
     assignedClassNames.push(props.className);
   }
 
-  const colorScheme = useContext(SmarpyColorSchemeContext);
+  const colorNameCss: Interpolation<Theme> = props.colorName
+    ? {
+        ["--smarpy-footer-color-fore"]: `var(--smarpy-color-${props.colorName}-footer-fore, var(--smarpy-color-${props.colorName}-fore))`,
+        ["--smarpy-footer-color-back"]: `var(--smarpy-color-${props.colorName}-footer-back, var(--smarpy-color-${props.colorName}-back))`,
+        ["--smarpy-footer-selection-color-fore"]: `var(--smarpy-color-${props.colorName}-footer-selection-fore, var(--smarpy-color-${props.colorName}-selection-fore))`,
+        ["--smarpy-footer-selection-color-back"]: `var(--smarpy-color-${props.colorName}-footer-selection-back, var(--smarpy-color-${props.colorName}-selection-back))`,
+      }
+    : undefined;
 
-  const css = emotionCssUtility.getEmotionCss(
+  const optionalCss = {
+    ...colorNameCss,
+  };
+
+  const css = emotionCssUtility.getEmotionCss<BaseComponentColorNameType>(
     {
       fore: props.fore,
       back: props.back,
@@ -58,10 +81,16 @@ export default function Footer(props: FooterProps) {
       positioning: props.positioning,
       css: props.css,
     },
-    colorScheme
+    optionalCss,
   );
 
-  return (
+  return props.as ? (
+    <props.as
+      {...assignedProps}
+      className={assignedClassNames.join(" ")}
+      css={css}
+    />
+  ) : (
     <footer
       {...assignedProps}
       className={assignedClassNames.join(" ")}

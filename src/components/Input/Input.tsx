@@ -1,12 +1,17 @@
 "use client";
-import { useContext } from "react";
-import { SmarpyColorSchemeContext } from "../../contexts";
-import classNameUtility from "../../utilities/classNameUtility";
-import emotionCssUtility from "../../utilities/emotionCssUtility";
-import classNames from "./Input.module.scss";
-import InputProps from "./InputProps";
 
-export default function Input(props: InputProps) {
+import type { Interpolation, Theme } from "@emotion/react";
+import { type ColorName } from "../../types";
+import { classNameUtility, emotionCssUtility } from "../../utilities";
+import classNames from "./Input.module.scss";
+import type InputProps from "./InputProps";
+import type { BaseInputProps } from "./InputProps";
+
+export default function Input<
+  BaseComponentColorNameType extends string = ColorName,
+  ComponentPropsType extends BaseInputProps<BaseComponentColorNameType> =
+    InputProps<BaseComponentColorNameType>,
+>(props: ComponentPropsType) {
   const assignedProps = { ...props };
   delete assignedProps["colorName"];
   //#region BaseComponentProps
@@ -17,12 +22,12 @@ export default function Input(props: InputProps) {
   delete assignedProps["positioning"];
   delete assignedProps["sizing"];
   delete assignedProps["spacing"];
+  delete assignedProps["className"];
   delete assignedProps["css"];
+  delete assignedProps["as"];
   //#endregion BaseComponentProps
 
   const assignedClassNames: string[] = [classNames["input"]];
-  props.colorName &&
-    assignedClassNames.push(classNames[`is-${props.colorName}`]);
 
   const utilityClassNames = classNameUtility.getUtilityClassNames({
     fore: props.fore,
@@ -41,9 +46,27 @@ export default function Input(props: InputProps) {
     assignedClassNames.push(props.className);
   }
 
-  const colorScheme = useContext(SmarpyColorSchemeContext);
+  const colorNameCss: Interpolation<Theme> = props.colorName
+    ? {
+        ["--smarpy-input-color-fore"]: `var(--smarpy-color-${props.colorName}-input-fore, var(--smarpy-color-${props.colorName}-fore))`,
+        ["--smarpy-input-color-back"]: `var(--smarpy-color-${props.colorName}-input-back, var(--smarpy-color-${props.colorName}-back))`,
+        ["--smarpy-input-color-border"]: `var(--smarpy-color-${props.colorName}-input-border, var(--smarpy-color-${props.colorName}-border))`,
+        ["--smarpy-input-color-placeholder"]: `var(--smarpy-color-${props.colorName}-input-placeholder, var(--smarpy-color-${props.colorName}-placeholder))`,
+        ["--smarpy-input-color-outline"]: `var(--smarpy-color-${props.colorName}-input-outline, var(--smarpy-color-${props.colorName}-outline))`,
+        ["--smarpy-input-focus-color-fore"]: `var(--smarpy-color-${props.colorName}-input-focus-fore, var(--smarpy-color-${props.colorName}-focus-fore))`,
+        ["--smarpy-input-focus-color-back"]: `var(--smarpy-color-${props.colorName}-input-focus-back, var(--smarpy-color-${props.colorName}-focus-back))`,
+        ["--smarpy-input-focus-color-border"]: `var(--smarpy-color-${props.colorName}-input-focus-border, var(--smarpy-color-${props.colorName}-focus-border))`,
+        ["--smarpy-input-disabled-color-fore"]: `var(--smarpy-color-${props.colorName}-input-disabled-fore, var(--smarpy-color-${props.colorName}-disabled-fore))`,
+        ["--smarpy-input-disabled-color-back"]: `var(--smarpy-color-${props.colorName}-input-disabled-back, var(--smarpy-color-${props.colorName}-disabled-back))`,
+        ["--smarpy-input-disabled-color-border"]: `var(--smarpy-color-${props.colorName}-input-disabled-border, var(--smarpy-color-${props.colorName}-disabled-border))`,
+      }
+    : undefined;
 
-  const css = emotionCssUtility.getEmotionCss(
+  const optionalCss = {
+    ...colorNameCss,
+  };
+
+  const css = emotionCssUtility.getEmotionCss<BaseComponentColorNameType>(
     {
       fore: props.fore,
       back: props.back,
@@ -54,10 +77,16 @@ export default function Input(props: InputProps) {
       positioning: props.positioning,
       css: props.css,
     },
-    colorScheme
+    optionalCss,
   );
 
-  return (
+  return props.as ? (
+    <props.as
+      {...assignedProps}
+      className={assignedClassNames.join(" ")}
+      css={css}
+    />
+  ) : (
     <input
       {...assignedProps}
       className={assignedClassNames.join(" ")}

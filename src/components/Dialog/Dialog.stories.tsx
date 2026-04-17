@@ -14,7 +14,11 @@ const meta = {
   title: "Components/Dialog",
   component: Dialog,
   tags: ["autodocs"],
-  argTypes: {},
+  argTypes: {
+    colorName: {
+      control: "text"
+    }
+  },
 } satisfies Meta<typeof Dialog>;
 
 export default meta;

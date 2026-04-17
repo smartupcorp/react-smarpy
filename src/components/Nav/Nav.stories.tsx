@@ -18,7 +18,9 @@ const meta = {
   component: Nav,
   tags: ["autodocs"],
   argTypes: {
-
+    colorName: {
+      control: "text",
+    },
   },
 } satisfies Meta<typeof Nav>;
 
@@ -27,9 +29,15 @@ type Story = StoryObj<typeof meta>;
 
 const navMenuItems = (
   <>
-    <NavMenuItem as="a" href="/">{"NavMenuItem1"}</NavMenuItem>
-    <NavMenuItem as="a" href="/">{"NavMenuItem2"}</NavMenuItem>
-    <NavMenuItem as="a" href="/">{"NavMenuItem3"}</NavMenuItem>
+    <NavMenuItem as="a" href="/">
+      {"NavMenuItem1"}
+    </NavMenuItem>
+    <NavMenuItem as="a" href="/">
+      {"NavMenuItem2"}
+    </NavMenuItem>
+    <NavMenuItem as="a" href="/">
+      {"NavMenuItem3"}
+    </NavMenuItem>
   </>
 );
 
@@ -55,7 +63,7 @@ export const Plain: Story = {
             <NavBrandCenter>{"NavBrandCenter"}</NavBrandCenter>
             <NavBrandRight>{"NavBrandRight"}</NavBrandRight>
           </NavBrand>
-          <NavMenu >{navMenuItems}</NavMenu>
+          <NavMenu>{navMenuItems}</NavMenu>
         </NavStatic>
       </Nav>
     </Smarpy>

@@ -1,10 +1,14 @@
-import { DetailedHTMLProps, HTMLAttributes } from "react";
-import { BaseComponentProps } from "../../common/models";
+import type { ClassAttributes, HTMLAttributes } from "react";
+import type { BaseNormalComponentProps } from "../../models";
 
-export default interface AdminSidebarProps
-  extends DetailedHTMLProps<HTMLAttributes<HTMLElement>, HTMLElement>,
-    BaseComponentProps {
-  as?: React.ElementType | undefined;
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  [key: string]: any;
+export interface BaseAdminSidebarProps<
+  BaseComponentColorNameType extends string,
+> extends BaseNormalComponentProps<BaseComponentColorNameType> {
 }
+
+type AdminSidebarProps<BaseComponentColorNameType extends string> =
+  ClassAttributes<HTMLElement> &
+    HTMLAttributes<HTMLElement> &
+    BaseAdminSidebarProps<BaseComponentColorNameType>;
+
+export type { AdminSidebarProps as default };

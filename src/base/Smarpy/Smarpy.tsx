@@ -1,41 +1,24 @@
 "use client";
-import { useInsertionEffect, useMemo } from "react";
+
 import { SmarpyColorSchemeContext } from "../../contexts";
-import smarpyStyleUtility from "../../utilities/smarpyStyleUtility";
+import { type ColorName } from "../../types";
 import { Smaroot } from "../Smaroot";
 import "./Smarpy.scss";
-import SmarpyProps from "./SmarpyProps";
+import type SmarpyProps from "./SmarpyProps";
+import type { BaseSmarpyProps } from "./SmarpyProps";
 
-export default function Smarpy(props: SmarpyProps) {
+export default function Smarpy<
+  BaseComponentColorNameType extends string = ColorName,
+  ComponentPropsType extends BaseSmarpyProps<BaseComponentColorNameType> =
+    SmarpyProps<BaseComponentColorNameType>,
+>(props: ComponentPropsType) {
   const assignedProps = { ...props };
-  delete assignedProps["cssVariableSetting"];
-
-  const elementId = "smarpy-css-variable-style";
-
-  const smarpyStyles = useMemo(
-    () =>
-      smarpyStyleUtility.getSmarpyCssVariableStyles(props.cssVariableSetting),
-    [props.cssVariableSetting]
-  );
-
-  useInsertionEffect(() => {
-    const currentSmarpyStyleElement = document.head.querySelector(
-      `#${elementId}`
-    );
-    if (currentSmarpyStyleElement) {
-      currentSmarpyStyleElement.remove();
-    }
-    const styleElement = document.createElement("style");
-    styleElement.id = elementId;
-    styleElement.innerHTML = smarpyStyles;
-    document.head.appendChild(styleElement);
-  }, [smarpyStyles]);
 
   return (
     <SmarpyColorSchemeContext.Provider
-      value={assignedProps.colorScheme ? assignedProps.colorScheme : "light"}
+      value={assignedProps.colorScheme}
     >
-      <Smaroot {...assignedProps} />
+      <Smaroot<BaseComponentColorNameType> {...assignedProps} />
     </SmarpyColorSchemeContext.Provider>
   );
 }

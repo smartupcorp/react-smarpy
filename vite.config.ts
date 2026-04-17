@@ -9,29 +9,8 @@ import preserveDirectives from "rollup-preserve-directives";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [
-    react({
-      jsxImportSource: "@emotion/react",
-    }),
-    libInjectCss(),
-    dts({ include: ["src"] }),
-  ],
-  css: {
-    modules: {
-      globalModulePaths: [
-        /.*\/src\/base\/Smarpy\/.*/,
-        /.*\/src\/base\/SmarpyClient\/.*/,
-      ],
-    },
-    preprocessorOptions: {
-      scss: {
-        api: "modern-compiler",
-      },
-    },
-  },
   build: {
-    copyPublicDir: false,
-    emptyOutDir: false,
+    emptyOutDir: true,
     lib: {
       entry: resolve(__dirname, "src/react-smarpy.ts"),
       name: "ReactSmarpy",
@@ -55,18 +34,34 @@ export default defineConfig({
           .map((file) => [
             relative("src", file.slice(0, file.length - extname(file).length)),
             fileURLToPath(new URL(file, import.meta.url)),
-          ])
+          ]),
       ),
       output: {
         globals: {
           react: "React",
           "@emotion/react/jsx-runtime": "EmotionReactJsxRuntime",
           "@emotion/react": "EmotionReact",
-          lodash: "_",
         },
         assetFileNames: "assets/[name][extname]",
         entryFileNames: "[name].js",
       },
     },
   },
+  css: {
+    modules: {
+      globalModulePaths: [/.*\/src\/base\/Smarpy\/.*/],
+    },
+    preprocessorOptions: {
+      scss: {
+        api: "modern-compiler",
+      },
+    },
+  },
+  plugins: [
+    react({
+      jsxImportSource: "@emotion/react",
+    }),
+    libInjectCss(),
+    dts({ include: ["src"] }),
+  ],
 });

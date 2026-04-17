@@ -1,0 +1,7 @@
+import type ColorLightness from "../types/ColorLightness";
+
+export default interface ColorAttributes<ColorNameType extends string> {
+  name: ColorNameType;
+  lightness: ColorLightness;
+  alpha?: number;
+}

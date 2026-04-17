@@ -1,12 +1,17 @@
 "use client";
-import { useContext } from "react";
-import { SmarpyColorSchemeContext } from "../../contexts";
-import classNameUtility from "../../utilities/classNameUtility";
-import emotionCssUtility from "../../utilities/emotionCssUtility";
-import classNames from "./Breadcrumb.module.scss";
-import BreadcrumbProps from "./BreadcrumbProps";
 
-export default function Breadcrumb(props: BreadcrumbProps) {
+import type { Interpolation, Theme } from "@emotion/react";
+import { type ColorName } from "../../types";
+import { classNameUtility, emotionCssUtility } from "../../utilities";
+import classNames from "./Breadcrumb.module.scss";
+import type { BaseBreadcrumbProps } from "./BreadcrumbProps";
+import type BreadcrumbProps from "./BreadcrumbProps";
+
+export default function Breadcrumb<
+  BaseComponentColorNameType extends string = ColorName,
+  ComponentPropsType extends BaseBreadcrumbProps<BaseComponentColorNameType> =
+    BreadcrumbProps<BaseComponentColorNameType>,
+>(props: ComponentPropsType) {
   const assignedProps = { ...props };
   delete assignedProps["colorName"];
   //#region BaseComponentProps
@@ -17,12 +22,12 @@ export default function Breadcrumb(props: BreadcrumbProps) {
   delete assignedProps["positioning"];
   delete assignedProps["sizing"];
   delete assignedProps["spacing"];
+  delete assignedProps["className"];
   delete assignedProps["css"];
+  delete assignedProps["as"];
   //#endregion BaseComponentProps
 
   const assignedClassNames = [classNames["breadcrumb"]];
-  props.colorName &&
-    assignedClassNames.push(classNames[`is-${props.colorName}`]);
 
   const utilityClassNames = classNameUtility.getUtilityClassNames({
     fore: props.fore,
@@ -41,9 +46,21 @@ export default function Breadcrumb(props: BreadcrumbProps) {
     assignedClassNames.push(props.className);
   }
 
-  const colorScheme = useContext(SmarpyColorSchemeContext);
+  const colorNameCss: Interpolation<Theme> = props.colorName
+    ? {
+        ["--smarpy-breadcrumb-color-fore"]: `var(--smarpy-color-${props.colorName}-breadcrumb-fore, var(--smarpy-color-${props.colorName}-fore))`,
+        ["--smarpy-breadcrumb-selection-color-fore"]: `var(--smarpy-color-${props.colorName}-breadcrumb-selection-fore, var(--smarpy-color-${props.colorName}-selection-fore))`,
+        ["--smarpy-breadcrumb-selection-color-back"]: `var(--smarpy-color-${props.colorName}-breadcrumb-selection-back, var(--smarpy-color-${props.colorName}-selection-back))`,
+        ["--smarpy-breadcrumb-item-color-fore"]: `var(--smarpy-color-${props.colorName}-breadcrumb-item-fore, var(--smarpy-color-${props.colorName}-fore))`,
+        ["--smarpy-breadcrumb-divider-color-fore"]: `var(--smarpy-color-${props.colorName}-breadcrumb-divider-fore, var(--smarpy-color-${props.colorName}-fore))`,
+      }
+    : undefined;
 
-  const css = emotionCssUtility.getEmotionCss(
+  const optionalCss = {
+    ...colorNameCss,
+  };
+
+  const css = emotionCssUtility.getEmotionCss<BaseComponentColorNameType>(
     {
       fore: props.fore,
       back: props.back,
@@ -54,10 +71,16 @@ export default function Breadcrumb(props: BreadcrumbProps) {
       positioning: props.positioning,
       css: props.css,
     },
-    colorScheme
+    optionalCss,
   );
 
-  return (
+  return props.as ? (
+    <props.as
+      {...assignedProps}
+      className={assignedClassNames.join(" ")}
+      css={css}
+    />
+  ) : (
     <ul {...assignedProps} className={assignedClassNames.join(" ")} css={css} />
   );
 }
