@@ -1,14 +1,17 @@
 "use client";
-import { useContext } from "react";
-import { SmarpyColorSchemeContext } from "../../contexts";
-import classNameUtility from "../../utilities/classNameUtility";
-import emotionCssUtility from "../../utilities/emotionCssUtility";
-import classNames from "./AdminNavMenuItemBasic.module.scss";
-import AdminNavMenuItemBasicProps from "./AdminNavMenuItemBasicProps";
 
-export default function AdminNavMenuItemBasic(
-  props: AdminNavMenuItemBasicProps
-) {
+import { type ColorName } from "../../types";
+import { classNameUtility, emotionCssUtility } from "../../utilities";
+import classNames from "./AdminNavMenuItemBasic.module.scss";
+import type AdminNavMenuItemBasicProps from "./AdminNavMenuItemBasicProps";
+import type { BaseAdminNavMenuItemBasicProps } from "./AdminNavMenuItemBasicProps";
+
+export default function AdminNavMenuItemBasic<
+  BaseComponentColorNameType extends string = ColorName,
+  ComponentPropsType extends
+    BaseAdminNavMenuItemBasicProps<BaseComponentColorNameType> =
+    AdminNavMenuItemBasicProps<BaseComponentColorNameType>,
+>(props: ComponentPropsType) {
   const assignedProps = { ...props };
   //#region BaseComponentProps
   delete assignedProps["fore"];
@@ -18,7 +21,9 @@ export default function AdminNavMenuItemBasic(
   delete assignedProps["positioning"];
   delete assignedProps["sizing"];
   delete assignedProps["spacing"];
+  delete assignedProps["className"];
   delete assignedProps["css"];
+  delete assignedProps["as"];
   //#endregion BaseComponentProps
 
   const assignedClassNames = [classNames["admin-nav-menu-item-basic"]];
@@ -40,23 +45,24 @@ export default function AdminNavMenuItemBasic(
     assignedClassNames.push(props.className);
   }
 
-  const colorScheme = useContext(SmarpyColorSchemeContext);
+  const css = emotionCssUtility.getEmotionCss<BaseComponentColorNameType>({
+    fore: props.fore,
+    back: props.back,
+    border: props.border,
+    highlighter: props.highlighter,
+    spacing: props.spacing,
+    sizing: props.sizing,
+    positioning: props.positioning,
+    css: props.css,
+  });
 
-  const css = emotionCssUtility.getEmotionCss(
-    {
-      fore: props.fore,
-      back: props.back,
-      border: props.border,
-      highlighter: props.highlighter,
-      spacing: props.spacing,
-      sizing: props.sizing,
-      positioning: props.positioning,
-      css: props.css,
-    },
-    colorScheme
-  );
-
-  return (
+  return props.as ? (
+    <props.as
+      {...assignedProps}
+      className={assignedClassNames.join(" ")}
+      css={css}
+    />
+  ) : (
     <div
       {...assignedProps}
       className={assignedClassNames.join(" ")}

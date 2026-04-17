@@ -1,5 +1,13 @@
-import { DivProps } from "../Div";
+import type { ClassAttributes, HTMLAttributes } from "react";
+import type { BaseNormalComponentProps } from "../../models";
 
-export default interface AdminNavBrandBasicProps extends DivProps {
+export interface BaseAdminNavBrandBasicProps<
+  BaseComponentColorNameType extends string,
+> extends BaseNormalComponentProps<BaseComponentColorNameType> {}
 
-}
+type AdminNavBrandBasicProps<BaseComponentColorNameType extends string> =
+  ClassAttributes<HTMLDivElement> &
+    HTMLAttributes<HTMLDivElement> &
+    BaseAdminNavBrandBasicProps<BaseComponentColorNameType>;
+
+export type { AdminNavBrandBasicProps as default };

@@ -1,12 +1,16 @@
 "use client";
-import { useContext } from "react";
-import { SmarpyColorSchemeContext } from "../../contexts";
-import classNameUtility from "../../utilities/classNameUtility";
-import emotionCssUtility from "../../utilities/emotionCssUtility";
-import classNames from "./ModalContent.module.scss";
-import ModalContentProps from "./ModalContentProps";
 
-export default function ModalContent(props: ModalContentProps) {
+import { type ColorName } from "../../types";
+import { classNameUtility, emotionCssUtility } from "../../utilities";
+import classNames from "./ModalContent.module.scss";
+import type ModalContentProps from "./ModalContentProps";
+import type { BaseModalContentProps } from "./ModalContentProps";
+
+export default function ModalContent<
+  BaseComponentColorNameType extends string = ColorName,
+  ComponentPropsType extends BaseModalContentProps<BaseComponentColorNameType> =
+    ModalContentProps<BaseComponentColorNameType>,
+>(props: ComponentPropsType) {
   const assignedProps = { ...props };
   //#region BaseComponentProps
   delete assignedProps["fore"];
@@ -16,7 +20,9 @@ export default function ModalContent(props: ModalContentProps) {
   delete assignedProps["positioning"];
   delete assignedProps["sizing"];
   delete assignedProps["spacing"];
+  delete assignedProps["className"];
   delete assignedProps["css"];
+  delete assignedProps["as"];
   //#endregion BaseComponentProps
 
   const assignedClassNames = [classNames["modal-content"]];
@@ -38,23 +44,24 @@ export default function ModalContent(props: ModalContentProps) {
     assignedClassNames.push(props.className);
   }
 
-  const colorScheme = useContext(SmarpyColorSchemeContext);
+  const css = emotionCssUtility.getEmotionCss<BaseComponentColorNameType>({
+    fore: props.fore,
+    back: props.back,
+    border: props.border,
+    highlighter: props.highlighter,
+    spacing: props.spacing,
+    sizing: props.sizing,
+    positioning: props.positioning,
+    css: props.css,
+  });
 
-  const css = emotionCssUtility.getEmotionCss(
-    {
-      fore: props.fore,
-      back: props.back,
-      border: props.border,
-      highlighter: props.highlighter,
-      spacing: props.spacing,
-      sizing: props.sizing,
-      positioning: props.positioning,
-      css: props.css,
-    },
-    colorScheme
-  );
-
-  return (
+  return props.as ? (
+    <props.as
+      {...assignedProps}
+      className={assignedClassNames.join(" ")}
+      css={css}
+    />
+  ) : (
     <div
       {...assignedProps}
       className={assignedClassNames.join(" ")}

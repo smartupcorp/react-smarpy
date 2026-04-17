@@ -9,6 +9,9 @@ const meta = {
   component: Progress,
   tags: ["autodocs"],
   argTypes: {
+    colorName: {
+      control: "text",
+    },
   },
 } satisfies Meta<typeof Progress>;
 
@@ -23,7 +26,7 @@ export const Plain: Story = {
   },
   render: (props) => (
     <Smarpy>
-      <Progress {...props} />
+      <Progress percentage={0} {...props} />
     </Smarpy>
   ),
 };

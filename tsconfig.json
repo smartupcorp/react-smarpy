@@ -15,10 +15,11 @@
     "jsx": "react-jsx",
     "jsxImportSource": "@emotion/react",
     "declaration": true,
-    "declarationDir": "./dist/types",
     "declarationMap": true,
     "emitDeclarationOnly": true,
     "noEmitOnError": true,
+
+    "verbatimModuleSyntax": true,
 
     /* Linting */
     "strict": true,

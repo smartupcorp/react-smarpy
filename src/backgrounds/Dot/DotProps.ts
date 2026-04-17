@@ -1,10 +1,17 @@
-import { ColorName } from "../../common/literalTypes";
-import { BaseComponentProps } from "../../common/models";
-import { DivProps } from "../../react-smarpy";
+import type { ClassAttributes, HTMLAttributes } from "react";
+import type { BaseNormalComponentProps } from "../../models";
+import { type ColorName } from "../../types";
 
-export default interface DotProps extends DivProps, BaseComponentProps {
-  as?: React.ElementType | undefined;
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  [key: string]: any;
+export interface BaseDotProps<
+  BaseComponentColorNameType extends string,
+> extends BaseNormalComponentProps<BaseComponentColorNameType> {
   colorName?: ColorName;
 }
+
+type DotProps<BaseComponentColorNameType extends string> =
+  ClassAttributes<HTMLDivElement> &
+    HTMLAttributes<HTMLDivElement> &
+    BaseDotProps<BaseComponentColorNameType>;
+
+export type { DotProps as default };
+

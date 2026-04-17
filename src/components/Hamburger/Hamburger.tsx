@@ -1,12 +1,16 @@
 "use client";
-import { useContext } from "react";
-import { SmarpyColorSchemeContext } from "../../contexts";
-import classNameUtility from "../../utilities/classNameUtility";
-import emotionCssUtility from "../../utilities/emotionCssUtility";
-import classNames from "./Hamburger.module.scss";
-import HamburgerProps from "./HamburgerProps";
 
-export default function Hamburger(props: HamburgerProps) {
+import { type ColorName } from "../../types";
+import { classNameUtility, emotionCssUtility } from "../../utilities";
+import classNames from "./Hamburger.module.scss";
+import type HamburgerProps from "./HamburgerProps";
+import type { BaseHamburgerProps } from "./HamburgerProps";
+
+export default function Hamburger<
+  BaseComponentColorNameType extends string = ColorName,
+  ComponentPropsType extends BaseHamburgerProps<BaseComponentColorNameType> =
+    HamburgerProps<BaseComponentColorNameType>,
+>(props: ComponentPropsType) {
   const assignedProps = { ...props };
   delete assignedProps["isActive"];
   delete assignedProps["crownInner"];
@@ -19,11 +23,16 @@ export default function Hamburger(props: HamburgerProps) {
   delete assignedProps["positioning"];
   delete assignedProps["sizing"];
   delete assignedProps["spacing"];
+  delete assignedProps["className"];
   delete assignedProps["css"];
+  delete assignedProps["as"];
   //#endregion BaseComponentProps
 
   const assignedClassNames = [classNames["hamburger"]];
-  props.isActive && assignedClassNames.push(classNames["is-active"]);
+
+  if (props.isActive) {
+    assignedClassNames.push(classNames["is-active"]);
+  }
 
   const utilityClassNames = classNameUtility.getUtilityClassNames({
     fore: props.fore,
@@ -42,21 +51,16 @@ export default function Hamburger(props: HamburgerProps) {
     assignedClassNames.push(props.className);
   }
 
-  const colorScheme = useContext(SmarpyColorSchemeContext);
-
-  const css = emotionCssUtility.getEmotionCss(
-    {
-      fore: props.fore,
-      back: props.back,
-      border: props.border,
-      highlighter: props.highlighter,
-      spacing: props.spacing,
-      sizing: props.sizing,
-      positioning: props.positioning,
-      css: props.css,
-    },
-    colorScheme
-  );
+  const css = emotionCssUtility.getEmotionCss<BaseComponentColorNameType>({
+    fore: props.fore,
+    back: props.back,
+    border: props.border,
+    highlighter: props.highlighter,
+    spacing: props.spacing,
+    sizing: props.sizing,
+    positioning: props.positioning,
+    css: props.css,
+  });
 
   return (
     <div

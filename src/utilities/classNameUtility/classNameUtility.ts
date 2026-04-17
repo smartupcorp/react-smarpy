@@ -1,11 +1,11 @@
-import BaseComponentProps from "../../common/models/BaseComponentProps";
 
-function getUtilityClassNames(props: BaseComponentProps): string[] {
+import type { BaseComponentProps } from "../../models/BaseComponentProps";
+import type { ColorName } from "../../types";
+
+function getUtilityClassNames<
+  BaseComponentColorNameType extends string = ColorName,
+>(props: BaseComponentProps<BaseComponentColorNameType>): string[] {
   const assignedClassNames: string[] = [];
-
-  if (props.fore) {
-    props.fore.isItalic && assignedClassNames.push(`is-italic`);
-  }
 
   if (props.positioning) {
     if (props.positioning.translateMiddle) {

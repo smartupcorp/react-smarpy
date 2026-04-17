@@ -1,11 +1,16 @@
-import { ColorScheme } from "../../common/literalTypes";
-import { DivProps } from "../../components/Div";
+import type { ClassAttributes, HTMLAttributes } from "react";
+import type { BaseNormalComponentProps } from "../../models";
+import { type ColorScheme } from "../../types";
 
-export default interface SmarootProps extends DivProps {
-  as?:
-    | React.ElementType
-    | undefined;
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  [key: string]: any;
-  colorScheme?: ColorScheme;
+export interface BaseSmarootProps<
+  BaseComponentColorNameType extends string,
+> extends BaseNormalComponentProps<BaseComponentColorNameType> {
+  colorScheme?: ColorScheme | undefined;
 }
+
+type SmarootProps<BaseComponentColorNameType extends string> =
+  ClassAttributes<HTMLDivElement> &
+    HTMLAttributes<HTMLDivElement> &
+    BaseSmarootProps<BaseComponentColorNameType>;
+
+export type { SmarootProps as default };

@@ -1,12 +1,16 @@
 "use client";
-import { useContext } from "react";
-import { SmarpyColorSchemeContext } from "../../contexts";
-import classNameUtility from "../../utilities/classNameUtility";
-import emotionCssUtility from "../../utilities/emotionCssUtility";
-import classNames from "./Admin.module.scss";
-import AdminProps from "./AdminProps";
 
-export default function Admin(props: AdminProps) {
+import { type ColorName } from "../../types";
+import { classNameUtility, emotionCssUtility } from "../../utilities";
+import classNames from "./Admin.module.scss";
+import type AdminProps from "./AdminProps";
+import type { BaseAdminProps } from "./AdminProps";
+
+export default function Admin<
+  BaseComponentColorNameType extends string = ColorName,
+  ComponentPropsType extends BaseAdminProps<BaseComponentColorNameType> =
+    AdminProps<BaseComponentColorNameType>,
+>(props: ComponentPropsType) {
   const assignedProps = { ...props };
   delete assignedProps["as"];
   delete assignedProps["isSidebarCollapse"];
@@ -18,7 +22,9 @@ export default function Admin(props: AdminProps) {
   delete assignedProps["positioning"];
   delete assignedProps["sizing"];
   delete assignedProps["spacing"];
+  delete assignedProps["className"];
   delete assignedProps["css"];
+  delete assignedProps["as"];
   //#endregion BaseComponentProps
 
   const assignedClassNames = [classNames["admin"]];
@@ -42,21 +48,16 @@ export default function Admin(props: AdminProps) {
 
   const sidebarCollapse = props.isSidebarCollapse ? "collapse" : "";
 
-  const colorScheme = useContext(SmarpyColorSchemeContext);
-
-  const css = emotionCssUtility.getEmotionCss(
-    {
-      fore: props.fore,
-      back: props.back,
-      border: props.border,
-      highlighter: props.highlighter,
-      spacing: props.spacing,
-      sizing: props.sizing,
-      positioning: props.positioning,
-      css: props.css,
-    },
-    colorScheme
-  );
+  const css = emotionCssUtility.getEmotionCss<BaseComponentColorNameType>({
+    fore: props.fore,
+    back: props.back,
+    border: props.border,
+    highlighter: props.highlighter,
+    spacing: props.spacing,
+    sizing: props.sizing,
+    positioning: props.positioning,
+    css: props.css,
+  });
 
   return props.as ? (
     <props.as

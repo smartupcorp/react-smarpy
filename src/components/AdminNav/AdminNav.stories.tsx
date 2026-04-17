@@ -9,16 +9,20 @@ import AdminNavBrand from "../AdminNavBrand";
 import AdminNavMenu from "../AdminNavMenu";
 import AdminNavMenuItem from "../AdminNavMenuItem";
 import AdminNavMenuItemBasic from "../AdminNavMenuItemBasic";
-import AdminNavBrandCollapted from "../AdminNavBrandCollapted";
+import AdminNavBrandCollapsed from "../AdminNavBrandCollapsed";
 import AdminNavBrandBasic from "../AdminNavBrandBasic";
-import AdminNavMenuItemCollapted from "../AdminNavMenuItemCollapted";
+import AdminNavMenuItemCollapsed from "../AdminNavMenuItemCollapsed";
 
 // More on how to set up stories at: https://storybook.js.org/docs/react/writing-stories/introduction
 const meta = {
   title: "Components/AdminNav",
   component: AdminNav,
   tags: ["autodocs"],
-  argTypes: {},
+  argTypes: {
+    colorName: {
+      control: "text",
+    },
+  },
 } satisfies Meta<typeof AdminNav>;
 
 export default meta;
@@ -33,24 +37,24 @@ export const Plain: Story = {
         <AdminSidebar>
           <AdminNav {...props}>
             <AdminNavBrand>
-              <AdminNavBrandCollapted>{"s"}</AdminNavBrandCollapted>
+              <AdminNavBrandCollapsed>{"s"}</AdminNavBrandCollapsed>
               <AdminNavBrandBasic>{"smarpy"}</AdminNavBrandBasic>
             </AdminNavBrand>
             <AdminNavMenu>
               <AdminNavMenuItem>
-                <AdminNavMenuItemCollapted>{"M1"}</AdminNavMenuItemCollapted>
+                <AdminNavMenuItemCollapsed>{"M1"}</AdminNavMenuItemCollapsed>
                 <AdminNavMenuItemBasic>{"Menu 1"}</AdminNavMenuItemBasic>
               </AdminNavMenuItem>
               <AdminNavMenuItem>
-                <AdminNavMenuItemCollapted>{"M2"}</AdminNavMenuItemCollapted>
+                <AdminNavMenuItemCollapsed>{"M2"}</AdminNavMenuItemCollapsed>
                 <AdminNavMenuItemBasic>{"Menu 2"}</AdminNavMenuItemBasic>
               </AdminNavMenuItem>
               <AdminNavMenuItem>
-                <AdminNavMenuItemCollapted>{"M3"}</AdminNavMenuItemCollapted>
+                <AdminNavMenuItemCollapsed>{"M3"}</AdminNavMenuItemCollapsed>
                 <AdminNavMenuItemBasic>{"Menu 3"}</AdminNavMenuItemBasic>
               </AdminNavMenuItem>
               <AdminNavMenuItem>
-                <AdminNavMenuItemCollapted>{"M4"}</AdminNavMenuItemCollapted>
+                <AdminNavMenuItemCollapsed>{"M4"}</AdminNavMenuItemCollapsed>
                 <AdminNavMenuItemBasic>{"Menu 4"}</AdminNavMenuItemBasic>
               </AdminNavMenuItem>
             </AdminNavMenu>
@@ -62,7 +66,7 @@ export const Plain: Story = {
   ),
 };
 
-export const IsSidebarCollapted: Story = {
+export const IsSidebarCollapsed: Story = {
   args: {},
   render: (props) => (
     <Smarpy>
@@ -70,24 +74,24 @@ export const IsSidebarCollapted: Story = {
         <AdminSidebar>
           <AdminNav {...props}>
             <AdminNavBrand>
-              <AdminNavBrandCollapted>{"s"}</AdminNavBrandCollapted>
+              <AdminNavBrandCollapsed>{"s"}</AdminNavBrandCollapsed>
               <AdminNavBrandBasic>{"smarpy"}</AdminNavBrandBasic>
             </AdminNavBrand>
             <AdminNavMenu>
               <AdminNavMenuItem>
-                <AdminNavMenuItemCollapted>{"M1"}</AdminNavMenuItemCollapted>
+                <AdminNavMenuItemCollapsed>{"M1"}</AdminNavMenuItemCollapsed>
                 <AdminNavMenuItemBasic>{"Menu 1"}</AdminNavMenuItemBasic>
               </AdminNavMenuItem>
               <AdminNavMenuItem>
-                <AdminNavMenuItemCollapted>{"M2"}</AdminNavMenuItemCollapted>
+                <AdminNavMenuItemCollapsed>{"M2"}</AdminNavMenuItemCollapsed>
                 <AdminNavMenuItemBasic>{"Menu 2"}</AdminNavMenuItemBasic>
               </AdminNavMenuItem>
               <AdminNavMenuItem>
-                <AdminNavMenuItemCollapted>{"M3"}</AdminNavMenuItemCollapted>
+                <AdminNavMenuItemCollapsed>{"M3"}</AdminNavMenuItemCollapsed>
                 <AdminNavMenuItemBasic>{"Menu 3"}</AdminNavMenuItemBasic>
               </AdminNavMenuItem>
               <AdminNavMenuItem>
-                <AdminNavMenuItemCollapted>{"M4"}</AdminNavMenuItemCollapted>
+                <AdminNavMenuItemCollapsed>{"M4"}</AdminNavMenuItemCollapsed>
                 <AdminNavMenuItemBasic>{"Menu 4"}</AdminNavMenuItemBasic>
               </AdminNavMenuItem>
             </AdminNavMenu>

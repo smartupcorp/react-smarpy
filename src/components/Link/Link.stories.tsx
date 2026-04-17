@@ -9,6 +9,9 @@ const meta = {
   component: Link,
   tags: ["autodocs"],
   argTypes: {
+    colorName: {
+      control: "text",
+    },
   },
 } satisfies Meta<typeof Link>;
 

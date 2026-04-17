@@ -1,12 +1,16 @@
 "use client";
-import { useContext } from "react";
-import { SmarpyColorSchemeContext } from "../../contexts";
-import classNameUtility from "../../utilities/classNameUtility";
-import emotionCssUtility from "../../utilities/emotionCssUtility";
-import classNames from "./Columns.module.scss";
-import ColumnsProps from "./ColumnsProps";
 
-export default function Columns(props: ColumnsProps) {
+import { type ColorName } from "../../types";
+import { classNameUtility, emotionCssUtility } from "../../utilities";
+import classNames from "./Columns.module.scss";
+import type ColumnsProps from "./ColumnsProps";
+import type { BaseColumnsProps } from "./ColumnsProps";
+
+export default function Columns<
+  BaseComponentColorNameType extends string = ColorName,
+  ComponentPropsType extends BaseColumnsProps<BaseComponentColorNameType> =
+    ColumnsProps<BaseComponentColorNameType>,
+>(props: ComponentPropsType) {
   const assignedProps = { ...props };
   delete assignedProps["isDirectionRow"];
   delete assignedProps["isDirectionRowReverse"];
@@ -74,7 +78,9 @@ export default function Columns(props: ColumnsProps) {
   delete assignedProps["positioning"];
   delete assignedProps["sizing"];
   delete assignedProps["spacing"];
+  delete assignedProps["className"];
   delete assignedProps["css"];
+  delete assignedProps["as"];
   //#endregion BaseComponentProps
 
   const assignedClassNames: string[] = [classNames["columns"]];
@@ -274,23 +280,24 @@ export default function Columns(props: ColumnsProps) {
     assignedClassNames.push(props.className);
   }
 
-  const colorScheme = useContext(SmarpyColorSchemeContext);
+  const css = emotionCssUtility.getEmotionCss<BaseComponentColorNameType>({
+    fore: props.fore,
+    back: props.back,
+    border: props.border,
+    highlighter: props.highlighter,
+    spacing: props.spacing,
+    sizing: props.sizing,
+    positioning: props.positioning,
+    css: props.css,
+  });
 
-  const css = emotionCssUtility.getEmotionCss(
-    {
-      fore: props.fore,
-      back: props.back,
-      border: props.border,
-      highlighter: props.highlighter,
-      spacing: props.spacing,
-      sizing: props.sizing,
-      positioning: props.positioning,
-      css: props.css,
-    },
-    colorScheme
-  );
-
-  return (
+  return props.as ? (
+    <props.as
+      {...assignedProps}
+      className={assignedClassNames.join(" ")}
+      css={css}
+    />
+  ) : (
     <div
       {...assignedProps}
       className={assignedClassNames.join(" ")}

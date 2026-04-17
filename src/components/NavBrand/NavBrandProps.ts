@@ -1,9 +1,13 @@
-import { BaseComponentProps } from "../../common/models";
-import React from "react";
+import type { ClassAttributes, HTMLAttributes } from "react";
+import type { BaseNormalComponentProps } from "../../models";
 
-export default interface NavBrandProps
-  extends React.DetailedHTMLProps<
-    React.HTMLAttributes<HTMLDivElement>,
-    HTMLDivElement
-  >, BaseComponentProps {
-}
+export interface BaseNavBrandProps<
+  BaseComponentColorNameType extends string,
+> extends BaseNormalComponentProps<BaseComponentColorNameType> {}
+
+type NavBrandProps<BaseComponentColorNameType extends string> =
+  ClassAttributes<HTMLDivElement> &
+    HTMLAttributes<HTMLDivElement> &
+    BaseNavBrandProps<BaseComponentColorNameType>;
+
+export type { NavBrandProps as default };

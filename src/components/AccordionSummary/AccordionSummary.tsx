@@ -1,12 +1,16 @@
 "use client";
-import { useContext } from "react";
-import { SmarpyColorSchemeContext } from "../../contexts";
-import classNameUtility from "../../utilities/classNameUtility";
-import emotionCssUtility from "../../utilities/emotionCssUtility";
-import AccordionSummaryProps from "./AccordionSummaryProps";
-import classNames from "./AccordionSummary.module.scss";
 
-export default function AccordionSummary(props: AccordionSummaryProps) {
+import { type ColorName } from "../../types";
+import { classNameUtility, emotionCssUtility } from "../../utilities";
+import classNames from "./AccordionSummary.module.scss";
+import type AccordionSummaryProps from "./AccordionSummaryProps";
+import type { BaseAccordionSummaryProps } from "./AccordionSummaryProps";
+
+export default function AccordionSummary<
+  BaseComponentColorNameType extends string = ColorName,
+  ComponentPropsType extends BaseAccordionSummaryProps<BaseComponentColorNameType> =
+    AccordionSummaryProps<BaseComponentColorNameType>,
+>(props: ComponentPropsType) {
   const assignedProps = { ...props };
   //#region BaseComponentProps
   delete assignedProps["fore"];
@@ -16,7 +20,9 @@ export default function AccordionSummary(props: AccordionSummaryProps) {
   delete assignedProps["positioning"];
   delete assignedProps["sizing"];
   delete assignedProps["spacing"];
+  delete assignedProps["className"];
   delete assignedProps["css"];
+  delete assignedProps["as"];
   //#endregion BaseComponentProps
 
   const assignedClassNames = [classNames["accordion-summary"]];
@@ -38,23 +44,24 @@ export default function AccordionSummary(props: AccordionSummaryProps) {
     assignedClassNames.push(props.className);
   }
 
-  const colorScheme = useContext(SmarpyColorSchemeContext);
+  const css = emotionCssUtility.getEmotionCss<BaseComponentColorNameType>({
+    fore: props.fore,
+    back: props.back,
+    border: props.border,
+    highlighter: props.highlighter,
+    spacing: props.spacing,
+    sizing: props.sizing,
+    positioning: props.positioning,
+    css: props.css,
+  });
 
-  const css = emotionCssUtility.getEmotionCss(
-    {
-      fore: props.fore,
-      back: props.back,
-      border: props.border,
-      highlighter: props.highlighter,
-      spacing: props.spacing,
-      sizing: props.sizing,
-      positioning: props.positioning,
-      css: props.css,
-    },
-    colorScheme
-  );
-
-  return (
+  return props.as ? (
+    <props.as
+      {...assignedProps}
+      className={assignedClassNames.join(" ")}
+      css={css}
+    />
+  ) : (
     <summary
       {...assignedProps}
       className={assignedClassNames.join(" ")}

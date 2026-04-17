@@ -1,9 +1,17 @@
-import { DetailedHTMLProps, HTMLAttributes } from "react";
-import { ColorName } from "../../common/literalTypes";
-import { BaseComponentProps } from "../../common/models";
+import type { ClassAttributes, HTMLAttributes } from "react";
+import type { BaseNormalComponentProps } from "../../models";
+import { type ColorName } from "../../types";
 
-export default interface AdminNavProps
-  extends DetailedHTMLProps<HTMLAttributes<HTMLElement>, HTMLElement>,
-    BaseComponentProps {
+export interface BaseAdminNavProps<
+  BaseComponentColorNameType extends string,
+> extends BaseNormalComponentProps<BaseComponentColorNameType> {
   colorName?: ColorName;
 }
+
+type AdminNavProps<BaseComponentColorNameType extends string> =
+  ClassAttributes<HTMLElement> &
+    HTMLAttributes<HTMLElement> &
+    BaseAdminNavProps<BaseComponentColorNameType>;
+
+export type { AdminNavProps as default };
+

@@ -1,7 +1,8 @@
 "use client";
-import { createContext } from "react";
-import { ColorScheme } from "../../common/literalTypes";
 
-const SmarpyColorSchemeContext = createContext<ColorScheme>("light");
+import { createContext } from "react";
+import { type ColorScheme } from "../../types";
+
+const SmarpyColorSchemeContext = createContext<ColorScheme | undefined>(undefined);
 
 export default SmarpyColorSchemeContext;

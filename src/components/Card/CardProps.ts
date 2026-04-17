@@ -1,10 +1,16 @@
-import React from "react";
-import { ColorName } from "../../common/literalTypes";
-import { DivProps } from "../Div";
+import type { ClassAttributes, HTMLAttributes } from "react";
+import type { BaseNormalComponentProps } from "../../models";
+import type { ColorName } from "../../types";
 
-export default interface CardProps extends DivProps {
+export interface BaseCardProps<
+  BaseComponentColorNameType extends string,
+> extends BaseNormalComponentProps<BaseComponentColorNameType> {
   colorName?: ColorName;
-  as?: React.ElementType | undefined;
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  [key: string]: any;
 }
+
+type CardProps<BaseComponentColorNameType extends string> =
+  ClassAttributes<HTMLDivElement> &
+    HTMLAttributes<HTMLDivElement> &
+    BaseCardProps<BaseComponentColorNameType>;
+
+export type { CardProps as default };

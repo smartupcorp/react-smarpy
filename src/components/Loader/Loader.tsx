@@ -1,12 +1,17 @@
 "use client";
-import { useContext } from "react";
-import { SmarpyColorSchemeContext } from "../../contexts";
-import classNameUtility from "../../utilities/classNameUtility";
-import emotionCssUtility from "../../utilities/emotionCssUtility";
-import classNames from "./Loader.module.scss";
-import LoaderProps from "./LoaderProps";
 
-export default function Loader(props: LoaderProps) {
+import type { Interpolation, Theme } from "@emotion/react";
+import { type ColorName } from "../../types";
+import { classNameUtility, emotionCssUtility } from "../../utilities";
+import classNames from "./Loader.module.scss";
+import type LoaderProps from "./LoaderProps";
+import type { BaseLoaderProps } from "./LoaderProps";
+
+export default function Loader<
+  BaseComponentColorNameType extends string = ColorName,
+  ComponentPropsType extends BaseLoaderProps<BaseComponentColorNameType> =
+    LoaderProps<BaseComponentColorNameType>,
+>(props: ComponentPropsType) {
   const assignedProps = { ...props };
   delete assignedProps["colorName"];
   // //#region BaseComponentProps
@@ -14,11 +19,15 @@ export default function Loader(props: LoaderProps) {
   delete assignedProps["back"];
   delete assignedProps["border"];
   delete assignedProps["highlighter"];
+  delete assignedProps["positioning"];
+  delete assignedProps["sizing"];
   delete assignedProps["spacing"];
+  delete assignedProps["className"];
+  delete assignedProps["css"];
+  delete assignedProps["as"];
   //#endregion BaseComponentProps
 
   const assignedClassNames = [classNames["loader"]];
-  assignedClassNames.push(classNames[`is-${props.colorName}`]);
 
   const utilityClassNames = classNameUtility.getUtilityClassNames({
     fore: props.fore,
@@ -37,9 +46,17 @@ export default function Loader(props: LoaderProps) {
     assignedClassNames.push(props.className);
   }
 
-  const colorScheme = useContext(SmarpyColorSchemeContext);
+  const colorNameCss: Interpolation<Theme> = props.colorName
+    ? {
+        ["--smarpy-loader-color-border"]: `var(--smarpy-color-${props.colorName}-loader-border, var(--smarpy-color-${props.colorName}-border))`,
+      }
+    : undefined;
 
-  const css = emotionCssUtility.getEmotionCss(
+  const optionalCss = {
+    ...colorNameCss,
+  };
+
+  const css = emotionCssUtility.getEmotionCss<BaseComponentColorNameType>(
     {
       fore: props.fore,
       back: props.back,
@@ -50,10 +67,16 @@ export default function Loader(props: LoaderProps) {
       positioning: props.positioning,
       css: props.css,
     },
-    colorScheme
+    optionalCss,
   );
 
-  return (
+  return props.as ? (
+    <props.as
+      {...assignedProps}
+      className={assignedClassNames.join(" ")}
+      css={css}
+    />
+  ) : (
     <div
       {...assignedProps}
       className={assignedClassNames.join(" ")}

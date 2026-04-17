@@ -1,6 +1,9 @@
-import { DivProps } from "../Div";
+import type { ClassAttributes, HTMLAttributes } from "react";
+import type { BaseNormalComponentProps } from "../../models";
 
-export default interface NavAccordionProps extends DivProps {
+export interface BaseNavAccordionProps<
+  BaseComponentColorNameType extends string,
+> extends BaseNormalComponentProps<BaseComponentColorNameType> {
   isMobile?: boolean | undefined;
   isMobileOrMore?: boolean | undefined;
   isTabletOrLess?: boolean | undefined;
@@ -15,3 +18,11 @@ export default interface NavAccordionProps extends DivProps {
   isFullhdOrLess?: boolean | undefined;
   isFullhd?: boolean | undefined;
 }
+
+type NavAccordionProps<BaseComponentColorNameType extends string> =
+  ClassAttributes<HTMLDivElement> &
+    HTMLAttributes<HTMLDivElement> &
+    BaseNavAccordionProps<BaseComponentColorNameType>;
+
+export type { NavAccordionProps as default };
+

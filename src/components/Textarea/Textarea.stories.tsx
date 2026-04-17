@@ -9,6 +9,9 @@ const meta = {
   component: Textarea,
   tags: ["autodocs"],
   argTypes: {
+    colorName: {
+      control: "text",
+    },
   },
 } satisfies Meta<typeof Textarea>;
 

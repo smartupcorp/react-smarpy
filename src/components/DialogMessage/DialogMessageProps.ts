@@ -1,8 +1,13 @@
-import React from "react";
-import { DivProps } from "../Div";
+import type { ClassAttributes, HTMLAttributes } from "react";
+import type { BaseNormalComponentProps } from "../../models";
 
-export default interface DialogMessageProps extends DivProps {
-  as?: React.ElementType | undefined;
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  [key: string]: any;
-}
+export interface BaseDialogMessageProps<
+  BaseComponentColorNameType extends string,
+> extends BaseNormalComponentProps<BaseComponentColorNameType> {}
+
+type DialogMessageProps<BaseComponentColorNameType extends string> =
+  ClassAttributes<HTMLDivElement> &
+    HTMLAttributes<HTMLDivElement> &
+    BaseDialogMessageProps<BaseComponentColorNameType>;
+
+export type { DialogMessageProps as default };

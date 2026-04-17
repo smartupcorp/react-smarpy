@@ -1,12 +1,13 @@
-import { BaseComponentProps } from "../../react-smarpy";
+import type { ClassAttributes, ImgHTMLAttributes } from "react";
+import type { BaseNormalComponentProps } from "../../models";
 
-export default interface DialogAvatarProps
-  extends React.DetailedHTMLProps<
-      React.ImgHTMLAttributes<HTMLImageElement>,
-      HTMLImageElement
-    >,
-    BaseComponentProps {
-  as?: React.ElementType | undefined;
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  [key: string]: any;
-}
+export interface BaseDialogAvatarProps<
+  BaseComponentColorNameType extends string,
+> extends BaseNormalComponentProps<BaseComponentColorNameType> {}
+
+type DialogAvatarProps<BaseComponentColorNameType extends string> =
+  ClassAttributes<HTMLImageElement> &
+    ImgHTMLAttributes<HTMLImageElement> &
+    BaseDialogAvatarProps<BaseComponentColorNameType>;
+
+export type { DialogAvatarProps as default };

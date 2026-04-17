@@ -1,6 +1,14 @@
-import { DetailedHTMLProps, HTMLAttributes } from "react";
-import { BaseComponentProps } from "../../common/models";
+import type { ClassAttributes, HTMLAttributes } from "react";
+import type { BaseNormalComponentProps } from "../../models";
 
-export default interface NavProps
-  extends DetailedHTMLProps<HTMLAttributes<HTMLElement>, HTMLElement>,
-    BaseComponentProps {}
+export interface BaseBreadcrumbWrapperProps<
+  BaseComponentColorNameType extends string,
+> extends BaseNormalComponentProps<BaseComponentColorNameType> {}
+
+type BreadcrumbWrapperProps<BaseComponentColorNameType extends string> =
+  ClassAttributes<HTMLElement> &
+    HTMLAttributes<HTMLElement> &
+    BaseBreadcrumbWrapperProps<BaseComponentColorNameType>;
+
+export type { BreadcrumbWrapperProps as default };
+

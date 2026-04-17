@@ -2,12 +2,12 @@ import type { Meta, StoryObj } from "@storybook/react-vite";
 
 import Smarpy from "./Smarpy";
 import {
-  Angle,
+  type Angle,
   Button,
-  ColorName,
+  type ColorName,
   Div,
   Dot,
-  Gradation,
+  type Gradation,
   Hamburger,
   Header,
   Main,
@@ -23,9 +23,9 @@ import {
   NavMenu,
   NavMenuItem,
   NavStatic,
-  Oklch,
-  Percentage,
-  SmarpyCssVariable,
+  type Oklch,
+  type Percentage,
+  type SmarpyCssVariables,
 } from "../../react-smarpy";
 
 // More on how to set up stories at: https://storybook.js.org/docs/react/writing-stories/introduction
@@ -114,8 +114,8 @@ function getColorVar(color: ColorInfo): Gradation {
       i < 10
         ? colorLightness500 - (10 - i) * colorLightnessOffsetDarker
         : i > 10
-        ? colorLightness500 + (i - 10) * colorLightnessOffsetLighter
-        : colorLightness500;
+          ? colorLightness500 + (i - 10) * colorLightnessOffsetLighter
+          : colorLightness500;
 
     const oklch: Oklch = {
       hue: color.hue,
@@ -130,8 +130,8 @@ function getColorVar(color: ColorInfo): Gradation {
   return colorVar;
 }
 
-function genSmarpyCssVariable(): SmarpyCssVariable {
-  let cssVariableSetting: SmarpyCssVariable = {
+function genSmarpyCssVariable(): SmarpyCssVariables<ColorName> {
+  let cssVariableSetting: SmarpyCssVariables<ColorName> = {
     color: {
       gray: getColorVar(colorGray),
       red: getColorVar(colorRed),
@@ -207,7 +207,7 @@ const elem = (
           colorName="gray"
           sizing={{
             aspectRatio: "16:9",
-            width: "100$"
+            width: "100$",
           }}
         />
       </Div>
@@ -218,8 +218,10 @@ const elem = (
         <Div
           fore={{
             color: {
-              light: { default: { name: "blue", lightness: 500 } },
-              dark: { default: { name: "red", lightness: 500 } },
+              colorScheme: {
+                light: { default: { name: "blue", lightness: 500 } },
+                dark: { default: { name: "red", lightness: 500 } },
+              },
             },
           }}
         >
@@ -228,8 +230,10 @@ const elem = (
         <Div
           fore={{
             color: {
-              light: { default: { name: "blue", lightness: 500 } },
-              dark: { default: { name: "red", lightness: 500 } },
+              colorScheme: {
+                light: { default: { name: "blue", lightness: 500 } },
+                dark: { default: { name: "red", lightness: 500 } },
+              },
             },
           }}
           css={{

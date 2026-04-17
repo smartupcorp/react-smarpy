@@ -1,14 +1,18 @@
 "use client";
-import { useContext } from "react";
-import { SmarpyColorSchemeContext } from "../../contexts";
-import classNameUtility from "../../utilities/classNameUtility";
-import emotionCssUtility from "../../utilities/emotionCssUtility";
-import classNames from "./Dialog.module.scss";
-import DialogProps from "./DialogProps";
 
-export default function Dialog(props: DialogProps): React.ReactElement {
+import type { Interpolation, Theme } from "@emotion/react";
+import { type ColorName } from "../../types";
+import { classNameUtility, emotionCssUtility } from "../../utilities";
+import classNames from "./Dialog.module.scss";
+import type { BaseDialogProps } from "./DialogProps";
+import type DialogProps from "./DialogProps";
+
+export default function Dialog<
+  BaseComponentColorNameType extends string = ColorName,
+  ComponentPropsType extends BaseDialogProps<BaseComponentColorNameType> =
+    DialogProps<BaseComponentColorNameType>,
+>(props: ComponentPropsType): React.ReactElement {
   const assignedProps = { ...props };
-  delete assignedProps["as"];
   delete assignedProps["colorName"];
   delete assignedProps["avatarSize"];
   delete assignedProps["borderStyle"];
@@ -18,16 +22,17 @@ export default function Dialog(props: DialogProps): React.ReactElement {
   //#region BaseComponentProps
   delete assignedProps["fore"];
   delete assignedProps["back"];
-  delete assignedProps["highlighter"];
   delete assignedProps["border"];
+  delete assignedProps["highlighter"];
   delete assignedProps["positioning"];
   delete assignedProps["sizing"];
   delete assignedProps["spacing"];
+  delete assignedProps["className"];
+  delete assignedProps["css"];
+  delete assignedProps["as"];
   //#endregion BaseComponentProps
 
   const assignedClassNames = [classNames["dialog"]];
-  props.colorName &&
-    assignedClassNames.push(classNames[`is-${props.colorName}`]);
   if (props.isRight) {
     assignedClassNames.push(classNames[`is-right`]);
   } else {
@@ -62,9 +67,29 @@ export default function Dialog(props: DialogProps): React.ReactElement {
     assignedClassNames.push(props.className);
   }
 
-  const colorScheme = useContext(SmarpyColorSchemeContext);
+  const colorNameCss: Interpolation<Theme> = props.colorName
+    ? {
+        ["--smarpy-dialog-color-fore"]: `var(--smarpy-color-${props.colorName}-dialog-fore, var(--smarpy-color-${props.colorName}-fore))`,
+        ["--smarpy-dialog-color-back"]: `var(--smarpy-color-${props.colorName}-dialog-back, var(--smarpy-color-${props.colorName}-back))`,
+        ["--smarpy-dialog-color-border"]: `var(--smarpy-color-${props.colorName}-dialog-border, var(--smarpy-color-${props.colorName}-border))`,
+        ["--smarpy-dialog-selection-color-fore"]: `var(--smarpy-color-${props.colorName}-dialog-selection-fore, var(--smarpy-color-${props.colorName}-selection-fore))`,
+        ["--smarpy-dialog-selection-color-back"]: `var(--smarpy-color-${props.colorName}-dialog-selection-back, var(--smarpy-color-${props.colorName}-selection-back))`,
+        ["--smarpy-dialog-avatar-color-back"]: `var(--smarpy-color-${props.colorName}-dialog-back)`,
+        ["--smarpy-dialog-avatar-color-border"]: `var(--smarpy-color-${props.colorName}-dialog-border)`,
+        ["--smarpy-dialog-name-color-fore"]: `var(--smarpy-color-${props.colorName}-dialog-name-fore)`,
+        ["--smarpy-dialog-name-color-back"]: `var(--smarpy-color-${props.colorName}-dialog-name-back)`,
+        ["--smarpy-dialog-name-color-border"]: `var(--smarpy-color-${props.colorName}-dialog-name-border)`,
+        ["--smarpy-dialog-message-color-fore"]: `var(--smarpy-color-${props.colorName}-dialog-message-fore)`,
+        ["--smarpy-dialog-message-color-back"]: `var(--smarpy-color-${props.colorName}-dialog-message-back)`,
+        ["--smarpy-dialog-message-color-border"]: `var(--smarpy-color-${props.colorName}-dialog-message-border)`,
+      }
+    : undefined;
 
-  const css = emotionCssUtility.getEmotionCss(
+  const optionalCss = {
+    ...colorNameCss,
+  };
+
+  const css = emotionCssUtility.getEmotionCss<BaseComponentColorNameType>(
     {
       fore: props.fore,
       back: props.back,
@@ -75,7 +100,7 @@ export default function Dialog(props: DialogProps): React.ReactElement {
       positioning: props.positioning,
       css: props.css,
     },
-    colorScheme
+    optionalCss,
   );
 
   return props.as ? (

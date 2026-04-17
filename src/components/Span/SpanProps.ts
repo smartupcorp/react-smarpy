@@ -1,9 +1,13 @@
-import { BaseComponentProps } from "../../common/models";
-import React from "react";
+import type { ClassAttributes, HTMLAttributes } from "react";
+import type { BaseNormalComponentProps } from "../../models";
 
-export default interface SpanProps
-  extends React.DetailedHTMLProps<
-      React.HTMLAttributes<HTMLSpanElement>,
-      HTMLSpanElement
-    >,
-    BaseComponentProps {}
+export interface BaseSpanProps<
+  BaseComponentColorNameType extends string,
+> extends BaseNormalComponentProps<BaseComponentColorNameType> {}
+
+type SpanProps<BaseComponentColorNameType extends string> =
+  ClassAttributes<HTMLSpanElement> &
+    HTMLAttributes<HTMLSpanElement> &
+    BaseSpanProps<BaseComponentColorNameType>;
+
+export type { SpanProps as default };

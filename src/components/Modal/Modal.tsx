@@ -1,12 +1,17 @@
 "use client";
-import { useContext } from "react";
-import { SmarpyColorSchemeContext } from "../../contexts";
-import classNameUtility from "../../utilities/classNameUtility";
-import emotionCssUtility from "../../utilities/emotionCssUtility";
-import classNames from "./Modal.module.scss";
-import ModalProps from "./ModalProps";
 
-export default function Modal(props: ModalProps) {
+import type { Interpolation, Theme } from "@emotion/react";
+import { type ColorName } from "../../types";
+import { classNameUtility, emotionCssUtility } from "../../utilities";
+import classNames from "./Modal.module.scss";
+import type ModalProps from "./ModalProps";
+import type { BaseModalProps } from "./ModalProps";
+
+export default function Modal<
+  BaseComponentColorNameType extends string = ColorName,
+  ComponentPropsType extends BaseModalProps<BaseComponentColorNameType> =
+    ModalProps<BaseComponentColorNameType>,
+>(props: ComponentPropsType) {
   const assignedProps = { ...props };
   delete assignedProps["isActive"];
   delete assignedProps["colorName"];
@@ -18,14 +23,13 @@ export default function Modal(props: ModalProps) {
   delete assignedProps["positioning"];
   delete assignedProps["sizing"];
   delete assignedProps["spacing"];
+  delete assignedProps["className"];
   delete assignedProps["css"];
+  delete assignedProps["as"];
   //#endregion BaseComponentProps
 
   const assignedClassNames = [classNames["modal"]];
-  props.colorName &&
-    assignedClassNames.push(classNames[`is-${props.colorName}`]);
   props.isActive && assignedClassNames.push(classNames["is-active"]);
-  // assignedClassNames.push(classNames[`is-${props.colorName}`]);
 
   const utilityClassNames = classNameUtility.getUtilityClassNames({
     fore: props.fore,
@@ -44,9 +48,17 @@ export default function Modal(props: ModalProps) {
     assignedClassNames.push(props.className);
   }
 
-  const colorScheme = useContext(SmarpyColorSchemeContext);
+  const colorNameCss: Interpolation<Theme> = props.colorName
+    ? {
+        ["--smarpy-modal-color-back"]: `oklch(from var(--smarpy-color-${props.colorName}-modal-back, var(--smarpy-color-${props.colorName}-back)) l c h / 0.75)`,
+      }
+    : undefined;
 
-  const css = emotionCssUtility.getEmotionCss(
+  const optionalCss = {
+    ...colorNameCss,
+  };
+
+  const css = emotionCssUtility.getEmotionCss<BaseComponentColorNameType>(
     {
       fore: props.fore,
       back: props.back,
@@ -57,10 +69,16 @@ export default function Modal(props: ModalProps) {
       positioning: props.positioning,
       css: props.css,
     },
-    colorScheme
+    optionalCss,
   );
 
-  return (
+  return props.as ? (
+    <props.as
+      {...assignedProps}
+      className={assignedClassNames.join(" ")}
+      css={css}
+    />
+  ) : (
     <div
       {...assignedProps}
       className={assignedClassNames.join(" ")}

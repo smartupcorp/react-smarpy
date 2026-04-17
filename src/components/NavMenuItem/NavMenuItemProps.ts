@@ -1,13 +1,13 @@
-import { BaseComponentProps } from "../../common/models";
-import React from "react";
+import type { ClassAttributes, HTMLAttributes } from "react";
+import type { BaseNormalComponentProps } from "../../models";
 
-export default interface NavMenuItemProps
-  extends React.DetailedHTMLProps<
-      React.HTMLAttributes<HTMLElement>,
-      HTMLElement
-    >,
-    BaseComponentProps {
-  as?: React.ElementType | undefined;
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  [key: string]: any;
-}
+export interface BaseNavMenuItemProps<
+  BaseComponentColorNameType extends string,
+> extends BaseNormalComponentProps<BaseComponentColorNameType> {}
+
+type NavMenuItemProps<BaseComponentColorNameType extends string> =
+  ClassAttributes<HTMLSpanElement> &
+    HTMLAttributes<HTMLSpanElement> &
+    BaseNavMenuItemProps<BaseComponentColorNameType>;
+
+export type { NavMenuItemProps as default };

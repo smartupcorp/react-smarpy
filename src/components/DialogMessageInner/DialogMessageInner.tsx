@@ -1,24 +1,29 @@
 "use client";
-import { useContext } from "react";
-import { SmarpyColorSchemeContext } from "../../contexts";
-import classNameUtility from "../../utilities/classNameUtility";
-import emotionCssUtility from "../../utilities/emotionCssUtility";
-import classNames from "./DialogMessageInner.module.scss";
-import DialogMessageInnerProps from "./DialogMessageInnerProps";
 
-export default function DialogMessageInner(
-  props: DialogMessageInnerProps
-): React.ReactElement {
+import { type ColorName } from "../../types";
+import { classNameUtility, emotionCssUtility } from "../../utilities";
+import classNames from "./DialogMessageInner.module.scss";
+import type DialogMessageInnerProps from "./DialogMessageInnerProps";
+import type { BaseDialogMessageInnerProps } from "./DialogMessageInnerProps";
+
+export default function DialogMessageInnerInner<
+  BaseComponentColorNameType extends string = ColorName,
+  ComponentPropsType extends
+    BaseDialogMessageInnerProps<BaseComponentColorNameType> =
+    DialogMessageInnerProps<BaseComponentColorNameType>,
+>(props: ComponentPropsType): React.ReactElement {
   const assignedProps = { ...props };
-  delete assignedProps["as"];
   //#region BaseComponentProps
   delete assignedProps["fore"];
   delete assignedProps["back"];
-  delete assignedProps["highlighter"];
   delete assignedProps["border"];
+  delete assignedProps["highlighter"];
   delete assignedProps["positioning"];
   delete assignedProps["sizing"];
   delete assignedProps["spacing"];
+  delete assignedProps["className"];
+  delete assignedProps["css"];
+  delete assignedProps["as"];
   //#endregion BaseComponentProps
 
   const assignedClassNames: string[] = [classNames["dialog-message-inner"]];
@@ -40,21 +45,16 @@ export default function DialogMessageInner(
     assignedClassNames.push(props.className);
   }
 
-  const colorScheme = useContext(SmarpyColorSchemeContext);
-
-  const css = emotionCssUtility.getEmotionCss(
-    {
-      fore: props.fore,
-      back: props.back,
-      border: props.border,
-      highlighter: props.highlighter,
-      spacing: props.spacing,
-      sizing: props.sizing,
-      positioning: props.positioning,
-      css: props.css,
-    },
-    colorScheme
-  );
+  const css = emotionCssUtility.getEmotionCss<BaseComponentColorNameType>({
+    fore: props.fore,
+    back: props.back,
+    border: props.border,
+    highlighter: props.highlighter,
+    spacing: props.spacing,
+    sizing: props.sizing,
+    positioning: props.positioning,
+    css: props.css,
+  });
 
   return props.as ? (
     <props.as

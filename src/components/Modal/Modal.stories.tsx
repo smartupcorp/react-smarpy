@@ -9,7 +9,11 @@ const meta = {
   title: "Components/Modal",
   component: Modal,
   tags: ["autodocs"],
-  argTypes: {},
+  argTypes: {
+    colorName: {
+      control: "text",
+    },
+  },
 } satisfies Meta<typeof Modal>;
 
 export default meta;
@@ -24,7 +28,8 @@ export const Plain: Story = {
     <Smarpy>
       {"Body"}
       <Modal {...props}>
-        <ModalContent>{"Modal"}</ModalContent>
+        {"Modal"}
+        <ModalContent>{"ModalContent"}</ModalContent>
       </Modal>
     </Smarpy>
   ),

@@ -1,6 +1,9 @@
-import { DivProps } from "../Div";
+import type { ClassAttributes, HTMLAttributes } from "react";
+import type { BaseNormalComponentProps } from "../../models";
 
-export default interface NavStaticProps extends DivProps {
+export interface BaseNavStaticProps<
+  BaseComponentColorNameType extends string,
+> extends BaseNormalComponentProps<BaseComponentColorNameType> {
   isMobile?: boolean | undefined;
   isMobileOrMore?: boolean | undefined;
   isTabletOrLess?: boolean | undefined;
@@ -15,3 +18,10 @@ export default interface NavStaticProps extends DivProps {
   isFullhdOrLess?: boolean | undefined;
   isFullhd?: boolean | undefined;
 }
+
+type NavStaticProps<BaseComponentColorNameType extends string> =
+  ClassAttributes<HTMLDivElement> &
+    HTMLAttributes<HTMLDivElement> &
+    BaseNavStaticProps<BaseComponentColorNameType>;
+
+export type { NavStaticProps as default };
