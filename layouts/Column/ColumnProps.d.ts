@@ -1,5 +1,6 @@
-import { DivProps } from '../../components/Div';
-export default interface ColumnProps extends DivProps {
+import { ClassAttributes, HTMLAttributes } from '../../../node_modules/react';
+import { BaseNormalComponentProps } from '../../models';
+export interface BaseColumnProps<BaseComponentColorNameType extends string> extends BaseNormalComponentProps<BaseComponentColorNameType> {
     isFull?: boolean;
     size?: number | undefined;
     sizeMobile?: number | undefined;
@@ -16,4 +17,6 @@ export default interface ColumnProps extends DivProps {
     sizeFullhdOrLess?: number | undefined;
     sizeFullhd?: number | undefined;
 }
+type ColumnProps<BaseComponentColorNameType extends string> = ClassAttributes<HTMLDivElement> & HTMLAttributes<HTMLDivElement> & BaseColumnProps<BaseComponentColorNameType>;
+export type { ColumnProps as default };
 //# sourceMappingURL=ColumnProps.d.ts.map

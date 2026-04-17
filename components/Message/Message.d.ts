@@ -1,3 +1,4 @@
-import { default as MessageProps } from './MessageProps';
-export default function Message(props: MessageProps): import("@emotion/react/jsx-runtime").JSX.Element;
+import { ColorName } from '../../types';
+import { default as MessageProps, BaseMessageProps } from './MessageProps';
+export default function Message<BaseComponentColorNameType extends string = ColorName, ComponentPropsType extends BaseMessageProps<BaseComponentColorNameType> = MessageProps<BaseComponentColorNameType>>(props: ComponentPropsType): import("@emotion/react/jsx-runtime").JSX.Element;
 //# sourceMappingURL=Message.d.ts.map

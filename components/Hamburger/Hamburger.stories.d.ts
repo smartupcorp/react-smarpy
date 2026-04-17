@@ -6,7 +6,7 @@ declare const meta: {
     tags: string[];
     argTypes: {
         isActive: {
-            type: "boolean";
+            type: string;
         };
     };
 };

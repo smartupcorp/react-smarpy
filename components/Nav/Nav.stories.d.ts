@@ -4,7 +4,11 @@ declare const meta: {
     title: string;
     component: typeof Nav;
     tags: string[];
-    argTypes: {};
+    argTypes: {
+        colorName: {
+            control: string;
+        };
+    };
 };
 export default meta;
 type Story = StoryObj<typeof meta>;

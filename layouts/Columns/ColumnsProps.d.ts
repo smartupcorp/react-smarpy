@@ -1,5 +1,6 @@
-import { DivProps } from '../../components/Div';
-export default interface ColumnsProps extends DivProps {
+import { ClassAttributes, HTMLAttributes } from '../../../node_modules/react';
+import { BaseNormalComponentProps } from '../../models';
+export interface BaseColumnsProps<BaseComponentColorNameType extends string> extends BaseNormalComponentProps<BaseComponentColorNameType> {
     isDirectionRow?: boolean | undefined;
     isDirectionRowReverse?: boolean | undefined;
     isDirectionColumn?: boolean | undefined;
@@ -61,4 +62,6 @@ export default interface ColumnsProps extends DivProps {
         y?: `${number}rem` | number;
     };
 }
+type ColumnsProps<BaseComponentColorNameType extends string> = ClassAttributes<HTMLDivElement> & HTMLAttributes<HTMLDivElement> & BaseColumnsProps<BaseComponentColorNameType>;
+export type { ColumnsProps as default };
 //# sourceMappingURL=ColumnsProps.d.ts.map

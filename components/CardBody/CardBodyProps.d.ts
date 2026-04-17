@@ -1,7 +1,7 @@
-import { default as React } from '../../../node_modules/react';
-import { DivProps } from '../Div';
-export default interface CardBodyProps extends DivProps {
-    as?: React.ElementType | undefined;
-    [key: string]: any;
+import { ClassAttributes, HTMLAttributes } from '../../../node_modules/react';
+import { BaseNormalComponentProps } from '../../models';
+export interface BaseCardBodyProps<BaseComponentColorNameType extends string> extends BaseNormalComponentProps<BaseComponentColorNameType> {
 }
+type CardBodyProps<BaseComponentColorNameType extends string> = ClassAttributes<HTMLDivElement> & HTMLAttributes<HTMLDivElement> & BaseCardBodyProps<BaseComponentColorNameType>;
+export type { CardBodyProps as default };
 //# sourceMappingURL=CardBodyProps.d.ts.map

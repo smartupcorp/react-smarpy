@@ -1,7 +1,8 @@
-import { DivProps } from '../../components/Div';
-export default interface AdminProps extends DivProps {
+import { ClassAttributes, HTMLAttributes } from '../../../node_modules/react';
+import { BaseNormalComponentProps } from '../../models';
+export interface BaseAdminProps<BaseComponentColorNameType extends string> extends BaseNormalComponentProps<BaseComponentColorNameType> {
     isSidebarCollapse?: boolean;
-    as?: React.ElementType | undefined;
-    [key: string]: any;
 }
+type AdminProps<BaseComponentColorNameType extends string> = ClassAttributes<HTMLDivElement> & HTMLAttributes<HTMLDivElement> & BaseAdminProps<BaseComponentColorNameType>;
+export type { AdminProps as default };
 //# sourceMappingURL=AdminProps.d.ts.map

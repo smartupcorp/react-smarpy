@@ -4,7 +4,6 @@ declare const meta: {
     title: string;
     component: typeof Accordion;
     tags: string[];
-    argTypes: {};
 };
 export default meta;
 type Story = StoryObj<typeof meta>;

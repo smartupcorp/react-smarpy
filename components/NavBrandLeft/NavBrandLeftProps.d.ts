@@ -1,4 +1,7 @@
-import { DivProps } from '../Div';
-export default interface NavBrandLeftProps extends DivProps {
+import { ClassAttributes, HTMLAttributes } from '../../../node_modules/react';
+import { BaseNormalComponentProps } from '../../models';
+export interface BaseNavBrandLeftProps<BaseComponentColorNameType extends string> extends BaseNormalComponentProps<BaseComponentColorNameType> {
 }
+type NavBrandLeftProps<BaseComponentColorNameType extends string> = ClassAttributes<HTMLDivElement> & HTMLAttributes<HTMLDivElement> & BaseNavBrandLeftProps<BaseComponentColorNameType>;
+export type { NavBrandLeftProps as default };
 //# sourceMappingURL=NavBrandLeftProps.d.ts.map

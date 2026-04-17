@@ -1,0 +1,1 @@
+{"version":3,"file":"HighlighterProps.d.ts","sourceRoot":"","sources":["../../src/models/HighlighterProps.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,EAAE,SAAS,EAAE,UAAU,EAAE,MAAM,UAAU,CAAC;AAEtD,MAAM,CAAC,OAAO,WAAW,gBAAgB,CAAC,aAAa,SAAS,MAAM,GAAG,SAAS;IAChF,KAAK,CAAC,EAAE,UAAU,CAAC,aAAa,CAAC,CAAC;CACnC"}

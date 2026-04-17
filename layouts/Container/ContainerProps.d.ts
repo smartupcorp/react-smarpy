@@ -1,8 +1,11 @@
-import { DivProps } from '../../components/Div';
-export default interface ContainerProps extends DivProps {
+import { ClassAttributes, HTMLAttributes } from '../../../node_modules/react';
+import { BaseNormalComponentProps } from '../../models';
+export interface BaseContainerProps<BaseComponentColorNameType extends string> extends BaseNormalComponentProps<BaseComponentColorNameType> {
     gutter?: `${number}rem` | {
         x?: `${number}rem` | number;
         y?: `${number}rem` | number;
     };
 }
+type ContainerProps<BaseComponentColorNameType extends string> = ClassAttributes<HTMLDivElement> & HTMLAttributes<HTMLDivElement> & BaseContainerProps<BaseComponentColorNameType>;
+export type { ContainerProps as default };
 //# sourceMappingURL=ContainerProps.d.ts.map

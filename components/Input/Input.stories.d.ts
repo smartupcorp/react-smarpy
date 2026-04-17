@@ -6,7 +6,7 @@ declare const meta: {
     tags: string[];
     argTypes: {
         disabled: {
-            type: "boolean";
+            type: string;
         };
     };
 };

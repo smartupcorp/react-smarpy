@@ -4,10 +4,14 @@ declare const meta: {
     title: string;
     component: typeof AdminNav;
     tags: string[];
-    argTypes: {};
+    argTypes: {
+        colorName: {
+            control: string;
+        };
+    };
 };
 export default meta;
 type Story = StoryObj<typeof meta>;
 export declare const Plain: Story;
-export declare const IsSidebarCollapted: Story;
+export declare const IsSidebarCollapsed: Story;
 //# sourceMappingURL=AdminNav.stories.d.ts.map

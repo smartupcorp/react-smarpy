@@ -1,0 +1,1 @@
+{"version":3,"file":"BackProps.d.ts","sourceRoot":"","sources":["../../src/models/BackProps.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,EAAE,UAAU,EAAE,SAAS,EAAE,MAAM,UAAU,CAAC;AAEtD,MAAM,CAAC,OAAO,WAAW,SAAS,CAAC,aAAa,SAAS,MAAM,GAAG,SAAS;IACzE,KAAK,CAAC,EAAE,UAAU,CAAC,aAAa,CAAC,CAAC;CACnC"}

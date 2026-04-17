@@ -6,7 +6,7 @@ declare const meta: {
     tags: string[];
     argTypes: {
         isSmall: {
-            type: "boolean";
+            type: string;
         };
     };
 };

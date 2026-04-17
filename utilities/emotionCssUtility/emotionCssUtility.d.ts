@@ -1,8 +1,7 @@
 import { Interpolation, Theme } from '@emotion/react';
-import { ColorAttributes, ColorScheme } from '../../common/literalTypes';
-import { BaseComponentProps } from '../../common/models';
-declare function getColorVariable(colorAttributes?: ColorAttributes): string | undefined;
-declare function getEmotionCss(props: BaseComponentProps, colorScheme?: ColorScheme): Interpolation<Theme>;
+import { BaseComponentProps, ColorAttributes } from '../../models';
+declare function getColorVariable<BaseComponentColorNameType extends string>(colorAttributes?: ColorAttributes<BaseComponentColorNameType> | "transparent"): string | undefined;
+declare function getEmotionCss<BaseComponentColorNameType extends string>(props: BaseComponentProps<BaseComponentColorNameType>, optionalCss?: Interpolation<Theme>): Interpolation<Theme>;
 declare const emotionStyleUtility: {
     getColorVariable: typeof getColorVariable;
     getEmotionCss: typeof getEmotionCss;

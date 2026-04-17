@@ -1,5 +1,7 @@
-import { BaseComponentProps } from '../../common/models';
-import { default as React } from '../../../node_modules/react';
-export default interface DivProps extends React.DetailedHTMLProps<React.HTMLAttributes<HTMLDivElement>, HTMLDivElement>, BaseComponentProps {
+import { ClassAttributes, HTMLAttributes } from '../../../node_modules/react';
+import { BaseNormalComponentProps } from '../../models';
+export interface BaseDivProps<BaseComponentColorNameType extends string> extends BaseNormalComponentProps<BaseComponentColorNameType> {
 }
+type DivProps<BaseComponentColorNameType extends string> = ClassAttributes<HTMLDivElement> & HTMLAttributes<HTMLDivElement> & BaseDivProps<BaseComponentColorNameType>;
+export type { DivProps as default };
 //# sourceMappingURL=DivProps.d.ts.map

@@ -1,3 +1,4 @@
-import { default as SmarootProps } from './SmarootProps';
-export default function Smaroot(props: SmarootProps): import("@emotion/react/jsx-runtime").JSX.Element;
+import { ColorName } from '../../types';
+import { default as SmarootProps, BaseSmarootProps } from './SmarootProps';
+export default function Smaroot<BaseComponentColorNameType extends string = ColorName, ComponentPropsType extends BaseSmarootProps<BaseComponentColorNameType> = SmarootProps<BaseComponentColorNameType>>(props: ComponentPropsType): import("@emotion/react/jsx-runtime").JSX.Element;
 //# sourceMappingURL=Smaroot.d.ts.map
