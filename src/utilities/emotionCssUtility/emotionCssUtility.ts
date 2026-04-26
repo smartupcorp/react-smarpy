@@ -138,7 +138,7 @@ function getColorVariable<BaseComponentColorNameType extends string>(
     return "transparent";
   }
 
-  if (colorAttributes.alpha) {
+  if (colorAttributes.alpha !== undefined) {
     return `oklch(from var(--${cssVariablePrefix}color-${colorAttributes.name}-${
       colorAttributes.lightness === 50 ? "050" : colorAttributes.lightness
     }) l c h / ${colorAttributes.alpha})`;
@@ -176,7 +176,7 @@ function getColorSchemeColorLightDark<
       return "transparent";
     }
 
-    if (colorAttributes.alpha) {
+    if (colorAttributes.alpha !== undefined) {
       return `oklch(from var(--${cssVariablePrefix}color-${colorAttributes.name}-${
         colorAttributes.lightness === 50 ? "050" : colorAttributes.lightness
       }) l c h / ${colorAttributes.alpha})`;
@@ -206,7 +206,7 @@ function getHighlighterBackgroundVariable<
     return "transparent";
   }
 
-  if (colorAttributes.alpha) {
+  if (colorAttributes.alpha !== undefined) {
     return `linear-gradient(
     transparent 66.66%,
     oklch(var(--${cssVariablePrefix}color-${colorAttributes.name}-${
@@ -242,7 +242,7 @@ function getColorSchemeHighlighterBackgroundVariable<
       return "transparent";
     }
 
-    if (colorAttributes.alpha) {
+    if (colorAttributes.alpha !== undefined) {
       return `oklch(from var(--${cssVariablePrefix}color-${colorAttributes.name}-${
         colorAttributes.lightness === 50 ? "050" : colorAttributes.lightness
       }) l c h / ${colorAttributes.alpha})`;

@@ -1,6 +1,6 @@
 {
   "name": "@smartupcorp/react-smarpy",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "an open-source react wrapper for smarpy",
   "main": "index.js",
   "scripts": {
@@ -369,7 +369,7 @@
   "devDependencies": {
     "@emotion/babel-preset-css-prop": "^11.12.0",
     "@emotion/react": "^11.14.0",
-    "@smartupcorp/smarpy": "^1.0.0",
+    "@smartupcorp/smarpy": "^1.0.1",
     "@storybook/addon-docs": "^9.0.3",
     "@storybook/react-vite": "^9.0.3",
     "@types/lodash": "^4.17.17",

@@ -63,8 +63,55 @@ export const AllAuto: Story = {
     </Smarpy>
   ),
 };
+export const HasGutter1rem: Story = {
+  args: {
+    gutter: "1rem"
+  },
+  render: (props) => (
+    <Smarpy>
+      <Columns {...props}>
+        <Column>
+          {"Column1"}
+        </Column>
+        <Column>
+          {"Column2"}
+        </Column>
+        <Column>
+          {"Column3"}
+        </Column>
+        <Column>
+          {"Column4"}
+        </Column>
+        <Column>
+          {"Column5"}
+        </Column>
+        <Column>
+          {"Column6"}
+        </Column>
+        <Column>
+          {"Column7"}
+        </Column>
+        <Column>
+          {"Column8"}
+        </Column>
+        <Column>
+          {"Column9"}
+        </Column>
+        <Column>
+          {"Column10"}
+        </Column>
+        <Column>
+          {"Column11"}
+        </Column>
+        <Column>
+          {"Column12"}
+        </Column>
+      </Columns>
+    </Smarpy>
+  ),
+};
 
-export const TabletOrLess: Story = {
+export const TabletOrLess12: Story = {
   args: {
   },
   render: (props) => (

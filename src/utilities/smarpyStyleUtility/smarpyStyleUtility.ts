@@ -35,7 +35,7 @@ function getComponentColorVariables<BaseComponentColorNameType extends string>(
             ? `var(${componentDetailPart.light})`
             : componentDetailPart.light;
         } else {
-          if (componentDetailPart.light.alpha) {
+          if (componentDetailPart.light.alpha !== undefined) {
             lightColor = `oklch(from var(--${prefix}color-${componentDetailPart.light.name}-${componentDetailPart.light.lightness === 50 ? "050" : componentDetailPart.light.lightness}) l c h / ${componentDetailPart.light.alpha})`;
           } else {
             lightColor = `var(--${prefix}color-${componentDetailPart.light.name}-${componentDetailPart.light.lightness})`;
@@ -48,7 +48,7 @@ function getComponentColorVariables<BaseComponentColorNameType extends string>(
             ? `var(${componentDetailPart.dark})`
             : componentDetailPart.dark;
         } else {
-          if (componentDetailPart.dark.alpha) {
+          if (componentDetailPart.dark.alpha !== undefined) {
             darkColor = `oklch(from var(--${prefix}color-${componentDetailPart.dark.name}-${componentDetailPart.dark.lightness === 50 ? "050" : componentDetailPart.dark.lightness}) l c h / ${componentDetailPart.dark.alpha})`;
           } else {
             darkColor = `var(--${prefix}color-${componentDetailPart.dark.name}-${componentDetailPart.dark.lightness})`;
