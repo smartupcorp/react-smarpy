@@ -9,6 +9,7 @@ declare const meta: {
 export default meta;
 type Story = StoryObj<typeof meta>;
 export declare const AllAuto: Story;
-export declare const TabletOrLess: Story;
+export declare const HasGutter1rem: Story;
+export declare const TabletOrLess12: Story;
 export declare const Tablet6Mobile12: Story;
 //# sourceMappingURL=Columns.stories.d.ts.map

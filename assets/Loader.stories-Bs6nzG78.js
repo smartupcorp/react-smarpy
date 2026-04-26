@@ -1,0 +1,8 @@
+import{c as g,e as h,j as i,S as N}from"./Smarpy-Dq8Wa12B.js";import"./jsx-runtime-D_zvdyIk.js";import"./iframe-DlzGcqK6.js";import"./preload-helper-Dp1pzeXC.js";const b="_loader_17xz5_1",y={loader:b};function r(e){const a={...e};delete a.colorName,delete a.fore,delete a.back,delete a.border,delete a.highlighter,delete a.positioning,delete a.sizing,delete a.spacing,delete a.className,delete a.css,delete a.as;const s=[y.loader],t=g.getUtilityClassNames({fore:e.fore,back:e.back,border:e.border,highlighter:e.highlighter,spacing:e.spacing,sizing:e.sizing,positioning:e.positioning});t&&s.push(...t),e.className&&s.push(e.className);const m={...e.colorName?{"--smarpy-loader-color-border":`var(--smarpy-color-${e.colorName}-loader-border, var(--smarpy-color-${e.colorName}-border))`}:void 0},n=h.getEmotionCss({fore:e.fore,back:e.back,border:e.border,highlighter:e.highlighter,spacing:e.spacing,sizing:e.sizing,positioning:e.positioning,css:e.css},m);return e.as?i(e.as,{...a,className:s.join(" "),css:n}):i("div",{...a,className:s.join(" "),css:n})}r.__docgenInfo={description:"",methods:[],displayName:"Loader"};const S={title:"Components/Loader",component:r,tags:["autodocs"],argTypes:{}},o={args:{colorName:void 0},render:e=>i(N,{children:i(r,{...e})})};var c,l,d;o.parameters={...o.parameters,docs:{...(c=o.parameters)==null?void 0:c.docs,source:{originalSource:`{
+  args: {
+    colorName: undefined
+  },
+  render: props => <Smarpy>
+      <Loader {...props} />
+    </Smarpy>
+}`,...(d=(l=o.parameters)==null?void 0:l.docs)==null?void 0:d.source}}};const k=["Plain"];export{o as Plain,k as __namedExportsOrder,S as default};
